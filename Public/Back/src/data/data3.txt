@@ -1,0 +1,14 @@
+/*
+count:总条数
+data:列表数据
+id:id
+src:默认图片路径
+src_hover:鼠标悬浮显示的图片路径
+time:时间
+status:是否发布的状态（1:表示发布，2：未发布）
+release_path:发布后台地址
+cancel_path:取消发布后台地址
+delete_path:删除后台地址
+update_path:修改后台地址
+will_path:修改页面的路径
+*/

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>修改</title>
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Back/src/css/add.css">
+<style>
+	p{margin-top: 30px;}
+</style>
+</head>
+<body>
+	<form action="" method="POST" id="form">
+		<input id="s_id" type="hidden" name="id" />
+		<div class="mart30">
+			<span class="w80">链接名称</span>
+			<input id="wName" type="text" name="wName" value="{$info.wname}" />
+		</div>
+		<div class="mart30">
+			<span class="w80">链接地址</span>
+			<input id="wPath" type="text" name="wPath" value="{$info.wpath}"/>
+		<div>
+		<button id="button" type="button">确定</button> 
+	</form>
+<script type="text/javascript" src="__PUBLIC__/Back/src/js/jquery-1.9.1.min.js"></script>
+<script>
+	(function(){
+		$('#button').click(function(){
+			var path = $.trim($('#wPath').val());
+			if($.trim($('#wName').val()) == '') return alert("请填写链接名称！");
+			if(path == '') return alert("请请填写链接地址！");
+			if(path.indexOf('http://') < 0){
+				path = 'http://' + path;
+				$('#wPath').val(path);
+			}
+			$('#form').submit();
+		});
+	})();	
+</script>
+</body>
+</html>

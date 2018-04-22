@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=meta, minimum-scale=1.0">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="msapplication-TileColor" content="#000">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="email=no">
+    <meta name="renderer" content="webkit">
+    <meta name="keywords" content="杭州mg动画,政府动画宣传片,动画公司,MG动画,政府动画制作,产品动画制作" />
+    <meta name="description" content="g20的时候，因为我很稳定，也很能扛，所以很多外国的记者摄影师们都拿我当临时的摄影台，拍下了一幕幕精彩的画面。" />
+    <link href="/Public/wap/css/swiper.min.css" rel="stylesheet">
+    <link href="/Public/wap/css/index.css" rel="stylesheet">
+    <title>拖斗物语-mg动画-动画街</title>
+    <script type="text/javascript">
+        function fontFun() {
+            var winW = document.documentElement.clientWidth;
+            document.documentElement.style.fontSize = (winW / 750 * 625) + "%";
+        }
+        fontFun();
+        window.onresize = fontFun; 
+    </script>
+</head>
+<body>
+    <!--头部-->
+    <div class="top">
+        <div class="logo"></div>
+        <div class="operate"></div>
+        <a href="javascript:history.go(-1)" class="back"></a>
+    </div>
+
+    <!--content-->
+    <div class="mywrap2">
+        <div class="enws_img">
+            <video width="100%" height="100%" src="http://cloud.video.taobao.com/play/u/2586769528/p/1/e/6/t/7/50019340774.mp4" controls poster="/Public/video_slt/a2cb5bae540a2fe551f69341fd5c061e.jpg"></video>
+            <!-- <img src="/Public/wap/img/news.jpg" width="100%" /> -->
+        </div>
+        <div class="content">
+            <div class="content_text">
+                <p class="p1">拖斗物语-mg动画</p>
+                <p class="time">2017年08月23日</p>
+            </div>
+            <div class="p3"><p><span>大家好，我是小斗，我在杭州萧山国际机场工作，大家别看我不算高大，但是我却可以承载2000kg以内的货物哦，我更是航空安全的重要环节哦。<a href="http://www.donghuajie.com" target="_self" title="杭州mg动画">杭州mg动画</a></span></p><p><img  src="/upload/image/20170823/1503480771100044.png" title="1503480771100044.png" alt="blob.png" /></p><p><span>我们兄弟每天需要奔波在机场，作为无动力驳运工具，我们每天都要负责行李和货物的分拨，以及充当运输工具和卸货平台。每天的工作都繁忙而有序的进行着。<a href="http://www.donghuajie.com" target="_self" title="杭州动画片制作">杭州动画片制作</a></span></p><p><img  src="/upload/image/20170823/1503480868101017.png" title="1503480868101017.png" alt="blob.png" /></p><p><span>每天都会有人检查我的配件是否齐全，功能是否正常，轮胎，轴承，刹车，刹车联动，螺丝等等都会检查一遍。很多其他的配件也会为我定期检查和更换，所以我一直都可以很安心的工作。<a href="http://www.donghuajie.com" target="_self" title="杭州动画公司">杭州动画公司</a></span></p><p><img  src="/upload/image/20170823/1503480968710885.png" title="1503480968710885.png" alt="blob.png" /></p></div>
+        </div>
+        
+        <div class="share_block">
+            <div class="share"></div>
+        </div>
+        <!--分享框-->
+        <div class="cover">
+            <div class="shareArea">
+                <div class="shareblock_one">
+                    <p class="share_t1">分享</p>
+                    <p class="share_t2">拖斗物语-mg动画</p>
+                </div>
+                
+                <div class="bdsharebuttonbox shareblock_two">
+                        
+                    <div class="share_item">
+                        <a class="qq_block bds_qzone"  data-cmd="qzone" title="分享到QQ空间"></a>
+                        <span>QQ空间</span>
+                    </div>
+                    <div class="share_item">
+                        <a class="wb_block bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+                        <span>微博</span>
+                    </div>
+                    <div class="share_item ">
+                        <!-- <a class="wx_block bds_weixin" data-cmd="weixin" title="分享到微信"></a> -->
+                        <a class="wx_block"  title="分享到微信"></a>
+                        <span>朋友圈</span>
+                    </div>
+                </div>
+                <div class="cancle_block">
+                    <div class="cancle_btn">取消</div>
+                </div>
+            </div>
+        </div>
+
+        <!--相关推荐-->
+        <div class="recommend">
+            <div class="recommend_t">相关推荐</div>
+
+            <a class="recommend_b" href="http://m.donghuajie.com/anli/360.html">
+                    <div class="r_img">
+                        <img src="/Public/video_slt/a1579cb19fb8d6ec42987d78033ddf6a.jpg" width="100%"/>
+                    </div>
+                    <div class="r_info">
+                        <p class="r_title1">三维魔方动画视频</p>
+                        <p class="r_title2">#app/产品#</p>
+                        <p class="time">2018/03/14</p>
+                    </div>
+                </a><a class="recommend_b" href="http://m.donghuajie.com/anli/342.html">
+                    <div class="r_img">
+                        <img src="/Public/video_slt/fb0aa7d2db90169ea844fb72b57e6609.jpg" width="100%"/>
+                    </div>
+                    <div class="r_info">
+                        <p class="r_title1">超额理财二维动画制作</p>
+                        <p class="r_title2">#app/产品#</p>
+                        <p class="time">23小时前</p>
+                    </div>
+                </a><a class="recommend_b" href="http://m.donghuajie.com/anli/341.html">
+                    <div class="r_img">
+                        <img src="/Public/video_slt/a059b8eb8e7a643c68fb975b7cdf93d4.jpg" width="100%"/>
+                    </div>
+                    <div class="r_info">
+                        <p class="r_title1">爱马仕杭州flash动画制作</p>
+                        <p class="r_title2">#品牌宣传#</p>
+                        <p class="time">1天前</p>
+                    </div>
+                </a><a class="recommend_b" href="http://m.donghuajie.com/anli/340.html">
+                    <div class="r_img">
+                        <img src="/Public/video_slt/27efdcc43c0ccbf3135b9053db3bdbfb.jpg" width="100%"/>
+                    </div>
+                    <div class="r_info">
+                        <p class="r_title1">友笑社区二维动画制作</p>
+                        <p class="r_title2">#app/产品#</p>
+                        <p class="time">1天前</p>
+                    </div>
+                </a><a class="recommend_b" href="http://m.donghuajie.com/anli/339.html">
+                    <div class="r_img">
+                        <img src="/Public/video_slt/e187a7a4d13e58dbf6754c22dc684158.jpg" width="100%"/>
+                    </div>
+                    <div class="r_info">
+                        <p class="r_title1">光伏板杭州二维动画制作</p>
+                        <p class="r_title2">#app/产品#</p>
+                        <p class="time">2天前</p>
+                    </div>
+                </a>
+        </div>
+
+        <div class="last">已经到底了</div>
+    </div>
+    <div class="mycover">
+    <div class="dialog">
+        <div class="item_wap">
+            <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon one"></span>
+                <span class="item_text">首页</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com/worker.html">
+                <span class="item_icon two"></span>
+                <span class="item_text">作品案例</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com/wegot.html">
+                <span class="item_icon three"></span>
+                <span class="item_text">来撩我们</span>
+            </a>
+        </div>
+        <div class="item_wap">
+            <!-- <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon four"></span>
+                <span class="item_text">关于我们</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon five"></span>
+                <span class="item_text">服务流程</span>
+            </a> -->
+            <a class="item" href="http://m.donghuajie.com/news.html">
+                <span class="item_icon six"></span>
+                <span class="item_text">最新动态</span>
+            </a>
+        </div>
+    </div>
+</div>
+    <!--<a class="phone" href="tel:4008656770"></a>-->
+    <script src="/Public/wap/js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="/Public/wap/js/base.js"></script>
+    <script>
+        function resizepic(){}
+        $('.wx_block').click(function(){
+            window.alert('可是一使用浏览器分享,按钮分享给好友哦');
+        });
+        $(function(){
+            $('.cancle_btn,.share').click(function(){
+                $('.cover').stop(false,true).fadeToggle();
+            });
+            // 点击空白处关闭分享
+            $(".cover").on('click',function(e){
+                var target = $(e.target);
+                if(target.closest('.shareArea').length == 0){
+                    $('.cover').stop(false,true).fadeToggle();
+                }
+                e.stopPropagation();
+            });
+        });
+
+        // 回到顶部
+        $(".top").click(function() {
+            $('.mywrap2').scrollTop(0);
+        });
+    </script>
+    <script>
+        window._bd_share_config={
+            "common":{
+                bdText : "拖斗物语-mg动画",
+                bdDesc : "g20的时候，因为我很稳定，也很能扛，所以很多外国的记者摄影师们都拿我当临时的摄影台，拍下了一幕幕精彩的画面。",
+                bdUrl : "http://m.donghuajie.com/anli/75.html",
+                bdPic : "/Public/video_slt/a2cb5bae540a2fe551f69341fd5c061e.jpg"
+            },
+            "share":{},
+            "image":{
+                "viewList":["qzone","tsina","tqq","renren","weixin"],
+                "viewText":"分享到：","viewSize":"16"
+            },
+            "selectShare":{
+                "bdContainerClass":null,
+                "bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]
+            }
+        };
+        with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+    </script>
+    <!--客服代码-->
+    <script>
+        (function() {var _53code = document.createElement("script");
+            _53code.src = "https://tb.53kf.com/code/code/10167819/2";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(_53code, s)
+            ;})();
+    </script>
+</body>
+</html>

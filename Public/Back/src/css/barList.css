@@ -1,0 +1,32 @@
+a{
+	color:#19a9d5;
+	text-decoration: none;
+}
+a:hover{
+	color:#DD233B;
+	text-decoration: none;
+}
+.td-1,
+.td-2{
+	border-right: 1px dashed #E6E6E6;
+}
+.td-1,
+.td-2,
+.td-3{
+	float: left;
+	width: 14%;
+	height: 100%;
+	text-align: center;
+	padding: 15px;
+}
+.td-1{
+	width: 40%;
+}
+.td-3{
+	width: 18%;
+}
+.td-1 img,
+.td-2 img,
+.td-3 img{
+	height:100%;
+}

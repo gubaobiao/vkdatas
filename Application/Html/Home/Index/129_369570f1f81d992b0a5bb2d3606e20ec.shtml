@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta charset="utf-8">
+<title>杭州动画公司flash动画大解析</title>
+<meta name="keywords" content="产品演示动画,二维动画,创意广告动画,杭州flash动画设计,品牌动画制作" />
+<meta name="description" content="在杭州动画公司，补间动画是整个Flash动画设计的核心，也是Flash动画的最大优点，它有动画补间和形状补间两种形式。用户学习Flash动画设计，最主要的就是学习“补间动画”设计。" />
+<link rel="stylesheet" type="text/css" href="/Public/Home/src/css/public.css"/>
+<link rel="stylesheet" type="text/css" href="/Public/Home/src/css/news_info.css">
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https'){
+   bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+  }
+  else{
+  bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+  }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+</head>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?a0b3ecf9587b562feb1621827b5cf930";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<body>
+<div class="header">
+	<div class="header_bar1" style="background-image: url(/Public/Home/src/images/top-bj.jpg);">
+		<a class="bannerLogo" href="http://www.donghuajie.com">
+			<img src="/Public/Home/src/images/bannerLogo.png">
+		</a>
+	</div>
+	<nav id="menu" class="menu">
+		<ul class="mwrap">
+			<li>
+				<a href="http://www.donghuajie.com" class="mlink">
+					<span class="mname">首页</span>
+				</a>
+			</li>
+			<li>
+				 <a href="http://www.donghuajie.com/anli.html" class="mlink">
+					<span class="mname">作品案例</span>
+				</a>
+			</li>
+			<li>
+				 <a href="http://www.donghuajie.com/about.html" class="mlink">
+					<span class="mname">关于我们</span>
+				</a>
+			</li>
+			<li>
+				 <a href="http://www.donghuajie.com/circuit.html" class="mlink">
+					<span class="mname">服务流程</span>
+				</a>
+			</li>
+			<li>
+				 <a href="http://www.donghuajie.com/news.html" class="mlink active">
+					<span class="mname">最新动态</span>
+				</a>
+			</li>
+			<li>
+				 <a href="http://www.donghuajie.com/contact.html" class="mlink ">
+					<span class="mname">来撩我们</span>
+				</a>
+			</li>
+			<li>
+				<span class="dianhua">400-8656-770</span>
+			</li>
+			<li class="search-li">
+				<span class="ck-search"></span>
+				<form class="searchForm" action='/index/search.html' method='GET'>
+					<input type="text" name="search" placeholder="请输入查找内容" autocomplete='off' >
+					<button type="submit"></button>
+				</form>
+			</li>
+		</ul>
+		<div class="mshadow"></div>
+	</nav>
+</div>  
+<div class="header_hr"></div>
+<div class="vContent">
+	<div class="clearFix">
+		<div class="clearLeft">
+			<div class="commonwrap">
+				<div class="wrap-line"></div>
+				<div class="wrap-one">
+					<span class="wraptitles">杭州动画公司flash动画大解析</span>
+					<div class="bdsharebuttonbox fr mg" data-tag="share_1">
+						<a class="bds_qzone s-icon" data-cmd="qzone" href="#"></a>
+						<a class="bds_tsina s-icon" data-cmd="tsina"></a>
+						<a class="bds_weixin s-icon" data-cmd="weixin"></a>
+					</div>
+				</div>
+				<div class="wrap-two">
+					<p class="subtitle-two"><a href="http://www.donghuajie.com/news.html">热点跟踪</a>&nbsp;|&nbsp;2017年09月07日</p>
+				</div>
+			</div>
+			<div class="mycontent">
+					<p>在杭州动画公司，补间动画是整个Flash动画设计的核心，也是Flash动画的最大优点，它有动画补间和形状补间两种形式。用户学习Flash动画设计，最主要的就是学习“补间动画”设计。在应用影片剪辑元件和图形元件创作动画时，有一些细微的差别，你应该完整把握这些细微的差别。还有补间动画的帧，启动画的主要作用，只有使用帧才能使动画更完美！</p><p>遮罩是杭州动画公司Flash动画创作中所不可缺少的——这是Flash动画设计三大基本功能中重要的出彩点。使用遮罩配合补间动画，用户更可以创建更多丰富多彩的动画效果：图像切换、火焰背景文字、管中窥豹等都是实用性很强的动画。并且，从这些动画实例中，用户可以举一反三创建更多实用性更强的动画效果。</p><p><img onload=javascript:resizepic(this) src="/upload/image/20170907/1504772905108310.jpg" alt="广州城管flash公益宣传片动画制作" width="600" height="338" class="aligncenter size-medium wp-image-84" srcset="http://www.donghua15.com/attachment/2015/03/506ed5db94ef694930433dc4e5e478b7-600x338.jpg 600w, http://www.donghua15.com/attachment/2015/03/506ed5db94ef694930433dc4e5e478b7.jpg 1280w" sizes="(max-width: 600px) 100vw, 600px" style="border: none; margin: auto; padding: 6px; background: url(&quot;img/bg_off.png&quot;) 0px 0px repeat; clear: both; display: block;"/></p><p>遮罩的原理非常简单，但其实现的方式多种多样，特别是和补间动画以及影片剪辑元件结合起来，可以创建千变万化的形式，你应该对这些形式作个总结概括，从而使自己可以有的放矢，从容创建各种形式的动画效果。</p><p>引导层是不显示的，起的是辅助作用，设置引导层以后和引导路径以后，与之相连的下一层里面的物件就会按照引导层里面的引导路径来运动。引导层分为引导层和被引导层，引导层就是设定运动的某一路径（平滑曲线），在引导层中画好运动路径（引导线），在被引导层（引导层的下一层）中是运动对象与引导线相吸附在一起。引导层可以实现如树叶飘落，小鸟飞翔，星体运动，激光写字等效果的制作。</p><p>杭州动画公司Flash动画说到底就是“遮罩+补间动画+逐帧动画+引导层动画”与元件（主要是影片剪辑）的混合物，通过这些元素的不同组合，从而可以创建千变万化的效果广告优势。</p><p>一直以来，互联网作为新媒体的兴起，给全世界带来了不同的生活感受，不同的工作感受等等，而互联网也带来了更多能够改变我们生活以及生活习惯的东西。Flash动画很早就出现网民的视野中，随着各大门户网站的兴起，广告在中国的商场，成了举足轻重的媒体手段，而Flash动画作为网络广告的中坚力量，作为富媒体营销概念中的重要手段，很长一段时间，或者说，在未来，富媒体技术的不断完善，Flash动画广告的优势会越来越明显。</p><p>我相信上网的受众人群基本都关注过，而我更相信，一个画面精美，生动活泼的互动Flash动画广告，比其他广告形式更加吸引你我的眼球。这就是Flash动画的优势。当然，我并不是局限的说Flash动画就是富媒体广告，只是在介绍中，我觉得Flash动画可以作为富媒体广告的核心代表。<br>以往的广告形式，以传统媒体为主的，影响最深远的，央视的“广而告之”，我相信影响了大部分中国人的生活，欣赏以及购买习惯。</p><p>而互联网广告的兴起，在某种程度上来说，会让更多的人相信“广而告之”远不及“窄而告之”的效果明显。</p><p>“专，精，准”对于所有的人，包括广告商户来说，都很能理解，分析受众群，专注目标人群，进而进行有效的营销传播，相信也只有这样的“推式”广告，会让效果更加显著。而以Flash动画广告为代表的富媒体广告的出现，却引进了更加先进，更加高效的“拉式”营销广告。互动，成为了此时广告的最佳手段，全员参与，娱乐，与商家互动中，快速认识产品，培养用户忠诚度。<br>各种优势不言而喻。</p><p>flash被称为是“最为灵活的前台”。由于其独特和时间片段分割（TimeLine）和重组（MC嵌套）技术，结合ActionScitp的对象和流程控制。使得在灵活的界面设计和动画设计中成为可能，但一直还未形成一套在flash中的界面设计理论。同时它也是最为小巧的前台。</p><p>杭州动画公司flash具有跨平台的特性（这点和Java一样），所以无论你处于处于何种平台，只要你安装有支持的flash Player。你就能保证它们的最终显示效果都一致。而不必像在以前的网页设计中那样为IE和Mozilla或NetSpace各设计一个版本。同Java一样。它的可移植性很强。特别是在小型网络中和小型设备中（当然大型网络已不用说），最近具有的手机支持功能可以让你为自已的手机设计你喜爱的功能。当然你必需要有技持flash的手机。当然它还可以应用于Pocket PC上。<br>应用程序</p><p>由于其独特的跨平台物性和在界面控制以及多媒体的功能使用得使用flash来制作的应用程序具有很强的生命力。在与用户的交流方面具有其它任何方式都无可比拟的优势。当然，某些功能你可能还要依赖于XML或者其它诸如JavaScript的客户端技术来实现，但你能方便在它们的实现数据通信。它所面临的问题：</p><p>没有经验，事实上，很少有人具有运用flash进行应用程序开发这方面的经验。但这个难度会随着时间的推移而逐步减弱。事实上，对于你的大型项目而言。使用flash此时未免有些言之过早，因为它意味着很大的风险。当然，在最早的时间掌握和积累这方面的经验无疑是一种很大的竞争力，这对于而言是一种很大的诱惑。代替可能的风险，你可以只将它运用在项目中的一小部份或者小型项目中。并且注意你的用户反馈意见。</p><p>操作系统</p><p>杭州动画公司Flash对于界面元素的可控性和它所有表达的效果无疑具有很大的诱惑。对于一个系统的界面你可能要花更多的时间关注它们的接口和界面显示能力间的驱动。另外一个需要关注的就是你的内存使用和执行效率。<br>手机领域</p><p>转向手机领域的开发将会要求你对精确（像素级）的界面设计和CPU的使用分布的操控能力更高。但也意味更大更广泛的使用空间。事实上手机和Pocket PC的分界已越来越不明显，你必须为每一款手机（或Pocket PC）设计一个不同的界面，因为它们的屏幕大小各有不同。当然你的内核可能是相同的，所要注意的是你的各类手机的CPU的计算能力和内存的大小。这无疑是些很苛刻的要求。</p><p>游戏开发，事实上，Flash中的游戏开发已经进行了多年的尝试。但至今为止仍然停留在中、小型游戏的开发上。游戏开发的很大一部份都受限于它的CPU能力和大量代码的管理。不过可喜的是，Flash Player 7 运行时性能提高了 2 至 5 倍；而且基于 Java 类的结构的类的开始也奠定了这些基础。</p><p>很难界定Web应用服务的范围究竟有多大。似乎它拥有无限的可能。随着网络的逐渐渗透，基于客户端-服务器的应用设计也开始逐渐受到欢迎，并且一度被誉为最具前景的方式。这种方式你可能要花更多的时间在服务器的后台处理能力和架构上，并且将它们与前台（Flash端）保持同步。</p><p>事实上，现在只有极少数人掌握了使用Flash建立全flash站点的技术。因为它意味着更高的界面维护能力和你的整站的架构能力。但它带来的好处也异常明显：全面的控制；无缝的导向跳转；更丰富的媒体内容；更体贴用户的流畅交互；以及跨平台和小巧客户端的支持以及与你的其它flash应用方案的无缝连接集成。</p><p>当然，你需要在培养自已能力所花的精力和你的未来之间做个选择。多媒体娱乐，在这方面的内容我想我已不用再多说什么。尽管它的发展速度没有像当初预言的那样迅速（就像计算机那样），但它仍然还在不断前进，全新功能也正在扩大它的应用范围。使用这一点无疑很优秀，并且可以为你节约大量的成本。Flash本身就以多媒体和可交互性而广为推崇。它所带来亲切氛围相信你的每一位用户都会喜欢。</p><p>教学系统，要在教学系统应用<a href="http://www.donghuajie.com/" target="_self">杭州动画公司</a>Flash现有的技术无疑会极大增强学生的主动性和积极发明的能力。在这方面涵盖的内容，可能所有现有技术你都可以用上了，根据教学内容的不同可能会选择不同的部份。</p><p><br/></p>					<p class="banquna">文字内容均由作者原创或翻译，转载前请务必通知本站并注明内容来源，附以<br/>
+						原文链接<a href="http://www.donghuajie.com/news/129.html">http://www.donghuajie.com/news/129.html</a> 
+						本站内容欢迎分享，但拒绝有商业目的的转载！
+					</p>
+			</div>
+		</div>
+
+		<div class="more_video">
+			<div class="linbar"></div>
+			<div class="morder_video-wrap">
+				<span>相关推荐</span>
+				<a href="http://www.donghuajie.com/news.html">更多 +</a>
+			</div>
+			<div class="more-item" >
+					<a href="http://www.donghuajie.com/news/8.html" style="display:block;">
+						<div class="imgwraps">
+							<img src="/Public/slt/d2f04140fe532f3954416ee19052d453.jpg">
+						</div>
+						<div class="movies_detail">
+							<p class="mp_1">最新打造央视新闻和315晚会专用宣传片</p>
+							<p class="mp_2">2017/04/28</p>
+							<p class="mp_3">MG动画短片收录于百度百科“12315”词条中，旨在让更多年轻化的团体关注315这个活动，也希望让人们在轻松的环境下学习如何维权。告知大众一些普遍性的属于侵害我们权益的行为，以及如何通过手机、电脑等工具维护我们的权益是视频的主要目的。</p>
+						</div>
+					</a>
+				</div><div class="more-item" >
+					<a href="http://www.donghuajie.com/news/9.html" style="display:block;">
+						<div class="imgwraps">
+							<img src="/Public/slt/f610b437b14139feb499a1b3f0f1a8f5.jpg">
+						</div>
+						<div class="movies_detail">
+							<p class="mp_1">动画制作要学些什么？</p>
+							<p class="mp_2">2017/05/03</p>
+							<p class="mp_3">想要了解动漫制作需要学什么，首先要清楚动漫制作都包括哪些方面，动漫制作包括动漫动漫动画制作、动漫栏包后期制作、动漫特效制作、影视角色动画制作、影视数字特效制作、动漫模型渲染制作、超媒体交互制作等。</p>
+						</div>
+					</a>
+				</div><div class="more-item" >
+					<a href="http://www.donghuajie.com/news/10.html" style="display:block;">
+						<div class="imgwraps">
+							<img src="/Public/slt/d94abfbdb7f5fb731d8fed6573dafd1c.jpg">
+						</div>
+						<div class="movies_detail">
+							<p class="mp_1">MG动画简单介绍</p>
+							<p class="mp_2">2017/05/03</p>
+							<p class="mp_3">Motion Graphic 简写MG或者Mograph。通常翻译为动态图形或者运动图形，MG动画通常指的是图文视频设计、多媒体CG设计、电视包装、商业广告等等。广义上来讲，Motion Graphics是一种融合了动画电影与图形设计的语言，基于时间流动而设计的视觉表现形式。</p>
+						</div>
+					</a>
+				</div>		</div>
+
+	</div>
+</div>
+<div class="bgf">
+	<div class="picLink">
+		<ul id="plQuery" class="plQuery">
+					
+		</ul>
+	</div>
+	<div class="webSite">
+		<ul class="wsLink">
+			<li class="wslList">
+				<span class="wslName">关于我们</span>
+				<ul class="wslcQuery">
+	                <li> <a href="http://www.donghuajie.com/about.html" target="_blank">公司概况</a></li>
+	                <li> <a href="http://www.donghuajie.com/about.html" target="_blank">我们的优势</a></li>
+	                <li> <a href="http://www.donghuajie.com/about.html" target="_blank">企业文化</a></li>				
+				</ul>
+			</li>
+			<li class="wslList">
+				<span class="wslName">服务项目</span>
+				<ul class="wslcQuery">
+					<li> <a href="http://www.donghuajie.com/circuit.html" target="_blank">MG动画视频</a></li>
+	                    <li> <a href="http://www.donghuajie.com/circuit.html" target="_blank">二维动画</a></li>
+	                    <li> <a href="http://www.donghuajie.com/circuit.html" target="_blank">三维动画</a></li>		
+				</ul>
+			</li>
+			<li class="wslList">
+				<span class="wslName">新闻动态</span>
+				<ul class="wslcQuery">
+					<li> <a href="http://www.donghuajie.com/news.html" target="_blank">公司动态</a></li>
+	                    <li> <a href="http://www.donghuajie.com/news.html" target="_blank">行业资讯</a></li>          	
+				</ul>
+			</li>
+			<li class="wslList">
+				<span class="wslName">联系我们</span>
+				<ul class="wslcQuery">
+						<li> <a href="http://www.donghuajie.com/contact.html" target="_blank">联系方式</a></li>
+	                    <li> <a href="http://www.donghuajie.com/contact.html" target="_blank">需求提交</a></li>          		
+				</ul>
+			</li>
+			<li class="fl wsLx">
+				<div class="clear marb35">
+					<div class="fl w93 marr15">联系方式：</div>
+					<div class="fl">
+						<p class="marb10">400-8656-770&nbsp;&nbsp;&nbsp;大象</p>
+						<p>18667187739&nbsp;&nbsp;&nbsp;大象</p>
+					</div>
+				</div>
+				<div class="clear"> 
+					<div class="fl w93 marr15"><img src="/Public/Home/src/img/qq.jpg" alt="qq"></div>
+					<div class="fl">
+						<p class="marb10">1633219006</p>
+						<p>1633219006</p>
+					</div>
+				</div>
+			</li>
+		</ul>
+	</div>
+</div>	
+<div class="footer"></div>	
+<div id="top"></div>
+<script type="text/javascript" src="/Public/Home/src/js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="/Public/Home/src/js/zzsc.js"></script>
+<script type="text/javascript" src="/Public/Home/src/js/TweenMax.min.js"></script>
+<script type="text/javascript" src="/Public/Home/src/js/public.js"></script> 
+<script>
+	window._bd_share_config = {
+		common : {
+			bdText : '<p>在杭州动画公司，补间动画是整个Flash动画设计的核心，也是Flash动画的最大优点，它有动画补间和形状补间两种形式。用户学习Flash动画设计，最主要的就是学习“补间动画”设计。在应用影片剪辑元件和图形元件创作动画时，有一些细微的差别，你应该完整把握这些细微的差别。还有补间动画的帧，启动画的主要作用，只有使用帧才能使动画更完美！</p><p>遮罩是杭州动画公司Flash动画创作中所不可缺少的——这是Flash动画设计三大基本功能中重要的出彩点。使用遮罩配合补间动画，用户更可以创建更多丰富多彩的动画效果：图像切换、火焰背景文字、管中窥豹等都是实用性很强的动画。并且，从这些动画实例中，用户可以举一反三创建更多实用性更强的动画效果。</p><p><img onload=javascript:resizepic(this) src="/upload/image/20170907/1504772905108310.jpg" alt="广州城管flash公益宣传片动画制作" width="600" height="338" class="aligncenter size-medium wp-image-84" srcset="http://www.donghua15.com/attachment/2015/03/506ed5db94ef694930433dc4e5e478b7-600x338.jpg 600w, http://www.donghua15.com/attachment/2015/03/506ed5db94ef694930433dc4e5e478b7.jpg 1280w" sizes="(max-width: 600px) 100vw, 600px" style="border: none; margin: auto; padding: 6px; background: url(&quot;img/bg_off.png&quot;) 0px 0px repeat; clear: both; display: block;"/></p><p>遮罩的原理非常简单，但其实现的方式多种多样，特别是和补间动画以及影片剪辑元件结合起来，可以创建千变万化的形式，你应该对这些形式作个总结概括，从而使自己可以有的放矢，从容创建各种形式的动画效果。</p><p>引导层是不显示的，起的是辅助作用，设置引导层以后和引导路径以后，与之相连的下一层里面的物件就会按照引导层里面的引导路径来运动。引导层分为引导层和被引导层，引导层就是设定运动的某一路径（平滑曲线），在引导层中画好运动路径（引导线），在被引导层（引导层的下一层）中是运动对象与引导线相吸附在一起。引导层可以实现如树叶飘落，小鸟飞翔，星体运动，激光写字等效果的制作。</p><p>杭州动画公司Flash动画说到底就是“遮罩+补间动画+逐帧动画+引导层动画”与元件（主要是影片剪辑）的混合物，通过这些元素的不同组合，从而可以创建千变万化的效果广告优势。</p><p>一直以来，互联网作为新媒体的兴起，给全世界带来了不同的生活感受，不同的工作感受等等，而互联网也带来了更多能够改变我们生活以及生活习惯的东西。Flash动画很早就出现网民的视野中，随着各大门户网站的兴起，广告在中国的商场，成了举足轻重的媒体手段，而Flash动画作为网络广告的中坚力量，作为富媒体营销概念中的重要手段，很长一段时间，或者说，在未来，富媒体技术的不断完善，Flash动画广告的优势会越来越明显。</p><p>我相信上网的受众人群基本都关注过，而我更相信，一个画面精美，生动活泼的互动Flash动画广告，比其他广告形式更加吸引你我的眼球。这就是Flash动画的优势。当然，我并不是局限的说Flash动画就是富媒体广告，只是在介绍中，我觉得Flash动画可以作为富媒体广告的核心代表。<br>以往的广告形式，以传统媒体为主的，影响最深远的，央视的“广而告之”，我相信影响了大部分中国人的生活，欣赏以及购买习惯。</p><p>而互联网广告的兴起，在某种程度上来说，会让更多的人相信“广而告之”远不及“窄而告之”的效果明显。</p><p>“专，精，准”对于所有的人，包括广告商户来说，都很能理解，分析受众群，专注目标人群，进而进行有效的营销传播，相信也只有这样的“推式”广告，会让效果更加显著。而以Flash动画广告为代表的富媒体广告的出现，却引进了更加先进，更加高效的“拉式”营销广告。互动，成为了此时广告的最佳手段，全员参与，娱乐，与商家互动中，快速认识产品，培养用户忠诚度。<br>各种优势不言而喻。</p><p>flash被称为是“最为灵活的前台”。由于其独特和时间片段分割（TimeLine）和重组（MC嵌套）技术，结合ActionScitp的对象和流程控制。使得在灵活的界面设计和动画设计中成为可能，但一直还未形成一套在flash中的界面设计理论。同时它也是最为小巧的前台。</p><p>杭州动画公司flash具有跨平台的特性（这点和Java一样），所以无论你处于处于何种平台，只要你安装有支持的flash Player。你就能保证它们的最终显示效果都一致。而不必像在以前的网页设计中那样为IE和Mozilla或NetSpace各设计一个版本。同Java一样。它的可移植性很强。特别是在小型网络中和小型设备中（当然大型网络已不用说），最近具有的手机支持功能可以让你为自已的手机设计你喜爱的功能。当然你必需要有技持flash的手机。当然它还可以应用于Pocket PC上。<br>应用程序</p><p>由于其独特的跨平台物性和在界面控制以及多媒体的功能使用得使用flash来制作的应用程序具有很强的生命力。在与用户的交流方面具有其它任何方式都无可比拟的优势。当然，某些功能你可能还要依赖于XML或者其它诸如JavaScript的客户端技术来实现，但你能方便在它们的实现数据通信。它所面临的问题：</p><p>没有经验，事实上，很少有人具有运用flash进行应用程序开发这方面的经验。但这个难度会随着时间的推移而逐步减弱。事实上，对于你的大型项目而言。使用flash此时未免有些言之过早，因为它意味着很大的风险。当然，在最早的时间掌握和积累这方面的经验无疑是一种很大的竞争力，这对于而言是一种很大的诱惑。代替可能的风险，你可以只将它运用在项目中的一小部份或者小型项目中。并且注意你的用户反馈意见。</p><p>操作系统</p><p>杭州动画公司Flash对于界面元素的可控性和它所有表达的效果无疑具有很大的诱惑。对于一个系统的界面你可能要花更多的时间关注它们的接口和界面显示能力间的驱动。另外一个需要关注的就是你的内存使用和执行效率。<br>手机领域</p><p>转向手机领域的开发将会要求你对精确（像素级）的界面设计和CPU的使用分布的操控能力更高。但也意味更大更广泛的使用空间。事实上手机和Pocket PC的分界已越来越不明显，你必须为每一款手机（或Pocket PC）设计一个不同的界面，因为它们的屏幕大小各有不同。当然你的内核可能是相同的，所要注意的是你的各类手机的CPU的计算能力和内存的大小。这无疑是些很苛刻的要求。</p><p>游戏开发，事实上，Flash中的游戏开发已经进行了多年的尝试。但至今为止仍然停留在中、小型游戏的开发上。游戏开发的很大一部份都受限于它的CPU能力和大量代码的管理。不过可喜的是，Flash Player 7 运行时性能提高了 2 至 5 倍；而且基于 Java 类的结构的类的开始也奠定了这些基础。</p><p>很难界定Web应用服务的范围究竟有多大。似乎它拥有无限的可能。随着网络的逐渐渗透，基于客户端-服务器的应用设计也开始逐渐受到欢迎，并且一度被誉为最具前景的方式。这种方式你可能要花更多的时间在服务器的后台处理能力和架构上，并且将它们与前台（Flash端）保持同步。</p><p>事实上，现在只有极少数人掌握了使用Flash建立全flash站点的技术。因为它意味着更高的界面维护能力和你的整站的架构能力。但它带来的好处也异常明显：全面的控制；无缝的导向跳转；更丰富的媒体内容；更体贴用户的流畅交互；以及跨平台和小巧客户端的支持以及与你的其它flash应用方案的无缝连接集成。</p><p>当然，你需要在培养自已能力所花的精力和你的未来之间做个选择。多媒体娱乐，在这方面的内容我想我已不用再多说什么。尽管它的发展速度没有像当初预言的那样迅速（就像计算机那样），但它仍然还在不断前进，全新功能也正在扩大它的应用范围。使用这一点无疑很优秀，并且可以为你节约大量的成本。Flash本身就以多媒体和可交互性而广为推崇。它所带来亲切氛围相信你的每一位用户都会喜欢。</p><p>教学系统，要在教学系统应用<a href="http://www.donghuajie.com/" target="_self">杭州动画公司</a>Flash现有的技术无疑会极大增强学生的主动性和积极发明的能力。在这方面涵盖的内容，可能所有现有技术你都可以用上了，根据教学内容的不同可能会选择不同的部份。</p><p><br/></p>',	
+			bdDesc : '杭州动画公司flash动画大解析',	
+			bdUrl : ''
+		},
+		share : [{
+			"tag" : "share_1",
+			"bdSize" : 24
+		}]
+	}
+	with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?cdnversion='+~(-new Date()/36e5)];
+</script>
+<script>
+	$(window).scroll(function(){
+		var scrollTop=document.documentElement.scrollTop || document.body.scrollTop;
+		if(scrollTop >178){
+			$('.more_video').css({top:'67px'});
+		}else{
+			$('.more_video').css({top:'246px'});
+		}
+	});
+	
+	$('.ck-search').click(function(){
+		$(this).hide();
+		$('.searchForm').toggle();
+	});	
+</script>
+</body>
+</html>

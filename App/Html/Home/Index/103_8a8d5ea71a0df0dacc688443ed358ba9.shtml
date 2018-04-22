@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=meta, minimum-scale=1.0">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="msapplication-TileColor" content="#000">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="email=no">
+    <meta name="renderer" content="webkit">
+    <meta name="keywords" content="杭州动画设计制作,杭州动画视频制作​,杭州产品动画制作,产品动画,产品动画宣传片,app动画制作,产品动画,产品宣传动画制作" />
+    <meta name="description" content="通融易贷网由广州通融投资管理有限公司负责运营，杭州动画设计制作专注于小额信贷。网站拥有一支精通银行信贷、风险控制、联网技术的专业队伍，杭州产品动画制作致力于为借贷双方提供全面的借贷经纪及风险管理服务。通过通融易贷，为数量众多、价值不可估量但被正统金融机构边缘化的小微型企业获得融资的希望，杭州动画视频制作同时也为在高通货膨胀的社会背景下有追求资金升值需求的社会民众找到可靠的投资渠道。" />
+    <link href="/Public/wap/css/swiper.min.css" rel="stylesheet">
+    <link href="/Public/wap/css/index.css" rel="stylesheet">
+    <title>通融易贷杭州产品动画制作-动画街</title>
+    <script type="text/javascript">
+        function fontFun() {
+            var winW = document.documentElement.clientWidth;
+            document.documentElement.style.fontSize = (winW / 750 * 625) + "%";
+        }
+        fontFun();
+        window.onresize = fontFun; 
+    </script>
+</head>
+<body>
+    <!--头部-->
+    <div class="top">
+        <div class="logo"></div>
+        <div class="operate"></div>
+        <a href="javascript:history.go(-1)" class="back"></a>
+    </div>
+
+    <!--content-->
+    <div class="mywrap2">
+        <div class="enws_img">
+            <video width="100%" height="100%" src="http://cloud.video.taobao.com/play/u/2586769528/p/1/e/6/t/7/50024530268.mp4" controls poster="/Public/video_slt/eb7d6eefd10dafdb3a6594e4e1df3356.jpg"></video>
+            <!-- <img src="/Public/wap/img/news.jpg" width="100%" /> -->
+        </div>
+        <div class="content">
+            <div class="content_text">
+                <p class="p1">通融易贷杭州产品动画制作</p>
+                <p class="time">2017年09月12日</p>
+            </div>
+            <div class="p3"><p><span>此为杭州产品动画制作广州通融投资管理有限公司，一家专业的P2P金融服务机构，成立于2009年7月，注册本金1000万元。公司股东来自实业、银行、担保等不同行业。</span></p><p><span><img  src="/upload/image/20170912/1505211474147685.png" title="1505211474147685.png" alt="1_副本.png" /></span></p><p><span><span>公司遵从共创、共享、共赢的理念，与境内外多家银行、信托、担保等大型金融机构建立合作关系，为众多中小企业、自然人提供专业的</span>P2P<span>金融服务。<a href="http://www.donghuajie.com" target="_blank" title="杭州动画视频制作">杭州动画视频制作</a></span></span></p><p><span><span><img  src="/upload/image/20170912/1505211485103022.png" title="1505211485103022.png" alt="3_副本.png" /></span></span></p><p><span>通融易贷网由广州通融投资管理有限公司负责运营，专注于小额信贷。网站拥有一支精通银行信贷、风险控制、联网技术的专业队伍，致力于为借贷双方提供全面的借贷经纪及风险管理服务</span><span>。</span></p><p><span><img  src="/upload/image/20170912/1505211515127834.png" title="1505211515127834.png" alt="4_副本.png" /></span></p><p><span>通过通融易贷，为数量众多、价值不可估量但被正统金融机构边缘化的小微型企业获得融资的希望，同时也为在高通货膨胀的社会背景下有追求资金升值需求的社会民众找到可靠的投资渠道。杭州动画设计制作</span></p><p><br/></p></div>
+        </div>
+        
+        <div class="share_block">
+            <div class="share"></div>
+        </div>
+        <!--分享框-->
+        <div class="cover">
+            <div class="shareArea">
+                <div class="shareblock_one">
+                    <p class="share_t1">分享</p>
+                    <p class="share_t2">通融易贷杭州产品动画制作</p>
+                </div>
+                
+                <div class="bdsharebuttonbox shareblock_two">
+                        
+                    <div class="share_item">
+                        <a class="qq_block bds_qzone"  data-cmd="qzone" title="分享到QQ空间"></a>
+                        <span>QQ空间</span>
+                    </div>
+                    <div class="share_item">
+                        <a class="wb_block bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+                        <span>微博</span>
+                    </div>
+                    <div class="share_item ">
+                        <!-- <a class="wx_block bds_weixin" data-cmd="weixin" title="分享到微信"></a> -->
+                        <a class="wx_block"  title="分享到微信"></a>
+                        <span>朋友圈</span>
+                    </div>
+                </div>
+                <div class="cancle_block">
+                    <div class="cancle_btn">取消</div>
+                </div>
+            </div>
+        </div>
+
+        <!--相关推荐-->
+        <div class="recommend">
+            <div class="recommend_t">相关推荐</div>
+
+            <a class="recommend_b" href="http://m.donghuajie.com/anli/386.html">
+                    <div class="r_img">
+                        <img src="/Public/video_slt/318174100ddfcbe414376248322650d3.jpg" width="100%"/>
+                    </div>
+                    <div class="r_info">
+                        <p class="r_title1">一加手机三维动画</p>
+                        <p class="r_title2">#app/产品#</p>
+                        <p class="time">2018/03/31</p>
+                    </div>
+                </a><a class="recommend_b" href="http://m.donghuajie.com/anli/360.html">
+                    <div class="r_img">
+                        <img src="/Public/video_slt/a1579cb19fb8d6ec42987d78033ddf6a.jpg" width="100%"/>
+                    </div>
+                    <div class="r_info">
+                        <p class="r_title1">三维魔方动画视频</p>
+                        <p class="r_title2">#app/产品#</p>
+                        <p class="time">2018/03/14</p>
+                    </div>
+                </a><a class="recommend_b" href="http://m.donghuajie.com/anli/358.html">
+                    <div class="r_img">
+                        <img src="/Public/video_slt/4916aa751b323ed5c4446dc4dfc3a98b.jpg" width="100%"/>
+                    </div>
+                    <div class="r_info">
+                        <p class="r_title1">星巴克动画制作宣传</p>
+                        <p class="r_title2">#品牌宣传#</p>
+                        <p class="time">2小时前</p>
+                    </div>
+                </a><a class="recommend_b" href="http://m.donghuajie.com/anli/357.html">
+                    <div class="r_img">
+                        <img src="/Public/video_slt/3424c83fd7982ed70fc5e683fe31c009.jpg" width="100%"/>
+                    </div>
+                    <div class="r_info">
+                        <p class="r_title1">首届中国体育庙会宣传动画</p>
+                        <p class="r_title2">#科普教育#</p>
+                        <p class="time">1天前</p>
+                    </div>
+                </a><a class="recommend_b" href="http://m.donghuajie.com/anli/356.html">
+                    <div class="r_img">
+                        <img src="/Public/video_slt/a2923ea6afcb47b982f27be8040abea9.jpg" width="100%"/>
+                    </div>
+                    <div class="r_info">
+                        <p class="r_title1">治趣平台宣传MG动画</p>
+                        <p class="r_title2">#app/产品#</p>
+                        <p class="time">2天前</p>
+                    </div>
+                </a>
+        </div>
+
+        <div class="last">已经到底了</div>
+    </div>
+    <div class="mycover">
+    <div class="dialog">
+        <div class="item_wap">
+            <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon one"></span>
+                <span class="item_text">首页</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com/worker.html">
+                <span class="item_icon two"></span>
+                <span class="item_text">作品案例</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com/wegot.html">
+                <span class="item_icon three"></span>
+                <span class="item_text">来撩我们</span>
+            </a>
+        </div>
+        <div class="item_wap">
+            <!-- <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon four"></span>
+                <span class="item_text">关于我们</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon five"></span>
+                <span class="item_text">服务流程</span>
+            </a> -->
+            <a class="item" href="http://m.donghuajie.com/news.html">
+                <span class="item_icon six"></span>
+                <span class="item_text">动画资讯</span>
+            </a>
+        </div>
+    </div>
+</div>
+    <!--<a class="phone" href="tel:4008656770"></a>-->
+    <script src="/Public/wap/js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="/Public/wap/js/base.js"></script>
+    <script>
+        function resizepic(){}
+        $('.wx_block').click(function(){
+            window.alert('可是一使用浏览器分享,按钮分享给好友哦');
+        });
+        $(function(){
+            $('.cancle_btn,.share').click(function(){
+                $('.cover').stop(false,true).fadeToggle();
+            });
+            // 点击空白处关闭分享
+            $(".cover").on('click',function(e){
+                var target = $(e.target);
+                if(target.closest('.shareArea').length == 0){
+                    $('.cover').stop(false,true).fadeToggle();
+                }
+                e.stopPropagation();
+            });
+        });
+
+        // 回到顶部
+        $(".top").click(function() {
+            $('.mywrap2').scrollTop(0);
+        });
+    </script>
+    <script>
+        window._bd_share_config={
+            "common":{
+                bdText : "通融易贷杭州产品动画制作",
+                bdDesc : "通融易贷网由广州通融投资管理有限公司负责运营，杭州动画设计制作专注于小额信贷。网站拥有一支精通银行信贷、风险控制、联网技术的专业队伍，杭州产品动画制作致力于为借贷双方提供全面的借贷经纪及风险管理服务。通过通融易贷，为数量众多、价值不可估量但被正统金融机构边缘化的小微型企业获得融资的希望，杭州动画视频制作同时也为在高通货膨胀的社会背景下有追求资金升值需求的社会民众找到可靠的投资渠道。",
+                bdUrl : "http://m.donghuajie.com/anli/103.html",
+                bdPic : "/Public/video_slt/eb7d6eefd10dafdb3a6594e4e1df3356.jpg"
+            },
+            "share":{},
+            "image":{
+                "viewList":["qzone","tsina","tqq","renren","weixin"],
+                "viewText":"分享到：","viewSize":"16"
+            },
+            "selectShare":{
+                "bdContainerClass":null,
+                "bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]
+            }
+        };
+        with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+    </script>
+    <!--客服代码-->
+    <script>
+        (function() {var _53code = document.createElement("script");
+            _53code.src = "https://tb.53kf.com/code/code/10167819/2";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(_53code, s)
+            ;})();
+    </script>
+</body>
+</html>

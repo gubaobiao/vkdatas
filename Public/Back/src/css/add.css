@@ -1,0 +1,113 @@
+*{
+	padding:0;
+	margin:0;
+	font-family: "微软雅黑";
+	font-size: 12px;
+}
+.clear:after{
+	display: block;
+	content:"";
+	clear:both;
+}
+.fl{
+	float: left;
+}
+.middle{
+	vertical-align: middle;
+}
+.marl10{
+	margin-left: 10px;
+}
+.w40{
+	width: 40px;
+	display: inline-block;
+}
+.w80{
+	width: 80px;
+	display: inline-block;
+}
+.w180{
+	width: 180px;
+	display: inline-block;
+}
+.vm{
+	vertical-align: middle;
+}
+form{
+	position:relative;
+	margin-left: 40px;
+	padding-top: 30px;
+}
+p{
+	margin-top: 30px;
+}
+.mart30{
+	margin-top: 30px;
+}
+.marr100{
+	margin-right: 30px;
+}
+.i-label{
+	display: inline-block;
+	width:100px;
+	height:40px;
+	line-height: 40px;
+	text-align: center;
+	background-color:#19a9d5;
+	color:#fff;
+	font-size: 14px;
+	border-radius:3px;
+	margin-right: 20px;
+}
+input[type="file"]{
+	width:100px;
+	height:40px;
+	opacity: 0;
+	position:absolute;
+	top:0px;
+	left:0;
+	cursor:pointer;
+	font-size: 0;
+	padding:0;
+	margin:0;
+}
+input[type="text"]{
+	height: 40px;
+    border: 1px solid #d5d5d5;
+    border-radius: 5px;
+    padding-left: 15px;
+    width: 290px;
+    font-size: 14px;
+    margin-right: 5px;
+}
+textarea{
+    width: 290px;
+    min-height: 50px;
+    font-size: 14px;
+	padding:10px 15px;
+    border-radius: 5px;
+    border: 1px solid #d5d5d5;
+    vertical-align: middle;
+}
+#button{
+	display: block;
+	margin-top: 50px;
+	width:100px;
+	height:40px;
+	line-height: 40px;
+	text-align: center;
+	background-color:#19a9d5;
+	color:#fff;
+	font-size: 14px;
+	border-radius:3px;
+	border:none;
+	outline: none;
+	cursor:pointer;
+}
+.fileBox{
+	display: inline-block;
+	position:relative;
+}
+#timer{
+	/* display: none; */
+}

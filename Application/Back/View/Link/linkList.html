@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>linkList</title>
+<link rel="stylesheet" href="__PUBLIC__/Back/src/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Back/src/css/public.css">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Back/src/css/serviceList.css">
+<script src="__PUBLIC__/Back/src/js/jquery-1.9.1.min.js"></script>
+<script src="__PUBLIC__/Back/src/bootstrap/js/bootstrap.min.js"></script>
+<script src="__PUBLIC__/Back/src/layer/layer.js"></script>
+</head>
+<body>
+<div id="kqy_main">
+	<div class="kqy_content" id="topic">
+		<a class="addBtn" id="addBtn" onclick="window.parent.creatIframe(this,event)" data-title="新增友情链接" data-src="{:U('Back/Link/linkAdd')}" href="{:U('Back/Link/linkAdd')}">增加</a>
+		<input id="search" type="text" name="search" />
+		<span class="search-btn" id="search-btn">搜索</span>
+		<div class="box_head">
+			<div class="td-2 w10">序列</div>
+			<div class="td-2">链接名称</div>
+			<div class="td-2 w20">链接地址</div>
+			<div class="td-2">排序</div>
+			<div class="td-2 w10">时间</div>
+			<div class="td-2 w10">状态</div>
+			<div class="td-2 nobr w20">操作</div>
+		</div>
+		<div id="box-container"></div>
+	</div>
+	<div id="page"></div>
+</div>
+<script src="__PUBLIC__/Back/src/js/kqy_paging.js"></script>
+<script type="text/javascript">
+
+	function domList(data,count,page){ // 初始化列表/分页显示列表
+		var j = 0;
+			obj = $('#box-container'),
+			startNum = count- (page - 1) * 5; // 每页开始的序列号,5为每个显示个数
+			obj.html("");
+
+		$.each(data,function(i, d){	
+				html = '<div class="box animated">';
+				html+= '<div class="td-2 w10">';
+				html+= '<span>'+(startNum-j)+'</span></div>';
+				html+= '<div class="td-2">';
+				html+= '<span>'+d.name+'</span></div>';
+				html+= '<div class="td-2 w20">';
+				html+= '<a href="'+d.path+'" target="_blank">'+d.path+'</a></div>';
+				html+= '<div class="td-2">';
+				html+= '<span class="id" data-id="'+d.id+'">'+d.rank+'</span></div>';
+				html+= '<div class="td-2 w10">';
+				html+= '<span>'+d.time+'</span></div>';
+				html+= '<div class="td-2 w10">';
+				html+= (d.status == 1)? '<span>已发布</span></div>': '<span>未发布</span></div>'; 
+				html+= '<div class="td-2 nobr w20">';
+				html+= (d.status == 1)? '<a href="'+d.cancel_path+'">取消发布</a>': '<a href="'+d.release_path+'">发布</a>'; 
+				html+= '<a class="update" data-title="修改友情链接" data-src="'+d.will_path+'" href="'+d.update_path+'"  onclick="window.parent.creatIframe(this,event)">修改</a>';
+				html+= '<a href="'+d.delete_path+'"><i class="kqy_icon kqy_icon_remove"></i></a></div></div>';
+				obj.append(html);
+				j++;
+		});
+
+		var $content = $('.box');
+		for (var i = 0; i < $content.length; i++) {
+			(function($this,i){
+				setTimeout(function(){
+					$this.addClass('fadeInUp');
+				},i*200)
+			})($($content[i]),i)
+		};
+	}
+
+	function ajaxPage(page){ // 分页
+		PAGING=page;
+		var sum=5; // 每页显示个数
+		$.ajax({
+			type:"post",
+			url:"{:U('Back/Link/list_show')}",
+			data:{page:page,sum:5},
+			dataType:'json',
+			success:function(data){
+				if(data.data.length==0){
+					location.reload();
+				}else{
+					console.log(typeof data);
+					domList(data.data,data.count,PAGING);
+					pages(page,sum,data.count); // 当前页数，每页显示个数，总条数
+				}
+			},
+			error:function(msg){
+				layer.msg('加载失败', {icon: 2,time:1000});
+			} 
+		})
+	};
+
+	ajaxPage(PAGING);
+
+	$('#search-btn').click(function(){ // 搜索
+		var t = $('#search').val(),
+			sum=5; // 每页显示个数
+		PAGING = 1;
+		$.ajax({
+			type: 'POST',
+			url: "{:U('Back/Link/list_show')}",
+			data: {text:t},
+			dataType:'json',
+			success: function(data){
+				if(data.status == 2) return layer.msg('没有条该数据', {icon:2,time:1000});
+				domList(data.data,data.count,PAGING);
+				pages(PAGING,sum,data.count); // 当前页数，每页显示个数，总条数
+			}
+		})
+	});
+
+	$(function() {  
+		$(document).on('click',".id",function() { 
+
+			var objTD = $(this); 
+
+			//先将老的类别名称保存起来,并用trim方法去掉左右多余的空格 
+			var oldText = $.trim(objTD.text()); 
+
+			//构造一个input的标签对象（作用是为了让这个input失效，不然点击多次后，文字会消失） 
+			var input = $("<input type='text' value='" + oldText + "' />"); 
+
+			//当前td的内容变为文本框，并且把老类别名放进去 
+			objTD.html(input); 
+
+			//设置文本框的点击事件失效 
+			input.click(function() { 
+			return false; 
+			}); 
+
+			//设置文本框样式，让界面显示的人性化点 
+			input.css({"font-size": "12px","text-align": "center","background-color": "#ffffff",'width': '50px','height': '18px','line-height': '18px', 'padding': '0', 'border-radius': '0'}); 
+
+			//自动选中文本框中的文字 
+			input.select(); 
+
+			//文本框失去焦点时重新变为文本 
+			input.blur(function() { 
+
+				//获得新输入的类别名 
+				var newText = $(this).val(); 
+
+				//用新的类别名文字替换之前变过来的输入框状态 
+				objTD.html(newText);
+
+				if(oldText != newText){
+					var link_id = objTD.attr('data-id');
+					$.ajax({
+						type: 'POST',
+						url: "{:U('Link/resort')}",
+						data: {rank: newText, id: link_id},
+						dataType: 'json',
+						success: function(data){
+							data.status == 1 ? alert('修改成功！') : alert('修改失败');
+						}
+					})
+				}	
+			});	
+		});	 
+	});	
+</script>
+</body>
+</html>

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=meta, minimum-scale=1.0">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="msapplication-TileColor" content="#000">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="email=no">
+    <meta name="renderer" content="webkit">
+    <meta name="keywords" content="mg动画制作,创意动画,产品动画制作,杭州动漫设计,动画制作,杭州三维动画制作" />
+    <meta name="description" content="mg动画制作就是运用三维技术来对建筑物进行初期阶段的设计思想在电脑中的展示。现在关于mg动画制作这方面运用越来越多，今天三维动画制作小编给大家介绍一下mg动画制作的步骤及有关的要点知识。" />
+    <link href="/Public/wap/css/swiper.min.css" rel="stylesheet">
+    <link href="/Public/wap/css/index.css" rel="stylesheet">
+    <title>mg动画制作简单介绍-动画街</title>
+    <script type="text/javascript">
+        function fontFun() {
+            var winW = document.documentElement.clientWidth;
+            document.documentElement.style.fontSize = (winW / 750 * 625) + "%";
+        }
+        fontFun();
+        window.onresize = fontFun; 
+    </script>
+</head>
+<body>
+    <!--头部-->
+    <div class="top">
+        <div class="logo"></div>
+        <div class="operate"></div>
+        <a href="javascript:history.go(-1)" class="back"></a>
+    </div>
+
+    <div class="mywrap2">
+        <div class="enws_img">
+            <img src="/Public/pic/68bd447a4693d283b74f076348c63940.jpg" width="100%" />
+        </div>
+        <div class="content">
+            <div class="content_text">
+                <p class="p1">mg动画制作简单介绍</p>
+                <p class="p2">2天前</p>
+            </div>
+            <div class="p3"><p>mg动画制作就是运用三维技术来对建筑物进行初期阶段的设计思想在电脑中的展示。现在关于mg动画制作这方面运用越来越多，今天三维动画制作小编给大家介绍一下mg动画制作的步骤及有关的要点知识。</p><p><img  src="/upload/image/20180324/1521869150119705.jpg" title="1521869150119705.jpg" alt="timg (100).jpg" /></p><p>&nbsp;<a href="http://www.donghuajie.com" target="_self">mg动画制作</a>是三维动画的一个分支，所以mg动画的制作方法和流程基本上也遵循了一般三维影视动画片的制作流程。当然，作为mg动画来说，表现的主体是静止的建筑，所以主要以摄像机运动为主，制作也就有所侧重，主要关注在不同天气情况，不同时间段当中的建筑或建筑群。</p><p>通常mg动画的制作流程主要有以下几个步骤</p><p>：1、脚本规划和设计。</p><p>2、建立模型：先建立主体，次要的可以简单制作，模型要尽量精简数目。</p><p>3、动画设置；先设定好摄影机的动画，完后再设定其他物体动画。</p><p>4、贴图灯光：模型的动画完成后，为模型赋材质，再设灯光。</p><p>5、环境制作：加入环境树木，人物，汽车等环境。</p><p>6、渲染输出：依制作需要渲出不同尺寸和分辨率的动画。</p><p>7、后期处理：渲染完成后。用后期软件进行修改和调整。</p><p>8、非编输出：依制作需要渲出不同尺寸和分辨渲染完成后。用后期软件进行修将分镜头的动画剪辑后输出所需格式。</p><p>mg动画由于自身的特点，也就有了在一般三维动画片当中很少碰到的一些技术难题，所以在制作mg动画的过程当中，我们也就会采取一些独特的技术手段来达到最终的要求。mg动画的制作通常采用的是3dmax作为主要制的色彩信息，所以当对单通道调整时，更多的是在调整图像的颜色，关键是要掌握如何调整可以达到我们需要的要求，例如当需要增加图像中的黄色应该怎么办?下面就RGB模式的图像谈谈调色的理论基础。图像包含三个原色通道，红、绿、蓝三通道。每个通道分别存储了原色的亮度分布情况，在通道中亮度越高的区域代表光的亮度越高，说明该颜色越多。当选择单通道调整时，将该通道的亮度调得更高，那么该颜色就会更多；将通道的亮度调得更低，那么该颜色就会更少，而偏向于它的互补色。</p><p><br/></p></div>
+        </div>
+        
+
+        <div class="share_block">
+            <div class="share"></div>
+        </div>
+        <div class="last">已经到底了</div>
+    </div>
+    <!--分享框-->
+    <div class="cover">
+        <div class="shareArea">
+            <div class="shareblock_one">
+                <p class="share_t1">分享</p>
+                <p class="share_t2">mg动画制作简单介绍</p>
+            </div>
+            
+            <div class="bdsharebuttonbox shareblock_two">
+                 
+                <div class="share_item">
+                    <a class="qq_block bds_qzone"  data-cmd="qzone" title="分享到QQ空间"></a>
+                    <span>QQ空间</span>
+                </div>
+                <div class="share_item">
+                    <a class="wb_block bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+                    <span>微博</span>
+                </div>
+                <div class="share_item ">
+                    <!-- <a class="wx_block bds_weixin" data-cmd="weixin" title="分享到微信"></a> -->
+                    <a class="wx_block"  title="分享到微信"></a>
+                    <span>朋友圈</span>
+                </div>
+            </div>
+            <div class="cancle_block">
+                <div class="cancle_btn">取消</div>
+            </div>
+        </div>
+    </div>
+    <div class="mycover">
+    <div class="dialog">
+        <div class="item_wap">
+            <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon one"></span>
+                <span class="item_text">首页</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com/worker.html">
+                <span class="item_icon two"></span>
+                <span class="item_text">作品案例</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com/wegot.html">
+                <span class="item_icon three"></span>
+                <span class="item_text">来撩我们</span>
+            </a>
+        </div>
+        <div class="item_wap">
+            <!-- <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon four"></span>
+                <span class="item_text">关于我们</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon five"></span>
+                <span class="item_text">服务流程</span>
+            </a> -->
+            <a class="item" href="http://m.donghuajie.com/news.html">
+                <span class="item_icon six"></span>
+                <span class="item_text">最新动态</span>
+            </a>
+        </div>
+    </div>
+</div>
+    <!--<a class="phone" href="tel:4008656770"></a>-->
+    <script src="/Public/wap/js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="/Public/wap/js/base.js"></script>
+    <script>
+        function resizepic(){}
+        $('.wx_block').click(function(){
+            window.alert('可是一使用浏览器分享,按钮分享给好友哦');
+        });
+        $('.cancle_btn,.share').click(function(){
+            $('.cover').stop(false,true).fadeToggle();
+        });
+        
+        // 点击空白处关闭分享
+        $(".cover").on('click',function(e){
+            var target = $(e.target);
+            if(target.closest('.shareArea').length == 0){
+                $('.cover').stop(false,true).fadeToggle();
+            }
+            e.stopPropagation();
+        });
+
+        // 回到顶部
+        $(".top").click(function() {
+            $('.mywrap2').scrollTop(0);
+        });
+    </script>
+    <script>
+        window._bd_share_config={
+            "common":{
+                bdText : 'mg动画制作简单介绍',
+                bdDesc : 'mg动画制作就是运用三维技术来对建筑物进行初期阶段的设计思想在电脑中的展示。现在关于mg动画制作这方面运用越来越多，今天三维动画制作小编给大家介绍一下mg动画制作的步骤及有关的要点知识。',
+                bdUrl : 'm.donghuajie.com/news/448.html',
+                bdPic : '/Public/slt/68bd447a4693d283b74f076348c63940.jpg'
+            },
+            "share":{},
+            "image":{
+                "viewList":["qzone","tsina","tqq","renren","weixin"],
+                "viewText":"分享到：","viewSize":"16"
+            },
+            "selectShare":{
+                "bdContainerClass":null,
+                "bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]
+            }
+        };
+        with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+    </script>
+    <!--客服代码-->
+    <script>
+        (function() {var _53code = document.createElement("script");
+            _53code.src = "https://tb.53kf.com/code/code/10167819/2";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(_53code, s)
+            ;})();
+    </script>
+</body>
+</html>

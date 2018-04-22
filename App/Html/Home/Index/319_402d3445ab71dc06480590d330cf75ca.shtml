@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=meta, minimum-scale=1.0">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="msapplication-TileColor" content="#000">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="email=no">
+    <meta name="renderer" content="webkit">
+    <meta name="keywords" content="动画制作公司,二维动画制作,mg动画制作,企业动画宣传片,品牌宣传动画,品牌宣传三维动画,动画宣传片制作,MG动画制作" />
+    <meta name="description" content="  懒虫健身是国内首次引入EMS的健身品牌，mg动画制作据懒虫健身的创始人唐了了介绍，EMS在欧洲是一个非常成熟的产品，动画制作公司在欧洲大概有一千家左右，甚至有专门的EMS协会。该设备在社会名流、明星中非常流行，包括一百米世界纪录保持者博尔特、慕尼黑球队、韩国明星以及许多维密模特。二维动画制作" />
+    <link href="/Public/wap/css/swiper.min.css" rel="stylesheet">
+    <link href="/Public/wap/css/index.css" rel="stylesheet">
+    <title>懒人健身二维动画制作-动画街</title>
+    <script type="text/javascript">
+        function fontFun() {
+            var winW = document.documentElement.clientWidth;
+            document.documentElement.style.fontSize = (winW / 750 * 625) + "%";
+        }
+        fontFun();
+        window.onresize = fontFun; 
+    </script>
+</head>
+<body>
+    <!--头部-->
+    <div class="top">
+        <div class="logo"></div>
+        <div class="operate"></div>
+        <a href="javascript:history.go(-1)" class="back"></a>
+    </div>
+
+    <!--content-->
+    <div class="mywrap2">
+        <div class="enws_img">
+            <video width="100%" height="100%" src="http://cloud.video.taobao.com//play/u/2586769528/p/1/e/6/t/7/50080956139.mp4" controls poster="/Public/video_slt/455b79ed855347091f79a68954dc98dc.jpg"></video>
+            <!-- <img src="/Public/wap/img/news.jpg" width="100%" /> -->
+        </div>
+        <div class="content">
+            <div class="content_text">
+                <p class="p1">懒人健身二维动画制作</p>
+                <p class="time">2018年03月03日</p>
+            </div>
+            <div class="p3"><p>&nbsp; 懒虫健身是国内首次引入EMS的健身品牌，据懒虫健身的创始人唐了了介绍，EMS在欧洲是一个非常成熟的产品，在欧洲大概有一千家左右，甚至有专门的EMS协会。该设备在社会名流、明星中非常流行，包括一百米世界纪录保持者博尔特、慕尼黑球队、韩国明星以及许多维密模特。二维动画制作</p><p><img  src="/upload/image/20180303/1520064172789676.jpg" title="1520064172789676.jpg" alt="1_副本.jpg" /></p><p>&nbsp; 同时唐了了也表示，为了让消费者得到满意的健身效果，懒虫健身的每一个教练、训练总监都是欧洲EMS协会的会员，经过欧洲的老师培训后都获得了欧洲EMS协会的认证。而在人员培训管理上，懒虫健身也获得了成都奥力健身的协助。动画制作公司</p><p><img  src="/upload/image/20180303/1520064179989386.jpg" title="1520064179989386.jpg" alt="2_副本.jpg" /></p></div>
+        </div>
+        
+        <div class="share_block">
+            <div class="share"></div>
+        </div>
+        <!--分享框-->
+        <div class="cover">
+            <div class="shareArea">
+                <div class="shareblock_one">
+                    <p class="share_t1">分享</p>
+                    <p class="share_t2">懒人健身二维动画制作</p>
+                </div>
+                
+                <div class="bdsharebuttonbox shareblock_two">
+                        
+                    <div class="share_item">
+                        <a class="qq_block bds_qzone"  data-cmd="qzone" title="分享到QQ空间"></a>
+                        <span>QQ空间</span>
+                    </div>
+                    <div class="share_item">
+                        <a class="wb_block bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+                        <span>微博</span>
+                    </div>
+                    <div class="share_item ">
+                        <!-- <a class="wx_block bds_weixin" data-cmd="weixin" title="分享到微信"></a> -->
+                        <a class="wx_block"  title="分享到微信"></a>
+                        <span>朋友圈</span>
+                    </div>
+                </div>
+                <div class="cancle_block">
+                    <div class="cancle_btn">取消</div>
+                </div>
+            </div>
+        </div>
+
+        <!--相关推荐-->
+        <div class="recommend">
+            <div class="recommend_t">相关推荐</div>
+
+            <a class="recommend_b" href="http://m.donghuajie.com/anli/415.html">
+                    <div class="r_img">
+                        <img src="/Public/video_slt/4b318276f907e0e8883c002b487b534c.jpg" width="100%"/>
+                    </div>
+                    <div class="r_info">
+                        <p class="r_title1">中秋宣传动画</p>
+                        <p class="r_title2">#商业插画#</p>
+                        <p class="time">4天前</p>
+                    </div>
+                </a><a class="recommend_b" href="http://m.donghuajie.com/anli/411.html">
+                    <div class="r_img">
+                        <img src="/Public/video_slt/125cfcf06203c1519ea3c2b268d16bd6.jpg" width="100%"/>
+                    </div>
+                    <div class="r_info">
+                        <p class="r_title1">天猫团圆街</p>
+                        <p class="r_title2">#H5/无线#</p>
+                        <p class="time">5天前</p>
+                    </div>
+                </a><a class="recommend_b" href="http://m.donghuajie.com/anli/409.html">
+                    <div class="r_img">
+                        <img src="/Public/video_slt/29aa415f9a84b607f4086a1f07f5fc63.jpg" width="100%"/>
+                    </div>
+                    <div class="r_info">
+                        <p class="r_title1">腾讯WE大会</p>
+                        <p class="r_title2">#H5/无线#</p>
+                        <p class="time">4天前</p>
+                    </div>
+                </a><a class="recommend_b" href="http://m.donghuajie.com/anli/408.html">
+                    <div class="r_img">
+                        <img src="/Public/video_slt/3a102fc9e796e333856d4fe694af574c.jpg" width="100%"/>
+                    </div>
+                    <div class="r_info">
+                        <p class="r_title1">天猫双11宣传动画</p>
+                        <p class="r_title2">#H5/无线#</p>
+                        <p class="time">6天前</p>
+                    </div>
+                </a><a class="recommend_b" href="http://m.donghuajie.com/anli/386.html">
+                    <div class="r_img">
+                        <img src="/Public/video_slt/318174100ddfcbe414376248322650d3.jpg" width="100%"/>
+                    </div>
+                    <div class="r_info">
+                        <p class="r_title1">一加手机三维动画</p>
+                        <p class="r_title2">#app/产品#</p>
+                        <p class="time">2018/03/31</p>
+                    </div>
+                </a>
+        </div>
+
+        <div class="last">已经到底了</div>
+    </div>
+    <div class="mycover">
+    <div class="dialog">
+        <div class="item_wap">
+            <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon one"></span>
+                <span class="item_text">首页</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com/worker.html">
+                <span class="item_icon two"></span>
+                <span class="item_text">作品案例</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com/wegot.html">
+                <span class="item_icon three"></span>
+                <span class="item_text">来撩我们</span>
+            </a>
+        </div>
+        <div class="item_wap">
+            <!-- <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon four"></span>
+                <span class="item_text">关于我们</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon five"></span>
+                <span class="item_text">服务流程</span>
+            </a> -->
+            <a class="item" href="http://m.donghuajie.com/news.html">
+                <span class="item_icon six"></span>
+                <span class="item_text">动画资讯</span>
+            </a>
+        </div>
+    </div>
+</div>
+    <!--<a class="phone" href="tel:4008656770"></a>-->
+    <script src="/Public/wap/js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="/Public/wap/js/base.js"></script>
+    <script>
+        function resizepic(){}
+        $('.wx_block').click(function(){
+            window.alert('可是一使用浏览器分享,按钮分享给好友哦');
+        });
+        $(function(){
+            $('.cancle_btn,.share').click(function(){
+                $('.cover').stop(false,true).fadeToggle();
+            });
+            // 点击空白处关闭分享
+            $(".cover").on('click',function(e){
+                var target = $(e.target);
+                if(target.closest('.shareArea').length == 0){
+                    $('.cover').stop(false,true).fadeToggle();
+                }
+                e.stopPropagation();
+            });
+        });
+
+        // 回到顶部
+        $(".top").click(function() {
+            $('.mywrap2').scrollTop(0);
+        });
+    </script>
+    <script>
+        window._bd_share_config={
+            "common":{
+                bdText : "懒人健身二维动画制作",
+                bdDesc : "  懒虫健身是国内首次引入EMS的健身品牌，mg动画制作据懒虫健身的创始人唐了了介绍，EMS在欧洲是一个非常成熟的产品，动画制作公司在欧洲大概有一千家左右，甚至有专门的EMS协会。该设备在社会名流、明星中非常流行，包括一百米世界纪录保持者博尔特、慕尼黑球队、韩国明星以及许多维密模特。二维动画制作",
+                bdUrl : "http://m.donghuajie.com/anli/319.html",
+                bdPic : "/Public/video_slt/455b79ed855347091f79a68954dc98dc.jpg"
+            },
+            "share":{},
+            "image":{
+                "viewList":["qzone","tsina","tqq","renren","weixin"],
+                "viewText":"分享到：","viewSize":"16"
+            },
+            "selectShare":{
+                "bdContainerClass":null,
+                "bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]
+            }
+        };
+        with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+    </script>
+    <!--客服代码-->
+    <script>
+        (function() {var _53code = document.createElement("script");
+            _53code.src = "https://tb.53kf.com/code/code/10167819/2";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(_53code, s)
+            ;})();
+    </script>
+</body>
+</html>

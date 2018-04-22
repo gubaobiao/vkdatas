@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=meta, minimum-scale=1.0">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="msapplication-TileColor" content="#000">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="email=no">
+    <meta name="renderer" content="webkit">
+    <meta name="keywords" content="三维动画制作,杭州动画宣传片,创意动画,产品动画制作,影视动画,动画制作" />
+    <meta name="description" content="制作公司制作三维视频制作时候会分为前中后期三大部分，每个阶段都需要走雇佣双方确认制作内容无误后，才进行下一步的制作推进。" />
+    <link href="/Public/wap/css/swiper.min.css" rel="stylesheet">
+    <link href="/Public/wap/css/index.css" rel="stylesheet">
+    <title>三维动画制作常规流程-动画街</title>
+    <script type="text/javascript">
+        function fontFun() {
+            var winW = document.documentElement.clientWidth;
+            document.documentElement.style.fontSize = (winW / 750 * 625) + "%";
+        }
+        fontFun();
+        window.onresize = fontFun; 
+    </script>
+</head>
+<body>
+    <!--头部-->
+    <div class="top">
+        <div class="logo"></div>
+        <div class="operate"></div>
+        <a href="javascript:history.go(-1)" class="back"></a>
+    </div>
+
+    <div class="mywrap2">
+        <div class="enws_img">
+            <img src="/Public/pic/716b463ea58204eaba8ecff83c483ce1.jpg" width="100%" />
+        </div>
+        <div class="content">
+            <div class="content_text">
+                <p class="p1">三维动画制作常规流程</p>
+                <p class="p2">6天前</p>
+            </div>
+            <div class="p3"><p>制作公司制作<a href="http://www.donghuajie.com" target="_self">三维动画制作</a>时候会分为前中后期三大部分，每个阶段都需要走雇佣双方确认制作内容无误后，才进行下一步的制作推进。<br/></p><p>&nbsp;一、前期沟通<br/></p><p>通过沟通确定脚本内容的制作，带回方案所需要的资料，根据客户的要求，做出相应的内容方案根据构思，策划收集和整理资料，进行镜头与场景的定位和策划，资料准备充分为后期的制作效果奠基。收集好资料，开始策划整条产品动画制作的方案，动画脚本和产品动画分镜效果，背景音，配音等内容。通过方案预测产品三维动画成片的效果，进一步与客户沟通修改并确认。<br/></p><p><img  src="/upload/image/20180321/1521611814529721.jpg" title="1521611814529721.jpg" alt="timg (92).jpg" /></p><p>二、中期制作</p><p>根据确认的产品动画制作方案，由制作总监分配工作到各个制作组，包括产品动画制作三维建模、贴图、动作、渲染、配音等工作。 根据动画内容制作初版（PS：这个初版一般是没有任何颜色、渲染、特效），方便客户对整个内容的预览，如有疑问，则根据实际要求商讨修改。 根据确认无误的初版内容，对动画动作、画面色调、摄像灯光、产品质感等方面进行调整并渲染高质量画面。</p><p>三、后期合成对制作完成的三维动画片段进行合成、剪辑、调色、声效合成，加字幕等一系列的工作，最后进行配音制作 配音通常包含解说词、声音特效、背景音乐；专业的配音公司合作，有专业广告级的配音，男声女声，音色风格都可以根据项目需求进行选择。提交最终版本，支付尾款，提供去标，无压缩完整影片，整个制作项目的合作就完成了。一部产品三维动画的制作需要制作模型、绘制贴图等，准备工序相对较多，动画生成和镜头输出都需要人工设置对应参数生成，拥有专业、有经验的技术人员能使制作效率大大提高，制作周期也会因此缩短。</p></div>
+        </div>
+        
+
+        <div class="share_block">
+            <div class="share"></div>
+        </div>
+        <div class="last">已经到底了</div>
+    </div>
+    <!--分享框-->
+    <div class="cover">
+        <div class="shareArea">
+            <div class="shareblock_one">
+                <p class="share_t1">分享</p>
+                <p class="share_t2">三维动画制作常规流程</p>
+            </div>
+            
+            <div class="bdsharebuttonbox shareblock_two">
+                 
+                <div class="share_item">
+                    <a class="qq_block bds_qzone"  data-cmd="qzone" title="分享到QQ空间"></a>
+                    <span>QQ空间</span>
+                </div>
+                <div class="share_item">
+                    <a class="wb_block bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+                    <span>微博</span>
+                </div>
+                <div class="share_item ">
+                    <!-- <a class="wx_block bds_weixin" data-cmd="weixin" title="分享到微信"></a> -->
+                    <a class="wx_block"  title="分享到微信"></a>
+                    <span>朋友圈</span>
+                </div>
+            </div>
+            <div class="cancle_block">
+                <div class="cancle_btn">取消</div>
+            </div>
+        </div>
+    </div>
+    <div class="mycover">
+    <div class="dialog">
+        <div class="item_wap">
+            <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon one"></span>
+                <span class="item_text">首页</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com/worker.html">
+                <span class="item_icon two"></span>
+                <span class="item_text">作品案例</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com/wegot.html">
+                <span class="item_icon three"></span>
+                <span class="item_text">来撩我们</span>
+            </a>
+        </div>
+        <div class="item_wap">
+            <!-- <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon four"></span>
+                <span class="item_text">关于我们</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon five"></span>
+                <span class="item_text">服务流程</span>
+            </a> -->
+            <a class="item" href="http://m.donghuajie.com/news.html">
+                <span class="item_icon six"></span>
+                <span class="item_text">最新动态</span>
+            </a>
+        </div>
+    </div>
+</div>
+    <!--<a class="phone" href="tel:4008656770"></a>-->
+    <script src="/Public/wap/js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="/Public/wap/js/base.js"></script>
+    <script>
+        function resizepic(){}
+        $('.wx_block').click(function(){
+            window.alert('可是一使用浏览器分享,按钮分享给好友哦');
+        });
+        $('.cancle_btn,.share').click(function(){
+            $('.cover').stop(false,true).fadeToggle();
+        });
+        
+        // 点击空白处关闭分享
+        $(".cover").on('click',function(e){
+            var target = $(e.target);
+            if(target.closest('.shareArea').length == 0){
+                $('.cover').stop(false,true).fadeToggle();
+            }
+            e.stopPropagation();
+        });
+
+        // 回到顶部
+        $(".top").click(function() {
+            $('.mywrap2').scrollTop(0);
+        });
+    </script>
+    <script>
+        window._bd_share_config={
+            "common":{
+                bdText : '三维动画制作常规流程',
+                bdDesc : '制作公司制作三维视频制作时候会分为前中后期三大部分，每个阶段都需要走雇佣双方确认制作内容无误后，才进行下一步的制作推进。',
+                bdUrl : 'm.donghuajie.com/news/440.html',
+                bdPic : '/Public/slt/716b463ea58204eaba8ecff83c483ce1.jpg'
+            },
+            "share":{},
+            "image":{
+                "viewList":["qzone","tsina","tqq","renren","weixin"],
+                "viewText":"分享到：","viewSize":"16"
+            },
+            "selectShare":{
+                "bdContainerClass":null,
+                "bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]
+            }
+        };
+        with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+    </script>
+    <!--客服代码-->
+    <script>
+        (function() {var _53code = document.createElement("script");
+            _53code.src = "https://tb.53kf.com/code/code/10167819/2";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(_53code, s)
+            ;})();
+    </script>
+</body>
+</html>

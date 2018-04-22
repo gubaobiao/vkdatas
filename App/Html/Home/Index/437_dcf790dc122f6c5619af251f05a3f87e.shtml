@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=meta, minimum-scale=1.0">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="msapplication-TileColor" content="#000">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="email=no">
+    <meta name="renderer" content="webkit">
+    <meta name="keywords" content="三维动画制作,杭州动画宣传片,动画公司,产品动画制作,杭州动漫设计,杭州三维动画制作" />
+    <meta name="description" content="三维动画制作中流程以及主要方法" />
+    <link href="/Public/wap/css/swiper.min.css" rel="stylesheet">
+    <link href="/Public/wap/css/index.css" rel="stylesheet">
+    <title>三维动画制作中流程以及主要方法-动画街</title>
+    <script type="text/javascript">
+        function fontFun() {
+            var winW = document.documentElement.clientWidth;
+            document.documentElement.style.fontSize = (winW / 750 * 625) + "%";
+        }
+        fontFun();
+        window.onresize = fontFun; 
+    </script>
+</head>
+<body>
+    <!--头部-->
+    <div class="top">
+        <div class="logo"></div>
+        <div class="operate"></div>
+        <a href="javascript:history.go(-1)" class="back"></a>
+    </div>
+
+    <div class="mywrap2">
+        <div class="enws_img">
+            <img src="/Public/pic/d97b48054051ebde950560ebb585f630.jpg" width="100%" />
+        </div>
+        <div class="content">
+            <div class="content_text">
+                <p class="p1">三维动画制作中流程以及主要方法</p>
+                <p class="p2">3天前</p>
+            </div>
+            <div class="p3"><p>三维动画制作中流程以及主要方法</p><ol><li><p>构思<br>　　任何一个CG作品都要有鲜明突出的主题，这样才能吸引人，所以在制作之前的构思就显得很重要，否则只靠出色的渲染效果是远远不够的，构思主要是确定作品所要表达的重点，对每一个作品我们都将由专业的策划人员构思制作角本，给客户以创想的构思思路。</p><p><img  src="/upload/image/20180319/1521441303307677.jpg" title="1521441303307677.jpg" alt="timg (89).jpg" /></p></li></ol><p>　　2.绘制草图&nbsp;<br>　　绘制草图就是将构思先简单的表现出来，当然也不是一定要这样，如果只是制作一些简单的内容，那么只在头脑中形成大致的轮廓就可以了，如果要完成一些较大的、需要多领域合作的项目，那么我们将绘制出草图以互相沟通。</p><p>　　3.建模&nbsp;<br>　　在准备工作完成后，我们就可以开始建模，将客户提供的楼盘资料以三维模型展现出来，建模不仅需要耐心，还要有一些技巧，原则是应该在表现出必要细节的前提下尽量地整体大气的反映项目的确立点和优势点。</p><p>　　4.材质灯光&nbsp;<br>　　材质和灯光应该是紧密相连的，我们将细致调节，使其画面更具有真实性。</p><p>　　5.动画调节&nbsp;<br>　　动画的调节相对来说要难一些，特别是角色动画的调节，更需要丰富的经验，角色动画的调节过程是相当枯燥和繁重的，如果想要得到惟妙惟肖的角色动画效果，可借助于动作捕捉系统。</p><p>　　6.特效&nbsp;<br>　　在做完了上面的部分后，就要为作品添加特技效果了，用来烘托气氛，艺术效果，唯美画面，跨越时空表现动态领域等实拍无法达到的主体效果。</p><p>　　7.渲染&nbsp;<br>　　最后的步骤是渲染，主要在渲染质量和渲染时间两者间平衡好。</p><p>　　8.后期<br>　　动画从三维软件里面渲染出来后，我们需要在后期软件里面调色以及增加特效，使画面更有冲击力。</p><p>　　9.剪辑配音<br>　　这是动画中最后的一道工序，将镜头按原来设想好的顺序加上音乐配以节奏，输出成动画成品文件</p><p><br/></p></div>
+        </div>
+        
+
+        <div class="share_block">
+            <div class="share"></div>
+        </div>
+        <div class="last">已经到底了</div>
+    </div>
+    <!--分享框-->
+    <div class="cover">
+        <div class="shareArea">
+            <div class="shareblock_one">
+                <p class="share_t1">分享</p>
+                <p class="share_t2">三维动画制作中流程以及主要方法</p>
+            </div>
+            
+            <div class="bdsharebuttonbox shareblock_two">
+                 
+                <div class="share_item">
+                    <a class="qq_block bds_qzone"  data-cmd="qzone" title="分享到QQ空间"></a>
+                    <span>QQ空间</span>
+                </div>
+                <div class="share_item">
+                    <a class="wb_block bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+                    <span>微博</span>
+                </div>
+                <div class="share_item ">
+                    <!-- <a class="wx_block bds_weixin" data-cmd="weixin" title="分享到微信"></a> -->
+                    <a class="wx_block"  title="分享到微信"></a>
+                    <span>朋友圈</span>
+                </div>
+            </div>
+            <div class="cancle_block">
+                <div class="cancle_btn">取消</div>
+            </div>
+        </div>
+    </div>
+    <div class="mycover">
+    <div class="dialog">
+        <div class="item_wap">
+            <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon one"></span>
+                <span class="item_text">首页</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com/worker.html">
+                <span class="item_icon two"></span>
+                <span class="item_text">作品案例</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com/wegot.html">
+                <span class="item_icon three"></span>
+                <span class="item_text">来撩我们</span>
+            </a>
+        </div>
+        <div class="item_wap">
+            <!-- <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon four"></span>
+                <span class="item_text">关于我们</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon five"></span>
+                <span class="item_text">服务流程</span>
+            </a> -->
+            <a class="item" href="http://m.donghuajie.com/news.html">
+                <span class="item_icon six"></span>
+                <span class="item_text">最新动态</span>
+            </a>
+        </div>
+    </div>
+</div>
+    <!--<a class="phone" href="tel:4008656770"></a>-->
+    <script src="/Public/wap/js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="/Public/wap/js/base.js"></script>
+    <script>
+        function resizepic(){}
+        $('.wx_block').click(function(){
+            window.alert('可是一使用浏览器分享,按钮分享给好友哦');
+        });
+        $('.cancle_btn,.share').click(function(){
+            $('.cover').stop(false,true).fadeToggle();
+        });
+        
+        // 点击空白处关闭分享
+        $(".cover").on('click',function(e){
+            var target = $(e.target);
+            if(target.closest('.shareArea').length == 0){
+                $('.cover').stop(false,true).fadeToggle();
+            }
+            e.stopPropagation();
+        });
+
+        // 回到顶部
+        $(".top").click(function() {
+            $('.mywrap2').scrollTop(0);
+        });
+    </script>
+    <script>
+        window._bd_share_config={
+            "common":{
+                bdText : '三维动画制作中流程以及主要方法',
+                bdDesc : '三维动画制作中流程以及主要方法',
+                bdUrl : 'm.donghuajie.com/news/437.html',
+                bdPic : '/Public/slt/d97b48054051ebde950560ebb585f630.jpg'
+            },
+            "share":{},
+            "image":{
+                "viewList":["qzone","tsina","tqq","renren","weixin"],
+                "viewText":"分享到：","viewSize":"16"
+            },
+            "selectShare":{
+                "bdContainerClass":null,
+                "bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]
+            }
+        };
+        with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+    </script>
+    <!--客服代码-->
+    <script>
+        (function() {var _53code = document.createElement("script");
+            _53code.src = "https://tb.53kf.com/code/code/10167819/2";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(_53code, s)
+            ;})();
+    </script>
+</body>
+</html>

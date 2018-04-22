@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=meta, minimum-scale=1.0">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="msapplication-TileColor" content="#000">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="email=no">
+    <meta name="renderer" content="webkit">
+    <meta name="keywords" content="动画视频制作,动画公司,创意动画,产品动画制作,杭州动漫设计,动画制作" />
+    <meta name="description" content="实质上，一个动画视频是由计算机用特殊的动画软件给出的一个虚拟的三维空间.通过建造物体模型.把模型放在这个三维空间中.从不同的角度用灯光照射，然后赋予每个部分动感和强烈的质感以得到令人满意的效果.用动画视频软件表现质感一般受两个因素影响:一是软件本身，二是软件使用者的经验。相对二维动画而言.动画视频的创作要麻烦许多:首先要创建物体和背景的三维模型.然后让这些物体在三维空间里运动起来，再通过二维软件内的“摄像机”去拍摄物体的运动过程，并打上灯光，最后才能生成栩栩如生的三维画面。" />
+    <link href="/Public/wap/css/swiper.min.css" rel="stylesheet">
+    <link href="/Public/wap/css/index.css" rel="stylesheet">
+    <title>动画视频制作的流程-动画街</title>
+    <script type="text/javascript">
+        function fontFun() {
+            var winW = document.documentElement.clientWidth;
+            document.documentElement.style.fontSize = (winW / 750 * 625) + "%";
+        }
+        fontFun();
+        window.onresize = fontFun; 
+    </script>
+</head>
+<body>
+    <!--头部-->
+    <div class="top">
+        <div class="logo"></div>
+        <div class="operate"></div>
+        <a href="javascript:history.go(-1)" class="back"></a>
+    </div>
+
+    <div class="mywrap2">
+        <div class="enws_img">
+            <img src="/Public/pic/bb0f3cf413ac2ad0392b535108f10df8.jpg" width="100%" />
+        </div>
+        <div class="content">
+            <div class="content_text">
+                <p class="p1">动画视频制作的流程</p>
+                <p class="p2">2018年01月30日</p>
+            </div>
+            <div class="p3"><p><img  src="/upload/image/20180130/1517289520126900.jpg" title="动画街logo.jpg" alt="动画街logo.jpg" /></p><p>实质上，一个动画视频是由计算机用特殊的动画软件给出的一个虚拟的三维空间.通过建造物体模型.把模型放在这个三维空间中.从不同的角度用灯光照射，然后赋予每个部分动感和强烈的质感以得到令人满意的效果.用动画视频软件表现质感一般受两个因素影响:一是软件本身，二是软件使用者的经验。相对二维动画而言.动画视频的创作要麻烦许多:首先要创建物体和背景的三维模型.然后让这些物体在三维空间里运动起来，再通过二维软件内的“摄像机”去拍摄物体的运动过程，并打上灯光，最后才能生成栩栩如生的三维画面。</p><p><img  src="/upload/image/20180130/1517289603132073.jpg" title="1517289603132073.jpg" alt="1517289603132073.jpg" /></p><p>&nbsp;动画视频制作的基本过程有哪些呢？一般来说.制作一个专业级的作品至少要经过建造模型，设定动画和后期制作3个步骤。</p><p>(1)建造模型就是利用动画视频软件在电脑上创造三维形体模型，也成为建模。</p><p>(2)设定动画则是使各种造型运动起来.也就是定义关键帧.向中间帧交给计算机去完成.我们看到的好莱玛大片中的许多惊险镜头都是用电脑合成的.</p><p>(3)后期制作包括贴图、光线控制和动画关键帧等，一秒钟的动画大约为30帧.合成一帧可能用几秒，也可能要几十分钟，这时就到了对电脑的整体性能进行考验的时候了。由于制作动画视频需要大量时间，因此通常将一个项目分为几个部分，分工协助完成。</p><p>1.<a href="http://www.donghuajie.com" target="_self">动画视频制作</a>的基本过程一—建立模型</p><p>建立模型是动画视频制作的第一步，就如同做一件产品的毛坯。也可以利用这一方法建立动画场景、营造地形。</p><p>2.动画视频制作的基本过程二—制作动画</p><p>动画是通过一系列连贯的单个画面来产生运动视觉的技术，或者说，是动态生成一系列相关画面的一种处理方法，每一帧画面与前一帧略有不同，它的原理缘于人的视觉暂留。我们知道，人眼有0.1秒的视觉暂留，小于这个数值，人眼就会认为动作是连续的，因此，若画面的更新率小于每秒10张，画面便会出现闪烁跳跃。所以，一般卡通动画的帧率为每秒12帧，电影画面的帖率为每秒24帧。如果应用在电视上，PAL制的帧率为每秒25帧，NTSC制的帧率为每秒30帧。</p><p>3.动画视频制作的基本过程三—材质设计</p><p>&nbsp;设计动画中每一个对象的颜色和质感.都要模仿自然场景中的物体。这一环节要完成色彩、纹理、质感、凹凸、光泽、材料等各种外观的属性，是完善角色特征和个性的关键一环，也是体现制作者功力的地方。</p><p>4.动画视频制作的基本过程四—灯光和摄像机设置</p><p>建立灯光照亮场景和动画对象，作用有3个：一是用灯光造型；二是产生光影变化；三是制造气氛。建立摄像机来模仿现实中摄像机拍摄的感觉，产生镜物效果。</p><p>5.动画视频制作的基本过程五—渲染着色</p><p>根据场景设置，由程序给出一幅完整的画面或一段动画，这是一个兴奋而漫长的过程。</p><p><br/></p></div>
+        </div>
+        
+
+        <div class="share_block">
+            <div class="share"></div>
+        </div>
+        <div class="last">已经到底了</div>
+    </div>
+    <!--分享框-->
+    <div class="cover">
+        <div class="shareArea">
+            <div class="shareblock_one">
+                <p class="share_t1">分享</p>
+                <p class="share_t2">动画视频制作的流程</p>
+            </div>
+            
+            <div class="bdsharebuttonbox shareblock_two">
+                 
+                <div class="share_item">
+                    <a class="qq_block bds_qzone"  data-cmd="qzone" title="分享到QQ空间"></a>
+                    <span>QQ空间</span>
+                </div>
+                <div class="share_item">
+                    <a class="wb_block bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+                    <span>微博</span>
+                </div>
+                <div class="share_item ">
+                    <!-- <a class="wx_block bds_weixin" data-cmd="weixin" title="分享到微信"></a> -->
+                    <a class="wx_block"  title="分享到微信"></a>
+                    <span>朋友圈</span>
+                </div>
+            </div>
+            <div class="cancle_block">
+                <div class="cancle_btn">取消</div>
+            </div>
+        </div>
+    </div>
+    <div class="mycover">
+    <div class="dialog">
+        <div class="item_wap">
+            <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon one"></span>
+                <span class="item_text">首页</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com/worker.html">
+                <span class="item_icon two"></span>
+                <span class="item_text">作品案例</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com/wegot.html">
+                <span class="item_icon three"></span>
+                <span class="item_text">来撩我们</span>
+            </a>
+        </div>
+        <div class="item_wap">
+            <!-- <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon four"></span>
+                <span class="item_text">关于我们</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon five"></span>
+                <span class="item_text">服务流程</span>
+            </a> -->
+            <a class="item" href="http://m.donghuajie.com/news.html">
+                <span class="item_icon six"></span>
+                <span class="item_text">最新动态</span>
+            </a>
+        </div>
+    </div>
+</div>
+    <!--<a class="phone" href="tel:4008656770"></a>-->
+    <script src="/Public/wap/js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="/Public/wap/js/base.js"></script>
+    <script>
+        function resizepic(){}
+        $('.wx_block').click(function(){
+            window.alert('可是一使用浏览器分享,按钮分享给好友哦');
+        });
+        $('.cancle_btn,.share').click(function(){
+            $('.cover').stop(false,true).fadeToggle();
+        });
+        
+        // 点击空白处关闭分享
+        $(".cover").on('click',function(e){
+            var target = $(e.target);
+            if(target.closest('.shareArea').length == 0){
+                $('.cover').stop(false,true).fadeToggle();
+            }
+            e.stopPropagation();
+        });
+
+        // 回到顶部
+        $(".top").click(function() {
+            $('.mywrap2').scrollTop(0);
+        });
+    </script>
+    <script>
+        window._bd_share_config={
+            "common":{
+                bdText : '动画视频制作的流程',
+                bdDesc : '实质上，一个动画视频是由计算机用特殊的动画软件给出的一个虚拟的三维空间.通过建造物体模型.把模型放在这个三维空间中.从不同的角度用灯光照射，然后赋予每个部分动感和强烈的质感以得到令人满意的效果.用动画视频软件表现质感一般受两个因素影响:一是软件本身，二是软件使用者的经验。相对二维动画而言.动画视频的创作要麻烦许多:首先要创建物体和背景的三维模型.然后让这些物体在三维空间里运动起来，再通过二维软件内的“摄像机”去拍摄物体的运动过程，并打上灯光，最后才能生成栩栩如生的三维画面。',
+                bdUrl : 'm.donghuajie.com/news/370.html',
+                bdPic : '/Public/slt/bb0f3cf413ac2ad0392b535108f10df8.jpg'
+            },
+            "share":{},
+            "image":{
+                "viewList":["qzone","tsina","tqq","renren","weixin"],
+                "viewText":"分享到：","viewSize":"16"
+            },
+            "selectShare":{
+                "bdContainerClass":null,
+                "bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]
+            }
+        };
+        with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+    </script>
+    <!--客服代码-->
+    <script>
+        (function() {var _53code = document.createElement("script");
+            _53code.src = "https://tb.53kf.com/code/code/10167819/2";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(_53code, s)
+            ;})();
+    </script>
+</body>
+</html>

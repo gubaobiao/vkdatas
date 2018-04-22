@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=meta, minimum-scale=1.0">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="msapplication-TileColor" content="#000">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="email=no">
+    <meta name="renderer" content="webkit">
+    <meta name="keywords" content="3d动画制作,动画公司,创意动画,产品动画制作,影视动画,杭州三维动画制作" />
+    <meta name="description" content="模型和动画，表面上来看，他们之间没有任何的关系，但在特殊的场景中，模型决定了动画的制作。最直接的关系是模型的父子关系，决定了动画的传递性。另 外，角色的塑造决定了骨架绑定的要求，如一个人物的披风，我们可以用布料模拟，也可以用骨骼绑定制作，这个就看我们的模型情况了，而且也决定了碰撞的设置。" />
+    <link href="/Public/wap/css/swiper.min.css" rel="stylesheet">
+    <link href="/Public/wap/css/index.css" rel="stylesheet">
+    <title>3d动画制作中需要细分的流程-动画街</title>
+    <script type="text/javascript">
+        function fontFun() {
+            var winW = document.documentElement.clientWidth;
+            document.documentElement.style.fontSize = (winW / 750 * 625) + "%";
+        }
+        fontFun();
+        window.onresize = fontFun; 
+    </script>
+</head>
+<body>
+    <!--头部-->
+    <div class="top">
+        <div class="logo"></div>
+        <div class="operate"></div>
+        <a href="javascript:history.go(-1)" class="back"></a>
+    </div>
+
+    <div class="mywrap2">
+        <div class="enws_img">
+            <img src="/Public/pic/1997debf57a8b0aa7cbc6e12951ac8d7.jpg" width="100%" />
+        </div>
+        <div class="content">
+            <div class="content_text">
+                <p class="p1">3d动画制作中需要细分的流程</p>
+                <p class="p2">2018年02月24日</p>
+            </div>
+            <div class="p3"><p>3d动画制作需要细分的几个流程：<br/></p><p>一、模型和动画，表面上来看，他们之间没有任何的关系，但在特殊的场景中，模型决定了动画的制作。最直接的关系是模型的父子关系，决定了动画的传递性。另 外，角色的塑造决定了骨架绑定的要求，如一个人物的披风，我们可以用布料模拟，也可以用骨骼绑定制作，这个就看我们的模型情况了，而且也决定了碰撞的设置。</p><p><img  src="/upload/image/20180224/1519449663823671.jpg" title="1519449663823671.jpg" alt="1519449663823671.jpg" /></p><p>二、模型和渲染，这个很直接了，因为直接涉及UV的关系，直接影响贴图的绘制和处理，同时模型的结构也影响了灯光和渲染的效果。如我们做玻璃瓶，如果只有 单层的效果，那么在渲染的时候可以调整的元素就少，只能采用shader定义玻璃材质效果，如果是双层模型，这样我们可以定义内外材质的简单反射和折射， 让定义玻璃的属性更加的丰富。同时，模型的平滑程度，也直接影响灯光的效果。<br/></p><p>三、模型和特效，这个也简单，模型和特效直接有直接的联系，很多时候我们都是在模型上定义特效，如毛发、布料、海水等等，这些定义直接受到模型的复杂程度 影响。<br/></p><p>四、模型和合成，他们之间没有直接联系，因为他们直接没有直接的对口关系。<br/></p><p>五、动画和渲染，材质和灯光渲染肯定是建立在动画基础上的，是以摄像机看见的效果作为基础来进行工作的，所以他们直接联系不用多说了。<br/></p><p>六、动画和特效，好像这个也直接，因为我们做粒子系统的时候，动画的快慢直接影响粒子的分布效果。<br/></p><p>七、动画和合成，合成也是受到动画的影响，我们在处理镜头衔接方面经常会更加动画的元素进行，如一个角色冲镜奔跑出画，在人物满屏后，往往可以增加1帧的 黑场来过渡，让画面到下个镜头的关系顺畅，而不是感觉穿越模型的效果。<br/></p><p>八、渲染和特效，特效都是提供渲染来表现的，而且贴图的情况直接影响特效，如粒子效果，都可以用贴图处理粒子的形状。<br/></p><p>九、渲染和合成，不用说了吧，渲染的东西都是合成的元素，关系直接。<br/></p><p>十、特效和合成，他们也是直接的关系，特效为合成的基本元素。 总之，三维动画的制作流程都是相关联的，没有独立的环节，因此全面学习、重点发展是一个非常明智的三维动画学习方式。<br/></p><p><br/></p></div>
+        </div>
+        
+
+        <div class="share_block">
+            <div class="share"></div>
+        </div>
+        <div class="last">已经到底了</div>
+    </div>
+    <!--分享框-->
+    <div class="cover">
+        <div class="shareArea">
+            <div class="shareblock_one">
+                <p class="share_t1">分享</p>
+                <p class="share_t2">3d动画制作中需要细分的流程</p>
+            </div>
+            
+            <div class="bdsharebuttonbox shareblock_two">
+                 
+                <div class="share_item">
+                    <a class="qq_block bds_qzone"  data-cmd="qzone" title="分享到QQ空间"></a>
+                    <span>QQ空间</span>
+                </div>
+                <div class="share_item">
+                    <a class="wb_block bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+                    <span>微博</span>
+                </div>
+                <div class="share_item ">
+                    <!-- <a class="wx_block bds_weixin" data-cmd="weixin" title="分享到微信"></a> -->
+                    <a class="wx_block"  title="分享到微信"></a>
+                    <span>朋友圈</span>
+                </div>
+            </div>
+            <div class="cancle_block">
+                <div class="cancle_btn">取消</div>
+            </div>
+        </div>
+    </div>
+    <div class="mycover">
+    <div class="dialog">
+        <div class="item_wap">
+            <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon one"></span>
+                <span class="item_text">首页</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com/worker.html">
+                <span class="item_icon two"></span>
+                <span class="item_text">作品案例</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com/wegot.html">
+                <span class="item_icon three"></span>
+                <span class="item_text">来撩我们</span>
+            </a>
+        </div>
+        <div class="item_wap">
+            <!-- <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon four"></span>
+                <span class="item_text">关于我们</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon five"></span>
+                <span class="item_text">服务流程</span>
+            </a> -->
+            <a class="item" href="http://m.donghuajie.com/news.html">
+                <span class="item_icon six"></span>
+                <span class="item_text">最新动态</span>
+            </a>
+        </div>
+    </div>
+</div>
+    <!--<a class="phone" href="tel:4008656770"></a>-->
+    <script src="/Public/wap/js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="/Public/wap/js/base.js"></script>
+    <script>
+        function resizepic(){}
+        $('.wx_block').click(function(){
+            window.alert('可是一使用浏览器分享,按钮分享给好友哦');
+        });
+        $('.cancle_btn,.share').click(function(){
+            $('.cover').stop(false,true).fadeToggle();
+        });
+        
+        // 点击空白处关闭分享
+        $(".cover").on('click',function(e){
+            var target = $(e.target);
+            if(target.closest('.shareArea').length == 0){
+                $('.cover').stop(false,true).fadeToggle();
+            }
+            e.stopPropagation();
+        });
+
+        // 回到顶部
+        $(".top").click(function() {
+            $('.mywrap2').scrollTop(0);
+        });
+    </script>
+    <script>
+        window._bd_share_config={
+            "common":{
+                bdText : '3d动画制作中需要细分的流程',
+                bdDesc : '模型和动画，表面上来看，他们之间没有任何的关系，但在特殊的场景中，模型决定了动画的制作。最直接的关系是模型的父子关系，决定了动画的传递性。另 外，角色的塑造决定了骨架绑定的要求，如一个人物的披风，我们可以用布料模拟，也可以用骨骼绑定制作，这个就看我们的模型情况了，而且也决定了碰撞的设置。',
+                bdUrl : 'm.donghuajie.com/news/399.html',
+                bdPic : '/Public/slt/1997debf57a8b0aa7cbc6e12951ac8d7.jpg'
+            },
+            "share":{},
+            "image":{
+                "viewList":["qzone","tsina","tqq","renren","weixin"],
+                "viewText":"分享到：","viewSize":"16"
+            },
+            "selectShare":{
+                "bdContainerClass":null,
+                "bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]
+            }
+        };
+        with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+    </script>
+    <!--客服代码-->
+    <script>
+        (function() {var _53code = document.createElement("script");
+            _53code.src = "https://tb.53kf.com/code/code/10167819/2";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(_53code, s)
+            ;})();
+    </script>
+</body>
+</html>

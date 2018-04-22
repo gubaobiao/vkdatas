@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta charset="utf-8">
+<title>{$seoWord['title']}</title>
+<meta name="keywords" content="{$seoWord['keywords']},{$keywords2}" />
+<meta name="description" content="{$seoWord['description']}" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/src/css/layerModel.css">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/src/css/public.css"/>
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/src/css/anli.css">
+<style>
+    .clBody{background: #fff;}
+    .loading{text-align: center;}
+    .csQuery{overflow: visible;}
+    .csQuery li:hover span{top: 50%;}
+    .csQuery li:hover .cslLink{background-color: rgb(210, 31, 61)}
+    .csQuery li:hover img{opacity: 0.3;}
+</style>
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https'){
+   bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+  }
+  else{
+  bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+  }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+</head>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?a0b3ecf9587b562feb1621827b5cf930";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<body>
+<div class="header">
+	<div class="header_bar1" style="background-image: url(__PUBLIC__/Home/src/images/top-bj.jpg);">
+		<a class="bannerLogo" href="{$domain}">
+			<img src="__PUBLIC__/Home/src/images/bannerLogo.png">
+		</a>
+	</div>
+	<nav id="menu" class="menu">
+		<ul class="mwrap">
+			<li>
+				<a href="http://www.donghuajie.com" class="mlink">
+					<span class="mname">首页</span>
+				</a>
+			</li>
+			<li>
+				 <a href="http://www.donghuajie.com/anli.html" class="mlink active">
+					<span class="mname">作品案例</span>
+				</a>
+			</li>
+			<li>
+				 <a href="http://www.donghuajie.com/about.html" class="mlink">
+					<span class="mname">关于我们</span>
+				</a>
+			</li>
+			<li>
+				 <a href="http://www.donghuajie.com/circuit.html" class="mlink">
+					<span class="mname">常见问题</span>
+				</a>
+			</li>
+			<li>
+				 <a href="http://www.donghuajie.com/news.html" class="mlink">
+					<span class="mname">动画资讯</span>
+				</a>
+			</li>
+			<li>
+				 <a href="http://www.donghuajie.com/contact.html" class="mlink">
+					<span class="mname">来撩我们</span>
+				</a>
+			</li>
+			<li>
+				<span class="dianhua">400-8656-770</span>
+			</li>
+			<li class="search-li">
+				<span class="ck-search"></span>
+				<form class="searchForm" action='{:U('Index/search')}' method='GET'>
+					<input type="text" name="search" placeholder="请输入查找内容" autocomplete='off' >
+					<button type="submit"></button>
+				</form>
+			</li>
+		</ul>
+		<div class="mshadow">
+        </div>
+	</nav>
+</div>  
+<div class="header_hr"></div>
+<div class="clBody">
+    <input id="maxPage" type="hidden" value="{$maxPage}">
+    <input id="search" type="hidden" value="{$search}"/>
+	<ul class="csQuery" id="container">
+	</ul>
+</div>
+<div id='notLoad' style="display:none;text-align:center;">
+        <img src="http://www.kanqiye.com/Public/index/img/stop.jpg">
+</div>
+<div class="webSite">
+	<ul class="wsLink">
+		<li class="wslList">
+			<span class="wslName">关于我们</span>
+			<ul class="wslcQuery">
+                <li> <a href="{:U('/about')}" target="_blank">公司概况</a></li>
+			</ul>
+		</li>
+		<li class="wslList">
+			<span class="wslName">服务流程</span>
+			<ul class="wslcQuery">
+			<!-- 	<li> <a href="{:U('/circuit')}" target="_blank">MG动画视频</a></li> -->
+                    <li> <a href="{:U('/circuit')}" target="_blank">二维动画</a></li>
+                    <li> <a href="{:U('/circuit')}" target="_blank">三维动画</a></li>
+			</ul>
+		</li>
+		<li class="wslList">
+			<span class="wslName">动画资讯</span>
+			<ul class="wslcQuery">
+                <li> <a href="{:U('/news')}" target="_blank">行业资讯</a></li>
+			</ul>
+		</li>
+		<li class="wslList">
+			<span class="wslName">联系我们</span>
+			<ul class="wslcQuery">
+					<li> <a href="{:U('/contact')}" target="_blank">联系方式</a></li>
+                    <li> <a href="{:U('/contact')}" target="_blank">需求提交</a></li>
+			</ul>
+		</li>
+		<li class="fl wsLx">
+			<div class="clear marb35">
+				<div class="fl w93 marr15">联系电话：</div>
+				<div class="fl">
+					<p class="marb10">{$n['u_tel'][1]}&nbsp;&nbsp;&nbsp;{$n['u_name'][1]}</p>
+					<p>{$n['u_tel'][2]}&nbsp;&nbsp;&nbsp;{$n['u_name'][2]}</p>
+				</div>
+			</div>
+			<div class="clear"> 
+				<div class="fl w93 marr15"><img src="__PUBLIC__/Home/src/img/qq.jpg" alt="qq"></div>
+				<div class="fl">
+					<p class="marb10"><a style="color:#000;text-decoration:none;" href="tencent://message/?uin={$n['u_QQ'][1]}&Menu=yes" target="_blank">{$n['u_QQ'][1]}</a></p>
+					<p><a style="color:#000;text-decoration:none;" href="tencent://message/?uin={$n['u_QQ'][2]}&Menu=yes" target="_blank">{$n['u_QQ'][2]}</a></p>
+				</div>
+			</div>
+		</li>
+	</ul>
+</div>
+<div class="footer"></div>
+<div class="gpc-t-box" id="gpc-t-box">
+  <div class="gpc-video-t">
+    <embed id="video-url" allowscriptaccess="always" allownetworking="all" allowfullscreen="true" width="670" height="377" type="application/x-shockwave-flash" src="">
+    </embed>
+  </div>
+  <div class="gpc-video-t2">
+     <div class="gpc-video-t2-lf">            
+           <p class="gpc-a1-8" id="gpc-info" style="font-size:12px; color:#999">西海 发布于 2016-11-12 </p>
+     </div>
+     <div class="gpc-video-t2-rt">
+       <a class="gpc-a1-9" id="gpc-detail"  target="_blank">查看视频详情>></a>
+     </div>
+  </div>
+</div>	
+<div id="top"></div>
+
+<script type="text/x-handlebars-template" id="waterfall-tpl">
+    {{#searchData}}
+         <li data-type="4" class="csli fall-item">
+			<a href="{$domain}/anli/{{id}}.html" class="openvideo">
+	            <div class="cslPic" data-title="{{title}}" data-url="{$vo.swf}" data-time="{{createtime}}" data-path="{$domain}/anli/{{id}}.html"><img src="{{sltpath}}" title="{{title}}"  alt="{{title}}" /><span></span></div>
+	            <div class="cslName" data-title="{{title}}" data-url="{$vo.swf}" data-time="{{createtime}}">{{title}}</div>
+	            <div class="cslDate">{{createtime}}</div>
+			    <div class="cslLink"><a style="display: block;height:100%;" href="{$domain}/anli/{{id}}.html">MORE</a></div>
+			</a>
+        </li>   
+    {{/searchData}}            
+</script>
+
+<script type="text/javascript" src="http://www.kanqiye.com/Public/index/jquery/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Home/src/js/zzsc.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Home/src/js/TweenMax.min.js"></script>
+<!-- <script type="text/javascript" src="__PUBLIC__/Home/src/js/public.js"></script> -->
+<script type="text/javascript" src="__PUBLIC__/Home/src/js/jquery.layerModel.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Home/src/js/anli.js"></script>    
+
+<script src="__PUBLIC__/Home/src/js/jquery.lazyload.min.js"></script>
+<script src="__PUBLIC__/Home/src/js/jquery.dotdotdot.min.js"></script>
+<script src="__PUBLIC__/Home/src/js/handlebars.js"></script>
+<script src="__PUBLIC__/Home/src/js/waterfall.js"></script>
+
+<script>
+	$(".gpc-a1-9").click(function(){
+		  $('.layerModel_closeBtn').trigger('click');	  
+	});
+	$('.ck-search').click(function(){
+		$(this).hide();
+		$('.searchForm').toggle();
+	});
+</script>
+<script>
+;(function(){
+	var maxPage = $('#maxPage').val(),
+		search = $('#search').val();
+	$("#container").waterfall({ // 瀑布流
+		itemCls: 'fall-item',
+		colWidth: 295,
+		gutterWidth: 20,
+		gutterHeight: 20,
+		minCol: 4,
+        maxCol: 5,
+        align:'center',
+        // fitWidthBooleantrue:true,
+		maxPage:maxPage,
+		path: function(page) { // ajax加载更多数据
+	       	return '{:U("Index/ajaxSearchData")}?indexPage='+page+'&search='+search;
+	    },
+	    params: {}, // ajax参数
+	    loadingMsg:'<div class="loading" id="loading"><img src="http://www.kanqiye.com/Public/index/img/load.gif" alt="加载中"></div>',
+	    callbacks: {
+	    	loadingFinished: function($loading, isBeyondMaxPage) {
+				if( !isBeyondMaxPage ) { // 有数据
+					$loading.fadeOut();
+				}else { 
+					$loading.remove();
+					$("#notLoad").fadeIn();
+				}
+			}
+	    }
+	});
+
+})()
+</script>
+<!--客服代码-->
+<script>
+    (function() {var _53code = document.createElement("script");
+        _53code.src = "https://tb.53kf.com/code/code/10167819/2";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(_53code, s)
+        ;})();
+</script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+{
+	"count": 8,
+	"data": [
+		{"src": "../src/img/g1.jpg","src_hover":"../src/img/g1-hover.jpg", "time": "2017-10-10","status": 1,"release_path":"adList.html","cancel_path":"adList.html","delete_path":"adList.html","update_path":"adUpdate.html","will_path":"adUpdate.html"},
+		{"src": "../src/img/g2.jpg","src_hover":"../src/img/g2-hover.jpg", "time": "2017-10-10","status": 2,"release_path":"adList.html","cancel_path":"adList.html","delete_path":"adList.html","update_path":"adUpdate.html","will_path":"adUpdate.html"},
+		{"src": "../src/img/g3.jpg","src_hover":"../src/img/g3-hover.jpg", "time": "2017-10-10","status": 2,"release_path":"adList.html","cancel_path":"adList.html","delete_path":"adList.html","update_path":"adUpdate.html","will_path":"adUpdate.html"},
+		{"src": "../src/img/g4.jpg","src_hover":"../src/img/g4-hover.jpg", "time": "2017-10-10","status": 1,"release_path":"adList.html","cancel_path":"adList.html","delete_path":"adList.html","update_path":"adUpdate.html","will_path":"adUpdate.html"},
+		{"src": "../src/img/g5.jpg","src_hover":"../src/img/g5-hover.jpg", "time": "2017-10-10","status": 2,"release_path":"adList.html","cancel_path":"adList.html","delete_path":"adList.html","update_path":"adUpdate.html","will_path":"adUpdate.html"},
+		{"src": "../src/img/g6.jpg","src_hover":"../src/img/g6-hover.jpg", "time": "2017-10-10","status": 2,"release_path":"adList.html","cancel_path":"adList.html","delete_path":"adList.html","update_path":"adUpdate.html","will_path":"adUpdate.html"},
+		{"src": "../src/img/g7.jpg","src_hover":"../src/img/g7-hover.jpg", "time": "2017-10-10","status": 1,"release_path":"adList.html","cancel_path":"adList.html","delete_path":"adList.html","update_path":"adUpdate.html","will_path":"adUpdate.html"}
+	]
+}

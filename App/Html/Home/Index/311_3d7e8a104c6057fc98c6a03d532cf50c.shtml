@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=meta, minimum-scale=1.0">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="msapplication-TileColor" content="#000">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="email=no">
+    <meta name="renderer" content="webkit">
+    <meta name="keywords" content="宣传动画,动画制作公司,flash动画制作,产品动画,产品动画宣传片,app动画制作,app动画宣传视频,产品三维动画" />
+    <meta name="description" content="今天，瑞数信息与IDC携手发布这个白皮书，动画制作公司就是希望企业用户在确保关键业务得到安全保护的同时，宣传动画能够更加从容地利用数字化转型优势，驾驭数字的力量。&quot;flash动画制作" />
+    <link href="/Public/wap/css/swiper.min.css" rel="stylesheet">
+    <link href="/Public/wap/css/index.css" rel="stylesheet">
+    <title>瑞数信息宣传动画-动画街</title>
+    <script type="text/javascript">
+        function fontFun() {
+            var winW = document.documentElement.clientWidth;
+            document.documentElement.style.fontSize = (winW / 750 * 625) + "%";
+        }
+        fontFun();
+        window.onresize = fontFun; 
+    </script>
+</head>
+<body>
+    <!--头部-->
+    <div class="top">
+        <div class="logo"></div>
+        <div class="operate"></div>
+        <a href="javascript:history.go(-1)" class="back"></a>
+    </div>
+
+    <!--content-->
+    <div class="mywrap2">
+        <div class="enws_img">
+            <video width="100%" height="100%" src="http://cloud.video.taobao.com//play/u/2586769528/p/1/e/6/t/7/50076734900.mp4" controls poster="/Public/video_slt/f8da17cfd4afeb191b948d7c782fef8c.jpg"></video>
+            <!-- <img src="/Public/wap/img/news.jpg" width="100%" /> -->
+        </div>
+        <div class="content">
+            <div class="content_text">
+                <p class="p1">瑞数信息宣传动画</p>
+                <p class="time">2018年02月16日</p>
+            </div>
+            <div class="p3"><p><span><img  src="/upload/image/20180210/1518246027107665.jpg" title="动画街.jpg" alt="动画街.jpg" /></span></p><p><span>&nbsp; &nbsp;2017年9月14日，以&quot;主动防御-构建数字化业务的安全基石&quot;为主题的&quot;IDC数字化转型安全报告发布会在京成功举办。发布会现场，瑞数信息总裁余亮先生及首席策略官马蔚彦女士携手IDC亚太区分析师CathyHuang共同向与会人员分享了全球最新的数字化转型趋势及战略以及如何通过主动防御实现商业安全的最佳保障。宣传动画</span></p><p><span><img  src="/upload/image/20180210/1518246085124744.png" title="1518246085124744.png" alt="1_副本2.png" /></span></p><p><span><span>&nbsp; &nbsp;数字转型对消费者产生了巨大的影响，最直观的表现就是网络和移动网络的普及令全球高达</span>48.65%的人口成为互联网用户。瑞数信息总裁余亮先生表示，很高兴瑞数信息的&quot;动态安全&quot;解决方案得到了全球权威调研机构IDC的充分认可。他强调，瑞数信息将坚持在当下数据驱动转型的时代中，让&quot;主动防御&quot;的安全新思路应用到越来越多的企业中。动画制作公司<a href="http://www.donghuajie.com" target="_self" title="动画制作公司">动画制作公司</a></span></p><p><span><img  src="/upload/image/20180210/1518246093580929.png" title="1518246093580929.png" alt="2_副本2.png" /></span></p><p><span>&nbsp; &quot;今天，瑞数信息与IDC携手发布这个白皮书，就是希望企业用户在确保关键业务得到安全保护的同时，能够更加从容地利用数字化转型优势，驾驭数字的力量。&quot;flash动画制作</span></p><p><br/></p></div>
+        </div>
+        
+        <div class="share_block">
+            <div class="share"></div>
+        </div>
+        <!--分享框-->
+        <div class="cover">
+            <div class="shareArea">
+                <div class="shareblock_one">
+                    <p class="share_t1">分享</p>
+                    <p class="share_t2">瑞数信息宣传动画</p>
+                </div>
+                
+                <div class="bdsharebuttonbox shareblock_two">
+                        
+                    <div class="share_item">
+                        <a class="qq_block bds_qzone"  data-cmd="qzone" title="分享到QQ空间"></a>
+                        <span>QQ空间</span>
+                    </div>
+                    <div class="share_item">
+                        <a class="wb_block bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+                        <span>微博</span>
+                    </div>
+                    <div class="share_item ">
+                        <!-- <a class="wx_block bds_weixin" data-cmd="weixin" title="分享到微信"></a> -->
+                        <a class="wx_block"  title="分享到微信"></a>
+                        <span>朋友圈</span>
+                    </div>
+                </div>
+                <div class="cancle_block">
+                    <div class="cancle_btn">取消</div>
+                </div>
+            </div>
+        </div>
+
+        <!--相关推荐-->
+        <div class="recommend">
+            <div class="recommend_t">相关推荐</div>
+
+            <a class="recommend_b" href="http://m.donghuajie.com/anli/360.html">
+                    <div class="r_img">
+                        <img src="/Public/video_slt/a1579cb19fb8d6ec42987d78033ddf6a.jpg" width="100%"/>
+                    </div>
+                    <div class="r_info">
+                        <p class="r_title1">三维魔方动画视频</p>
+                        <p class="r_title2">#app/产品#</p>
+                        <p class="time">2018/03/14</p>
+                    </div>
+                </a><a class="recommend_b" href="http://m.donghuajie.com/anli/341.html">
+                    <div class="r_img">
+                        <img src="/Public/video_slt/a059b8eb8e7a643c68fb975b7cdf93d4.jpg" width="100%"/>
+                    </div>
+                    <div class="r_info">
+                        <p class="r_title1">爱马仕杭州flash动画制作</p>
+                        <p class="r_title2">#品牌宣传#</p>
+                        <p class="time">15小时前</p>
+                    </div>
+                </a><a class="recommend_b" href="http://m.donghuajie.com/anli/340.html">
+                    <div class="r_img">
+                        <img src="/Public/video_slt/27efdcc43c0ccbf3135b9053db3bdbfb.jpg" width="100%"/>
+                    </div>
+                    <div class="r_info">
+                        <p class="r_title1">友笑社区二维动画制作</p>
+                        <p class="r_title2">#app/产品#</p>
+                        <p class="time">15小时前</p>
+                    </div>
+                </a><a class="recommend_b" href="http://m.donghuajie.com/anli/339.html">
+                    <div class="r_img">
+                        <img src="/Public/video_slt/e187a7a4d13e58dbf6754c22dc684158.jpg" width="100%"/>
+                    </div>
+                    <div class="r_info">
+                        <p class="r_title1">光伏板杭州二维动画制作</p>
+                        <p class="r_title2">#app/产品#</p>
+                        <p class="time">1天前</p>
+                    </div>
+                </a><a class="recommend_b" href="http://m.donghuajie.com/anli/338.html">
+                    <div class="r_img">
+                        <img src="/Public/video_slt/e49b5995ee8a18ad3d0563efbeeabcd6.jpg" width="100%"/>
+                    </div>
+                    <div class="r_info">
+                        <p class="r_title1">宏讯智杭州二维动画制作</p>
+                        <p class="r_title2">#app/产品#</p>
+                        <p class="time">1天前</p>
+                    </div>
+                </a>
+        </div>
+
+        <div class="last">已经到底了</div>
+    </div>
+    <div class="mycover">
+    <div class="dialog">
+        <div class="item_wap">
+            <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon one"></span>
+                <span class="item_text">首页</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com/worker.html">
+                <span class="item_icon two"></span>
+                <span class="item_text">作品案例</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com/wegot.html">
+                <span class="item_icon three"></span>
+                <span class="item_text">来撩我们</span>
+            </a>
+        </div>
+        <div class="item_wap">
+            <!-- <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon four"></span>
+                <span class="item_text">关于我们</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon five"></span>
+                <span class="item_text">服务流程</span>
+            </a> -->
+            <a class="item" href="http://m.donghuajie.com/news.html">
+                <span class="item_icon six"></span>
+                <span class="item_text">最新动态</span>
+            </a>
+        </div>
+    </div>
+</div>
+    <!--<a class="phone" href="tel:4008656770"></a>-->
+    <script src="/Public/wap/js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="/Public/wap/js/base.js"></script>
+    <script>
+        function resizepic(){}
+        $('.wx_block').click(function(){
+            window.alert('可是一使用浏览器分享,按钮分享给好友哦');
+        });
+        $(function(){
+            $('.cancle_btn,.share').click(function(){
+                $('.cover').stop(false,true).fadeToggle();
+            });
+            // 点击空白处关闭分享
+            $(".cover").on('click',function(e){
+                var target = $(e.target);
+                if(target.closest('.shareArea').length == 0){
+                    $('.cover').stop(false,true).fadeToggle();
+                }
+                e.stopPropagation();
+            });
+        });
+
+        // 回到顶部
+        $(".top").click(function() {
+            $('.mywrap2').scrollTop(0);
+        });
+    </script>
+    <script>
+        window._bd_share_config={
+            "common":{
+                bdText : "瑞数信息宣传动画",
+                bdDesc : "今天，瑞数信息与IDC携手发布这个白皮书，动画制作公司就是希望企业用户在确保关键业务得到安全保护的同时，宣传动画能够更加从容地利用数字化转型优势，驾驭数字的力量。&quot;flash动画制作",
+                bdUrl : "http://m.donghuajie.com/anli/311.html",
+                bdPic : "/Public/video_slt/f8da17cfd4afeb191b948d7c782fef8c.jpg"
+            },
+            "share":{},
+            "image":{
+                "viewList":["qzone","tsina","tqq","renren","weixin"],
+                "viewText":"分享到：","viewSize":"16"
+            },
+            "selectShare":{
+                "bdContainerClass":null,
+                "bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]
+            }
+        };
+        with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+    </script>
+    <!--客服代码-->
+    <script>
+        (function() {var _53code = document.createElement("script");
+            _53code.src = "https://tb.53kf.com/code/code/10167819/2";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(_53code, s)
+            ;})();
+    </script>
+</body>
+</html>

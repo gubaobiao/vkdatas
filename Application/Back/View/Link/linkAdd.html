@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>添加</title>
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/back/src/css/add.css">
+<style>
+	p{margin-top: 30px;}
+</style>
+</head>
+<body>
+	<form action="{:U('Back/Link/linkAdd')}" method="POST" id="form">
+		<div class="mart30">
+			<span class="w80">链接名称</span>
+			<input id="wName" type="text" name="wName" />
+		</div>
+		<div class="mart30">
+			<span class="w80">链接地址</span>
+			<input id="wPath" type="text" name="wPath" value="http://" />
+		<div>
+		<button id="button" type="button">确定</button> 
+	</form>
+<script type="text/javascript" src="__PUBLIC__/Back/src/js/jquery-1.9.1.min.js"></script>	
+<script>
+	$('#button').click(function(){
+		var path = $.trim($('#wPath').val());
+		if($.trim($('#wName').val()) == '') return alert("请填写链接名称！");
+		if(path == '') return alert("请请填写链接地址！");
+		if(path.indexOf('http://') < 0){
+			path = 'http://' + path;
+			$('#wPath').val(path);
+		}
+		$('#form').submit();
+	});
+</script>
+</body>
+</html>

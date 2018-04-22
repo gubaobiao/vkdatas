@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>动画街—用户管理后台系统</title>
+	<script src="__PUBLIC__/Back/src/js/jquery-1.9.1.min.js"></script>
+	<link rel="stylesheet" href="__PUBLIC__/Back/src/bootstrap/css/bootstrap.min.css">
+	<script src="__PUBLIC__/Back/src/bootstrap/js/bootstrap.min.js"></script>
+	<script src="__PUBLIC__/Back/src/layer/layer.js"></script>
+	<link rel="stylesheet" href="__PUBLIC__/Back/src/css/public.css">
+	<link rel="stylesheet" href="__PUBLIC__/Back/src/css/index.css">
+	<!--[if lt IE 9]>
+	    <script src="src/bootstrap/js/html5shiv.min.js"></script>
+	    <script src=".src/bootstrap/js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+	<!-- 头nav开始 -->
+	<nav id="nav">
+		<div class="logo">
+			<a href="index.html">
+				<img src="__PUBLIC__/Back/src/images/logo.png" alt="看企业后台"/>
+			</a>
+		</div>
+		<!-- 头nav 主体内容开始 -->
+		<div class="nav_main">
+			<div class="nav_name">
+				用户管理后台
+			</div>
+		</div>
+		<!-- 头nav 主体内容结束 -->
+	</nav>
+	<!-- 头nav结束 -->
+	<div id="main">
+		<!-- 左边导航开始 -->
+		<div id="main_left">
+			<div class="boxs">
+				<div class="box_btn">
+					<span class="kqy_icon kqy_icon_set"></span>
+					<a href="#">网站管理</a>
+					<span class="caret"></span>
+				</div>
+				<ul class="down_list">
+					<li>
+						<a href="{:U('Back/Netmanage/barList')}" data-url="{:U('Back/Netmanage/barList')}">banner</a>
+					</li>
+					<li>
+						<a href="{:U('Back/Service/serviceList')}" data-url="{:U('Back/Service/serviceList')}">服务介绍</a>
+					</li>
+					<li>
+						<a href="{:U('Back/Netmanage/intro')}" data-url="{:U('Back/Netmanage/intro')}">动画街简介</a>
+					</li>
+					<li>
+						<a href="{:U('Back/But/adList')}" data-url="{:U('Back/But/adList')}">底部广告图片</a>
+					</li>
+					<li>
+						<a href="{:U('Back/Link/linkList')}" data-url="{:U('Back/Link/linkList')}">友情链接</a>
+					</li>
+					<li>
+						<a href="{:U('Back/Netmanage/contact')}" data-url="{:U('Back/Netmanage/contact')}">联系我们</a>
+					</li>
+					<li>
+						<a href="{:U('Back/Caches/index')}" data-url="{:U('Back/Caches/index')}">缓存管理</a>
+					</li>
+				</ul>
+			</div>		
+			<div class="boxs">
+				<div class="box_btn">
+					<span class="kqy_icon kqy_icon_article"></span>
+					<a href="#">文章管理</a>
+					<span class="caret"></span>
+				</div>
+				<ul class="down_list">
+					<li>
+						<a href="{:U('Back/AdminNews/companyNewsList')}" data-url="{:U('Back/AdminNews/companyNewsList')}">文章列表</a>
+					</li>
+					<li>
+						<a href="{:U('Back/Newstype/industryList')}" data-url="{:U('Back/Newstype/industryList')}">文章分类</a>
+					</li>
+				</ul>
+			</div>
+			<div class="boxs">
+				<div class="box_btn">
+					<span class="kqy_icon kqy_icon_vadio"></span>
+					<a href="#">视频管理</a>
+					<span class="caret"></span>
+				</div>
+				<ul class="down_list">
+					<li>
+						<a href="{:U('Back/Videos/videoList')}" data-url="{:U('Back/Video/videoList')}">视频列表</a>
+					</li>
+					<li>
+						<a href="{:U('Back/Videotype/videoTypeList')}" data-url="{:U('Back/Videotype/videoTypeList')}">视频类型</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 左边导航结束 -->
+		<!-- 右边选项卡开始 -->
+		<div id="main_right">
+			<div id="main_tab">
+				<ul class="main_tab_btn">
+					<li class="home active">
+						<a href="#home"><span>HOME</span></a>
+					</li>
+					<!-- <li class="tab_btn">
+						<a href="#">
+							<span>基本资料</span>
+							<img class="remove" src="__PUBLIC__/Back/src/img/remover.png" alt="关闭">
+						</a>
+					</li> -->
+				</ul>
+			</div>
+			<div id="main_iframe">
+				<iframe class="active" src="{:U('Back/Index/home')}" width="100%" height="100%" frameborder="0" scrolling="auto"></iframe>
+			</div>
+		</div>
+		<!-- 右边选项卡结束 -->
+	</div>
+	<!-- ie10- 提示框 -->
+	<div id="ie_mask">
+		<div id="ie">
+			<span class="close">&times;</span>
+			<img src="__PUBLIC__/Back/src/images/ie-mask.png" alt="">
+			<ul>
+				<li><a href="https://support.microsoft.com/zh-cn/help/17621/internet-explorer-downloads?spm=875.7931836%2FA.a2226mw.1.3OuE3q" target="_blank"><img src="__PUBLIC__/Back/src/images/btn.png" alt=""></a></li>
+				<li><a href="http://www.googlechromer.cn/" target="_blank"><img src="__PUBLIC__/Back/src/images/btn.png" alt=""></a></li>
+				<li><a href="http://www.firefox.com.cn/" target="_blank"><img src="__PUBLIC__/Back/src/images/btn.png" alt=""></a></li>
+			</ul>
+		</div>
+	</div>
+	<script src="__PUBLIC__/Back/src/js/index.js"></script>
+</body>
+</html>

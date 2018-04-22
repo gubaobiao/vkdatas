@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=meta, minimum-scale=1.0">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="msapplication-TileColor" content="#000">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="email=no">
+    <meta name="renderer" content="webkit">
+    <meta name="keywords" content="3D动画制作,动画公司,产品动画制作,杭州动漫设计,影视动画,动画制作" />
+    <meta name="description" content="随着电脑技术的发展，企业开始注重企业品牌形象，3D动画制作成为提升企业魅力形象的重要工具。优质的3D动画制作制作中，不仅会用到剪辑等等技巧，还会将3D动画技术融入其中使整部3D动画制作看起来更让人眼前一亮。3D动画制作3D动画制作有哪些优势呢？" />
+    <link href="/Public/wap/css/swiper.min.css" rel="stylesheet">
+    <link href="/Public/wap/css/index.css" rel="stylesheet">
+    <title>3d动画制作的好处-动画街</title>
+    <script type="text/javascript">
+        function fontFun() {
+            var winW = document.documentElement.clientWidth;
+            document.documentElement.style.fontSize = (winW / 750 * 625) + "%";
+        }
+        fontFun();
+        window.onresize = fontFun; 
+    </script>
+</head>
+<body>
+    <!--头部-->
+    <div class="top">
+        <div class="logo"></div>
+        <div class="operate"></div>
+        <a href="javascript:history.go(-1)" class="back"></a>
+    </div>
+
+    <div class="mywrap2">
+        <div class="enws_img">
+            <img src="/Public/pic/587a4fb770850d41958af4e4a42c3641.jpg" width="100%" />
+        </div>
+        <div class="content">
+            <div class="content_text">
+                <p class="p1">3d动画制作的好处</p>
+                <p class="p2">2018年01月26日</p>
+            </div>
+            <div class="p3"><p><img  src="/upload/image/20180126/1516943758624606.jpg" title="动画街logo.jpg" alt="动画街logo.jpg" /></p><p>随着电脑技术的发展，企业开始注重企业品牌形象，3D动画制作成为提升企业魅力形象的重要工具。优质的3D动画制作制作中，不仅会用到剪辑等等技巧，还会将3D动画技术融入其中使整部3D动画制作看起来更让人眼前一亮。3D动画制作3D动画制作有哪些优势呢？</p><p><img  src="/upload/image/20180126/1516943880256469.jpg" title="1516943880256469.jpg" alt="timg (43).jpg" /></p><p><a href="http://www.donghuajie.com" target="_self">3D动画制作</a>是一件艺术和电脑操作技术紧密结合的结晶。在制作过程中，一方面要在电脑操作技术上充分实现广告创意的要求，另一方面，还要在画面构图、光灯、彩色、镜头等设计连接、视频节奏把握等方面进行艺术角度的发挥，才能够完成画面需求。</p><p>3D动画是脱离摄像机拍摄的视频制作，故然不受各种因素的影响，如天气、场地等等，主要是电脑后期技术的操作体现，制作实拍无法实现的镜头。</p><p>3D动画有效保证影片制作的安全性，如实拍中需要的高危镜头悬崖、龙卷风等等危险系数比较高的镜头可以利用3D动画技术来完成制作，不需要实拍，从而降低了拍摄所带来的危险系数。建筑3D动画可以将景观、楼盘等等建筑物利用3D动画的技术来呈现出来，使未建好的建筑物展现给客户，大大提高销售效果。三维动画技术主要是后期的技术体现，可以随时进行修改，减少重拍带来的费用浪费。<br/></p><p>以上是3D动画制作的几个优点，影视三维动画涉及影视特效创意、结合实拍的还需要前期拍摄、影视3D动画、特效后期合成、影视剧特效动画等。随着计算机在影视领域的延伸及制作软件的增加，3D动画影像技术打破了影视拍摄的局限性，在视觉效果上弥补了拍摄的不足，在一定程度上电脑制作远比实拍的费用要少。<br/></p><p><br/></p></div>
+        </div>
+        
+
+        <div class="share_block">
+            <div class="share"></div>
+        </div>
+        <div class="last">已经到底了</div>
+    </div>
+    <!--分享框-->
+    <div class="cover">
+        <div class="shareArea">
+            <div class="shareblock_one">
+                <p class="share_t1">分享</p>
+                <p class="share_t2">3d动画制作的好处</p>
+            </div>
+            
+            <div class="bdsharebuttonbox shareblock_two">
+                 
+                <div class="share_item">
+                    <a class="qq_block bds_qzone"  data-cmd="qzone" title="分享到QQ空间"></a>
+                    <span>QQ空间</span>
+                </div>
+                <div class="share_item">
+                    <a class="wb_block bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+                    <span>微博</span>
+                </div>
+                <div class="share_item ">
+                    <!-- <a class="wx_block bds_weixin" data-cmd="weixin" title="分享到微信"></a> -->
+                    <a class="wx_block"  title="分享到微信"></a>
+                    <span>朋友圈</span>
+                </div>
+            </div>
+            <div class="cancle_block">
+                <div class="cancle_btn">取消</div>
+            </div>
+        </div>
+    </div>
+    <div class="mycover">
+    <div class="dialog">
+        <div class="item_wap">
+            <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon one"></span>
+                <span class="item_text">首页</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com/worker.html">
+                <span class="item_icon two"></span>
+                <span class="item_text">作品案例</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com/wegot.html">
+                <span class="item_icon three"></span>
+                <span class="item_text">来撩我们</span>
+            </a>
+        </div>
+        <div class="item_wap">
+            <!-- <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon four"></span>
+                <span class="item_text">关于我们</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon five"></span>
+                <span class="item_text">服务流程</span>
+            </a> -->
+            <a class="item" href="http://m.donghuajie.com/news.html">
+                <span class="item_icon six"></span>
+                <span class="item_text">最新动态</span>
+            </a>
+        </div>
+    </div>
+</div>
+    <!--<a class="phone" href="tel:4008656770"></a>-->
+    <script src="/Public/wap/js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="/Public/wap/js/base.js"></script>
+    <script>
+        function resizepic(){}
+        $('.wx_block').click(function(){
+            window.alert('可是一使用浏览器分享,按钮分享给好友哦');
+        });
+        $('.cancle_btn,.share').click(function(){
+            $('.cover').stop(false,true).fadeToggle();
+        });
+        
+        // 点击空白处关闭分享
+        $(".cover").on('click',function(e){
+            var target = $(e.target);
+            if(target.closest('.shareArea').length == 0){
+                $('.cover').stop(false,true).fadeToggle();
+            }
+            e.stopPropagation();
+        });
+
+        // 回到顶部
+        $(".top").click(function() {
+            $('.mywrap2').scrollTop(0);
+        });
+    </script>
+    <script>
+        window._bd_share_config={
+            "common":{
+                bdText : '3d动画制作的好处',
+                bdDesc : '随着电脑技术的发展，企业开始注重企业品牌形象，3D动画制作成为提升企业魅力形象的重要工具。优质的3D动画制作制作中，不仅会用到剪辑等等技巧，还会将3D动画技术融入其中使整部3D动画制作看起来更让人眼前一亮。3D动画制作3D动画制作有哪些优势呢？',
+                bdUrl : 'm.donghuajie.com/news/362.html',
+                bdPic : '/Public/slt/587a4fb770850d41958af4e4a42c3641.jpg'
+            },
+            "share":{},
+            "image":{
+                "viewList":["qzone","tsina","tqq","renren","weixin"],
+                "viewText":"分享到：","viewSize":"16"
+            },
+            "selectShare":{
+                "bdContainerClass":null,
+                "bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]
+            }
+        };
+        with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+    </script>
+    <!--客服代码-->
+    <script>
+        (function() {var _53code = document.createElement("script");
+            _53code.src = "https://tb.53kf.com/code/code/10167819/2";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(_53code, s)
+            ;})();
+    </script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+[ 2018-04-08T03:35:27+08:00 ] 140.205.9.29 /news/Public/Home/src/images/weixin.png
+ERR: 1054:Unknown column 'Public' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `dhj_news` WHERE ( id=Public ) LIMIT 1  
+ERR: 1054:Unknown column 'Public' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `dhj_news` WHERE ( id=Public ) LIMIT 1  
+
+[ 2018-04-08T04:17:10+08:00 ] 47.104.50.21 /news/Public/Home/src/images/weixin.png
+ERR: 1054:Unknown column 'Public' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `dhj_news` WHERE ( id=Public ) LIMIT 1  
+ERR: 1054:Unknown column 'Public' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `dhj_news` WHERE ( id=Public ) LIMIT 1  
+
+[ 2018-04-08T10:12:36+08:00 ] 47.104.50.11 /contact.html
+ERR: 非法操作:contact
+
+[ 2018-04-08T12:44:34+08:00 ] 47.104.50.29 /about.html
+ERR: 非法操作:about
+

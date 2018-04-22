@@ -1,0 +1,55 @@
+.caseList a,.clside li,.clside li a,.cslPic{display:block;}
+.active .mico_case .micoi{top:-208px;}
+.clBody{position:relative;width:1257px;margin:36px auto 20px;padding:0 0 66px;background-color:#ebebeb;}
+.clsLabel,.clside li a,.clsideWrap{height:76px;width:80px;}
+.clsideWrap{position: fixed;left: 50%;z-index: 1000;margin-left: -716px;top: 201px;}
+.clsLabel,.clside,.clside li{top:0;left:0;}
+.clsLabel{z-index:9;background:url(../img/side_show.png) center 28px no-repeat #058bbc;cursor:pointer;}
+.clside{z-index:1}.clside .active a{background-color:#272727;}
+.clside li a{border-bottom:1px solid #686868;background:#585858;color:#fff;line-height:76px;
+    text-align:center;text-decoration:none;overflow:hidden;}
+.clside li a:hover{background:#272727}.csQuery{position:relative;overflow:hidden;padding:42px 0 50px 2px;cursor:pointer;}
+.csQuery .cslPic span{display:block;width:45px;height:45px;position:absolute;top:-50%;left:50%;margin:-22.5px 0 0 -22.5px;
+    overflow:hidden;background:url(../img/play.png) center no-repeat;}
+.cslPic,.csli{position:relative;overflow:hidden;}
+.csli{float:left;width:271px;height:255px;margin:0 8px 18px;padding:13px 13px 0;
+    box-shadow:2px 2px 2px #ddd,-2px -2px 2px #dadada;background:#fff;}
+.cslPic{width:273px;height:154px;margin:0 0 16px;font-size:0;line-height:0;background:#000;}
+.cslPic img{width:100%; height: 154px}.cslName{line-height:24px;color:#000;font-size:14px;text-decoration:none;}
+.cslDate{color:#929292;line-height:20px}.cslSum{padding:10px 0 44px;line-height:24px;color:#414141;}
+.chLeft,.cslLink{line-height:0;font-size:0;}
+.casedBottom,.casedTop{border-bottom:1px solid #7f6776;color:#fff;}
+.cslLink{position:absolute;right:0;bottom:0;width:126px;height:42px;
+    background:url(../img/case_qmore.png) center center no-repeat #4d4d4d;}
+.caseHeader{position:fixed;top:0;left:0;right:0;z-index:9;height:58px;
+    background:url(../img/case_header.png) left center repeat-x;}
+.caseHeaderWrap{width:1000px;height:56px;margin:0 auto;}
+.caseNext,.casePrev{float:left;margin:0 0 0 1px;}
+.caseList,.chLeft{float:left;}
+.caseList a{width:61px;height:53px;background:url(../img/side_show.png) center center no-repeat #000;}
+.caseNext a,.casePrev a{display:block;width:57px;height:53px;}
+.casePrev a{background:url(../img/case_arrow.png) 20px center no-repeat #000;}
+.caseNext a{background:url(../img/case_arrow.png) -36px center no-repeat #000;}
+.caseList:hover,.caseNext:hover,.casePrev:hover{background-color:#b70b2c;}
+.chRight{float:right;}
+.chRight li{position:relative;float:left;width:62px;height:53px;margin:0 1px 0 0;overflow:hidden;background:#000;}
+.chShareQz,.chShareTx,.chShareWb,.chShareWx{position:absolute;top:0;left:0;width:62px;height:106px;
+    background:url(../img/case_share.png) center top no-repeat;}
+.chShareWb{background-position:center top;}
+.chShareTx{background-position:center -106px;}
+.chShareQz{background-position:center -212px;}
+.chShareWx{background-position:center -318px;}
+.caseDetBanner{height:492px;position:relative;z-index:0;width:100%;overflow:hidden;}
+.caseDbinner{position:absolute;left:50%;width:1920px;margin-left:-960px;text-align:center;}
+.caseDetBody{margin:0 0 24px;padding:36px 0 0}.casedbWrap{width:1000px;margin:0 auto;}
+.casedTop{height:38px;padding:46px 162px 0;background:url(../img/case_logo.html) 50px 42px no-repeat;line-height:24px;}
+.casedList{padding:0;text-align:center;font-size:0;line-height:0;}
+.casedList img{width:100%;}
+.casedBottom{height:52px;padding:32px 162px 0;background:url(../img/case_logo.html) 50px 28px no-repeat;line-height:24px;}
+.openvideo{display:block !important;width:100% !important;height:100% !important;text-decoration:none !important;}
+@media screen and (max-width: 1460px) {
+    #clsideWrap {
+        position: fixed;left: 0px;
+        margin-left: 0px;
+    }
+}

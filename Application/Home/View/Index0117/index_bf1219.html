@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<link rel="shortcut icon" type="image/ico" href="../favicon.ico">
+<meta charset="utf-8">
+<title>动画街-杭州动画制作公司-创意动画视频制作-flash动漫设计制作-MG动画制作二维动画</title>
+<meta name="keywords" content="MG动画制作，flash动画，动画制作，杭州动漫设计公司，三维动画，3d动画制作，动画公司" />
+<meta name="description" content="杭州动画街动漫制作公司，是一家专业设计MG动画制作的企业，擅长领域包括flash动画，二维动画动漫，创意动画片，产品宣传片视频制作等。拥有别具风格的动画制作团队，制作出品多部优秀的MG动画案例，提供专业策划案，享受一线动画制作服务。" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/src/css/layerModel.css">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/src/css/public.css"/>
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/src/css/index.css"/>
+<script type="text/javascript" src="__PUBLIC__/Home/src/js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Home/src/js/zzsc.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?a0b3ecf9587b562feb1621827b5cf930";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https'){
+   bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+  }
+  else{
+  bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+  }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+</head>
+<body>
+<div class="header">
+	<div class="header_bar1" style="background-image: url(__PUBLIC__/Home/src/images/top-bj.jpg);">
+		<a class="bannerLogo" href="{$domain}">
+			<img src="__PUBLIC__/Home/src/images/bannerLogo.png">
+		</a>
+	</div>
+	<nav id="menu" class="menu">
+		<ul class="mwrap">
+			<li>
+				<a href="{$domain}" class="mlink active">
+					<span class="mname">首页</span>
+				</a>
+			</li>
+			<li>
+				 <a href="{$domain}/anli.html" class="mlink">
+					<span class="mname">作品案例</span>
+				</a>
+			</li>
+			<li>
+				 <a href="{$domain}/about.html" class="mlink">
+					<span class="mname">关于我们</span>
+				</a>
+			</li>
+			<li>
+				 <a href="{$domain}/circuit.html" class="mlink">
+					<span class="mname">服务流程</span>
+				</a>
+			</li>
+			<li>
+				 <a href="{$domain}/news.html" class="mlink">
+					<span class="mname">最新动态</span>
+				</a>
+			</li>
+			<li>
+				 <a href="http://www.donghuajie.com/contact.html" class="mlink">
+					<span class="mname">来撩我们</span>
+				</a>
+			</li>
+			<li>
+				<span class="dianhua">400-8656-770</span>
+			</li>
+			<li class="search-li">
+				<span class="ck-search"></span>
+				<form class="searchForm" action='{:U('Index/search')}' method='GET'>
+					<input type="text" name="search" placeholder="请输入查找内容" autocomplete='off' >
+					<button type="submit"></button>
+				</form>
+		   </li>
+		</ul>
+		<div class="mshadow"></div>
+	</nav>
+</div>    
+<div class="header_hr"></div>
+<!-- 轮播广告 -->
+<div id="banner_tabs" class="flexslider">
+	<ul class="slides">
+	<foreach name="res" item="vo">
+		<li>
+			<a title="" target="_blank" >
+				<img alt="" src="{$vo.ytpath}">
+			</a>
+		</li>
+	</foreach>	
+	</ul>
+	<ul class="flex-direction-nav">
+		<li><a class="flex-prev" href="javascript:;">Previous</a></li>
+		<li><a class="flex-next" href="javascript:;">Next</a></li>
+	</ul>
+	<div id="bannerCtrl" class="flex-control-nav flex-control-paging">
+	<foreach name="res" item="vo">
+		<span class="<?php if($key==0){echo 'active';}?>">{$vo.id}</span>
+	</foreach>
+	</div>
+</div>
+<script src="__PUBLIC__/Home/src/js/slider.js"></script>
+<script type="text/javascript">
+$(function() {
+	var bannerSlider = new Slider($('#banner_tabs'), {
+		time: 5000,
+		delay: 400,
+		event: 'hover',
+		auto: true,
+		mode: 'fade',
+		controller: $('#bannerCtrl'),
+		activeControllerCls: 'active'
+	});
+	$('#banner_tabs .flex-prev').click(function() {
+		bannerSlider.prev()
+	});
+	$('#banner_tabs .flex-next').click(function() {
+		bannerSlider.next()
+	});
+})
+</script>
+	<div class="service">
+		<ul id="service" class="serQuery">
+		<foreach name="service" item="vo">
+            <li class="serLi" data-url = "{$vo.path}">
+		        <div class="serWrap">
+			        <div class="serIco">
+			        	<img src="{$vo.ytpath}" alt="{$vo.text1}--{$vo.text2}--{$vo.text3}" title="{$vo.text1}--{$vo.text2}--{$vo.text3}" />
+			        </div>
+			        <div class="serIco-over">
+			        	<span>{$vo.title}</span>
+			        </div>
+			        <div class="serIntro">
+			        	<span></span>
+			        	{$vo.text1} <br/>{$vo.text2}<br/>{$vo.text3}
+			        	<span></span>
+			        </div>
+		        </div>
+	        </li>
+	        </foreach>
+           
+		</ul>
+	</div>
+	<div class="introShow">
+		<div class="icaseWrap">
+			<div class="icaseHeader">
+            	<a class="icaseDetLink" href="{$domain}/anli.html">MORE</a>
+				<div class="icaseName">项目案例</div>
+			</div>
+			<div id="caseSwitch" class="icaseBody">
+				<ul id="vlist" class="vlist">
+					<foreach name="video" item="vo">
+	                    <li class="icaserQuery" style="<?php if($key==0 || $key==4){echo 'margin-left: 0px;';}?>">
+					        <a href="{$domain}/anli/{$vo['id']}.html" target="_blank" class="icaserPic" data-title="<?php echo $vo['title']?>" data-url="{$vo.swf}" data-time="{$vo.createtime}" data-path="{$domain}/anli/{$vo['id']}.html" style='display: block;'>
+						        <img src="{$vo.sltpath}" title="<?php echo $vo['title']?>"  alt="<?php echo $vo['title']?>" />
+						        <span class="icaserMask"></span>
+						        <a class="icaserLink"  title="查看详情"></a>
+					        </a>
+					        <!--<a class="icaserTitle" href="{:U('Home/Index/video',array('id'=>$vo['id']))}" target="_blank"><strong><?php echo $vo['title']?></strong></a>-->
+					        <a class="icaserTitle" href="{$domain}/anli/{$vo['id']}.html" target="_blank"><strong><?php echo $vo['title']?></strong></a>
+					        <span class="icaserDate">{$vo.createtime}</span>
+				        </li>
+				    </foreach>    
+				</ul>
+			</div>
+		</div>
+		<div class="iaAndn">
+			<div id="iabout" class="iabout">
+				<div class="iaName">
+					<span  class="iaNameCn">关于我们</span>
+				</div>
+				<div class="iaHeader">
+					<!--
+					 <div class="iaBody">
+				        <div class="iaPic">
+	                    <a><img src="{$intro.sltpath}"/></a>
+					        <span class="iaPicMask"></span>
+					        <span class="iaPicName">{$intro.title}</span>
+				        </div>
+				        <div class="iaIntro">
+					        <h4 class="iaTitle">{$intro.title}</h4>
+					        <div class="iaContent">
+	                           {$intro.content}
+	                        </div>
+				        </div>
+			        </div>
+			        -->
+			        <div class="gywm-pic">
+			        	<img src="{$intro.sltpath}"/>
+			        </div>
+			        <div class="gywm-info">
+			        	<p class="gi-title">{$intro.title}</p>
+			        	<p class="gi-content">{$intro.content}</p>
+			        </div>
+				</div>
+				
+				<div class="iaCtrl"></div>
+			</div>
+			<div id="iNews" class="iNews">
+				<div class="inHeader">
+                	<!--<a class="inMore" href="{$domain}/news.html">更多</a>-->
+                	<a class="icaseDetLink" href="{$domain}/news.html">MORE</a>
+					<!--<a class="inNext" href="javascript:void(0);" title="下一页"></a>-->
+					<!--<a class="inPrev" href="javascript:void(0);" title="上一页"></a>-->
+					<span class="inNameCn">最新动态</span>					
+				</div>
+				<div class="inQueryWrap">
+					<ul class="inQuery"> 
+					<foreach name="news" item="val"> 					
+                    	<li class="inList clear">
+					        <div class="inImg fl"><a href="{$domain}/news/{$val['id']}.html" target="_blank"><img src="{$val.sltpath}" alt="文章"/></a></div>
+					       	<div class="fl">
+					       		<span class="inDate">{$val.addtime}</span>							
+						        <a href="{$domain}/news/{$val['id']}.html" target="_blank" class="inTitle" title="{$val.title}"><strong>{$val.title}</strong></a>
+						        <div class="inIntro" style="max-height: 56px; overflow: hidden;">{$val.description}</div>
+					       	</div>
+				        </li>
+				    </foreach>    
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+<!--	
+<div class="picLink">
+	<ul id="plQuery" class="plQuery">
+	<foreach name="but" item="vol">
+		<li class="plList"><a><img class="plGrey" src="{$vol.sltpath}"><img class="plColor" src="{$vol.src_hover}" title="{$vol.title}" alt="{$vol.title}"></a></li>
+	</foreach>
+	</ul>
+</div>
+-->
+<div class="dbpic">
+	<img src="__PUBLIC__/Home/src/img/db1.png"/>
+	<img src="__PUBLIC__/Home/src/img/db2.png"/>
+	<img src="__PUBLIC__/Home/src/img/db3.png"/>
+	<img src="__PUBLIC__/Home/src/img/db4.png"/>
+	<img src="__PUBLIC__/Home/src/img/db5.png"/>
+</div>
+<div class="webSite">
+	<ul class="wsLink">
+		<li class="wslList">
+			<span class="wslName">关于我们</span>
+			<ul class="wslcQuery">
+                <li> <a href="{$domain}/about.html" target="_blank">公司概况</a></li>		
+			</ul>
+		</li>
+		<li class="wslList">
+			<span class="wslName">服务项目</span>
+			<ul class="wslcQuery">
+				<li> <a href="{:U('/circuit')}" target="_blank">问题答疑</a></li>
+                <li> <a href="http://www.donghuajie.com/anli.html?type=23" target="_blank">二维动画</a></li>
+                <li> <a href="http://www.donghuajie.com/anli.html?type=22" target="_blank">三维动画</a></li>
+			</ul>
+		</li>
+		<li class="wslList">
+			<span class="wslName">新闻动态</span>
+			<ul class="wslcQuery">
+                <li> <a href="{$domain}/news.html" target="_blank">行业资讯</a></li>          	
+			</ul>
+		</li>
+		<li class="wslList">
+			<span class="wslName">联系我们</span>
+			<ul class="wslcQuery">
+					<li> <a href="{$domain}/contact.html" target="_blank">联系方式</a></li>
+                    <!-- <li> <a href="{$domain}/contact.html" target="_blank">需求提交</a></li>          		 -->
+			</ul>
+		</li>
+		<li class="fl wsLx">
+			<div class="clear marb35">
+				<div class="fl w93 marr15">联系电话：</div>
+				<div class="fl">
+					<p class="marb10">{$n['u_tel'][1]}&nbsp;&nbsp;&nbsp;{$n['u_name'][1]}</p>
+					<p>{$n['u_tel'][2]}&nbsp;&nbsp;&nbsp;{$n['u_name'][2]}</p>
+				</div>
+			</div>
+			<div class="clear"> 
+				<div class="fl w93 marr15"><img src="__PUBLIC__/Home/src/img/qq.jpg" alt="qq"></div>
+				<div class="fl">
+					<p class="marb10"><a style="color:#000;text-decoration:none;" href="tencent://message/?uin={$n['u_QQ'][1]}&Menu=yes" target="_blank">{$n['u_QQ'][1]}</a></p>
+					<p><a style="color:#000;text-decoration:none;" href="tencent://message/?uin={$n['u_QQ'][2]}&Menu=yes" target="_blank">{$n['u_QQ'][2]}</a></p>
+				</div>
+			</div>
+		</li>
+	</ul>
+</div>
+<div class="footer">
+	<p class="mart20">地址：浙江省杭州市未来科技城梦想小镇</p>
+	<p><span>© 2012-2017 www.donghuajie.com 版权所有 浙ICP备12033519号-2&nbsp;&nbsp;</span> 
+		<span id="link_more">友情链接</span></p>
+	<ul class="links clear" style="height: 0px;">
+        <foreach name="link" item="vo">               
+        	<li><a href="{$vo.wpath}" target="_blank">{$vo.wname}</a></li>
+        </foreach>
+        <!-- <li class="link_more link_more_2" id=""></li>	 -->
+    </ul>
+</div>
+<div class="gpc-t-box" id="gpc-t-box">
+  <div class="gpc-video-t">
+    <embed id="video-url" allowscriptaccess="always" allownetworking="all" allowfullscreen="true" width="670" height="377" type="application/x-shockwave-flash" src="">
+    </embed>
+  </div>
+  <div class="gpc-video-t2">
+     <div class="gpc-video-t2-lf">            
+           <p class="gpc-a1-8" id="gpc-info" style="font-size:12px; color:#999">2016-11-12 </p>
+     </div>
+     <div class="gpc-video-t2-rt">
+       <a class="gpc-a1-9" id="gpc-detail"  target="_blank">查看视频详情>></a>
+     </div>
+  </div>
+</div>	
+
+<div id="top"></div>
+<script type="text/javascript" src="__PUBLIC__/Home/src/js/TweenMax.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Home/src/js/public.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Home/src/js/jquery.layerModel.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Home/src/js/index.js"></script>	
+<script>
+	
+	$(".gpc-a1-9").click(function(){
+		  $('.layerModel_closeBtn').trigger('click');	  
+	});
+
+	(function(){
+        var link_more=1;  //1显示，2隐藏
+        $(document).on("click","#link_more",function(){
+            var _self=$(this),
+                obj=$(".footer .links");
+            if(link_more==1){   
+                link_more=2;
+                obj.css("height","auto");
+                _self.css("backgroundPosition","0px -20px");
+            }else if(link_more==2){
+                link_more=1;
+                obj.css("height","0px");
+                _self.css("backgroundPosition","0px 0px");
+            }
+        });
+    })();
+
+	$('.ck-search').click(function(){
+		$(this).hide();
+		$('.searchForm').toggle();
+	});
+
+</script>
+</body>
+</html>

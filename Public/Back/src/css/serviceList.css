@@ -1,0 +1,48 @@
+a{
+	color:#19a9d5;
+	text-decoration: none;
+}
+a:hover{
+	color:#DD233B;
+	text-decoration: none;
+}
+.ellipsis{
+	display: block !important;
+	white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.td-1,
+.td-2{
+	float: left;
+	width: 15%;
+	height: 100%;
+	text-align: center;
+	padding: 15px;
+	border-right: 1px dashed #E6E6E6;
+}
+.td-1 img,
+.td-2 img{
+	height:100%;
+}
+.w10{
+	width:10%;
+}
+.w20{
+	width:20%;
+}
+.w25{
+	width:25%;
+}
+.w40{
+	width:40%;
+}
+.nobr{
+	border:none;
+}
+.bg6{
+	width:60px;
+	height:60px;
+	margin: 0 auto;
+	background-color:#666;
+}

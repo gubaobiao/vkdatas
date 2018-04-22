@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta charset="utf-8">
+<title>动画街动态 杭州MG动画制作 创意广告视频 flash动画设计 产品动画制作</title>
+<meta name="keywords" content="杭州动画街，产品演示动画，二维动画，创意广告动画，杭州flash动画设计，品牌动画制作" />
+<meta name="description" content="杭州动画制作公司是集杭州影视制作公司业务为一体的杭州广告公司，我们使用设计、动画、特效及多种创新形式，以动态视觉语言对品牌与内容进行创意呈现。 并由动画导演、设计师、插画师、三维艺术家共同协作完成。" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/src/css/public.css"/>
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/src/css/news.css">
+</head>
+<body>
+<div class="header">
+	<div class="header_bar">
+		<h1 class="logo">
+			<a href="/"><img src="__PUBLIC__/Home/src/img/logo.png" title="首页" alt="首页"></a>
+		</h1>
+	</div>
+	<nav id="menu" class="menu">
+		<ul class="mwrap">
+			<li>
+				<a href="http://www.donghuajie.com" class="mlink">
+					<span class="mico mico_home"><i class="micoi"></i></span>
+					<span class="mname">首页</span>
+				</a>
+			</li>
+			<li>
+				 <a href="http://www.donghuajie.com/about.html" class="mlink">
+					<span class="mico mico_about"><i class="micoi"></i></span>
+					<span class="mname">关于</span>
+				</a>
+			</li>
+			<li>
+				 <a href="http://www.donghuajie.com/circuit.html" class="mlink">
+					<span class="mico mico_service"><i class="micoi"></i></span>
+					<span class="mname">流程</span>
+				</a>
+			</li>
+			<li>
+				 <a href="http://www.donghuajie.com/anli.html" class="mlink">
+					<span class="mico mico_case"><i class="micoi"></i></span>
+					<span class="mname">案例</span>
+				</a>
+			</li>
+			<li>
+				 <a href="http://www.donghuajie.com/news.html" class="mlink active">
+					<span class="mico mico_news"><i class="micoi"></i></span>
+					<span class="mname">动态</span>
+				</a>
+			</li>
+			<li>
+				 <a href="http://www.donghuajie.com/contact.html" class="mlink">
+					<span class="mico mico_contact"><i class="micoi"></i></span>
+					<span class="mname">联系</span>
+				</a>
+			</li>
+		</ul>
+		<div class="mshadow"></div>
+	</nav>
+</div> 
+<div class="header_hr"></div>
+	<div class="introShow">
+		<div class="nqBody">
+			<div id="nqType" class="nqType">
+				<ul id="nqtWrap" class="nqtWrap">
+	                <li><a>新闻资讯</a></li>
+	                <!-- <li><a href='hor/index.html'>行业资讯</a></li> -->
+				</ul>
+				<span class="nqpNameCn">动态</span>
+				<span class="nqpNameEn">NEWS</span>
+			</div>
+			<ul id="nqlWrap" class="nqlWrap">
+			<foreach name="news" item="vol">
+	            <li class="nqli">
+	            	<!--<a href="{:U('Home/Index/news1',array('id'=>$vol['id']))}" target="_blank" style="text-decoration: none;">-->
+	            	<a href="{$domain}/news/{$vol['id']}.html" target="_blank" style="text-decoration: none;">
+				        <div class="nqlDate"><span class="nqldDay"><?php echo substr($vol['addtime'],-2,2)?></span><span class="nqldMy"><?php echo substr($vol['addtime'],0,7)?></span></div>
+				        <div class="nqlTitle"><b>{$vol.title}</b></div>
+				        <div class="nqlSum" style="max-height: 90px; overflow: hidden;">{$vol.content}</div>
+				        <div class="nqlDetDate">{$vol.addtime}</div>
+			        </a>
+		        </li>	
+		    </foreach>				
+			</ul>
+			<div id="pageInfo" class="pagination">
+				<div class="pgWrap">
+					<div class="plRounded"></div>
+					<div class="prRounded"></div>
+					<div class="pgQuery">
+						<div id="pager1">{$page}</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<div class="picLink">
+	<ul id="plQuery" class="plQuery">
+		<foreach name="but" item="vol">
+		<li class="plList"><a><img class="plGrey" src="{$vol.sltpath}"><img class="plColor" src="{$vol.src_hover}" title="{$vol.title}" alt="{$vol.title}"></a></li>
+	</foreach>
+	</ul>
+</div>
+<div class="webSite">
+	<ul class="wsLink">
+		<li class="wslList">
+			<span class="wslName">关于我们</span>
+			<ul class="wslcQuery">
+                <li> <a href="{:U('Home/Index/about')}" target="_blank">公司概况</a></li>		
+			</ul>
+		</li>
+		<li class="wslList">
+			<span class="wslName">服务项目</span>
+			<ul class="wslcQuery">
+				<li> <a href="{:U('Home/Index/circuit')}" target="_blank">MG动画视频</a></li>
+                    <li> <a href="{:U('Home/Index/circuit')}" target="_blank">二维动画</a></li>
+                    <li> <a href="{:U('Home/Index/circuit')}" target="_blank">三维动画</a></li>		
+			</ul>
+		</li>
+		<li class="wslList">
+			<span class="wslName">新闻动态</span>
+			<ul class="wslcQuery">
+                <li> <a href="{:U('Home/Index/news')}" target="_blank">行业资讯</a></li>          	
+			</ul>
+		</li>
+		<li class="wslList">
+			<span class="wslName">联系我们</span>
+			<ul class="wslcQuery">
+					<li> <a href="{:U('Home/Index/contact')}" target="_blank">联系方式</a></li>
+                    <li> <a href="{:U('Home/Index/contact')}" target="_blank">需求提交</a></li>          		
+			</ul>
+		</li>
+		<li class="fl wsLx">
+			<div class="clear marb35">
+				<div class="fl w93 marr15">联系电话：</div>
+				<div class="fl">
+					<p class="marb10">{$n['u_tel'][1]}&nbsp;&nbsp;&nbsp;{$n['u_name'][1]}</p>
+					<p>{$n['u_tel'][2]}&nbsp;&nbsp;&nbsp;{$n['u_name'][2]}</p>
+				</div>
+			</div>
+			<div class="clear"> 
+				<div class="fl w93 marr15"><img src="__PUBLIC__/Home/src/img/qq.jpg" alt="qq"></div>
+				<div class="fl">
+					<p class="marb10"><a style="color:#000;text-decoration:none;" href="tencent://message/?uin={$n['u_QQ'][1]}&Menu=yes" target="_blank">{$n['u_QQ'][1]}</a></p>
+					<p><a style="color:#000;text-decoration:none;" href="tencent://message/?uin={$n['u_QQ'][2]}&Menu=yes" target="_blank">{$n['u_QQ'][2]}</a></p>
+				</div>
+			</div>
+		</li>
+	</ul>
+</div>
+<div class="footer"></div>
+<script type="text/javascript" src="__PUBLIC__/Home/src/js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Home/src/js/TweenMax.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Home/src/js/public.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Home/src/js/news.js"></script>  
+</body>
+</html>

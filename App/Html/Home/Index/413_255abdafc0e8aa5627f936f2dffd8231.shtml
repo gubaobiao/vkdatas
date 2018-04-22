@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=meta, minimum-scale=1.0">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="msapplication-TileColor" content="#000">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="email=no">
+    <meta name="renderer" content="webkit">
+    <meta name="keywords" content="三维动画制作,杭州动画宣传片,动画公司,创意动画,杭州动漫设计,影视动画" />
+    <meta name="description" content="现在的人们都追求时尚创意，对于一些比较传统的宣传方式都不是很感兴趣了。这一需求也是刺激着企业在制作宣传片的时候需要加入新的元素，制作出创意三维动画制作片，这样才能够吸引人们的眼球，从而达到宣传和推广的效果。那么在制作这种创意的宣传片的时候需要注意哪些方面的问题呢？" />
+    <link href="/Public/wap/css/swiper.min.css" rel="stylesheet">
+    <link href="/Public/wap/css/index.css" rel="stylesheet">
+    <title>为三维动画制作加入新的创意元素-动画街</title>
+    <script type="text/javascript">
+        function fontFun() {
+            var winW = document.documentElement.clientWidth;
+            document.documentElement.style.fontSize = (winW / 750 * 625) + "%";
+        }
+        fontFun();
+        window.onresize = fontFun; 
+    </script>
+</head>
+<body>
+    <!--头部-->
+    <div class="top">
+        <div class="logo"></div>
+        <div class="operate"></div>
+        <a href="javascript:history.go(-1)" class="back"></a>
+    </div>
+
+    <div class="mywrap2">
+        <div class="enws_img">
+            <img src="/Public/pic/84a57ac2afe7c29c1666c20c19a256b0.jpg" width="100%" />
+        </div>
+        <div class="content">
+            <div class="content_text">
+                <p class="p1">为三维动画制作加入新的创意元素</p>
+                <p class="p2">4天前</p>
+            </div>
+            <div class="p3"><p>现在的人们都追求时尚创意，对于一些比较传统的宣传方式都不是很感兴趣了。这一需求也是刺激着企业在制作宣传片的时候需要加入新的元素，制作出创意三维动画制作片，这样才能够吸引人们的眼球，从而达到宣传和推广的效果。那么在制作这种创意的宣传片的时候需要注意哪些方面的问题呢？</p><p><img  src="/upload/image/20180305/1520226995821777.jpg" title="1520226995821777.jpg" alt="1520226995821777.jpg" /></p><p>所以被称之为三维动画制作片，创意自然是其最基本的要求。要大胆的加入新的元素，以奇特的思想去吸引人们的注意力。但是所谓的创意并不是凭空臆想得来的，必须要贴合实际情况来表现。这也涉及到了创意三维动画制作片制作时需要把握的三个原则问题：务实原则、负责原则和现实的原则。<br/></p><p>虽然说是要有创意，但是创意的根本还是务实。只有结合企业的真实情况去拍摄宣传片才是有意义的，切记不能够夸大其词，无中生有。而负责的原则就是在进行创意的时候可以适当加入自己新奇的想法，但是并不是使企业变得花哨，要对企业负责，对创意负责，从而让创意实现其真正的价值。而所谓的现实原则，就是要贴合实际，根据企业本身的经济实力来进行拍摄，不要过分的消费，要贴合实际，进行现实的创意设计。<br/></p><p>这些都是三维动画制作片在制作时需要严格把握的问题，虽然是有创意，但也要结合实际才行，这样的宣传片才能够起到真正的效果，具有真正的现实意义。<br/></p><p><br/></p></div>
+        </div>
+        
+
+        <div class="share_block">
+            <div class="share"></div>
+        </div>
+        <div class="last">已经到底了</div>
+    </div>
+    <!--分享框-->
+    <div class="cover">
+        <div class="shareArea">
+            <div class="shareblock_one">
+                <p class="share_t1">分享</p>
+                <p class="share_t2">为三维动画制作加入新的创意元素</p>
+            </div>
+            
+            <div class="bdsharebuttonbox shareblock_two">
+                 
+                <div class="share_item">
+                    <a class="qq_block bds_qzone"  data-cmd="qzone" title="分享到QQ空间"></a>
+                    <span>QQ空间</span>
+                </div>
+                <div class="share_item">
+                    <a class="wb_block bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+                    <span>微博</span>
+                </div>
+                <div class="share_item ">
+                    <!-- <a class="wx_block bds_weixin" data-cmd="weixin" title="分享到微信"></a> -->
+                    <a class="wx_block"  title="分享到微信"></a>
+                    <span>朋友圈</span>
+                </div>
+            </div>
+            <div class="cancle_block">
+                <div class="cancle_btn">取消</div>
+            </div>
+        </div>
+    </div>
+    <div class="mycover">
+    <div class="dialog">
+        <div class="item_wap">
+            <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon one"></span>
+                <span class="item_text">首页</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com/worker.html">
+                <span class="item_icon two"></span>
+                <span class="item_text">作品案例</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com/wegot.html">
+                <span class="item_icon three"></span>
+                <span class="item_text">来撩我们</span>
+            </a>
+        </div>
+        <div class="item_wap">
+            <!-- <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon four"></span>
+                <span class="item_text">关于我们</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon five"></span>
+                <span class="item_text">服务流程</span>
+            </a> -->
+            <a class="item" href="http://m.donghuajie.com/news.html">
+                <span class="item_icon six"></span>
+                <span class="item_text">最新动态</span>
+            </a>
+        </div>
+    </div>
+</div>
+    <!--<a class="phone" href="tel:4008656770"></a>-->
+    <script src="/Public/wap/js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="/Public/wap/js/base.js"></script>
+    <script>
+        function resizepic(){}
+        $('.wx_block').click(function(){
+            window.alert('可是一使用浏览器分享,按钮分享给好友哦');
+        });
+        $('.cancle_btn,.share').click(function(){
+            $('.cover').stop(false,true).fadeToggle();
+        });
+        
+        // 点击空白处关闭分享
+        $(".cover").on('click',function(e){
+            var target = $(e.target);
+            if(target.closest('.shareArea').length == 0){
+                $('.cover').stop(false,true).fadeToggle();
+            }
+            e.stopPropagation();
+        });
+
+        // 回到顶部
+        $(".top").click(function() {
+            $('.mywrap2').scrollTop(0);
+        });
+    </script>
+    <script>
+        window._bd_share_config={
+            "common":{
+                bdText : '为三维动画制作加入新的创意元素',
+                bdDesc : '现在的人们都追求时尚创意，对于一些比较传统的宣传方式都不是很感兴趣了。这一需求也是刺激着企业在制作宣传片的时候需要加入新的元素，制作出创意三维动画制作片，这样才能够吸引人们的眼球，从而达到宣传和推广的效果。那么在制作这种创意的宣传片的时候需要注意哪些方面的问题呢？',
+                bdUrl : 'm.donghuajie.com/news/413.html',
+                bdPic : '/Public/slt/84a57ac2afe7c29c1666c20c19a256b0.jpg'
+            },
+            "share":{},
+            "image":{
+                "viewList":["qzone","tsina","tqq","renren","weixin"],
+                "viewText":"分享到：","viewSize":"16"
+            },
+            "selectShare":{
+                "bdContainerClass":null,
+                "bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]
+            }
+        };
+        with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+    </script>
+    <!--客服代码-->
+    <script>
+        (function() {var _53code = document.createElement("script");
+            _53code.src = "https://tb.53kf.com/code/code/10167819/2";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(_53code, s)
+            ;})();
+    </script>
+</body>
+</html>

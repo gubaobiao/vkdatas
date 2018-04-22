@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=meta, minimum-scale=1.0">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="msapplication-TileColor" content="#000">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="email=no">
+    <meta name="renderer" content="webkit">
+    <meta name="keywords" content="三维动画制作,创意动画,产品动画制作,杭州动漫设计,动画制作,杭州三维动画制作" />
+    <meta name="description" content="随 着现代电脑三维动画制作技术的高速发展，三维动画除了在电影三维动画领域有着非常广泛的应用外，现今广告行业其在产品展示" />
+    <link href="/Public/wap/css/swiper.min.css" rel="stylesheet">
+    <link href="/Public/wap/css/index.css" rel="stylesheet">
+    <title>三维动画制作在产品中的应用-动画街</title>
+    <script type="text/javascript">
+        function fontFun() {
+            var winW = document.documentElement.clientWidth;
+            document.documentElement.style.fontSize = (winW / 750 * 625) + "%";
+        }
+        fontFun();
+        window.onresize = fontFun; 
+    </script>
+</head>
+<body>
+    <!--头部-->
+    <div class="top">
+        <div class="logo"></div>
+        <div class="operate"></div>
+        <a href="javascript:history.go(-1)" class="back"></a>
+    </div>
+
+    <div class="mywrap2">
+        <div class="enws_img">
+            <img src="/Public/pic/30e166cdfcdfac95c564e77a8d80402b.jpg" width="100%" />
+        </div>
+        <div class="content">
+            <div class="content_text">
+                <p class="p1">三维动画制作在产品中的应用</p>
+                <p class="p2">6天前</p>
+            </div>
+            <div class="p3"><p>随 着现代电脑三维动画制作技术的高速发展，三维动画除了在电影三维动画领域有着非常广泛的应用外，现今广告行业其在产品展示方.</p><p><img  src="/upload/image/20180314/1521004612738640.jpg" title="1521004612738640.jpg" alt="1521004612738640.jpg" /></p><p>三维动画在产品展示广告中的应用，被称之为产品演示三维动画或者产品介绍动画。其主要是指通过三维动画演示的形式，把产品的外观、内部结构、特点、特征、原理、使用功能展示出来。让顾客更清楚、直观的去了解所展示的产品功能、外观。<br/></p><p>产品展示<a href="http://www.donghuajie.com" target="_self">三维动画制作</a>通过三维动画电脑技术的制作，通过电脑对产品模型的构建和相关动画的演示制作，节省了模型制作以及模型材料的浪费，很大程度上减少了资源浪费。产品展示三维动画利用电脑技术与动画制作及产品设计领域的结合，使得许多产品的数字模型代替了传统的模型，全方位360度的三维动态演示及推敲一定程度上代替了传统的实物模型推敲，高精度的仿真模拟实验也进一步取代了实际产品的实验室实验，进而缩短了产品开发周期，大大提升了产品的市场竞争力。具备了以上几个特性，产品展示三维动画增强了顾客与产品之间的互动。</p><p>通过产品三维虚拟展示，顾客可以更加方便，更加直观地了解产品的每一个相关细节，以及各部分的特征明细，通过一个传感设备与动画技术的结合，顾客可以对产品有着真实感的互动和体验，这样可以使用户更好地去体验新产品，和接受新产品。使产品的销售力度大大提高。产品展示三维动画是三维动画制作在产品展示领域的独特应用，对于详细介绍产品，方便客户了解，现在大量的影视广告内已加入产品展示三维动画来代替实拍场面，还有卡通三维人物结合实拍，使得广告片更生动可爱，让观众留下深刻的印象。<br/></p></div>
+        </div>
+        
+
+        <div class="share_block">
+            <div class="share"></div>
+        </div>
+        <div class="last">已经到底了</div>
+    </div>
+    <!--分享框-->
+    <div class="cover">
+        <div class="shareArea">
+            <div class="shareblock_one">
+                <p class="share_t1">分享</p>
+                <p class="share_t2">三维动画制作在产品中的应用</p>
+            </div>
+            
+            <div class="bdsharebuttonbox shareblock_two">
+                 
+                <div class="share_item">
+                    <a class="qq_block bds_qzone"  data-cmd="qzone" title="分享到QQ空间"></a>
+                    <span>QQ空间</span>
+                </div>
+                <div class="share_item">
+                    <a class="wb_block bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+                    <span>微博</span>
+                </div>
+                <div class="share_item ">
+                    <!-- <a class="wx_block bds_weixin" data-cmd="weixin" title="分享到微信"></a> -->
+                    <a class="wx_block"  title="分享到微信"></a>
+                    <span>朋友圈</span>
+                </div>
+            </div>
+            <div class="cancle_block">
+                <div class="cancle_btn">取消</div>
+            </div>
+        </div>
+    </div>
+    <div class="mycover">
+    <div class="dialog">
+        <div class="item_wap">
+            <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon one"></span>
+                <span class="item_text">首页</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com/worker.html">
+                <span class="item_icon two"></span>
+                <span class="item_text">作品案例</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com/wegot.html">
+                <span class="item_icon three"></span>
+                <span class="item_text">来撩我们</span>
+            </a>
+        </div>
+        <div class="item_wap">
+            <!-- <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon four"></span>
+                <span class="item_text">关于我们</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon five"></span>
+                <span class="item_text">服务流程</span>
+            </a> -->
+            <a class="item" href="http://m.donghuajie.com/news.html">
+                <span class="item_icon six"></span>
+                <span class="item_text">最新动态</span>
+            </a>
+        </div>
+    </div>
+</div>
+    <!--<a class="phone" href="tel:4008656770"></a>-->
+    <script src="/Public/wap/js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="/Public/wap/js/base.js"></script>
+    <script>
+        function resizepic(){}
+        $('.wx_block').click(function(){
+            window.alert('可是一使用浏览器分享,按钮分享给好友哦');
+        });
+        $('.cancle_btn,.share').click(function(){
+            $('.cover').stop(false,true).fadeToggle();
+        });
+        
+        // 点击空白处关闭分享
+        $(".cover").on('click',function(e){
+            var target = $(e.target);
+            if(target.closest('.shareArea').length == 0){
+                $('.cover').stop(false,true).fadeToggle();
+            }
+            e.stopPropagation();
+        });
+
+        // 回到顶部
+        $(".top").click(function() {
+            $('.mywrap2').scrollTop(0);
+        });
+    </script>
+    <script>
+        window._bd_share_config={
+            "common":{
+                bdText : '三维动画制作在产品中的应用',
+                bdDesc : '随 着现代电脑三维动画制作技术的高速发展，三维动画除了在电影三维动画领域有着非常广泛的应用外，现今广告行业其在产品展示',
+                bdUrl : 'm.donghuajie.com/news/428.html',
+                bdPic : '/Public/slt/30e166cdfcdfac95c564e77a8d80402b.jpg'
+            },
+            "share":{},
+            "image":{
+                "viewList":["qzone","tsina","tqq","renren","weixin"],
+                "viewText":"分享到：","viewSize":"16"
+            },
+            "selectShare":{
+                "bdContainerClass":null,
+                "bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]
+            }
+        };
+        with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+    </script>
+    <!--客服代码-->
+    <script>
+        (function() {var _53code = document.createElement("script");
+            _53code.src = "https://tb.53kf.com/code/code/10167819/2";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(_53code, s)
+            ;})();
+    </script>
+</body>
+</html>

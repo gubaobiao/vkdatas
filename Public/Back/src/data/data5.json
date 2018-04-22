@@ -1,0 +1,11 @@
+{
+	"count": 6,
+	"data": [
+		{"number":"6","title":"营养800网","type":"公司动态","path": "yingyang800.xyz", "time": "2017-10-10","status": 1,"release_path":"http://www.kanqiye.com","cancel_path":"http://www.kanqiye.com","delete_path":"http://www.kanqiye.com","update_path":"companyNewsUpdate.html","will_path":"companyNewsUpdate.html"},
+		{"number":"5","title":"杨梅","type":"行业新闻","path": "www.qiseshou123.com", "time": "2017-10-10","status": 2,"release_path":"http://www.kanqiye.com","cancel_path":"http://www.kanqiye.com","delete_path":"http://www.kanqiye.com","update_path":"companyNewsUpdate.html","will_path":"companyNewsUpdate.html"},
+		{"number":"4","title":"足球跟单软件","type":"公司动态","path": "www.lxgd88.com", "time": "2017-10-10","status": 1,"release_path":"http://www.kanqiye.com","cancel_path":"http://www.kanqiye.com","delete_path":"http://www.kanqiye.com","update_path":"companyNewsUpdate.html","will_path":"companyNewsUpdate.html"},
+		{"number":"3","title":"郑州牛皮癣医院","type":"行业新闻","path": "www.zzpfb0371.com", "time": "2017-10-10","status": 2,"release_path":"http://www.kanqiye.com","cancel_path":"http://www.kanqiye.com","delete_path":"http://www.kanqiye.com","update_path":"companyNewsUpdate.html","will_path":"companyNewsUpdate.html"},
+		{"number":"2","title":"印度易瑞沙","type":"公司动态","path": "yinduyiruisha.com", "time": "2017-10-10","status": 2,"release_path":"http://www.kanqiye.com","cancel_path":"http://www.kanqiye.com","delete_path":"http://www.kanqiye.com","update_path":"companyNewsUpdate.html","will_path":"companyNewsUpdate.html"},
+		{"number":"1","title":"客厅摆件工艺品","type":"行业新闻","path": "www.1cdx.com", "time": "2017-10-10","status": 1,"release_path":"http://www.kanqiye.com","cancel_path":"http://www.kanqiye.com","delete_path":"http://www.kanqiye.com","update_path":"companyNewsUpdate.html","will_path":"companyNewsUpdate.html"}
+	]
+}

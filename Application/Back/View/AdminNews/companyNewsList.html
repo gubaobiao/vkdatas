@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>companyNewsList</title>
+<link rel="stylesheet" href="__PUBLIC__/Back/src/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Back/src/css/public.css">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Back/src/css/serviceList.css">
+<script src="__PUBLIC__/Back/src/js/jquery-1.9.1.min.js"></script>
+<script src="__PUBLIC__/Back/src/bootstrap/js/bootstrap.min.js"></script>
+<script src="__PUBLIC__/Back/src/layer/layer.js"></script>
+</head>
+<body>
+<div id="kqy_main">
+	<div class="kqy_content" id="topic">
+		<a class="addBtn" id="addBtn" onclick="window.parent.creatIframe(this,event)" data-src="{:U('Back/AdminNews/companyNewsAdd')}" href="{:U('Back/AdminNews/companyNewsAdd')}" data-title="增加公司动态">增加</a>
+		<input id="search" type="text" name="search" />
+		<span class="search-btn" id="search-btn">搜索</span>
+		<div class="box_head">
+			<div class="td-2 w10">序号</div>
+			<div class="td-2">标题</div>
+			<div class="td-2">类型</div>
+			<div class="td-2 w10">查看</div>
+			<div class="td-2 w20">时间</div>
+			<div class="td-2 w10">状态</div>
+			<div class="td-2 nobr w20">操作</div>
+		</div>
+		<div id="box-container"></div>
+	</div>
+	<div id="page"></div>
+</div>
+<script src="__PUBLIC__/Back/src/js/kqy_paging.js"></script>
+<script type="text/javascript">
+
+	function domList(data,count,page){ // 初始化列表/分页显示列表
+		var j = 0;
+			obj = $('#box-container'),
+			startNum = count - (page - 1) * 5; // 每页开始的序列号,5为每个显示个数
+			obj.html("");
+		$.each(data,function(i, d){
+			var html = '<div class="box animated">';
+				html+= '<div class="td-2 w10">';
+				html+= '<span>'+(startNum-j)+'</span></div>';
+				html+= '<div class="td-2">';
+				html+= '<span>'+d.title+'</span></div>';
+				html+= '<div class="td-2">';
+				html+= '<span>'+d.type+'</span></div>';
+				html+= '<div class="td-2 w10">';
+				html+= '<a href="'+d.path+'">查看</a></div>';
+				html+= '<div class="td-2 w20">';
+				html+= '<span>'+d.time+'</span></div>';
+				html+= '<div class="td-2 w10">';
+				html+= (d.status == 1)? '<span>已发布</span></div>': '<span>未发布</span></div>'; 
+				html+= '<div class="td-2 nobr w20">';
+				html+= (d.status == 1)? '<a href="'+d.cancel_path+'">取消发布</a>': '<a href="'+d.release_path+'">发布</a>'; 
+				html+= '<a class="update" href="'+d.update_path+'" data-src="'+d.will_path+'" data-title="修改公司动态" onclick="window.parent.creatIframe(this,event)">修改</a>';
+				html+= '<a href="'+d.delete_path+'"><i class="kqy_icon kqy_icon_remove"></i></a></div></div>';
+				obj.append(html);
+				j++;
+		});
+
+		var $content = $('.box');
+		for (var i = 0; i < $content.length; i++) {
+			(function($this,i){
+				setTimeout(function(){
+					$this.addClass('fadeInUp');
+				},i*200)
+			})($($content[i]),i)
+		};
+	}
+
+	function ajaxPage(page){ // 分页
+		PAGING=page;
+		var sum=5; // 每页显示个数
+		$.ajax({
+			type:"post",
+			url:"{:U('Back/AdminNews/newsList')}",
+			data:{page:page,sum:5},
+			dataType:'json',
+			success:function(data){
+				if(data.data.length==0){
+					location.reload();
+				}else{
+					domList(data.data,data.count,PAGING);
+					pages(page,sum,data.count); // 当前页数，每页显示个数，总条数
+				}
+			},
+			error:function(msg){
+				layer.msg('加载失败', {icon: 2,time:1000});
+			} 
+		})
+	};
+
+	ajaxPage(PAGING);
+
+	$('#search-btn').click(function(){ // 搜索
+		var t = $('#search').val(),
+			sum=5; // 每页显示个数
+			PAGING = 1;
+		$.ajax({
+			type: 'POST',
+			url: "{:U('Back/AdminNews/newsList')}",
+			data: {text:t},
+			dataType:'json',
+			success: function(data){
+				if(data.status == 2) return layer.msg('没有条该数据', {icon:2,time:1000});
+				domList(data.data,data.count,PAGING);
+				pages(PAGING,sum,data.count); // 当前页数，每页显示个数，总条数
+			}
+		})
+	});
+</script>
+</body>
+</html>

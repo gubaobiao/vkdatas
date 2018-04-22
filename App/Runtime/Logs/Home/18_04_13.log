@@ -1,0 +1,18 @@
+[ 2018-04-13T09:31:55+08:00 ] 47.104.50.29 /circuit.html
+ERR: 非法操作:circuit
+
+[ 2018-04-13T18:00:00+08:00 ] 47.104.50.29 /about.html
+ERR: 非法操作:about
+
+[ 2018-04-13T19:28:03+08:00 ] 47.104.50.11 /index/videoclick.html
+ERR: 非法操作:videoclick
+
+[ 2018-04-13T21:51:30+08:00 ] 140.205.9.29 /news/Public/Home/src/images/weixin.png
+ERR: 1054:Unknown column 'Public' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `dhj_news` WHERE ( id=Public ) LIMIT 1  
+ERR: 1054:Unknown column 'Public' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `dhj_news` WHERE ( id=Public ) LIMIT 1  
+
+[ 2018-04-13T22:38:19+08:00 ] 140.205.9.32 /circuit.html
+ERR: 非法操作:circuit
+

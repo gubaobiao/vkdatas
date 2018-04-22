@@ -1,0 +1,37 @@
+.active .mico_news .micoi{top: -270px; }
+.nqBody{width: 1257px; margin:0 auto; padding:40px 0 0 40px;  }
+.nqType{position: relative; overflow: hidden; height: 54px; margin: 0 0 28px; padding: 0 0 0 20px; background: #ffffff; }
+.nqtWrap{float: right; overflow: hidden; }
+.nqtWrap li{float: left; }
+.nqtWrap li a{display: block; height: 51px; padding: 0 23px; border-bottom: 3px solid #ffffff; line-height: 54px; color: #505050; text-decoration: none; }
+.nqtWrap li a:hover{color: #058bbc; }
+.nqpNameCn{line-height: 54px; color: #555555; font-size: 14px; }
+.nqpNameEn{margin: 0 0 0 4px; line-height: 54px; color: #c6c6c6; font-size: 14px; }
+.nqUnderline{position: absolute; bottom: 0; right: 0; height: 3px; background: #058bbc; width: 72px; }
+.nqlWrap{padding: 0 0 17px; }
+.nqli{position: relative; margin: 0 0 25px; padding: 20px 34px 26px 42px; background: #ffffff; }
+.nqlDate{position: absolute; top: 0; left: -78px; width: 78px; height: 114px; background: #787878 url(../img/news_clock.png) no-repeat center 78px; }
+.nqldDay{display: block; font-size: 36px; color: #ffffff; text-align: center; line-height: 50px; }
+.nqldMy{display: block; font-size: 13px; color: #bababa; text-align: center; line-height: 24px; }
+.nqlTitle{font-size: 14px; color: #000000; line-height: 32px; text-decoration: none; }
+.nqli:hover .nqlTitle{color: #ec173a; }
+.nqlSum{padding: 12px 0 16px; line-height: 24px; color: #616161; }
+.nqlDetDate{line-height: 24px; color: #616161; }
+.ndBody{width: 1257px; margin: 38px auto 0; padding: 0 0 20px;  }
+.ndContent{position: relative; padding: 42px 26px 48px; background: #ffffff; }
+.ndTitle{text-align: center; font-size: 24px; color: #212121; line-height: 36px; }
+.ndInfo{padding: 0 0 28px; border-bottom: 1px dotted #848484; text-align: center; line-height: 24px; }
+.ndili{margin: 0 14px; }
+.ndIntro{margin: 0 0 42px; padding: 34px 0 40px; border-bottom: 1px dotted #848484; line-height: 2em; color: #6f6f6f; }
+.ndLabel{padding: 0 0 6px; line-height: 24px; color: #000000; }
+.ndLabel a{margin: 0 6px; color: #3f3f3f; text-decoration: none; }
+.ndLabel a:hover{color: #058bbc; }
+.prevAnext{line-height: 24px; color: #3f3f3f; }
+.prevAnext li a{margin: 0 0 0 14px; color: #3f3f3f; text-decoration: none; }
+.prevAnext li a:hover{color: #058bbc; }
+.ndBottom{overflow: hidden; }
+.ndBack{float: right; width: 75px; height: 32px; background: #b3b3b3; color: #ffffff; line-height: 32px; text-align: center; text-decoration: none; }
+.ndBack:hover{background: #058bbc; }
+.ndShare{height: 36px; padding: 10px 0 0; line-height: 36px; }
+.ndShareLabel{vertical-align: middle; }
+.introShow{padding-bottom:20px;min-height: 440px;}

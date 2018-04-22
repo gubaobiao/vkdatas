@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=meta, minimum-scale=1.0">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="msapplication-TileColor" content="#000">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="email=no">
+    <meta name="renderer" content="webkit">
+    <meta name="keywords" content="动画制作,动画公司,创意动画,产品动画制作,杭州动漫设计,动画制作" />
+    <meta name="description" content="动画制作在医疗领域方面，晦涩难懂的机械原理与人体内部结构是一个企业在推广方面的难题。而通过三维动画模拟，强悍的立体感使得平时肉眼看不见或实拍拍不着的人体内部世界、细胞的微观世界，都能生动、形象地呈现在人们面前。" />
+    <link href="/Public/wap/css/swiper.min.css" rel="stylesheet">
+    <link href="/Public/wap/css/index.css" rel="stylesheet">
+    <title>动画制作在三维动画可以为医疗领域带来什么？-动画街</title>
+    <script type="text/javascript">
+        function fontFun() {
+            var winW = document.documentElement.clientWidth;
+            document.documentElement.style.fontSize = (winW / 750 * 625) + "%";
+        }
+        fontFun();
+        window.onresize = fontFun; 
+    </script>
+</head>
+<body>
+    <!--头部-->
+    <div class="top">
+        <div class="logo"></div>
+        <div class="operate"></div>
+        <a href="javascript:history.go(-1)" class="back"></a>
+    </div>
+
+    <div class="mywrap2">
+        <div class="enws_img">
+            <img src="/Public/pic/60d18293db7574a376ccabc632102600.jpg" width="100%" />
+        </div>
+        <div class="content">
+            <div class="content_text">
+                <p class="p1">动画制作在三维动画可以为医疗领域带来什么？</p>
+                <p class="p2">2017年11月10日</p>
+            </div>
+            <div class="p3"><p>动画制作在医疗领域方面，晦涩难懂的机械原理与人体内部结构是一个企业在推广方面的难题。而通过三维动画模拟，强悍的立体感使得平时肉眼看不见或实拍拍不着的人体内部世界、细胞的微观世界，都能生动、形象地呈现在人们面前。</p><p><img  src="/upload/image/20171110/1510283540299759.jpg" title="1510283540299759.jpg" alt="timg (70).jpg" /></p><p>凭借着逼真形象的特质，三维动画在医疗企业宣传片、产品展示、广告等方面得以应用。医疗器械的运行操作与工作原理、人体结构的分析、内部器官的展示、药物带来的化学反应与生理改变，一些现实生活中不好描述的原理，都能借助三维动画的高仿真能力惟妙惟肖地展现出来。 在医疗教学中，对于一些抽象、复杂的现象，例如心脏血液的流动方向，老师掏心地表达换来的还是学生的不理解？别伤心！三维动画能将这些看不见摸不着的主体物与动态过程具体化、形象化，呈现出事物现象的本质特征，语音难以表达的画面不再是难题，形象的画面让学生更易理解记忆。</p><p><a href="http://www.donghuajie.com/" target="_self">动画制作</a>在医学研究与临床中，三维动画多角度、多层面的动态视频打破沟通屏障，逼真的模型也为医疗手段的开发提供了交流的手段，医师可通过三维动画模拟的病人病变部位，对其进行剖析研究。此外，三维动画可以突破时空模仿一些静态图像与现场难以呈现的人类生命现象，例如心跳、呼吸等运动状态，再通过对治疗过程进行科学的动画还原，为病例剖析与治疗方案提供“预演”机会，找出方案中不足的地方与错误操作并加以改善，降低风险。 而这些医疗过程三维演示动画，也能将医疗情况展现在患者面前，让患者对医疗过程有一个初步的理解，解决医生与患者之间的沟通困难，也减少了患者对于手术中未知因素带来的恐惧。</p><p><br/></p></div>
+        </div>
+        
+
+        <div class="share_block">
+            <div class="share"></div>
+        </div>
+        <div class="last">已经到底了</div>
+    </div>
+    <!--分享框-->
+    <div class="cover">
+        <div class="shareArea">
+            <div class="shareblock_one">
+                <p class="share_t1">分享</p>
+                <p class="share_t2">动画制作在三维动画可以为医疗领域带来什么？</p>
+            </div>
+            
+            <div class="bdsharebuttonbox shareblock_two">
+                 
+                <div class="share_item">
+                    <a class="qq_block bds_qzone"  data-cmd="qzone" title="分享到QQ空间"></a>
+                    <span>QQ空间</span>
+                </div>
+                <div class="share_item">
+                    <a class="wb_block bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+                    <span>微博</span>
+                </div>
+                <div class="share_item ">
+                    <!-- <a class="wx_block bds_weixin" data-cmd="weixin" title="分享到微信"></a> -->
+                    <a class="wx_block"  title="分享到微信"></a>
+                    <span>朋友圈</span>
+                </div>
+            </div>
+            <div class="cancle_block">
+                <div class="cancle_btn">取消</div>
+            </div>
+        </div>
+    </div>
+    <div class="mycover">
+    <div class="dialog">
+        <div class="item_wap">
+            <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon one"></span>
+                <span class="item_text">首页</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com/worker.html">
+                <span class="item_icon two"></span>
+                <span class="item_text">作品案例</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com/wegot.html">
+                <span class="item_icon three"></span>
+                <span class="item_text">来撩我们</span>
+            </a>
+        </div>
+        <div class="item_wap">
+            <!-- <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon four"></span>
+                <span class="item_text">关于我们</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon five"></span>
+                <span class="item_text">服务流程</span>
+            </a> -->
+            <a class="item" href="http://m.donghuajie.com/news.html">
+                <span class="item_icon six"></span>
+                <span class="item_text">最新动态</span>
+            </a>
+        </div>
+    </div>
+</div>
+    <!--<a class="phone" href="tel:4008656770"></a>-->
+    <script src="/Public/wap/js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="/Public/wap/js/base.js"></script>
+    <script>
+        function resizepic(){}
+        $('.wx_block').click(function(){
+            window.alert('可是一使用浏览器分享,按钮分享给好友哦');
+        });
+        $('.cancle_btn,.share').click(function(){
+            $('.cover').stop(false,true).fadeToggle();
+        });
+        
+        // 点击空白处关闭分享
+        $(".cover").on('click',function(e){
+            var target = $(e.target);
+            if(target.closest('.shareArea').length == 0){
+                $('.cover').stop(false,true).fadeToggle();
+            }
+            e.stopPropagation();
+        });
+
+        // 回到顶部
+        $(".top").click(function() {
+            $('.mywrap2').scrollTop(0);
+        });
+    </script>
+    <script>
+        window._bd_share_config={
+            "common":{
+                bdText : '动画制作在三维动画可以为医疗领域带来什么？',
+                bdDesc : '动画制作在医疗领域方面，晦涩难懂的机械原理与人体内部结构是一个企业在推广方面的难题。而通过三维动画模拟，强悍的立体感使得平时肉眼看不见或实拍拍不着的人体内部世界、细胞的微观世界，都能生动、形象地呈现在人们面前。',
+                bdUrl : 'm.donghuajie.com/news/221.html',
+                bdPic : '/Public/slt/60d18293db7574a376ccabc632102600.jpg'
+            },
+            "share":{},
+            "image":{
+                "viewList":["qzone","tsina","tqq","renren","weixin"],
+                "viewText":"分享到：","viewSize":"16"
+            },
+            "selectShare":{
+                "bdContainerClass":null,
+                "bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]
+            }
+        };
+        with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+    </script>
+    <!--客服代码-->
+    <script>
+        (function() {var _53code = document.createElement("script");
+            _53code.src = "https://tb.53kf.com/code/code/10167819/2";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(_53code, s)
+            ;})();
+    </script>
+</body>
+</html>

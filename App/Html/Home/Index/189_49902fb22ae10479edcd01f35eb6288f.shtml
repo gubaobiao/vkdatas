@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=meta, minimum-scale=1.0">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="msapplication-TileColor" content="#000">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="email=no">
+    <meta name="renderer" content="webkit">
+    <meta name="keywords" content="动画宣传片,动画公司,杭州动漫设计,影视动画,动画制作,杭州三维动画制作" />
+    <meta name="description" content="很多企业负责人都了解产品宣传的重要性，怎样才能做好宣传方式有很多，在这其中产品宣传动画就是一种非常新颖的方式。" />
+    <link href="/Public/wap/css/swiper.min.css" rel="stylesheet">
+    <link href="/Public/wap/css/index.css" rel="stylesheet">
+    <title>动画宣传片需要注意的三个细节-动画街</title>
+    <script type="text/javascript">
+        function fontFun() {
+            var winW = document.documentElement.clientWidth;
+            document.documentElement.style.fontSize = (winW / 750 * 625) + "%";
+        }
+        fontFun();
+        window.onresize = fontFun; 
+    </script>
+</head>
+<body>
+    <!--头部-->
+    <div class="top">
+        <div class="logo"></div>
+        <div class="operate"></div>
+        <a href="javascript:history.go(-1)" class="back"></a>
+    </div>
+
+    <div class="mywrap2">
+        <div class="enws_img">
+            <img src="/Public/pic/54c85a634a26b913d8ffb61005fa075e.jpg" width="100%" />
+        </div>
+        <div class="content">
+            <div class="content_text">
+                <p class="p1">动画宣传片需要注意的三个细节</p>
+                <p class="p2">2017年10月29日</p>
+            </div>
+            <div class="p3"><p>很多企业负责人都了解产品宣传的重要性，怎样才能做好宣传方式有很多，在这其中产品宣传动画就是一种非常新颖的方式。这种不同于传统的推广方式，迅速让企业提高了知名度，塑造出了良好的市场形象。在进行动画宣传片的制作时，我们需要在细节上注意哪些问题呢？下面这三点你不可不知道。</p><p><img  src="/upload/image/20171026/1508987664936801.jpg" title="1508987664936801.jpg" alt="timg (39).jpg" /></p><p>①画面要清晰<br/></p><p>这是制作动画宣传片的最基本要求，在呈现企业面貌与产品特色时，画面一定要保证清晰，不可出现画面模糊或倾斜，或镜头抖动等状况。</p><p>②镜头切换要流畅<br/></p><p>动画宣传片，镜头是流动的，其中产品宣传动画的制作人员对节奏的掌握尤其重要。每个镜头的切换需要什么样的速度，快或者慢，都需要根据企业宣传内容的需要做出适当的调整。如果调整不适当，可能会影响到观看效果，那么整体效果就大打折扣了。</p><p>③解说词要得体<br/></p><p>做出优质的动画宣传片，不仅需要精致的画面与流畅的镜头，更需要在解说词上做到专业得体。晦涩的专业词语可能会让观众退避三舍，但是又需要将自己的专业能力表现出来，因此在解说词的编写上要使口语化与专业性相结合，既明确表达出专业优势，又能让大众容易接受。</p><p>总而言之，产品宣传动画就是一个不断经过讨论与修改的过程，想要获得最好的效果，就要寻找专业有实力的产品宣传动画公司来做，这样才会有更多保障。<br/></p><p><br/></p></div>
+        </div>
+        
+
+        <div class="share_block">
+            <div class="share"></div>
+        </div>
+        <div class="last">已经到底了</div>
+    </div>
+    <!--分享框-->
+    <div class="cover">
+        <div class="shareArea">
+            <div class="shareblock_one">
+                <p class="share_t1">分享</p>
+                <p class="share_t2">动画宣传片需要注意的三个细节</p>
+            </div>
+            
+            <div class="bdsharebuttonbox shareblock_two">
+                 
+                <div class="share_item">
+                    <a class="qq_block bds_qzone"  data-cmd="qzone" title="分享到QQ空间"></a>
+                    <span>QQ空间</span>
+                </div>
+                <div class="share_item">
+                    <a class="wb_block bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+                    <span>微博</span>
+                </div>
+                <div class="share_item ">
+                    <!-- <a class="wx_block bds_weixin" data-cmd="weixin" title="分享到微信"></a> -->
+                    <a class="wx_block"  title="分享到微信"></a>
+                    <span>朋友圈</span>
+                </div>
+            </div>
+            <div class="cancle_block">
+                <div class="cancle_btn">取消</div>
+            </div>
+        </div>
+    </div>
+    <div class="mycover">
+    <div class="dialog">
+        <div class="item_wap">
+            <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon one"></span>
+                <span class="item_text">首页</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com/worker.html">
+                <span class="item_icon two"></span>
+                <span class="item_text">作品案例</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com/wegot.html">
+                <span class="item_icon three"></span>
+                <span class="item_text">来撩我们</span>
+            </a>
+        </div>
+        <div class="item_wap">
+            <!-- <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon four"></span>
+                <span class="item_text">关于我们</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon five"></span>
+                <span class="item_text">服务流程</span>
+            </a> -->
+            <a class="item" href="http://m.donghuajie.com/news.html">
+                <span class="item_icon six"></span>
+                <span class="item_text">动画资讯</span>
+            </a>
+        </div>
+    </div>
+</div>
+    <!--<a class="phone" href="tel:4008656770"></a>-->
+    <script src="/Public/wap/js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="/Public/wap/js/base.js"></script>
+    <script>
+        function resizepic(){}
+        $('.wx_block').click(function(){
+            window.alert('可是一使用浏览器分享,按钮分享给好友哦');
+        });
+        $('.cancle_btn,.share').click(function(){
+            $('.cover').stop(false,true).fadeToggle();
+        });
+        
+        // 点击空白处关闭分享
+        $(".cover").on('click',function(e){
+            var target = $(e.target);
+            if(target.closest('.shareArea').length == 0){
+                $('.cover').stop(false,true).fadeToggle();
+            }
+            e.stopPropagation();
+        });
+
+        // 回到顶部
+        $(".top").click(function() {
+            $('.mywrap2').scrollTop(0);
+        });
+    </script>
+    <script>
+        window._bd_share_config={
+            "common":{
+                bdText : '动画宣传片需要注意的三个细节',
+                bdDesc : '很多企业负责人都了解产品宣传的重要性，怎样才能做好宣传方式有很多，在这其中产品宣传动画就是一种非常新颖的方式。',
+                bdUrl : 'm.donghuajie.com/news/189.html',
+                bdPic : '/Public/slt/54c85a634a26b913d8ffb61005fa075e.jpg'
+            },
+            "share":{},
+            "image":{
+                "viewList":["qzone","tsina","tqq","renren","weixin"],
+                "viewText":"分享到：","viewSize":"16"
+            },
+            "selectShare":{
+                "bdContainerClass":null,
+                "bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]
+            }
+        };
+        with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+    </script>
+    <!--客服代码-->
+    <script>
+        (function() {var _53code = document.createElement("script");
+            _53code.src = "https://tb.53kf.com/code/code/10167819/2";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(_53code, s)
+            ;})();
+    </script>
+</body>
+</html>

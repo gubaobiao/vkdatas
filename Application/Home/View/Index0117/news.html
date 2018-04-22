@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta charset="utf-8">
+<title>动画街动态-杭州MG动画制作-创意广告视频-flash动画设计-产品动画制作</title>
+<meta name="keywords" content="{$seoWord['title']},{$seoWord.keywords}" />
+<meta name="description" content="{$seoWord.description}" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/src/css/public.css"/>
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/src/css/news.css">
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https'){
+   bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+  }
+  else{
+  bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+  }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+</head>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?a0b3ecf9587b562feb1621827b5cf930";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<body>
+<div class="header">
+	<div class="header_bar1" style="background-image: url(__PUBLIC__/Home/src/images/top-bj.jpg);">
+		<a class="bannerLogo" href="{$domain}">
+			<img src="__PUBLIC__/Home/src/images/bannerLogo.png">
+		</a>
+	</div>
+	<nav id="menu" class="menu">
+		<ul class="mwrap">
+			<li>
+				<a href="{$domain}" class="mlink">
+					<span class="mname">首页</span>
+				</a>
+			</li>
+			<li>
+				 <a href="{$domain}/anli.html" class="mlink">
+					<span class="mname">作品案例</span>
+				</a>
+			</li>
+			<li>
+				 <a href="{$domain}/about.html" class="mlink">
+					<span class="mname">关于我们</span>
+				</a>
+			</li>
+			<li>
+				 <a href="{$domain}/circuit.html" class="mlink">
+					<span class="mname">服务流程</span>
+				</a>
+			</li>
+			<li>
+				 <a href="{$domain}/news.html" class="mlink active">
+					<span class="mname">最新动态</span>
+				</a>
+			</li>
+			<li>
+				 <a href="{$domain}/contact.html" class="mlink">
+					<span class="mname">来撩我们</span>
+				</a>
+			</li>
+			<li>
+				<span class="dianhua">400-8656-770</span>
+			</li>
+			<li class="search-li">
+				<span class="ck-search"></span>
+				<form class="searchForm" action='{:U('Index/search')}' method='GET'>
+					<input type="text" name="search" placeholder="请输入查找内容" autocomplete='off' >
+					<button type="submit"></button>
+				</form>
+			</li>
+		</ul>
+		<div class="mshadow"></div>
+	</nav>
+</div> 
+<div class="header_hr"></div>
+	<div class="introShow">
+		<div class="nqBody">
+			<div id="nqType" class="nqType">
+				<ul id="nqtWrap" class="nqtWrap">
+	                <li><a>新闻资讯</a></li>
+	                <!-- <li><a href='hor/index.html'>行业资讯</a></li> -->
+				</ul>
+				<span class="nqpNameCn">动态</span>
+				<span class="nqpNameEn">NEWS</span>
+			</div>
+			<ul id="nqlWrap" class="nqlWrap">
+			<foreach name="news" item="vol">
+	            <li class="nqli">
+	            	<!--<a href="{:U('Home/Index/news1',array('id'=>$vol['id']))}" target="_blank" style="text-decoration: none;">-->
+	            	<a href="{$domain}/news/{$vol['id']}.html" target="_blank" style="text-decoration: none;">
+				        <div class="nqlDate"><span class="nqldDay"><?php echo substr($vol['addtime'],-2,2)?></span><span class="nqldMy"><?php echo substr($vol['addtime'],0,7)?></span></div>
+				        <div class="nqlTitle"><b>{$vol.title}</b></div>
+				        <div class="nqlSum" style="max-height: 90px; overflow: hidden;">{$vol.content}</div>
+				        <div class="nqlDetDate">{$vol.addtime}</div>
+			        </a>
+		        </li>	
+		    </foreach>				
+			</ul>
+			<div id="pageInfo" class="pagination">
+				<div class="pgWrap">
+					<div class="plRounded"></div>
+					<div class="prRounded"></div>
+					<div class="pgQuery">
+						<div id="pager1">{$page}</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<div class="picLink">
+	<ul id="plQuery" class="plQuery">
+		<foreach name="but" item="vol">
+		<li class="plList"><a><img class="plGrey" src="{$vol.sltpath}"><img class="plColor" src="{$vol.src_hover}" title="{$vol.title}" alt="{$vol.title}"></a></li>
+	</foreach>
+	</ul>
+</div>
+<div class="webSite">
+	<ul class="wsLink">
+		<li class="wslList">
+			<span class="wslName">关于我们</span>
+			<ul class="wslcQuery">
+                <li> <a href="{:U('/about')}" target="_blank">公司概况</a></li>
+			</ul>
+		</li>
+		<li class="wslList">
+			<span class="wslName">服务项目</span>
+			<ul class="wslcQuery">
+				<li> <a href="{:U('/circuit')}" target="_blank">MG动画视频</a></li>
+                    <li> <a href="{:U('/circuit')}" target="_blank">二维动画</a></li>
+                    <li> <a href="{:U('/circuit')}" target="_blank">三维动画</a></li>
+			</ul>
+		</li>
+		<li class="wslList">
+			<span class="wslName">新闻动态</span>
+			<ul class="wslcQuery">
+                <li> <a href="{:U('/news')}" target="_blank">行业资讯</a></li>
+			</ul>
+		</li>
+		<li class="wslList">
+			<span class="wslName">联系我们</span>
+			<ul class="wslcQuery">
+					<li> <a href="{:U('/contact')}" target="_blank">联系方式</a></li>
+                    <li> <a href="{:U('/contact')}" target="_blank">需求提交</a></li>
+			</ul>
+		</li>
+		<li class="fl wsLx">
+			<div class="clear marb35">
+				<div class="fl w93 marr15">联系电话：</div>
+				<div class="fl">
+					<p class="marb10">{$n['u_tel'][1]}&nbsp;&nbsp;&nbsp;{$n['u_name'][1]}</p>
+					<p>{$n['u_tel'][2]}&nbsp;&nbsp;&nbsp;{$n['u_name'][2]}</p>
+				</div>
+			</div>
+			<div class="clear"> 
+				<div class="fl w93 marr15"><img src="__PUBLIC__/Home/src/img/qq.jpg" alt="qq"></div>
+				<div class="fl">
+					<p class="marb10"><a style="color:#000;text-decoration:none;" href="tencent://message/?uin={$n['u_QQ'][1]}&Menu=yes" target="_blank">{$n['u_QQ'][1]}</a></p>
+					<p><a style="color:#000;text-decoration:none;" href="tencent://message/?uin={$n['u_QQ'][2]}&Menu=yes" target="_blank">{$n['u_QQ'][2]}</a></p>
+				</div>
+			</div>
+		</li>
+	</ul>
+</div>
+<div class="footer"></div>
+<div id="top"></div>
+<script type="text/javascript" src="__PUBLIC__/Home/src/js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Home/src/js/zzsc.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Home/src/js/TweenMax.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Home/src/js/public.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Home/src/js/news.js"></script>  
+<script>
+	$('.ck-search').click(function(){
+		$(this).hide();
+		$('.searchForm').toggle();
+	});
+</script>
+<script>(function() {var _53code = document.createElement("script");_53code.src = "https://tb.53kf.com/code/code/10167819/2";var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(_53code, s);})();</script>
+</body>
+</html>

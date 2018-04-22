@@ -1,0 +1,14 @@
+/*
+count:总条数
+data:列表数据文章
+number:排序
+title:文章标题
+type:文章类型
+path:文章地址
+time:时间
+status:是否发布的状态（1:表示发布，2：未发布）
+release_path:发布的路径
+cancel_path:取消发布的路径
+update_path:修改的路径
+delete_path:删除的路径
+*/

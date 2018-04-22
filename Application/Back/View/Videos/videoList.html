@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>videoList</title>
+<link rel="stylesheet" href="__PUBLIC__/Back/src/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Back/src/css/public.css">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Back/src/css/serviceList.css">
+<script src="__PUBLIC__/Back/src/js/jquery-1.9.1.min.js"></script>
+<script src="__PUBLIC__/Back/src/bootstrap/js/bootstrap.min.js"></script>
+<script src="__PUBLIC__/Back/src/layer/layer.js"></script>
+<style>
+	.w5{
+		width:5%;
+	}
+	.box_head, .box{
+		width:1250px;
+	}
+</style>
+</head>
+<body>
+<div id="kqy_main">
+	<div class="kqy_content" id="topic">
+		<a class="addBtn" id="addBtn" onclick="window.parent.creatIframe(this,event)" href="{:U('Back/Videos/videosAdd')}" data-src="{:U('Back/Videos/videoAdd')}" data-title="新增视频">增加</a>
+		<div class="box_head">
+			<div class="td-2 w10">序列</div>
+			<div class="td-2">标题</div>
+			<div class="td-2">类型</div>
+			<div class="td-2 w10">查看</div>
+			<div class="td-2 w10">时间</div>
+			<div class="td-2 w10">排序</div>
+			<div class="td-2 w10">状态</div>
+			<div class="td-2 nobr">操作</div>
+		</div>
+		<div id="box-container"></div>
+	</div>
+	<div id="page"></div>
+</div>
+<script src="__PUBLIC__/Back/src/js/kqy_paging.js"></script>
+<script type="text/javascript">
+
+	function domList(data,count,page){ // 初始化列表/分页显示列表
+		var j = 0;
+			obj = $('#box-container'),
+			startNum = count- (page - 1) * 5; // 每页开始的序列号,5为每个显示个数
+			obj.html("");
+
+		$.each(data,function(i, d){
+			var html = '<div class="box animated">';
+				html+= '<div class="td-2 w10">';
+				html+= '<span>'+(startNum-j)+'</span></div>';
+				html+= '<div class="td-2">';
+				html+= '<span>'+d.title+'</span></div>';
+				html+= '<div class="td-2">';
+				html+= '<span>'+d.type+'</span></div>'
+				html+= '<div class="td-2 w10">';
+				html+= '<a href="'+d.path+'">查看</a></div>';
+				html+= '<div class="td-2 w10">';
+				html+= '<span>'+d.time+'</span></div>';
+				html+= '<div class="td-2 w10">';
+				html+= '<span class="id" data-id="'+d.id+'">'+d.rank+'</span></div>';
+				html+= '<div class="td-2 w10">';
+				html+= (d.status == 1)? '<span>已发布</span></div>': '<span>未发布</span></div>'; 
+				html+= '<div class="td-2 nobr">';
+				html+= (d.status == 1)? '<a href="'+d.cancel_path+'">取消发布</a>': '<a href="'+d.release_path+'">发布</a>'; 
+				html+= '<a class="update" href="'+d.will_path+'" data-src="'+d.update_path+'" data-title="修改视频" onclick="window.parent.creatIframe(this,event)">修改</a>';
+				html+= '<a href="'+d.delete_path+'"><i class="kqy_icon kqy_icon_remove"></i></a></div></div>';
+				obj.append(html);
+				j++;
+		});
+
+		var $content = $('.box');
+		for (var i = 0; i < $content.length; i++) {
+			(function($this,i){
+				setTimeout(function(){
+					$this.addClass('fadeInUp');
+				},i*200)
+			})($($content[i]),i)
+		};
+	}
+
+	function ajaxPage(page){ // 分页
+		PAGING=page;
+		var sum=5; // 每页显示个数
+		$.ajax({
+			type:"post",
+			url:"{:U('Back/Videos/video_show')}",
+			data:{page:page,sum:5},
+			dataType:'json',
+			success:function(data){
+				if(data.data.length==0){
+					location.reload();
+				}else{
+					domList(data.data,data.count,PAGING);
+					pages(page,sum,data.count); // 当前页数，每页显示个数，总条数
+				}
+			},
+			error:function(msg){
+				layer.msg('加载失败', {icon: 2,time:1000});
+			} 
+		})
+	};
+
+	ajaxPage(PAGING);
+
+	$(function() {  
+		$(document).on('click',".id",function() { 
+
+			var objTD = $(this); 
+
+			//先将老的类别名称保存起来,并用trim方法去掉左右多余的空格 
+			var oldText = $.trim(objTD.text()); 
+
+			//构造一个input的标签对象（作用是为了让这个input失效，不然点击多次后，文字会消失） 
+			var input = $("<input type='text' value='" + oldText + "' />"); 
+
+			//当前td的内容变为文本框，并且把老类别名放进去 
+			objTD.html(input); 
+
+			//设置文本框的点击事件失效 
+			input.click(function() { 
+			return false; 
+			}); 
+
+			//设置文本框样式，让界面显示的人性化点 
+			input.css({"font-size": "12px","text-align": "center","background-color": "#ffffff",'width': '50px','height': '20px','line-height': '20px', 'padding': '0', 'border-radius': '0'}); 
+
+			//自动选中文本框中的文字 
+			input.select(); 
+
+			//文本框失去焦点时重新变为文本 
+			input.blur(function() { 
+
+				//获得新输入的类别名 
+				var newText = $(this).val(); 
+
+				//用新的类别名文字替换之前变过来的输入框状态 
+				objTD.html(newText);
+
+				if(oldText != newText){
+					var video_id = objTD.attr('data-id');
+					$.ajax({
+						type: 'POST',
+						url: "{:U('Videos/resort')}",
+						data: {rank: newText, id: video_id},
+						dataType: 'json',
+						success: function(data){
+							data.status == 1 ? alert('修改成功！') : alert('修改失败');
+						}
+					})
+				}	
+			});	
+		});	 
+	});	
+</script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+{
+	"count": 2,
+	"data":[
+		{"type":"公司动态","num":30,"time":"2017-4-13","update_path":"industryUpdate.html","delete_path":"industryList.html","will_path":"industryUpdate.html"},
+		{"type":"行业新闻","num":50,"time":"2017-4-13","update_path":"industryUpdate.html","delete_path":"industryList.html","will_path":"industryUpdate.html"}
+	]
+}

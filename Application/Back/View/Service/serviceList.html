@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>serviceList</title>
+<link rel="stylesheet" href="__PUBLIC__/Back/src/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Back/src/css/public.css">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Back/src/css/serviceList.css">
+<script src="__PUBLIC__/Back/src/js/jquery-1.9.1.min.js"></script>
+<script src="__PUBLIC__/Back/src/bootstrap/js/bootstrap.min.js"></script>
+<script src="__PUBLIC__/Back/src/layer/layer.js"></script>
+</head>
+<body>
+<div id="kqy_main">
+	<div class="kqy_content" id="topic">
+		<a class="addBtn" id="addBtn" onclick="window.parent.creatIframe(this,event)" data-title="新增服务介绍" data-src="{:U('Back/Service/serviceAdd')}" href="{:U('Back/Service/serviceAdd')}">增加</a>
+		<div class="box_head">
+			<div class="td-1 w10">图片</div>
+			<div class="td-2">标题</div>
+			<div class="td-2">内容</div>
+			<div class="td-2">跳转链接</div>
+			<div class="td-2 w10">时间</div>
+			<div class="td-2 w10">排序</div>
+			<div class="td-2 w10">状态</div>
+			<div class="td-2 nobr">操作</div>
+		</div>
+		<div id="box-container"></div>
+	</div>
+	<div id="page"></div>
+</div>
+<script src="__PUBLIC__/Back/src/js/kqy_paging.js"></script>
+<script type="text/javascript">
+
+	function domList(data){ // 初始化列表/分页显示列表
+		var obj = $('#box-container');
+			obj.html("");
+
+		$.each(data,function(i, d){
+			var html = '<div class="box animated">';
+				html+= '<div class="td-1 w10">';
+				html+= '<p class="bg6"><img src="'+'../../'+d.src+'"/></p></div>';
+				html+= '<div class="td-2">';
+				html+= '<span class="ellipsis">'+d.title+'</span></div>';
+				html+= '<div class="td-2">';
+				html+= d.text1+'<br/>'+d.text2+'<br/>'+d.text3+'</div>';
+				html+= '<div class="td-2">';
+				html+= '<a class="ellipsis" href="'+d.path+'" target="_blank">'+d.path+'</a></div>';
+				html+= '<div class="td-2 w10">';
+				html+= '<span>'+d.time+'</span></div>';
+				html+= '<div class="td-2 w10">';
+				html+= '<span>'+d.rank+'</span>';
+				html+= '<a href="'+d.up_path+'"><i class="kqy_icon kqy_icon_up"></i></a>';
+				html+= '<a href="'+d.down_path+'"><i class="kqy_icon kqy_icon_down"></i></a></div>';
+				html+= '<div class="td-2 w10">';
+				html+= (d.status == 1)? '<span>已发布</span></div>': '<span>未发布</span></div>'; 
+				html+= '<div class="td-2 nobr">';
+				html+= (d.status == 1)? '<a href="'+d.cancel_path+'">取消发布</a>': '<a href="'+d.release_path+'">发布</a>'; 
+				html+= '<a class="update" data-src="'+d.will_path+'" data-title="修改服务介绍" href="'+d.update_path+'" onclick="window.parent.creatIframe(this,event)" >修改</a>';
+				html+= '<a href="'+d.delete_path+'" data-src="'+d.self_path+'"><i class="kqy_icon kqy_icon_remove"></i></a></div></div>';
+				obj.append(html);
+		});
+
+		var $content = $('.box');
+		for (var i = 0; i < $content.length; i++) {
+			(function($this,i){
+				setTimeout(function(){
+					$this.addClass('fadeInUp');
+				},i*200)
+			})($($content[i]),i)
+		};
+	}
+
+	function ajaxPage(page){ // 分页
+		PAGING=page;
+		var sum=5; // 每页显示个数
+		$.ajax({
+			type:"post",
+			url:"{:U('Back/Service/serList')}",
+			// data:{page:page,sum:5},
+			dataType:'json',
+			success:function(data){
+				if(data.data.length==0){
+					location.reload();
+				}else{
+					domList(data.data);
+					pages(page,sum,data.count); // 当前页数，每页显示个数，总条数
+				}
+			},
+			error:function(msg){
+				layer.msg('加载失败', {icon: 2,time:1000});
+			} 
+		})
+	};
+
+	ajaxPage(PAGING);
+</script>
+</body>
+</html>

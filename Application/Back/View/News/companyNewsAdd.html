@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>添加</title>
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Back/src/css/add.css">
+<!--touxiang-->
+<link rel="stylesheet" href="__PUBLIC__/Back/src/bootstrap/assets/css/font-awesome.min.css">
+<link href="__PUBLIC__/Back/src/bootstrap/cropper.min.css" rel="stylesheet">
+<link href="__PUBLIC__/Back/src/bootstrap/sitelogo.css" rel="stylesheet">
+<script type="text/javascript" src="__PUBLIC__/Back/src/js/jquery-1.9.1.min.js"></script>
+<script src="__PUBLIC__/Back/src/bootstrap/cropper.js"></script>
+<script src="__PUBLIC__/Back/src/bootstrap/sitelogo.js"></script>
+
+<script type="text/javascript" charset="utf-8" src="__PUBLIC__/Back/src/js/nxeditor/ueditor.config.js"></script>
+<script type="text/javascript" charset="utf-8" src="__PUBLIC__/Back/src/js/nxeditor/ueditor.all.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="__PUBLIC__/Back/src/js/nxeditor/lang/zh-cn/zh-cn.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Back/src/laydate/laydate.js"></script>
+<script type="text/javascript" charset="utf-8" src="__PUBLIC__/Back/src/js/select.js"></script>
+<style type="text/css">
+.worklabel input{
+	width: 140px;
+	height: 32px;
+}
+.rightMain .width678 {
+    margin-left: 5px;
+}
+.btn{
+	width: 96px;
+}
+.btns {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}	
+.btn{
+	background-color: deepskyblue;
+}		
+
+
+.select_box{display: inline-block;*display: inline;*zoom:1;min-width: 290px;height: 40px;position: relative;border: 1px solid #CCCCCC;border-radius: 5px;padding-left: 15px;padding-right: 25px;margin-right: 20px;cursor:pointer;background: url(__PUBLIC__/Back/src/images/caret.png) no-repeat 90% 50%;background-color:#fff;}
+.select_box .top{overflow: hidden;height: 100%;padding-right: 20px;line-height: 40px;font-size: 14px;color:#2E2E2E;}
+.select_box ul{display: none;max-height:210px;width: 100%;overflow: auto;position: absolute;top:38px;left: 0;background: #fff;z-index: 1000;}
+.select_box ul li{padding-left:15px;height: 30px;line-height: 30px;font-size: 12px;border: 1px solid #CCCCCC;border-top: 0}
+.select_box ul li:nth-child(1){border: 1px solid #CCCCCC;}
+.select_box ul li.active,
+.select_box ul li:hover{background: #19a9d5;color:#fff;}
+.mart15{margin-top: 15px;}
+.avatar-form{margin:0;padding:0;}
+.middle{margin-top:0 !important;margin-bottom:0 !important;}
+.marl10{
+	margin-left: 10px !important;
+}
+</style>
+</head>
+<body>
+<form action="{:U('Back/News/aadd')}" method="post" id="form">
+	<div class="mart30"><span class="w80">标题</span><input id="n_title" type="text" name="title" /></div>
+	<div class="mart30 clear">
+		<sapn class="w80 fl mart15">类型</sapn>
+		<div class="select_box">
+			<input id="v_type" type="hidden" name="type" value="">
+			<div class="top">请选择分类</div>
+			<ul>
+				<li class="active" data-id="">请选择分类</li>
+				<foreach name="info" item="vo">
+				<li data-id="{$vo.id}">{$vo.type_name}</li>
+				</foreach>
+			</ul>
+		</div>
+	</div>
+	<div class="mart30">
+		<span class="w80">封面图片</span><button class="btns btn-primary" id="pics"  type="button" data-toggle="modal" data-target="#avatar-modal" >请选择图片</button>
+		<input id="fileFM" type="hidden" name="pic">
+		<span>建议尺寸：100*50&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;建议类型：jpg</span>
+	</div>
+	<div class="mart30">
+		<span class="w80">内容详情</span><button class="btns btn-primary"  type="button" style="height: 35px;margin-bottom: 3px;" onclick="baiduimg(this)" data-toggle="modal" data-target="#avatar-modal" >请选择图片</button>
+	</div>
+	<div  class="mart30" ><textarea id="editor_id" name="content" style="width:900px;height:450px;margin-left:80px;"></textarea></div>
+	<div class="mart30"><span class="w80">关键字</span><input id="keyword" style="width:600px;" type="text" name="keyword" /></div>
+	<div class="mart30"><span class="w80">内容描述</span><textarea id="description" name="description" style="width:600px;min-height:100px;"></textarea></div>
+	<div class="mart30"><span class="w80">添加定时发布</span><input class="middle timer" id="yes" name="timer" type="radio"><label class="middle" for="yes">添加</label><input class="middle marl10 timer" id="no" name="timer" type="radio" checked="checked"><label class="middle" for="no">不添加</label><input class="laydate-icon marl10" id="timer" value="" /></div>
+	<button id="button" type="button">确定</button> 
+</form>
+
+<div class="modal fade" id="avatar-modal" aria-hidden="true" aria-labelledby="avatar-modal-label" role="dialog" tabindex="-1">
+	<div class="modal-dialog modal-lg" style="width: 1200px;">
+		<div class="modal-content" >
+			<form class="avatar-form">
+				<div class="modal-header">
+					<button class="close" data-dismiss="modal" type="button">&times;</button>
+					<h4 class="modal-title" id="avatar-modal-label">上传图片</h4>
+				</div>
+				<div class="modal-body">
+					<div class="avatar-body">
+						<div class="avatar-upload">
+							<input class="avatar-src" name="avatar_src" type="hidden">
+							<input class="avatar-data" name="avatar_data" type="hidden">
+							<label for="avatarInput" style="line-height: 35px;">图片上传</label>
+							<button class="btns btn-primary"  type="button" style="height: 35px;" onclick="$('input[id=avatarInput]').click();">请选择图片</button>
+							<span id="avatar-name"></span>
+							<input class="avatar-input hide" id="avatarInput" name="avatar_file" type="file" accept="image/jpeg,image/jpg,image/png"></div>
+						<div class="row">
+							<div class="col-md-8">
+								<div class="avatar-wrapper" data-type=""></div>
+							</div>
+							<div class="col-md-4">
+								<div class="avatar-preview preview-lg" id="imageHead"  style="width: 364px;height: 205px;"></div>
+								<div  style="width: 100px;height:10px; overflow: auto;opacity: 0;position: fixed; top: 80px;left: 0;">
+									<div id="imageHeads" class="avatar-preview preview-lg" style="width: 800px !important;height: 450px !important; ">
+										
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row avatar-btns">
+							<div class="col-md-4"></div>
+							<div class="col-md-5" style="text-align: right;">					
+								<button class="btns btn-primary fa fa-arrows" data-method="setDragMode" data-option="move" type="button" title="移动">
+					            <span class="docs-tooltip" data-toggle="tooltip" title="" data-original-title="$().cropper(&quot;setDragMode&quot;, &quot;move&quot;)">
+					            </span>
+					          </button>
+					          <button type="button" class="btns btn-primary fa fa-search-plus" data-method="zoom" data-option="0.1" title="放大图片">
+					            <span class="docs-tooltip" data-toggle="tooltip" title="" data-original-title="$().cropper(&quot;zoom&quot;, 0.1)">
+					              <!--<span class="fa fa-search-plus"></span>-->
+					            </span>
+					          </button>
+					          <button type="button" class="btns btn-primary fa fa-search-minus" data-method="zoom" data-option="-0.1" title="缩小图片">
+					            <span class="docs-tooltip" data-toggle="tooltip" title="" data-original-title="$().cropper(&quot;zoom&quot;, -0.1)">
+					              <!--<span class="fa fa-search-minus"></span>-->
+					            </span>
+					          </button>
+					          <button type="button" class="btns btn-primary fa fa-refresh" data-method="reset" title="重置图片">
+						            <span class="docs-tooltip" data-toggle="tooltip" title="" data-original-title="$().cropper(&quot;reset&quot;)" aria-describedby="tooltip866214">
+						       </button>
+					        </div>
+							<div class="col-md-3">
+								<button class="btns btn-primary btn-block avatar-save fa fa-save" type="button" data-dismiss="modal"> 保存修改</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>  
+<!--touxiang-->
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Back/src/bootstrap/css/bootstrap.css"/>
+<script src="__PUBLIC__/Back/src/bootstrap/js/bootstrap.js" type="text/javascript" charset="utf-8"></script>
+<script src="__PUBLIC__/Back/src/bootstrap/html2canvas.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="__PUBLIC__/Back/src/bootstrap/printscreen.js"></script>    
+ <script type="text/javascript"> 
+    $("#pics").on("click",function(){
+		$(".fa-save").removeClass("baiduimg");
+	});
+
+    function baiduimg(a){
+		$(".fa-save").addClass("baiduimg");
+	};
+
+	function imagesAjaxs(url){ // 文章详情图片ajax
+		$.post("",{"url":url},function(data){
+			if(data.status==1){
+				alert("请在编译器在线图片里查看");
+			}else{
+				alert("上传失败");
+			}
+		},"json")
+	}
+
+</script>  	
+<script>
+(function(){
+	var ue = UE.getEditor('editor_id',{
+	 autoFloatEnabled: false,elementPathEnabled:false,wordCount:false,saveInterval:5000000,autoHeightEnabled:false,	
+	});
+
+	laydate({
+		elem: '#timer',
+		  format: 'YYYY-MM-DD hh:mm:ss', // 分隔符可以任意定义，该例子表示只显示年月
+		  festival: true, //显示节日
+		  istime: true
+	});
+
+	$('.timer').click(function(){ // 显示/隐藏选择时间插件
+		var self = $(this);
+		$(this).attr('id') == 'yes' ? $('#timer').fadeIn(200) : $('#timer').fadeOut(200);
+	})
+
+	$('#button').click(function(){ // 提交表单
+		if($.trim($('#n_title').val()) == '') return alert('请填写标题！');
+		if($('#v_type').val() == '') return alert('请选择类型');
+		if($('#fileFM').val() == '') return alert('请上传图片');
+		if(!UE.getEditor('editor_id').hasContents()) return alert('请填写文章内容');
+		if($.trim($('#keyword').val()) == '') return alert('请填写关键字！');
+		if($.trim($('#description').val()) == '') return alert('请填写内容描述！');
+
+		$('#form').submit(); 
+	});
+})();
+	
+</script>
+</body>
+</html>

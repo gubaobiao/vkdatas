@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=meta, minimum-scale=1.0">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="msapplication-TileColor" content="#000">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="email=no">
+    <meta name="renderer" content="webkit">
+    <meta name="keywords" content="二维动画制作,杭州动画宣传片,动画公司,产品动画制作,杭州动漫设计,杭州三维动画制作" />
+    <meta name="description" content="大家都知道一个公司的良好形象能给公司带来的不仅仅是良好的经济效益，同时还可以扩大公司的知名度，增加投资或合作者地好感和信心；可以吸引更多人才加入，激发职工的敬业精神，创造更高的效率。那么一个优异的二维动画也能带来巨大影响。" />
+    <link href="/Public/wap/css/swiper.min.css" rel="stylesheet">
+    <link href="/Public/wap/css/index.css" rel="stylesheet">
+    <title>良好的二维动画制作对于公司的帮助-动画街</title>
+    <script type="text/javascript">
+        function fontFun() {
+            var winW = document.documentElement.clientWidth;
+            document.documentElement.style.fontSize = (winW / 750 * 625) + "%";
+        }
+        fontFun();
+        window.onresize = fontFun; 
+    </script>
+</head>
+<body>
+    <!--头部-->
+    <div class="top">
+        <div class="logo"></div>
+        <div class="operate"></div>
+        <a href="javascript:history.go(-1)" class="back"></a>
+    </div>
+
+    <div class="mywrap2">
+        <div class="enws_img">
+            <img src="/Public/pic/0e450d0e7ec383566b100f6fa3d2ca3b.jpg" width="100%" />
+        </div>
+        <div class="content">
+            <div class="content_text">
+                <p class="p1">良好的二维动画制作对于公司的帮助</p>
+                <p class="p2">21小时前</p>
+            </div>
+            <div class="p3"><p>大家都知道一个公司的良好形象能给公司带来的不仅仅是良好的经济效益，同时还可以扩大公司的知名度，增加投资或合作者地好感和信心；可以吸引更多人才加入，激发职工的敬业精神，创造更高的效率。那么一个优异的二维动画也能带来巨大影响。</p><p><img  src="/upload/image/20180417/1523944146361423.jpg" title="1523944146361423.jpg" alt="timg.jpg" /></p><p>对于公司来讲，营销是公司成功最为重要的环节之一。有人这样评价营销对于公司的重要性。任何一个公司只做两件事情，第一是生产一个产品，第二是把产品卖出去。可以说，把产品买出去，营销是公司的生命线。 　　要把产品卖出去，首先就是需要让客户了解你的产品。在这样一个信息高速发展的时代，客户每天都会接触到很多同类的产品信息，如何在最短地时间内，最有效地让客户了解公司产品的详细特点、优势、与众不同之处就成为公司营销的重要手段。天橙传媒的策划方案，能够很好的为客户提供一种增值服务。</p><p><a href="http://www.donghuajie.com" target="_self">二维动画制作</a>作为展示公司的工具，固然不能取代营销在开拓市场时所起到的作用，但它也可以作为公司营销的重要补充。 二维动画汇集视听语言于一身，可以从视觉和听觉两方面来展示公司及其产品。其本身所具有的直观性和概括性的特点也使其较之单一而传统的营销手段更具有优势。因此，当传统的营销手段在得到二维动画的辅助时自然可以扬长避短，既使得营销行为更加得生动直观，也使得宣传片的宣传更加深入有力。因此，有了一部好的宣传片的辅助，营销也将更具成效。</p><p>二维动画还有一些其他的用途这些用途中比较主要而直接的有： 促销现场、项目洽谈、会展活动、竞标、招商、产品发布会、统一渠道中产品形象及宣传模式等。可以说宣传片可以贯穿在公司生产和营销的多个环节中，对公司的商业运营起到重要的辅助作用。</p><p><br/></p></div>
+        </div>
+        
+
+        <div class="share_block">
+            <div class="share"></div>
+        </div>
+        <div class="last">已经到底了</div>
+    </div>
+    <!--分享框-->
+    <div class="cover">
+        <div class="shareArea">
+            <div class="shareblock_one">
+                <p class="share_t1">分享</p>
+                <p class="share_t2">良好的二维动画制作对于公司的帮助</p>
+            </div>
+            
+            <div class="bdsharebuttonbox shareblock_two">
+                 
+                <div class="share_item">
+                    <a class="qq_block bds_qzone"  data-cmd="qzone" title="分享到QQ空间"></a>
+                    <span>QQ空间</span>
+                </div>
+                <div class="share_item">
+                    <a class="wb_block bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+                    <span>微博</span>
+                </div>
+                <div class="share_item ">
+                    <!-- <a class="wx_block bds_weixin" data-cmd="weixin" title="分享到微信"></a> -->
+                    <a class="wx_block"  title="分享到微信"></a>
+                    <span>朋友圈</span>
+                </div>
+            </div>
+            <div class="cancle_block">
+                <div class="cancle_btn">取消</div>
+            </div>
+        </div>
+    </div>
+    <div class="mycover">
+    <div class="dialog">
+        <div class="item_wap">
+            <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon one"></span>
+                <span class="item_text">首页</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com/worker.html">
+                <span class="item_icon two"></span>
+                <span class="item_text">作品案例</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com/wegot.html">
+                <span class="item_icon three"></span>
+                <span class="item_text">来撩我们</span>
+            </a>
+        </div>
+        <div class="item_wap">
+            <!-- <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon four"></span>
+                <span class="item_text">关于我们</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon five"></span>
+                <span class="item_text">服务流程</span>
+            </a> -->
+            <a class="item" href="http://m.donghuajie.com/news.html">
+                <span class="item_icon six"></span>
+                <span class="item_text">动画资讯</span>
+            </a>
+        </div>
+    </div>
+</div>
+    <!--<a class="phone" href="tel:4008656770"></a>-->
+    <script src="/Public/wap/js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="/Public/wap/js/base.js"></script>
+    <script>
+        function resizepic(){}
+        $('.wx_block').click(function(){
+            window.alert('可是一使用浏览器分享,按钮分享给好友哦');
+        });
+        $('.cancle_btn,.share').click(function(){
+            $('.cover').stop(false,true).fadeToggle();
+        });
+        
+        // 点击空白处关闭分享
+        $(".cover").on('click',function(e){
+            var target = $(e.target);
+            if(target.closest('.shareArea').length == 0){
+                $('.cover').stop(false,true).fadeToggle();
+            }
+            e.stopPropagation();
+        });
+
+        // 回到顶部
+        $(".top").click(function() {
+            $('.mywrap2').scrollTop(0);
+        });
+    </script>
+    <script>
+        window._bd_share_config={
+            "common":{
+                bdText : '良好的二维动画制作对于公司的帮助',
+                bdDesc : '大家都知道一个公司的良好形象能给公司带来的不仅仅是良好的经济效益，同时还可以扩大公司的知名度，增加投资或合作者地好感和信心；可以吸引更多人才加入，激发职工的敬业精神，创造更高的效率。那么一个优异的二维动画也能带来巨大影响。',
+                bdUrl : 'm.donghuajie.com/news/481.html',
+                bdPic : '/Public/slt/0e450d0e7ec383566b100f6fa3d2ca3b.jpg'
+            },
+            "share":{},
+            "image":{
+                "viewList":["qzone","tsina","tqq","renren","weixin"],
+                "viewText":"分享到：","viewSize":"16"
+            },
+            "selectShare":{
+                "bdContainerClass":null,
+                "bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]
+            }
+        };
+        with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+    </script>
+    <!--客服代码-->
+    <script>
+        (function() {var _53code = document.createElement("script");
+            _53code.src = "https://tb.53kf.com/code/code/10167819/2";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(_53code, s)
+            ;})();
+    </script>
+</body>
+</html>

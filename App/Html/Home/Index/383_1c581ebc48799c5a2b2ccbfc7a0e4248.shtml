@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=meta, minimum-scale=1.0">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="msapplication-TileColor" content="#000">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="email=no">
+    <meta name="renderer" content="webkit">
+    <meta name="keywords" content="二维动画制作,动画公司,创意动画,产品动画制作,杭州动漫设计,杭州三维动画制作" />
+    <meta name="description" content="产品介绍动画就是指用动画演示的形式，把产品的外观、特征、原理、功能和使用方法等展示出来。让顾客更直观的去了解所展示的产品，使顾客在看到产品的同时对产品的每一个信息都有一定的认知度。 " />
+    <link href="/Public/wap/css/swiper.min.css" rel="stylesheet">
+    <link href="/Public/wap/css/index.css" rel="stylesheet">
+    <title>二维动画制作在产品介绍中应用-动画街</title>
+    <script type="text/javascript">
+        function fontFun() {
+            var winW = document.documentElement.clientWidth;
+            document.documentElement.style.fontSize = (winW / 750 * 625) + "%";
+        }
+        fontFun();
+        window.onresize = fontFun; 
+    </script>
+</head>
+<body>
+    <!--头部-->
+    <div class="top">
+        <div class="logo"></div>
+        <div class="operate"></div>
+        <a href="javascript:history.go(-1)" class="back"></a>
+    </div>
+
+    <div class="mywrap2">
+        <div class="enws_img">
+            <img src="/Public/pic/9e9bbbb0b173bb85fe52223dcf500a33.jpg" width="100%" />
+        </div>
+        <div class="content">
+            <div class="content_text">
+                <p class="p1">二维动画制作在产品介绍中应用</p>
+                <p class="p2">2018年02月07日</p>
+            </div>
+            <div class="p3"><p>产品介绍动画就是指用动画演示的形式，把产品的外观、特征、原理、功能和使用方法等展示出来。让顾客更直观的去了解所展示的产品，使顾客在看到产品的同时对产品的每一个信息都有一定的认知度。&nbsp;</p><p><img  src="/upload/image/20180207/1517984837558208.jpg" title="1517984837558208.jpg" alt="1517984837558208.jpg" /></p><p>产品介绍动画一般可采用二维动画和三维动画这两种动画形式将一个产品进行动态介绍。产品的二维画面是平面上的画面。纸张、照片或计算机屏显示，无论画面的立体感有多强，终究只是在二维空间上模拟真实的三维空间效果，二维画面无论怎样看，画面的内容是不变的。而产品的三维画面，我们可以从产品的正面、侧面、背面、反面甚至立体透视面来展示产品，通过调整三维空间的视点以及后期的辅助技术，我们能够看到产品不同的内容，感受产品的不同性能。</p><p>鉴于<a href="http://www.donghuajie.com" target="_self">二维动画制作</a>的效果真实性和功能性比二维产品动画的要高，二维动画制作被广泛应用于展会宣传、卖场促销、电视广告等领域，是企业宣传产品的重要工具。</p><p>现如今，除了单纯的产品展示动画外，还把互动技术融入了动画里面，这样做的好处是，一来可以让客户对产品的外观和特点有个直观全面的了解，二来可以让客户自己来决定如何观察产品，这个互动的过程是普通的产品动画介绍方式难以企及的。</p><p><br/></p></div>
+        </div>
+        
+
+        <div class="share_block">
+            <div class="share"></div>
+        </div>
+        <div class="last">已经到底了</div>
+    </div>
+    <!--分享框-->
+    <div class="cover">
+        <div class="shareArea">
+            <div class="shareblock_one">
+                <p class="share_t1">分享</p>
+                <p class="share_t2">二维动画制作在产品介绍中应用</p>
+            </div>
+            
+            <div class="bdsharebuttonbox shareblock_two">
+                 
+                <div class="share_item">
+                    <a class="qq_block bds_qzone"  data-cmd="qzone" title="分享到QQ空间"></a>
+                    <span>QQ空间</span>
+                </div>
+                <div class="share_item">
+                    <a class="wb_block bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+                    <span>微博</span>
+                </div>
+                <div class="share_item ">
+                    <!-- <a class="wx_block bds_weixin" data-cmd="weixin" title="分享到微信"></a> -->
+                    <a class="wx_block"  title="分享到微信"></a>
+                    <span>朋友圈</span>
+                </div>
+            </div>
+            <div class="cancle_block">
+                <div class="cancle_btn">取消</div>
+            </div>
+        </div>
+    </div>
+    <div class="mycover">
+    <div class="dialog">
+        <div class="item_wap">
+            <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon one"></span>
+                <span class="item_text">首页</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com/worker.html">
+                <span class="item_icon two"></span>
+                <span class="item_text">作品案例</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com/wegot.html">
+                <span class="item_icon three"></span>
+                <span class="item_text">来撩我们</span>
+            </a>
+        </div>
+        <div class="item_wap">
+            <!-- <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon four"></span>
+                <span class="item_text">关于我们</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon five"></span>
+                <span class="item_text">服务流程</span>
+            </a> -->
+            <a class="item" href="http://m.donghuajie.com/news.html">
+                <span class="item_icon six"></span>
+                <span class="item_text">动画资讯</span>
+            </a>
+        </div>
+    </div>
+</div>
+    <!--<a class="phone" href="tel:4008656770"></a>-->
+    <script src="/Public/wap/js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="/Public/wap/js/base.js"></script>
+    <script>
+        function resizepic(){}
+        $('.wx_block').click(function(){
+            window.alert('可是一使用浏览器分享,按钮分享给好友哦');
+        });
+        $('.cancle_btn,.share').click(function(){
+            $('.cover').stop(false,true).fadeToggle();
+        });
+        
+        // 点击空白处关闭分享
+        $(".cover").on('click',function(e){
+            var target = $(e.target);
+            if(target.closest('.shareArea').length == 0){
+                $('.cover').stop(false,true).fadeToggle();
+            }
+            e.stopPropagation();
+        });
+
+        // 回到顶部
+        $(".top").click(function() {
+            $('.mywrap2').scrollTop(0);
+        });
+    </script>
+    <script>
+        window._bd_share_config={
+            "common":{
+                bdText : '二维动画制作在产品介绍中应用',
+                bdDesc : '产品介绍动画就是指用动画演示的形式，把产品的外观、特征、原理、功能和使用方法等展示出来。让顾客更直观的去了解所展示的产品，使顾客在看到产品的同时对产品的每一个信息都有一定的认知度。 ',
+                bdUrl : 'm.donghuajie.com/news/383.html',
+                bdPic : '/Public/slt/9e9bbbb0b173bb85fe52223dcf500a33.jpg'
+            },
+            "share":{},
+            "image":{
+                "viewList":["qzone","tsina","tqq","renren","weixin"],
+                "viewText":"分享到：","viewSize":"16"
+            },
+            "selectShare":{
+                "bdContainerClass":null,
+                "bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]
+            }
+        };
+        with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+    </script>
+    <!--客服代码-->
+    <script>
+        (function() {var _53code = document.createElement("script");
+            _53code.src = "https://tb.53kf.com/code/code/10167819/2";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(_53code, s)
+            ;})();
+    </script>
+</body>
+</html>

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=meta, minimum-scale=1.0">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="msapplication-TileColor" content="#000">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="email=no">
+    <meta name="renderer" content="webkit">
+    <meta name="keywords" content="动画视频制作,动画公司,产品动画制作,影视动画,动画制作,杭州三维动画制作" />
+    <meta name="description" content="动画视频制作角色属性来分可分为相似性形象、变异性形象、完全虚幻类形象、完全抽象化形象四类" />
+    <link href="/Public/wap/css/swiper.min.css" rel="stylesheet">
+    <link href="/Public/wap/css/index.css" rel="stylesheet">
+    <title>动画视频制作-动画街</title>
+    <script type="text/javascript">
+        function fontFun() {
+            var winW = document.documentElement.clientWidth;
+            document.documentElement.style.fontSize = (winW / 750 * 625) + "%";
+        }
+        fontFun();
+        window.onresize = fontFun; 
+    </script>
+</head>
+<body>
+    <!--头部-->
+    <div class="top">
+        <div class="logo"></div>
+        <div class="operate"></div>
+        <a href="javascript:history.go(-1)" class="back"></a>
+    </div>
+
+    <div class="mywrap2">
+        <div class="enws_img">
+            <img src="/Public/pic/5e41f7fa4901501d7b1fe3c19cdc0089.jpg" width="100%" />
+        </div>
+        <div class="content">
+            <div class="content_text">
+                <p class="p1">动画视频制作</p>
+                <p class="p2">2018年02月07日</p>
+            </div>
+            <div class="p3"><p><a href="http://www.donghuajie.com" target="_self">动画视频制作</a>角色属性来分可分为相似性形象、变异性形象、完全虚幻类形象、完全抽象化形象四类：</p><p>1.相似性形象</p><p>&nbsp;即与现实世界中的人物、动物、植物、现象等基本相似并很容易辨认出来的，如白雪公主、超人特工队、黑猫警长、九色鹿，尽管其形象夸张幽默，但其与现实世界中的人物动物形象很相似，容易识别。<br/></p><p><img  src="/upload/image/20180207/1517985097122459.jpg" title="1517985097122459.jpg" alt="1517985097122459.jpg" /></p><p>2.变异性形象<br/></p><p>即对现实世界的形象加以夸张变形，保留其局部外部特征，而突出展现其个性，比如汽车总动员里面的汽车角色。<br/></p><p>3.完全虚幻类形象<br/></p><p>即现实世界里没有任何对应物的神灵鬼怪等，比如怪物史莱克、变形金刚等角色。<br/></p><p>4.完全抽象化形象<br/></p><p>将自然界无生命的物体赋予意识与生命，比如线条、图形、板块或光，这些通常在实验短片里面看到。动画视频制作角色按动画视频制作制作手段来分可以分为传统绘制和立体制作两类：<br/></p><p>1.传统绘制 这是最常用也是最有历史的技术方式，即将手绘的画面逐格拍摄而产生的完整作品，有油画水粉、水彩、水墨、素描等多种表现形式。</p><p>2.立体制作 是突破传统平面绘制，使其动画视频制作形象成为实体，即常说的三维立体动画视频制作。其中既包括了用钻土、像胶、金属等材料制作的实体动画视频制作形象，如小鸡快跑、超级无敌掌门狗、阿凡提等，也包括了运用电脑设计制作出来的虚拟三维动画视频制作形象，如迪士尼的玩具总动员、虫虫特工队、料理鼠王等<br/></p><p><br/></p></div>
+        </div>
+        
+
+        <div class="share_block">
+            <div class="share"></div>
+        </div>
+        <div class="last">已经到底了</div>
+    </div>
+    <!--分享框-->
+    <div class="cover">
+        <div class="shareArea">
+            <div class="shareblock_one">
+                <p class="share_t1">分享</p>
+                <p class="share_t2">动画视频制作</p>
+            </div>
+            
+            <div class="bdsharebuttonbox shareblock_two">
+                 
+                <div class="share_item">
+                    <a class="qq_block bds_qzone"  data-cmd="qzone" title="分享到QQ空间"></a>
+                    <span>QQ空间</span>
+                </div>
+                <div class="share_item">
+                    <a class="wb_block bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+                    <span>微博</span>
+                </div>
+                <div class="share_item ">
+                    <!-- <a class="wx_block bds_weixin" data-cmd="weixin" title="分享到微信"></a> -->
+                    <a class="wx_block"  title="分享到微信"></a>
+                    <span>朋友圈</span>
+                </div>
+            </div>
+            <div class="cancle_block">
+                <div class="cancle_btn">取消</div>
+            </div>
+        </div>
+    </div>
+    <div class="mycover">
+    <div class="dialog">
+        <div class="item_wap">
+            <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon one"></span>
+                <span class="item_text">首页</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com/worker.html">
+                <span class="item_icon two"></span>
+                <span class="item_text">作品案例</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com/wegot.html">
+                <span class="item_icon three"></span>
+                <span class="item_text">来撩我们</span>
+            </a>
+        </div>
+        <div class="item_wap">
+            <!-- <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon four"></span>
+                <span class="item_text">关于我们</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon five"></span>
+                <span class="item_text">服务流程</span>
+            </a> -->
+            <a class="item" href="http://m.donghuajie.com/news.html">
+                <span class="item_icon six"></span>
+                <span class="item_text">最新动态</span>
+            </a>
+        </div>
+    </div>
+</div>
+    <!--<a class="phone" href="tel:4008656770"></a>-->
+    <script src="/Public/wap/js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="/Public/wap/js/base.js"></script>
+    <script>
+        function resizepic(){}
+        $('.wx_block').click(function(){
+            window.alert('可是一使用浏览器分享,按钮分享给好友哦');
+        });
+        $('.cancle_btn,.share').click(function(){
+            $('.cover').stop(false,true).fadeToggle();
+        });
+        
+        // 点击空白处关闭分享
+        $(".cover").on('click',function(e){
+            var target = $(e.target);
+            if(target.closest('.shareArea').length == 0){
+                $('.cover').stop(false,true).fadeToggle();
+            }
+            e.stopPropagation();
+        });
+
+        // 回到顶部
+        $(".top").click(function() {
+            $('.mywrap2').scrollTop(0);
+        });
+    </script>
+    <script>
+        window._bd_share_config={
+            "common":{
+                bdText : '动画视频制作',
+                bdDesc : '动画视频制作角色属性来分可分为相似性形象、变异性形象、完全虚幻类形象、完全抽象化形象四类',
+                bdUrl : 'm.donghuajie.com/news/384.html',
+                bdPic : '/Public/slt/5e41f7fa4901501d7b1fe3c19cdc0089.jpg'
+            },
+            "share":{},
+            "image":{
+                "viewList":["qzone","tsina","tqq","renren","weixin"],
+                "viewText":"分享到：","viewSize":"16"
+            },
+            "selectShare":{
+                "bdContainerClass":null,
+                "bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]
+            }
+        };
+        with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+    </script>
+    <!--客服代码-->
+    <script>
+        (function() {var _53code = document.createElement("script");
+            _53code.src = "https://tb.53kf.com/code/code/10167819/2";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(_53code, s)
+            ;})();
+    </script>
+</body>
+</html>

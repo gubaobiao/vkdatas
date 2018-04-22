@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=meta, minimum-scale=1.0">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="msapplication-TileColor" content="#000">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="email=no">
+    <meta name="renderer" content="webkit">
+    <meta name="keywords" content="动画视频制作,创意动画,产品动画制作,杭州动漫设计,动画制作,杭州三维动画制作" />
+    <meta name="description" content="一、简化主体 首先，动作主体的简单与否对制作的工作量有很大的影响，擅于将动作的主体简化，可以成倍地提高工作的效率。二、尽量使用变形Motion Tween 和 Shape Tween是flash提供的两种变形，它们只需要指定首尾两个关键帧，中间过程由电脑自己生成，所以是我们在制作影片时最常使用来表现动作的。但是，有时候用单一的变形，动作会显得比较单调，这时可以考虑组合地使用变形。例如，通过前景、中景和背景分别制作变形，或者仅是前景和背景分别变形，工作量不大，但也能取得良好的效果。" />
+    <link href="/Public/wap/css/swiper.min.css" rel="stylesheet">
+    <link href="/Public/wap/css/index.css" rel="stylesheet">
+    <title>动画视频制作的技巧-动画街</title>
+    <script type="text/javascript">
+        function fontFun() {
+            var winW = document.documentElement.clientWidth;
+            document.documentElement.style.fontSize = (winW / 750 * 625) + "%";
+        }
+        fontFun();
+        window.onresize = fontFun; 
+    </script>
+</head>
+<body>
+    <!--头部-->
+    <div class="top">
+        <div class="logo"></div>
+        <div class="operate"></div>
+        <a href="javascript:history.go(-1)" class="back"></a>
+    </div>
+
+    <div class="mywrap2">
+        <div class="enws_img">
+            <img src="/Public/pic/a0715d0e82c7fc1716e3d12d13be733d.jpg" width="100%" />
+        </div>
+        <div class="content">
+            <div class="content_text">
+                <p class="p1">动画视频制作的技巧</p>
+                <p class="p2">6天前</p>
+            </div>
+            <div class="p3"><p>一、简化主体&nbsp;</p><p><br/></p><p>首先，动作主体的简单与否对制作的工作量有很大的影响，擅于将动作的主体简化，可以成倍地提高工作的效率。</p><p><br/></p><p>二、尽量使用变形</p><p><br/></p><p>Motion Tween 和 Shape Tween是flash提供的两种变形，它们只需要指定首尾两个关键帧，中间过程由电脑自己生成，所以是我们在制作影片时最常使用来表现动作的。但是，有时候用单一的变形，动作会显得比较单调，这时可以考虑组合地使用变形。例如，通过前景、中景和背景分别制作变形，或者仅是前景和背景分别变形，工作量不大，但也能取得良好的效果。</p><p><img  src="/upload/image/20180404/1522818603160723.gif" title="1522818603160723.gif" alt="timg.gif" /></p><p>&nbsp;三、使用一定的技巧</p><p><br/></p><p>&nbsp;对于许多不能采用MotionTween和Shape Tween来表现的动作的时候，我们常常要用到逐帧动画，也就是一帧一帧地将动作的每个细节都画出来。显然，这是一件很吃力的工作，我们尽量避开逐帧制作，当避无可避的时候，使用一些小的技巧能够减少一定的工作量。</p><p><br/></p><p>&nbsp;1、循环法</p><p><br/></p><p>&nbsp;这是最常用的方法，将一些动作简化成由只有几帧、甚至2、3帧的逐帧动画组成的Movie Clip，利用Movie Clip的循环播放的特性，来表现一些动画，例如头发、衣服飘动，走路、说话等动画经常使用该法。</p><p><br/></p><p>&nbsp;2、节选渐变法</p><p><br/></p><p>&nbsp;在表现一个“缓慢”的动作时，例如手缓缓张开，头（正面）缓缓抬起，用逐帧动画能让你噎死。我们可以考虑将整个动作中节选几个关键的帧，然后用渐变或闪现的方法来表现整个动作。如果完全逐帧地将整个动作绘制出来，想必会花费大量的时间精力，这种方法可以在基本达到效果的同时简化了工作。该方法适合于“慢动作”的复杂动作，另外，一些特殊情景，如D厅，由于黑暗中闪烁的灯光，也是“天然”的节选动作，这时无需变形直接闪现即可。</p><p><br/></p><p>&nbsp;3、替代法</p><p><br/></p><p>&nbsp;这是比较聪明的方法，就是用其他东西，替代复杂的动作，这个其他，可以是很多东西，例如影子、声音。下面的两个例子分别用影子和声音来表现了动作。用影子表现动作 ，用声音表现动作。</p><p><br/></p><p>&nbsp;4、临摹法</p><p><br/></p><p>&nbsp;初学者常常难以自己完成一个动作的绘制，这时候可以临摹一些video等，将它们导入flash中，因为有了参照，完成起来就比较轻松。而在临摹的基础上进一步进行再加工，使动画更完善。具体的操作是从用解霸从video将需要的动画截取出来，输出成系列图片（flash mx就可以直接导入video了），导入到flash后，依照它描绘而成，具体的风格就由你自己决定了。</p><p><br/></p><p>&nbsp;5、再加工法</p><p><br/></p><p><a href="http://www.donghuajie.com" target="_self">动画视频制作</a>,牛抬头的动作，是以牛头作为一个Movie Clip，用旋转变形使头“抬起来”，由第1步的结果来看，牛头和脖子之间有一个“断层”，第2步，我们将变形的所有帧转换成关键帧，并将其打散，然后逐帧在脖子处进行修改，最后我们做一定的修饰，给牛身上加上“金边”整个动画的气氛就出来了。</p><p><br/></p><p>&nbsp;6、遮蔽法</p><p><br/></p><p>动画视频制作该方法的中心思想就是将复杂动画的部分给遮住。而具体的遮蔽物可以是位于动作主体前面的东西，也可以是影片的框（即影片的宽度限制）等。&nbsp;</p><p><br/></p><p>&nbsp;7、其他</p><p><br/></p><p>&nbsp;其他方法还有很多，如更换镜头角度（例如抬头，从正面表现比较困难，换个角度，从侧面就容易多了），或者从动作主体“看到”的景物反过来表现等。</p><p><br/></p></div>
+        </div>
+        
+
+        <div class="share_block">
+            <div class="share"></div>
+        </div>
+        <div class="last">已经到底了</div>
+    </div>
+    <!--分享框-->
+    <div class="cover">
+        <div class="shareArea">
+            <div class="shareblock_one">
+                <p class="share_t1">分享</p>
+                <p class="share_t2">动画视频制作的技巧</p>
+            </div>
+            
+            <div class="bdsharebuttonbox shareblock_two">
+                 
+                <div class="share_item">
+                    <a class="qq_block bds_qzone"  data-cmd="qzone" title="分享到QQ空间"></a>
+                    <span>QQ空间</span>
+                </div>
+                <div class="share_item">
+                    <a class="wb_block bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+                    <span>微博</span>
+                </div>
+                <div class="share_item ">
+                    <!-- <a class="wx_block bds_weixin" data-cmd="weixin" title="分享到微信"></a> -->
+                    <a class="wx_block"  title="分享到微信"></a>
+                    <span>朋友圈</span>
+                </div>
+            </div>
+            <div class="cancle_block">
+                <div class="cancle_btn">取消</div>
+            </div>
+        </div>
+    </div>
+    <div class="mycover">
+    <div class="dialog">
+        <div class="item_wap">
+            <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon one"></span>
+                <span class="item_text">首页</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com/worker.html">
+                <span class="item_icon two"></span>
+                <span class="item_text">作品案例</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com/wegot.html">
+                <span class="item_icon three"></span>
+                <span class="item_text">来撩我们</span>
+            </a>
+        </div>
+        <div class="item_wap">
+            <!-- <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon four"></span>
+                <span class="item_text">关于我们</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon five"></span>
+                <span class="item_text">服务流程</span>
+            </a> -->
+            <a class="item" href="http://m.donghuajie.com/news.html">
+                <span class="item_icon six"></span>
+                <span class="item_text">动画资讯</span>
+            </a>
+        </div>
+    </div>
+</div>
+    <!--<a class="phone" href="tel:4008656770"></a>-->
+    <script src="/Public/wap/js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="/Public/wap/js/base.js"></script>
+    <script>
+        function resizepic(){}
+        $('.wx_block').click(function(){
+            window.alert('可是一使用浏览器分享,按钮分享给好友哦');
+        });
+        $('.cancle_btn,.share').click(function(){
+            $('.cover').stop(false,true).fadeToggle();
+        });
+        
+        // 点击空白处关闭分享
+        $(".cover").on('click',function(e){
+            var target = $(e.target);
+            if(target.closest('.shareArea').length == 0){
+                $('.cover').stop(false,true).fadeToggle();
+            }
+            e.stopPropagation();
+        });
+
+        // 回到顶部
+        $(".top").click(function() {
+            $('.mywrap2').scrollTop(0);
+        });
+    </script>
+    <script>
+        window._bd_share_config={
+            "common":{
+                bdText : '动画视频制作的技巧',
+                bdDesc : '一、简化主体 首先，动作主体的简单与否对制作的工作量有很大的影响，擅于将动作的主体简化，可以成倍地提高工作的效率。二、尽量使用变形Motion Tween 和 Shape Tween是flash提供的两种变形，它们只需要指定首尾两个关键帧，中间过程由电脑自己生成，所以是我们在制作影片时最常使用来表现动作的。但是，有时候用单一的变形，动作会显得比较单调，这时可以考虑组合地使用变形。例如，通过前景、中景和背景分别制作变形，或者仅是前景和背景分别变形，工作量不大，但也能取得良好的效果。',
+                bdUrl : 'm.donghuajie.com/news/464.html',
+                bdPic : '/Public/slt/a0715d0e82c7fc1716e3d12d13be733d.jpg'
+            },
+            "share":{},
+            "image":{
+                "viewList":["qzone","tsina","tqq","renren","weixin"],
+                "viewText":"分享到：","viewSize":"16"
+            },
+            "selectShare":{
+                "bdContainerClass":null,
+                "bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]
+            }
+        };
+        with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+    </script>
+    <!--客服代码-->
+    <script>
+        (function() {var _53code = document.createElement("script");
+            _53code.src = "https://tb.53kf.com/code/code/10167819/2";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(_53code, s)
+            ;})();
+    </script>
+</body>
+</html>

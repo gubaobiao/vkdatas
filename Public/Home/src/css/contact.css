@@ -1,0 +1,42 @@
+.active .mico_contact .micoi{top:-325px}
+.clear:after{display:block;content:"";clear:both}
+.cContent{background-color:#ededed;padding:50px 0;margin-bottom:30px}
+.cBgf{width:1000px;background-color:#fff;margin:0 auto;padding:100px 0}
+.cBgf li{font-size:18px;color:#222;text-align:center}
+.cBgf li div{position:relative;padding-left:75px;float:left;margin-left:170px}
+.cBgf li div p{margin-bottom:10px}
+.cBgf li div img{position:absolute;top:0;left:0}
+.cBgf li img{vertical-align:middle}
+.cBgf .cDz,.cBgf .cWz{font-size:16px;margin-top:20px;color:#666}
+.cBgf .cWz{margin-top:45px}.cBgf .cWz a{color:#666}
+.cBgf .cWz a:hover{color:#1ea8ff}
+
+
+.got-banner{width: 100%;height: 606px;overflow: hidden;position: relative;background:#fff url(../images/girle-bj.jpg) no-repeat center center;}
+.got-banner img{width: 100%;}
+.got-title{width: 100%;height: 92px;}
+.got-text{display: block;padding: 18px 0px ;height: 20px;font-size: 18px;color: #000000;line-height: 20px;text-align: center;letter-spacing:12px; }
+.got-line{width: 60px;height: 5px;display: block;position: relative;left: 50%;margin-left: -34px;background: url(../img/got-line.png) no-repeat center center;}
+.got-line img{width: 100%;}
+.got-content{width: 1028px;height: 298px;margin: 0 auto;overflow-x: visible;padding-bottom: 70px;}
+.got-wrap{height: 100%;margin-left: -40px;}
+.got-item{width: 316px;height: 100%;float: left;margin-left: 40px;border-radius: 15px;overflow: hidden;
+	box-shadow: 4px 6px 10px rgba(204, 204, 204, 0.4);position: relative;}
+.got-img{width: 100%;height: 177px;overflow: hidden;}
+.got-img img{width: 100%;}
+.got-style{width: 100%;height: 20px;margin-top: 30px;font-size: 0px;text-align: center;}
+.got-style span{display: inline-block;height: 20px;vertical-align: top;}
+.style-icon{width: 20px;}
+.details{width: 100%;height: 14px;margin-top: 18px;text-align: center;line-height: 14px;font-size: 14px;color: #565656;}
+.address_icon{background: url(../images/address_icon.png) no-repeat center center;background-size: contain;}
+.tel_icon{background: url(../images/tel_icon.png) no-repeat center center;background-size: contain;}
+.qq_icon{background: url(../images/qq_icon.png) no-repeat center center;background-size: contain;}
+.style-msg{line-height: 20px;font-size: 16px;color: #565656;margin-left: 10px;}
+.got-banner-text{width: 474px;padding-top: 190px;position: absolute;left: 50%;margin-left: -300px;top: 0px;}
+.got-title-bar{width: 100%;height: 32px;line-height: 32px;font-size: 32.23px;color: #fff;text-align: center;}
+.common-p{width: 100%;line-height: 35px;font-size: 17.5px;color: #ffffff;text-align: center;}
+.mgtop{margin-top: 22px;}
+.delay-0{animation-delay: 0s;-webkit-animation-delay:0s;}
+.delay-1{animation-delay: 1s;-webkit-animation-delay:1s;}
+.delay-2{animation-delay: 2s;-webkit-animation-delay:2s;}
+.delay-3{animation-delay: 3s;-webkit-animation-delay:3s;}

@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=meta, minimum-scale=1.0">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="msapplication-TileColor" content="#000">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="email=no">
+    <meta name="renderer" content="webkit">
+    <meta name="keywords" content="二维动画制作,产品二维动画,flash动画,科普知识动画,教育动画宣传视频,教育动画制作,教育类动画,创意动画制作" />
+    <meta name="description" content="干细胞是自我复制还是分化功能细胞，flash动画主要由于细胞本身的状态和微环境因素所决定。包括调节细胞周期的各种周期素和周期素依赖激酶、基因转录因子二维动画制作、影响细胞不对称分裂的细胞质因子。微环境因素，包括干细胞与周围细胞，干细胞与外基质以及干细胞与各种可溶性因子的相互作用。产品二维动画" />
+    <link href="/Public/wap/css/swiper.min.css" rel="stylesheet">
+    <link href="/Public/wap/css/index.css" rel="stylesheet">
+    <title>干细胞二维动画制作-动画街</title>
+    <script type="text/javascript">
+        function fontFun() {
+            var winW = document.documentElement.clientWidth;
+            document.documentElement.style.fontSize = (winW / 750 * 625) + "%";
+        }
+        fontFun();
+        window.onresize = fontFun; 
+    </script>
+</head>
+<body>
+    <!--头部-->
+    <div class="top">
+        <div class="logo"></div>
+        <div class="operate"></div>
+        <a href="javascript:history.go(-1)" class="back"></a>
+    </div>
+
+    <!--content-->
+    <div class="mywrap2">
+        <div class="enws_img">
+            <video width="100%" height="100%" src="http://cloud.video.taobao.com//play/u/2586769528/p/1/e/6/t/7/50048220997.mp4" controls poster="/Public/video_slt/246e9f5a2acb56da6bc449ff59319816.jpg"></video>
+            <!-- <img src="/Public/wap/img/news.jpg" width="100%" /> -->
+        </div>
+        <div class="content">
+            <div class="content_text">
+                <p class="p1">干细胞二维动画制作</p>
+                <p class="time">2017年11月22日</p>
+            </div>
+            <div class="p3"><p><span>简单来讲，它是一类具有多向分化潜能和自我复制能力的原始的未分化细胞，是形成哺乳类动物的各组织器官的原始细胞。干细胞在形态上具有共性，通常呈圆形或椭圆形，细胞体积小，核相对较大，细胞核多为常染色质，并具有较高的端粒酶活性。干细胞可分为胚胎干细胞和成体干细胞。二维动画制作</span></p><p><span>&nbsp;<img  src="/upload/image/20171121/1511262218478470.png" title="1511262218478470.png" alt="1_副本.png" /></span></p><p><span>干细胞是自我复制还是分化功能细胞，主要由于细胞本身的状态和微环境因素所决定。包括调节细胞周期的各种周期素和周期素依赖激酶、基因转录因子、影响细胞不对称分裂的细胞质因子。微环境因素，包括干细胞与周围细胞，干细胞与外基质以及干细胞与各种可溶性因子的相互作用。产品二维动画</span></p><p><span>&nbsp;<img  src="/upload/image/20171121/1511262223668713.png" title="1511262223668713.png" alt="2_副本.png" /></span></p><p><span><span>人体内的干细胞分两种类型，一种是全功能干细胞</span> <span>，</span></span></p><p><span><span>可直接克隆人体；另一种是多功能干细胞</span> <span>，可直接复制各种脏器和修复组织。人类寄希望于利用干细胞的分离和体外培养，在体外繁育出组织或器官，并最终通过组织或器官移植，实现对临床疾病的治疗。flash动画</span></span></p><p><img  src="/upload/image/20171121/1511262230297048.png" title="1511262230297048.png" alt="3_副本.png" /></p></div>
+        </div>
+        
+        <div class="share_block">
+            <div class="share"></div>
+        </div>
+        <!--分享框-->
+        <div class="cover">
+            <div class="shareArea">
+                <div class="shareblock_one">
+                    <p class="share_t1">分享</p>
+                    <p class="share_t2">干细胞二维动画制作</p>
+                </div>
+                
+                <div class="bdsharebuttonbox shareblock_two">
+                        
+                    <div class="share_item">
+                        <a class="qq_block bds_qzone"  data-cmd="qzone" title="分享到QQ空间"></a>
+                        <span>QQ空间</span>
+                    </div>
+                    <div class="share_item">
+                        <a class="wb_block bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+                        <span>微博</span>
+                    </div>
+                    <div class="share_item ">
+                        <!-- <a class="wx_block bds_weixin" data-cmd="weixin" title="分享到微信"></a> -->
+                        <a class="wx_block"  title="分享到微信"></a>
+                        <span>朋友圈</span>
+                    </div>
+                </div>
+                <div class="cancle_block">
+                    <div class="cancle_btn">取消</div>
+                </div>
+            </div>
+        </div>
+
+        <!--相关推荐-->
+        <div class="recommend">
+            <div class="recommend_t">相关推荐</div>
+
+            <a class="recommend_b" href="http://m.donghuajie.com/anli/386.html">
+                    <div class="r_img">
+                        <img src="/Public/video_slt/318174100ddfcbe414376248322650d3.jpg" width="100%"/>
+                    </div>
+                    <div class="r_info">
+                        <p class="r_title1">一加手机三维动画</p>
+                        <p class="r_title2">#app/产品#</p>
+                        <p class="time">2天前</p>
+                    </div>
+                </a><a class="recommend_b" href="http://m.donghuajie.com/anli/360.html">
+                    <div class="r_img">
+                        <img src="/Public/video_slt/a1579cb19fb8d6ec42987d78033ddf6a.jpg" width="100%"/>
+                    </div>
+                    <div class="r_info">
+                        <p class="r_title1">三维魔方动画视频</p>
+                        <p class="r_title2">#app/产品#</p>
+                        <p class="time">2018/03/14</p>
+                    </div>
+                </a><a class="recommend_b" href="http://m.donghuajie.com/anli/349.html">
+                    <div class="r_img">
+                        <img src="/Public/video_slt/6e1703d4ba30443ff89298b8bb835650.jpg" width="100%"/>
+                    </div>
+                    <div class="r_info">
+                        <p class="r_title1">竹叶青绿茶宣传MG动画</p>
+                        <p class="r_title2">#app/产品#</p>
+                        <p class="time">1天前</p>
+                    </div>
+                </a><a class="recommend_b" href="http://m.donghuajie.com/anli/348.html">
+                    <div class="r_img">
+                        <img src="/Public/video_slt/04e3b5859d4d5fa745f94d36863520c5.jpg" width="100%"/>
+                    </div>
+                    <div class="r_info">
+                        <p class="r_title1">亲友游戏二维动画宣传片</p>
+                        <p class="r_title2">#app/产品#</p>
+                        <p class="time">1天前</p>
+                    </div>
+                </a><a class="recommend_b" href="http://m.donghuajie.com/anli/347.html">
+                    <div class="r_img">
+                        <img src="/Public/video_slt/baa442e61f0a50c21e3ee1234982a06b.jpg" width="100%"/>
+                    </div>
+                    <div class="r_info">
+                        <p class="r_title1">12315互联网平台MG动画宣传片</p>
+                        <p class="r_title2">#科普教育#</p>
+                        <p class="time">2天前</p>
+                    </div>
+                </a>
+        </div>
+
+        <div class="last">已经到底了</div>
+    </div>
+    <div class="mycover">
+    <div class="dialog">
+        <div class="item_wap">
+            <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon one"></span>
+                <span class="item_text">首页</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com/worker.html">
+                <span class="item_icon two"></span>
+                <span class="item_text">作品案例</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com/wegot.html">
+                <span class="item_icon three"></span>
+                <span class="item_text">来撩我们</span>
+            </a>
+        </div>
+        <div class="item_wap">
+            <!-- <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon four"></span>
+                <span class="item_text">关于我们</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon five"></span>
+                <span class="item_text">服务流程</span>
+            </a> -->
+            <a class="item" href="http://m.donghuajie.com/news.html">
+                <span class="item_icon six"></span>
+                <span class="item_text">动画资讯</span>
+            </a>
+        </div>
+    </div>
+</div>
+    <!--<a class="phone" href="tel:4008656770"></a>-->
+    <script src="/Public/wap/js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="/Public/wap/js/base.js"></script>
+    <script>
+        function resizepic(){}
+        $('.wx_block').click(function(){
+            window.alert('可是一使用浏览器分享,按钮分享给好友哦');
+        });
+        $(function(){
+            $('.cancle_btn,.share').click(function(){
+                $('.cover').stop(false,true).fadeToggle();
+            });
+            // 点击空白处关闭分享
+            $(".cover").on('click',function(e){
+                var target = $(e.target);
+                if(target.closest('.shareArea').length == 0){
+                    $('.cover').stop(false,true).fadeToggle();
+                }
+                e.stopPropagation();
+            });
+        });
+
+        // 回到顶部
+        $(".top").click(function() {
+            $('.mywrap2').scrollTop(0);
+        });
+    </script>
+    <script>
+        window._bd_share_config={
+            "common":{
+                bdText : "干细胞二维动画制作",
+                bdDesc : "干细胞是自我复制还是分化功能细胞，flash动画主要由于细胞本身的状态和微环境因素所决定。包括调节细胞周期的各种周期素和周期素依赖激酶、基因转录因子二维动画制作、影响细胞不对称分裂的细胞质因子。微环境因素，包括干细胞与周围细胞，干细胞与外基质以及干细胞与各种可溶性因子的相互作用。产品二维动画",
+                bdUrl : "http://m.donghuajie.com/anli/198.html",
+                bdPic : "/Public/video_slt/246e9f5a2acb56da6bc449ff59319816.jpg"
+            },
+            "share":{},
+            "image":{
+                "viewList":["qzone","tsina","tqq","renren","weixin"],
+                "viewText":"分享到：","viewSize":"16"
+            },
+            "selectShare":{
+                "bdContainerClass":null,
+                "bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]
+            }
+        };
+        with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+    </script>
+    <!--客服代码-->
+    <script>
+        (function() {var _53code = document.createElement("script");
+            _53code.src = "https://tb.53kf.com/code/code/10167819/2";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(_53code, s)
+            ;})();
+    </script>
+</body>
+</html>

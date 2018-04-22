@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=meta, minimum-scale=1.0">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="msapplication-TileColor" content="#000">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="email=no">
+    <meta name="renderer" content="webkit">
+    <meta name="keywords" content="流程动画制作,演示动画制作,工程动画制作,工业动画制作,建筑动画制作,动画演示制作,机械三维动画,杭州动画公司" />
+    <meta name="description" content="流程演示动画可以通过MG动画和FLASH动画等二维动画制作、三维动画制作形式展现。动画街影视制作公司，专业的动画公司，专业策划提供一流的动画制作服务。" />
+    <link href="/Public/wap/css/swiper.min.css" rel="stylesheet">
+    <link href="/Public/wap/css/dropload.css" rel="stylesheet"></link>
+    <link href="/Public/wap/css/animate.min.css" rel="stylesheet"></link>
+    <link href="/Public/wap/css/index.css" rel="stylesheet">
+    <title>流程演示-流程动画制作-演示动画制作-工程动画制作-工业动画制作</title>
+    <script type="text/javascript">
+        function fontFun() {
+            var winW = document.documentElement.clientWidth;
+            document.documentElement.style.fontSize = (winW / 750 * 625) + "%";
+        }
+        fontFun();
+        window.onresize = fontFun; 
+    </script>
+</head>
+<body>
+    <!--头部-->
+    <div class="top">
+        <div class="top_title">流程演示</div>
+        <div class="operate"></div>
+        <a href="javascript:history.go(-1)" class="back"></a>
+    </div>
+
+   <!--content-->
+   <div class="mywrap2" style="margin-bottom:0.84rem;">
+        <div class="content-video" style="width:100%;">
+            <div class="pages margintop_0">
+                    <a class="pageimg" href="http://m.donghuajie.com/anli/246.html" >
+                        <img  src="/Public/video_slt/28421cf3281ca19312ed1b70681113e0.jpg" width="100%"/>
+                    </a>
+                    <div class="pageText">
+                        <p class="page_t1">布兰莎家居定制mg动画制作</p>
+                        <p class="page_t2">2017/12/20</p>
+                    </div>
+                </div><div class="pages margintop_0">
+                    <a class="pageimg" href="http://m.donghuajie.com/anli/99.html" >
+                        <img  src="/Public/video_slt/b121c142fe6ddbdecc562fd44c9334f8.jpg" width="100%"/>
+                    </a>
+                    <div class="pageText">
+                        <p class="page_t1">滴滴操作流程杭州动画制作</p>
+                        <p class="page_t2">2017/09/08</p>
+                    </div>
+                </div><div class="pages margintop_0">
+                    <a class="pageimg" href="http://m.donghuajie.com/anli/31.html" >
+                        <img  src="/Public/video_slt/3a3710784724e81abcf7151eaeb83e74.jpg" width="100%"/>
+                    </a>
+                    <div class="pageText">
+                        <p class="page_t1">啤酒制作流程手绘动画</p>
+                        <p class="page_t2">2017/05/10</p>
+                    </div>
+                </div>        </div>
+                    <div class="last">已经到底了</div>       
+    </div>
+    <!--<a class="phone" href="tel:4008656770"></a>-->
+    <!--<div class="bottom">-->
+        <!--<div class="choose">-->
+            <!--<a class="choose_item choose_one" href="http://m.donghuajie.com">-->
+                <!--<div class="bottom_icon bottom_icon_1"></div>-->
+                <!--<div class="bottom_text">首页</div>-->
+            <!--</a>-->
+            <!--<a class="choose_item" href="http://m.donghuajie.com/worker.html">-->
+                <!--<div class="bottom_icon bottom_icon_2"></div>-->
+                <!--<div class="bottom_text">作品案例</div>-->
+            <!--</a>-->
+            <!--<a class="choose_item" href="http://m.donghuajie.com/wegot.html">-->
+                <!--<div class="bottom_icon bottom_icon_3"></div>-->
+                <!--<div class="bottom_text">来撩我们</div>-->
+            <!--</a>-->
+        <!--</div>-->
+    <!--</div>-->
+    <div class="mycover">
+    <div class="dialog">
+        <div class="item_wap">
+            <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon one"></span>
+                <span class="item_text">首页</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com/worker.html">
+                <span class="item_icon two"></span>
+                <span class="item_text">作品案例</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com/wegot.html">
+                <span class="item_icon three"></span>
+                <span class="item_text">来撩我们</span>
+            </a>
+        </div>
+        <div class="item_wap">
+            <!-- <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon four"></span>
+                <span class="item_text">关于我们</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon five"></span>
+                <span class="item_text">服务流程</span>
+            </a> -->
+            <a class="item" href="http://m.donghuajie.com/news.html">
+                <span class="item_icon six"></span>
+                <span class="item_text">动画资讯</span>
+            </a>
+        </div>
+    </div>
+</div>
+    <script type="text/javascript"src="/Public/wap/js/zepto.min.js"></script>
+    <script src="/Public/wap/js/dropload.js"></script>
+    <script>
+    $('.operate').click(function(){
+        $('.mycover').toggle();
+        return false;
+    });
+
+    $('.mycover').click(function(e){
+        var target = $(e.target);
+        if(target.closest('.dialog').length == 0){
+            $('.mycover').toggle();
+        }
+    });
+    
+    // 回到顶部
+    $(".top").click(function() {
+        $('.mywrap2').scrollTop(0);
+    });
+    </script>
+    <script>
+        /*下拉加载*/
+        var page_num = 1;
+        var PullDown=function(area,fun){
+            var startY, endY;
+            var detailList=$(area);
+            detailList.on('touchstart',function (e) {
+                startY = e.touches[0].pageY;
+            });
+            detailList.on('touchend',function (e) {
+                endY = e.changedTouches[0].pageY;
+                var y = endY - startY;
+                    /*滑动大于200，发送请求*/
+                if(y<-100){ 
+                    /*滑动的区域，滑动完执行的函数 (回调函数)*/
+                    fun();
+                }
+            });
+        };
+
+        var AjaxPost = function(url, query,fun,para){
+            $.ajax({
+                type:"GET",
+                url:url,
+                data:query,
+                dataType:'json',
+                async:true,
+                success:function(data){
+                    fun(data,para);
+                }
+            });
+        };
+
+        PullDown('.mywrap2',function(){
+            $('.last').html('加载中...');
+            page_num++;
+            var query="page_num="+page_num+"&type=27";
+            AjaxPost('/index/videolazy',query,function(data){
+                if(parseInt(data.status) == 0){
+                    console.log(data.status);
+                    var html ='';
+                    for(var i = 0;i<data.data.length;i++){
+                        var lists = data.data[i];
+                        var day =lists.pubday;
+                        html +=  '<div class="pages">'+
+                                        '<a class="pageimg" href="http://m.donghuajie.com/anli/'+lists.id+'.html" >'+
+                                            '<img  src="'+lists.sltpath+'" width="100%"/>'+
+                                        '</a>'+
+                                        '<div class="pageText">'+
+                                            '<p class="page_t1">'+lists.title+'</p>'+
+                                            '<p class="page_t2">'+day+'</p>'+
+                                        '</div>'+
+                                    '</div>';
+                    }
+                    $('.content-video').append(html);
+                    if(page_num <= data.total){
+                        $('.last').html('上拉加载更多');
+                    }
+                }else{
+                    $('.last').html('已经到底了');
+                }
+            })
+        });
+
+    </script>
+    <!--客服代码-->
+    <script>
+        (function() {var _53code = document.createElement("script");
+        _53code.src = "https://tb.53kf.com/code/code/10167819/2";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(_53code, s)
+        ;})();
+    </script>
+</body>
+</html>

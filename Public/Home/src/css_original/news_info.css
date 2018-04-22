@@ -1,0 +1,70 @@
+.active .mico_case .micoi {
+    top: -208px;
+}
+.vContent{
+	width:100%;
+	background-color:#ededed;
+	padding:50px 0;
+}
+.vInfo{
+	width:1197px;
+	padding:0 30px 80px 30px;
+	min-height:500px;
+	margin:0px auto;
+	background-color:#fff;
+}
+.vBn{
+	font-size: 14px;
+	color:#999;
+	padding:25px 0;
+}
+.vBn a{
+	text-decoration: none;color:#999;
+}
+.vTitle{
+	text-align: center;
+    font-size: 24px;
+    color: #212121;
+    margin-bottom: 5px;
+}
+.vTimer{
+	width:50%;
+	height:16px;
+	line-height: 16px;
+	text-align: right;
+	font-size: 14px;
+	color:#000;
+	margin: 10px 0;
+}
+.bdsharebuttonbox{
+	width:50%;
+}
+.bdsharebuttonbox span{
+	font-size: 14px;
+	margin:8px 5px 6px 15px;
+}
+.br{
+	padding-bottom:20px;
+	margin-bottom: 40px;
+	border-bottom:1px dashed #848484;
+}
+.bgf{
+	background-color:#fff;
+	padding:20px 0 50px 0;
+}
+.webSite{
+	margin-bottom: 0px;
+}
+.s-icon{
+	background:url(../img/share-icon.png) !important;
+	background-repeat: no-repeat;
+}
+.bdshare-button-style0-24 .bds_qzone{
+	background-position:-1px -39px !important;
+}
+.bdshare-button-style0-24 .bds_tsina{
+	background-position:-1px -82px !important;
+}
+.bdshare-button-style0-24 .bds_weixin{
+	background-position:-1px -124px !important;
+}

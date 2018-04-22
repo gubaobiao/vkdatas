@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=meta, minimum-scale=1.0">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="msapplication-TileColor" content="#000">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="email=no">
+    <meta name="renderer" content="webkit">
+    <meta name="keywords" content="mg动画制作,动画宣传片,flash动画,app动画宣传片,app动画制作,app动画宣传视频,产品动画,产品三维动画" />
+    <meta name="description" content="海鸭以捕食海边小海鲜为生，flash动画所以又形象的称之为叫弄潮鸭，海鸭蛋是中国南海北部湾海域国家红树林保护区、主要产区为湛江、防城港、北海、钦州、mg动画制作威海等沿海地区的海边域涂滩养殖的海鸭所产的蛋。动画宣传片" />
+    <link href="/Public/wap/css/swiper.min.css" rel="stylesheet">
+    <link href="/Public/wap/css/index.css" rel="stylesheet">
+    <title>海鸭蛋产品动画宣传片-动画街</title>
+    <script type="text/javascript">
+        function fontFun() {
+            var winW = document.documentElement.clientWidth;
+            document.documentElement.style.fontSize = (winW / 750 * 625) + "%";
+        }
+        fontFun();
+        window.onresize = fontFun; 
+    </script>
+</head>
+<body>
+    <!--头部-->
+    <div class="top">
+        <div class="logo"></div>
+        <div class="operate"></div>
+        <a href="javascript:history.go(-1)" class="back"></a>
+    </div>
+
+    <!--content-->
+    <div class="mywrap2">
+        <div class="enws_img">
+            <video width="100%" height="100%" src="http://cloud.video.taobao.com//play/u/2586769528/p/1/e/6/t/7/50069604875.mp4" controls poster="/Public/video_slt/f71528990d30a7dc69fa18802722f74e.jpg"></video>
+            <!-- <img src="/Public/wap/img/news.jpg" width="100%" /> -->
+        </div>
+        <div class="content">
+            <div class="content_text">
+                <p class="p1">海鸭蛋产品动画宣传片</p>
+                <p class="time">2018年01月18日</p>
+            </div>
+            <div class="p3"><p><span>海鸭以捕食海边小海鲜为生，所以又形象的称之为叫弄潮鸭，海鸭蛋是中国南海北部湾海域国家红树林保护区、主要产区为湛江、防城港、北海、钦州、威海等沿海地区的海边域涂滩养殖的海鸭所产的蛋。动画宣传片</span></p><p><span><img  src="/upload/image/20180117/1516194730911585.jpg" title="1516194730911585.jpg" alt="3_副本.jpg" /></span></p><p><span>每次潮落，红树林里总会滞留有很多的小鱼、小虾、小蟹、小螺等海洋生物。这些高蛋白的天然饵料就变成了海鸭的美餐，使得海鸭体肥蛋多，蛋黄晶红mg动画制作<a href="http://www.donghuajie.com" target="_self" title="mg动画制作">mg动画制作</a></span></p><p><span><img  src="/upload/image/20180117/1516194730911585.jpg" title="1516194730911585.jpg" alt="3_副本.jpg" /></span></p><p><span><span>海鸭蛋营养丰富。每</span>100<span>克海鸭蛋中含有卵磷脂</span><span>4056mg,</span><span>比</span><span>100</span><span>克牛奶中所含卵磷脂高</span><span>50</span><span>倍。卵磷脂能起到延缓flash动画</span></span></p><p><span><span><img  src="/upload/image/20180117/1516194730911585.jpg" title="1516194730911585.jpg" alt="3_副本.jpg" /></span></span></p><p><span><span>衰老、软化、清理血管、增强记忆力的作用，另外</span>100<span>克蛋中含蛋白质</span><span>12.84</span><span>克，含人体必需的</span><span>18</span><span>种氨基酸总量</span></span></p><p><span><span>高达</span>11.53<span>克。还含有钙、磷、铁、锌、碘、镁、钾、硒等多种对人体有益的微量无素和</span><span>10</span><span>多种维生素。</span></span></p><p><br/></p></div>
+        </div>
+        
+        <div class="share_block">
+            <div class="share"></div>
+        </div>
+        <!--分享框-->
+        <div class="cover">
+            <div class="shareArea">
+                <div class="shareblock_one">
+                    <p class="share_t1">分享</p>
+                    <p class="share_t2">海鸭蛋产品动画宣传片</p>
+                </div>
+                
+                <div class="bdsharebuttonbox shareblock_two">
+                        
+                    <div class="share_item">
+                        <a class="qq_block bds_qzone"  data-cmd="qzone" title="分享到QQ空间"></a>
+                        <span>QQ空间</span>
+                    </div>
+                    <div class="share_item">
+                        <a class="wb_block bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+                        <span>微博</span>
+                    </div>
+                    <div class="share_item ">
+                        <!-- <a class="wx_block bds_weixin" data-cmd="weixin" title="分享到微信"></a> -->
+                        <a class="wx_block"  title="分享到微信"></a>
+                        <span>朋友圈</span>
+                    </div>
+                </div>
+                <div class="cancle_block">
+                    <div class="cancle_btn">取消</div>
+                </div>
+            </div>
+        </div>
+
+        <!--相关推荐-->
+        <div class="recommend">
+            <div class="recommend_t">相关推荐</div>
+
+            <a class="recommend_b" href="http://m.donghuajie.com/anli/386.html">
+                    <div class="r_img">
+                        <img src="/Public/video_slt/318174100ddfcbe414376248322650d3.jpg" width="100%"/>
+                    </div>
+                    <div class="r_info">
+                        <p class="r_title1">一加手机三维动画</p>
+                        <p class="r_title2">#app/产品#</p>
+                        <p class="time">2018/03/31</p>
+                    </div>
+                </a><a class="recommend_b" href="http://m.donghuajie.com/anli/360.html">
+                    <div class="r_img">
+                        <img src="/Public/video_slt/a1579cb19fb8d6ec42987d78033ddf6a.jpg" width="100%"/>
+                    </div>
+                    <div class="r_info">
+                        <p class="r_title1">三维魔方动画视频</p>
+                        <p class="r_title2">#app/产品#</p>
+                        <p class="time">2018/03/14</p>
+                    </div>
+                </a><a class="recommend_b" href="http://m.donghuajie.com/anli/357.html">
+                    <div class="r_img">
+                        <img src="/Public/video_slt/3424c83fd7982ed70fc5e683fe31c009.jpg" width="100%"/>
+                    </div>
+                    <div class="r_info">
+                        <p class="r_title1">首届中国体育庙会宣传动画</p>
+                        <p class="r_title2">#科普教育#</p>
+                        <p class="time">20小时前</p>
+                    </div>
+                </a><a class="recommend_b" href="http://m.donghuajie.com/anli/356.html">
+                    <div class="r_img">
+                        <img src="/Public/video_slt/a2923ea6afcb47b982f27be8040abea9.jpg" width="100%"/>
+                    </div>
+                    <div class="r_info">
+                        <p class="r_title1">治趣平台宣传MG动画</p>
+                        <p class="r_title2">#app/产品#</p>
+                        <p class="time">1天前</p>
+                    </div>
+                </a><a class="recommend_b" href="http://m.donghuajie.com/anli/355.html">
+                    <div class="r_img">
+                        <img src="/Public/video_slt/2b4c2a29c0a2cacc42b6e8f498b03e63.jpg" width="100%"/>
+                    </div>
+                    <div class="r_info">
+                        <p class="r_title1">请人喝茶说明</p>
+                        <p class="r_title2">#科普教育#</p>
+                        <p class="time">2天前</p>
+                    </div>
+                </a>
+        </div>
+
+        <div class="last">已经到底了</div>
+    </div>
+    <div class="mycover">
+    <div class="dialog">
+        <div class="item_wap">
+            <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon one"></span>
+                <span class="item_text">首页</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com/worker.html">
+                <span class="item_icon two"></span>
+                <span class="item_text">作品案例</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com/wegot.html">
+                <span class="item_icon three"></span>
+                <span class="item_text">来撩我们</span>
+            </a>
+        </div>
+        <div class="item_wap">
+            <!-- <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon four"></span>
+                <span class="item_text">关于我们</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon five"></span>
+                <span class="item_text">服务流程</span>
+            </a> -->
+            <a class="item" href="http://m.donghuajie.com/news.html">
+                <span class="item_icon six"></span>
+                <span class="item_text">动画资讯</span>
+            </a>
+        </div>
+    </div>
+</div>
+    <!--<a class="phone" href="tel:4008656770"></a>-->
+    <script src="/Public/wap/js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="/Public/wap/js/base.js"></script>
+    <script>
+        function resizepic(){}
+        $('.wx_block').click(function(){
+            window.alert('可是一使用浏览器分享,按钮分享给好友哦');
+        });
+        $(function(){
+            $('.cancle_btn,.share').click(function(){
+                $('.cover').stop(false,true).fadeToggle();
+            });
+            // 点击空白处关闭分享
+            $(".cover").on('click',function(e){
+                var target = $(e.target);
+                if(target.closest('.shareArea').length == 0){
+                    $('.cover').stop(false,true).fadeToggle();
+                }
+                e.stopPropagation();
+            });
+        });
+
+        // 回到顶部
+        $(".top").click(function() {
+            $('.mywrap2').scrollTop(0);
+        });
+    </script>
+    <script>
+        window._bd_share_config={
+            "common":{
+                bdText : "海鸭蛋产品动画宣传片",
+                bdDesc : "海鸭以捕食海边小海鲜为生，flash动画所以又形象的称之为叫弄潮鸭，海鸭蛋是中国南海北部湾海域国家红树林保护区、主要产区为湛江、防城港、北海、钦州、mg动画制作威海等沿海地区的海边域涂滩养殖的海鸭所产的蛋。动画宣传片",
+                bdUrl : "http://m.donghuajie.com/anli/284.html",
+                bdPic : "/Public/video_slt/f71528990d30a7dc69fa18802722f74e.jpg"
+            },
+            "share":{},
+            "image":{
+                "viewList":["qzone","tsina","tqq","renren","weixin"],
+                "viewText":"分享到：","viewSize":"16"
+            },
+            "selectShare":{
+                "bdContainerClass":null,
+                "bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]
+            }
+        };
+        with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+    </script>
+    <!--客服代码-->
+    <script>
+        (function() {var _53code = document.createElement("script");
+            _53code.src = "https://tb.53kf.com/code/code/10167819/2";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(_53code, s)
+            ;})();
+    </script>
+</body>
+</html>

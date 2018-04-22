@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=meta, minimum-scale=1.0">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="msapplication-TileColor" content="#000">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="email=no">
+    <meta name="renderer" content="webkit">
+    <meta name="keywords" content="mg动画制作,杭州动画宣传片,动画公司,产品动画制作,动画制作,杭州三维动画制作" />
+    <meta name="description" content="以流控制技术和矢量技术等为代表，能够将矢量图、位图、音频、动画和深一层交互动作有机地、灵活地结合在一起，从而制作出美观、新奇、交互性更强的动画效果。那么mg动画的以下几个特点您是否都知道呢？mg动画的这些特点你都知道吗" />
+    <link href="/Public/wap/css/swiper.min.css" rel="stylesheet">
+    <link href="/Public/wap/css/index.css" rel="stylesheet">
+    <title>mg动画制作的特点-动画街</title>
+    <script type="text/javascript">
+        function fontFun() {
+            var winW = document.documentElement.clientWidth;
+            document.documentElement.style.fontSize = (winW / 750 * 625) + "%";
+        }
+        fontFun();
+        window.onresize = fontFun; 
+    </script>
+</head>
+<body>
+    <!--头部-->
+    <div class="top">
+        <div class="logo"></div>
+        <div class="operate"></div>
+        <a href="javascript:history.go(-1)" class="back"></a>
+    </div>
+
+    <div class="mywrap2">
+        <div class="enws_img">
+            <img src="/Public/pic/a022d0e1a5ed9224395086a1a2383e87.jpg" width="100%" />
+        </div>
+        <div class="content">
+            <div class="content_text">
+                <p class="p1">mg动画制作的特点</p>
+                <p class="p2">2天前</p>
+            </div>
+            <div class="p3"><p>以流控制技术和矢量技术等为代表，能够将矢量图、位图、音频、动画和深一层交互动作有机地、灵活地结合在一起，从而制作出美观、新奇、交互性更强的动画效果。那么mg动画的以下几个特点您是否都知道呢？mg动画的这些特点你都知道吗</p><p>&nbsp;1.动画短小&nbsp; <a href="http://www.donghuajie.com/" target="_self">mg动画制作</a>受网络资源的制约一般比较短小，但绘制的画面是矢量格式，无论把它放大多少倍都不会失真。<br/></p><p><img  src="/upload/image/20180419/1524118881441635.jpg" title="1524118881441635.jpg" alt="1524118881441635.jpg" /></p><p>&nbsp;2.交互性强&nbsp; mg动画具有交互性优势，可以通过单击、选择等动作决定动画的运行过程和结果，是传统动画所无法比拟的。<br/></p><p>3.具传播性&nbsp; mg动画由于文件小、传输速度快、播放采用流式技术的特点，所以在网上供人欣赏和下载，具较好的广泛传播性。&nbsp;</p><p>4.轻便与灵巧&nbsp; mg动画有崭新的视觉效果，成为一种新时代的艺术表现形式。比传统的动画更加轻便与灵巧。</p><p>&nbsp;5.人力少，成本低&nbsp; mg动画制作的成本非常低，使用Flash制作的动画能够大大地减少人力、物力资源的消耗。同时，在制作时间上也会大大减少。<br/></p><p><br/></p></div>
+        </div>
+        
+
+        <div class="share_block">
+            <div class="share"></div>
+        </div>
+        <div class="last">已经到底了</div>
+    </div>
+    <!--分享框-->
+    <div class="cover">
+        <div class="shareArea">
+            <div class="shareblock_one">
+                <p class="share_t1">分享</p>
+                <p class="share_t2">mg动画制作的特点</p>
+            </div>
+            
+            <div class="bdsharebuttonbox shareblock_two">
+                 
+                <div class="share_item">
+                    <a class="qq_block bds_qzone"  data-cmd="qzone" title="分享到QQ空间"></a>
+                    <span>QQ空间</span>
+                </div>
+                <div class="share_item">
+                    <a class="wb_block bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+                    <span>微博</span>
+                </div>
+                <div class="share_item ">
+                    <!-- <a class="wx_block bds_weixin" data-cmd="weixin" title="分享到微信"></a> -->
+                    <a class="wx_block"  title="分享到微信"></a>
+                    <span>朋友圈</span>
+                </div>
+            </div>
+            <div class="cancle_block">
+                <div class="cancle_btn">取消</div>
+            </div>
+        </div>
+    </div>
+    <div class="mycover">
+    <div class="dialog">
+        <div class="item_wap">
+            <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon one"></span>
+                <span class="item_text">首页</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com/worker.html">
+                <span class="item_icon two"></span>
+                <span class="item_text">作品案例</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com/wegot.html">
+                <span class="item_icon three"></span>
+                <span class="item_text">来撩我们</span>
+            </a>
+        </div>
+        <div class="item_wap">
+            <!-- <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon four"></span>
+                <span class="item_text">关于我们</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon five"></span>
+                <span class="item_text">服务流程</span>
+            </a> -->
+            <a class="item" href="http://m.donghuajie.com/news.html">
+                <span class="item_icon six"></span>
+                <span class="item_text">动画资讯</span>
+            </a>
+        </div>
+    </div>
+</div>
+    <!--<a class="phone" href="tel:4008656770"></a>-->
+    <script src="/Public/wap/js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="/Public/wap/js/base.js"></script>
+    <script>
+        function resizepic(){}
+        $('.wx_block').click(function(){
+            window.alert('可是一使用浏览器分享,按钮分享给好友哦');
+        });
+        $('.cancle_btn,.share').click(function(){
+            $('.cover').stop(false,true).fadeToggle();
+        });
+        
+        // 点击空白处关闭分享
+        $(".cover").on('click',function(e){
+            var target = $(e.target);
+            if(target.closest('.shareArea').length == 0){
+                $('.cover').stop(false,true).fadeToggle();
+            }
+            e.stopPropagation();
+        });
+
+        // 回到顶部
+        $(".top").click(function() {
+            $('.mywrap2').scrollTop(0);
+        });
+    </script>
+    <script>
+        window._bd_share_config={
+            "common":{
+                bdText : 'mg动画制作的特点',
+                bdDesc : '以流控制技术和矢量技术等为代表，能够将矢量图、位图、音频、动画和深一层交互动作有机地、灵活地结合在一起，从而制作出美观、新奇、交互性更强的动画效果。那么mg动画的以下几个特点您是否都知道呢？mg动画的这些特点你都知道吗',
+                bdUrl : 'm.donghuajie.com/news/485.html',
+                bdPic : '/Public/slt/a022d0e1a5ed9224395086a1a2383e87.jpg'
+            },
+            "share":{},
+            "image":{
+                "viewList":["qzone","tsina","tqq","renren","weixin"],
+                "viewText":"分享到：","viewSize":"16"
+            },
+            "selectShare":{
+                "bdContainerClass":null,
+                "bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]
+            }
+        };
+        with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+    </script>
+    <!--客服代码-->
+    <script>
+        (function() {var _53code = document.createElement("script");
+            _53code.src = "https://tb.53kf.com/code/code/10167819/2";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(_53code, s)
+            ;})();
+    </script>
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=meta, minimum-scale=1.0">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="msapplication-TileColor" content="#000">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="email=no">
+    <meta name="renderer" content="webkit">
+    <meta name="keywords" content="{$seoWord['keywords']}" />
+    <meta name="description" content="{$seoWord['description']}" />
+    <link href="{$Think.config.asset_wap}/css/swiper.min.css" rel="stylesheet">
+    <link href="{$Think.config.asset_wap}/css/index.css" rel="stylesheet">
+    <title>{$seoWord['title']}</title>
+    <script type="text/javascript">
+        function fontFun() {
+            var winW = document.documentElement.clientWidth;
+            document.documentElement.style.fontSize = (winW / 750 * 625) + "%";
+        }
+        fontFun();
+        window.onresize = fontFun; 
+    </script>
+</head>
+<body>
+    <!--头部-->
+    <div class="top">
+        <div class="logo"></div>
+        <div class="operate"></div>
+    </div>
+<div class="mywrap mywrap-3">
+    <!--背景图-->
+    <div class="woget_bj woget_1"></div>
+    <div class="woget_bj woget_2"></div>
+    <div class="woget_bj woget_3"></div>
+    <div class="woget_bj woget_4"></div>
+    <div class="woget_bj woget_5"></div>
+    <div class="woget_bj woget_6"></div>
+
+    <!--联系信息-->
+    <div class="touch">
+        <a>联系人：{$contact[u_name][1]}</a>
+        <a href="tel:400-8656-770">400电话：400-8656-770</a>
+        <a href="tel:{$contact[u_tel][1]}">手机：18667187739</a>
+        <a href="mqqwpa://im/chat?chat_type=wpa&uin={$contact[u_QQ][1]}&version=1&src_type=web&web_src=oicqzone.com">QQ：{$contact[u_QQ][1]}</a>
+    </div>
+    <div class="address">
+        <p>地址：浙江省杭州市未来科技城梦想小镇</p>
+    </div>
+</div>
+    <!--bottom-->
+    <!--<div class="bottom setStyle">-->
+        <!--<div class="choose">-->
+            <!--<a class="choose_item" href="{$domain}">-->
+                <!--<div class="bottom_icon bottom_icon_1"></div>-->
+                <!--<div class="bottom_text">首页</div>-->
+            <!--</a>-->
+            <!--<a class="choose_item" href="{$domain}/worker.html">-->
+                <!--<div class="bottom_icon bottom_icon_2"></div>-->
+                <!--<div class="bottom_text">作品案例</div>-->
+            <!--</a>-->
+            <!--<a class="choose_item choose_three" href="{$domain}/wegot.html">-->
+                <!--<div class="bottom_icon bottom_icon_3"></div>-->
+                <!--<div class="bottom_text">来撩我们</div>-->
+            <!--</a>-->
+        <!--</div>-->
+    <!--</div>-->
+    <include file="Index::public"/>
+    <!--<a class="phone" href="tel:4008656770"></a>-->
+    <script src="{$Think.config.asset_wap}/js/jquery-2.1.1.min.js"></script>
+    <script src="{$Think.config.asset_wap}/js/swiper.min.js"></script>
+    <script type="text/javascript" src="{$Think.config.asset_wap}/js/base.js"></script>
+    <script>
+        // 回到顶部
+        $(".top").click(function() {
+            $('.mywrap').scrollTop(0);
+        });
+    </script>
+    <!--客服代码-->
+    <script>
+        (function() {var _53code = document.createElement("script");
+            _53code.src = "https://tb.53kf.com/code/code/10167819/2";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(_53code, s)
+            ;})();
+    </script>
+</body>
+</html>

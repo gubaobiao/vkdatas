@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=meta, minimum-scale=1.0">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="msapplication-TileColor" content="#000">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="email=no">
+    <meta name="renderer" content="webkit">
+    <meta name="keywords" content="动画视频制作,杭州动画宣传片,创意动画,产品动画制作,杭州动漫设计,杭州三维动画制作" />
+    <meta name="description" content="动画视频制作过程对比于以往的建筑效果图、施工图对于建筑的诠释有着完全不同,介绍一下建筑漫游动画制作的基本流程" />
+    <link href="/Public/wap/css/swiper.min.css" rel="stylesheet">
+    <link href="/Public/wap/css/index.css" rel="stylesheet">
+    <title>动画视频制作的基本流程-动画街</title>
+    <script type="text/javascript">
+        function fontFun() {
+            var winW = document.documentElement.clientWidth;
+            document.documentElement.style.fontSize = (winW / 750 * 625) + "%";
+        }
+        fontFun();
+        window.onresize = fontFun; 
+    </script>
+</head>
+<body>
+    <!--头部-->
+    <div class="top">
+        <div class="logo"></div>
+        <div class="operate"></div>
+        <a href="javascript:history.go(-1)" class="back"></a>
+    </div>
+
+    <div class="mywrap2">
+        <div class="enws_img">
+            <img src="/Public/pic/fe3c6c0da5c0a3f3184ca130af6f6acb.jpg" width="100%" />
+        </div>
+        <div class="content">
+            <div class="content_text">
+                <p class="p1">动画视频制作的基本流程</p>
+                <p class="p2">2018年02月05日</p>
+            </div>
+            <div class="p3"><p><a href="http://www.donghuajie.com" target="_self">动画视频制作</a>过程对比于以往的建筑效果图、施工图对于建筑的诠释有着完全不同,介绍一下建筑漫游动画制作的基本流程：</p><p>1.前期策划<br/></p><p>&nbsp; &nbsp;在进行动画制作之前要做好策划。对动画的剧本进行规划设计, 再根据现场实景的考察, 进一步对动画剧本制作和修改。另外还要规划好动画的整体效果、主要表现的场景、运动镜头的活动轨迹、每段镜头片段的时间控制、如何使音乐效果和视觉效果相结合等等, 都是在动画制作之前必须解决的问题。</p><p><img  src="/upload/image/20180205/1517808201684162.jpg" title="1517808201684162.jpg" alt="1517808201684162.jpg" /></p><p>2. 创建模型<br/></p><p>&nbsp; &nbsp;根据场景的平面、立面、剖面图以及部分场景的真实照片, 在3DSMAX 中进行建模的工作, 建筑建模中合理地调配人员进行建模工作十分重要.建模时先建立场景的主体, (精致点)个体场景可以简单制作, 因为建模时模型的面数对工作的效率有较大影响, 因此模型要尽量精简数目, 以配合灯光、贴图和渲染的相关工作, 大场景动画要先建立起整体地形布局, 再建相关模型的粗模, 不能过于精细, 如果面数过多计算机会无法运作而死机, 整个场景的建造无须太充分, 最终渲染时会配合摄影机进行相应的调整。</p><p>3. 动画设置<br/></p><p>&nbsp; &nbsp; 基本模型完成后, 首先将摄影机的动画按照动画脚本的设计和表现方向调整好, 当场景中只有主题建筑物时, 就要先设定好摄影机的动画, 这对计算机显卡刷新有很大帮助。因为场景越多计算机显卡的运转速度会越慢, 针对不同的动画场景明确摄像机表现的重点, 设计好摄像机的走向、镜头的拉伸、移动速度等要素, 充分配合表现动画的主题。</p><p>4. 布置贴图和场景灯光<br/></p><p>&nbsp; &nbsp; 动画用到的贴图要尽量放在同一路径, 避免因个别文件更名或是移动带来的麻烦; 为保证最终场景的运行速度, 给模型贴图时要根据模型面积大小严格控制贴图分辨率; 给模型赋材质的时候, 注意贴图坐标的正确使用。在制作建筑动画的时候, 考虑到动画的渲染速度与机器配置因素, 通常采用普通灯光。</p><p>5. 环境模型的调配和辅助性调整<br/></p><p>&nbsp; &nbsp; 在贴图和灯光工作完成后, 需要对渲染的模型进行检查, 在调整好的环境中加入树木、汽车、人物等环境因素, 配合下一环节的渲染工作。</p><p>6. 动画的渲染输出<br/></p><p>&nbsp; &nbsp; 由于渲染的时间会持续很长, 在制作漫游动画的过程中, 最好是白天进行建模、灯光、贴图的工作, 晚上进行渲染制作, 合理地安排计算机的使用以提高工作的效率。</p><p>7. 动画后期合成特效处理<br/></p><p>&nbsp; &nbsp; 加入适合的背景音乐和解说词, 综合进行剪辑。把剪辑好的文件调入AFTER EFFECTS软件中进行色调的调试、特效的制作等相关工作, 对动画的最终尺寸、渲染效果进行最终的测试后渲染出动画成片。</p><p><br/></p></div>
+        </div>
+        
+
+        <div class="share_block">
+            <div class="share"></div>
+        </div>
+        <div class="last">已经到底了</div>
+    </div>
+    <!--分享框-->
+    <div class="cover">
+        <div class="shareArea">
+            <div class="shareblock_one">
+                <p class="share_t1">分享</p>
+                <p class="share_t2">动画视频制作的基本流程</p>
+            </div>
+            
+            <div class="bdsharebuttonbox shareblock_two">
+                 
+                <div class="share_item">
+                    <a class="qq_block bds_qzone"  data-cmd="qzone" title="分享到QQ空间"></a>
+                    <span>QQ空间</span>
+                </div>
+                <div class="share_item">
+                    <a class="wb_block bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+                    <span>微博</span>
+                </div>
+                <div class="share_item ">
+                    <!-- <a class="wx_block bds_weixin" data-cmd="weixin" title="分享到微信"></a> -->
+                    <a class="wx_block"  title="分享到微信"></a>
+                    <span>朋友圈</span>
+                </div>
+            </div>
+            <div class="cancle_block">
+                <div class="cancle_btn">取消</div>
+            </div>
+        </div>
+    </div>
+    <div class="mycover">
+    <div class="dialog">
+        <div class="item_wap">
+            <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon one"></span>
+                <span class="item_text">首页</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com/worker.html">
+                <span class="item_icon two"></span>
+                <span class="item_text">作品案例</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com/wegot.html">
+                <span class="item_icon three"></span>
+                <span class="item_text">来撩我们</span>
+            </a>
+        </div>
+        <div class="item_wap">
+            <!-- <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon four"></span>
+                <span class="item_text">关于我们</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon five"></span>
+                <span class="item_text">服务流程</span>
+            </a> -->
+            <a class="item" href="http://m.donghuajie.com/news.html">
+                <span class="item_icon six"></span>
+                <span class="item_text">动画资讯</span>
+            </a>
+        </div>
+    </div>
+</div>
+    <!--<a class="phone" href="tel:4008656770"></a>-->
+    <script src="/Public/wap/js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="/Public/wap/js/base.js"></script>
+    <script>
+        function resizepic(){}
+        $('.wx_block').click(function(){
+            window.alert('可是一使用浏览器分享,按钮分享给好友哦');
+        });
+        $('.cancle_btn,.share').click(function(){
+            $('.cover').stop(false,true).fadeToggle();
+        });
+        
+        // 点击空白处关闭分享
+        $(".cover").on('click',function(e){
+            var target = $(e.target);
+            if(target.closest('.shareArea').length == 0){
+                $('.cover').stop(false,true).fadeToggle();
+            }
+            e.stopPropagation();
+        });
+
+        // 回到顶部
+        $(".top").click(function() {
+            $('.mywrap2').scrollTop(0);
+        });
+    </script>
+    <script>
+        window._bd_share_config={
+            "common":{
+                bdText : '动画视频制作的基本流程',
+                bdDesc : '动画视频制作过程对比于以往的建筑效果图、施工图对于建筑的诠释有着完全不同,介绍一下建筑漫游动画制作的基本流程',
+                bdUrl : 'm.donghuajie.com/news/380.html',
+                bdPic : '/Public/slt/fe3c6c0da5c0a3f3184ca130af6f6acb.jpg'
+            },
+            "share":{},
+            "image":{
+                "viewList":["qzone","tsina","tqq","renren","weixin"],
+                "viewText":"分享到：","viewSize":"16"
+            },
+            "selectShare":{
+                "bdContainerClass":null,
+                "bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]
+            }
+        };
+        with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+    </script>
+    <!--客服代码-->
+    <script>
+        (function() {var _53code = document.createElement("script");
+            _53code.src = "https://tb.53kf.com/code/code/10167819/2";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(_53code, s)
+            ;})();
+    </script>
+</body>
+</html>

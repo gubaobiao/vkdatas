@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=meta, minimum-scale=1.0">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="msapplication-TileColor" content="#000">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="email=no">
+    <meta name="renderer" content="webkit">
+    <meta name="keywords" content="动画制作,动画公司,二维动画,动画宣传片,FLASH动画,二维动画制作,MG动画,动画街" />
+    <meta name="description" content="动画街动画制作公司，是一家专业设计MG动画制作的企业，擅长领域包括flash动画，二维动画动漫，创意动画片，产品宣传片等动画视频制作。拥有别具风格的动画制作团队，制作出品多部优秀的MG动画案例，提供专业策划案，享受一线动画制作服务。" />
+    <link href="/Public/wap/css/swiper.min.css" rel="stylesheet">
+    <link href="/Public/wap/css/index.css" rel="stylesheet">
+    <title>动画制作-动画公司-二维动画-动画宣传片-动画街</title>
+    <script type="text/javascript">
+        function fontFun() {
+            var winW = document.documentElement.clientWidth;
+            document.documentElement.style.fontSize = (winW / 750 * 625) + "%";
+        }
+        fontFun();
+        window.onresize = fontFun;
+    </script>
+</head>
+<body>
+    <!--头部-->
+    <div class="top">
+        <div class="logo"></div>
+        <div class="operate"></div>
+    </div>
+
+    <div class="mywrap">
+        <!--banner轮播图-->
+        <div class="banner swiper-container">
+            <ul class="bannerUl swiper-wrapper">
+                <li class="swiper-slide bannerLi1 "></li><li class="swiper-slide bannerLi2 "></li><li class="swiper-slide bannerLi3 "></li>            </ul>
+            <div class="swiper-pagination babber_page">
+                <span class="swiper-pagination-bullet"></span>
+                <span class="swiper-pagination-bullet"></span>
+                <span class="swiper-pagination-bullet"></span>
+            </div>
+        </div>
+
+        <!--分类作品-->
+        <div class="workType">
+            <div class="typeTitle">分类作品案例</div>
+            <div class="typeWrap">
+                <div class="swiper-wrapper typeContent">
+                    <a class="swiper-slide typeItem" href="http://m.donghuajie.com/type/22.html">
+                            <img src="/upload/cate/pinpaixuanchaun.png">
+                            <span class="video-title">品牌宣传</span>
+                        </a><a class="swiper-slide typeItem" href="http://m.donghuajie.com/type/23.html">
+                            <img src="/upload/cate/appchanpin.png">
+                            <span class="video-title">app/产品</span>
+                        </a><a class="swiper-slide typeItem" href="http://m.donghuajie.com/type/24.html">
+                            <img src="/upload/cate/kpjy.png">
+                            <span class="video-title">科普教育</span>
+                        </a><a class="swiper-slide typeItem" href="http://m.donghuajie.com/type/25.html">
+                            <img src="/upload/cate/zhengfubaogao.png">
+                            <span class="video-title">政府/报告</span>
+                        </a><a class="swiper-slide typeItem" href="http://m.donghuajie.com/type/26.html">
+                            <img src="/upload/cate/h5wuxian.png">
+                            <span class="video-title">H5/无线</span>
+                        </a><a class="swiper-slide typeItem" href="http://m.donghuajie.com/type/27.html">
+                            <img src="/upload/cate/liuchengyanshi.png">
+                            <span class="video-title">流程演示</span>
+                        </a><a class="swiper-slide typeItem" href="http://m.donghuajie.com/type/29.html">
+                            <img src="/upload/cate/xushijuji.png">
+                            <span class="video-title">叙事剧集</span>
+                        </a><a class="swiper-slide typeItem" href="http://m.donghuajie.com/type/30.html">
+                            <img src="/upload/cate/shangyechahua.png">
+                            <span class="video-title">商业插画</span>
+                        </a>                </div>
+            </div>
+        </div>
+
+        <!--不同类型案例展示-->
+        <!--品牌宣讲-->
+        <!--品牌宣讲-->
+            <div class="commonWrap brand_publicity">
+                    <a class="titles brand_title" href="http://m.donghuajie.com/type/22.html"></a>
+                    <div class="view">
+                        <div class="swiper-wrapper viewWrap">
+                            <a class="swiper-slide viewItem" href="http://m.donghuajie.com/anli/358.html">
+                                    <div class="viewImg">
+                                        <img src="Public/video_pic/4916aa751b323ed5c4446dc4dfc3a98b.jpg" width="100%">
+                                    </div>
+                                    <div class="viewInfo">
+                                        <p class="view_title">星巴克动画制作宣传</p>
+                                        <p class="view_date">2018/03/20</p>
+                                    </div>
+                                </a><a class="swiper-slide viewItem" href="http://m.donghuajie.com/anli/334.html">
+                                    <div class="viewImg">
+                                        <img src="Public/video_pic/b8ea4f06224e22600a28b7060405d866.jpg" width="100%">
+                                    </div>
+                                    <div class="viewInfo">
+                                        <p class="view_title">爱马仕丝巾杭州二维动画制作</p>
+                                        <p class="view_date">2018/03/14</p>
+                                    </div>
+                                </a><a class="swiper-slide viewItem" href="http://m.donghuajie.com/anli/335.html">
+                                    <div class="viewImg">
+                                        <img src="Public/video_pic/fefe33749c5a79c0558ca20138e0104b.jpg" width="100%">
+                                    </div>
+                                    <div class="viewInfo">
+                                        <p class="view_title">杭州市燃气集团有限公司杭州mg动画制作</p>
+                                        <p class="view_date">2018/03/14</p>
+                                    </div>
+                                </a><a class="swiper-slide viewItem" href="http://m.donghuajie.com/anli/341.html">
+                                    <div class="viewImg">
+                                        <img src="Public/video_pic/a059b8eb8e7a643c68fb975b7cdf93d4.jpg" width="100%">
+                                    </div>
+                                    <div class="viewInfo">
+                                        <p class="view_title">爱马仕杭州flash动画制作</p>
+                                        <p class="view_date">2018/03/14</p>
+                                    </div>
+                                </a><a class="swiper-slide viewItem" href="http://m.donghuajie.com/anli/333.html">
+                                    <div class="viewImg">
+                                        <img src="Public/video_pic/b51dbf61ba6fadd362c26469d5e7a3ec.jpg" width="100%">
+                                    </div>
+                                    <div class="viewInfo">
+                                        <p class="view_title">爱马仕二维动画制作</p>
+                                        <p class="view_date">2018/03/13</p>
+                                    </div>
+                                </a><a class="swiper-slide viewItem" href="http://m.donghuajie.com/anli/329.html">
+                                    <div class="viewImg">
+                                        <img src="Public/video_pic/90b008a943946a7432a0079c607b7c5e.jpg" width="100%">
+                                    </div>
+                                    <div class="viewInfo">
+                                        <p class="view_title">麦当劳mg动画制作</p>
+                                        <p class="view_date">2018/03/08</p>
+                                    </div>
+                                </a><a class="swiper-slide viewItem" href="http://m.donghuajie.com/anli/330.html">
+                                    <div class="viewImg">
+                                        <img src="Public/video_pic/a1971afef0fd9827f35a59ac53e3f6af.jpg" width="100%">
+                                    </div>
+                                    <div class="viewInfo">
+                                        <p class="view_title">阿里云货架动画制作公司</p>
+                                        <p class="view_date">2018/03/08</p>
+                                    </div>
+                                </a><a class="swiper-slide viewItem" href="http://m.donghuajie.com/anli/324.html">
+                                    <div class="viewImg">
+                                        <img src="Public/video_pic/51f6bee55e8a385a56718d6ff0c20844.jpg" width="100%">
+                                    </div>
+                                    <div class="viewInfo">
+                                        <p class="view_title">奥康皮鞋mg动画制作</p>
+                                        <p class="view_date">2018/03/07</p>
+                                    </div>
+                                </a>                        </div>
+                    </div>
+                </div>
+                <!--APP/产品-->
+                <!--品牌宣讲-->
+                                <div class="commonWrap app_product">
+                        <a class="titles app_title" href="http://m.donghuajie.com/type/23.html"></a>
+                        <div class="view">
+                            <div class="swiper-wrapper viewWrap">
+                                <a class="swiper-slide viewItem" href="http://m.donghuajie.com/anli/386.html">
+                                        <div class="viewImg">
+                                            <img src="Public/video_pic/318174100ddfcbe414376248322650d3.jpg" width="100%">
+                                        </div>
+                                        <div class="viewInfo">
+                                            <p class="view_title">一加手机三维动画</p>
+                                            <p class="view_date">2018/03/31</p>
+                                        </div>
+                                    </a><a class="swiper-slide viewItem" href="http://m.donghuajie.com/anli/359.html">
+                                        <div class="viewImg">
+                                            <img src="Public/video_pic/0f5c0f1a54ba08e43eb6ba4ff8e87be1.jpg" width="100%">
+                                        </div>
+                                        <div class="viewInfo">
+                                            <p class="view_title">天然水动画制作宣传</p>
+                                            <p class="view_date">2018/03/20</p>
+                                        </div>
+                                    </a><a class="swiper-slide viewItem" href="http://m.donghuajie.com/anli/360.html">
+                                        <div class="viewImg">
+                                            <img src="Public/video_pic/a1579cb19fb8d6ec42987d78033ddf6a.jpg" width="100%">
+                                        </div>
+                                        <div class="viewInfo">
+                                            <p class="view_title">三维魔方动画视频</p>
+                                            <p class="view_date">2018/03/20</p>
+                                        </div>
+                                    </a><a class="swiper-slide viewItem" href="http://m.donghuajie.com/anli/354.html">
+                                        <div class="viewImg">
+                                            <img src="Public/video_pic/5c2c8184d48902d7d55ae2d59e255a9a.jpg" width="100%">
+                                        </div>
+                                        <div class="viewInfo">
+                                            <p class="view_title">证券公司MG动画宣传</p>
+                                            <p class="view_date">2018/03/19</p>
+                                        </div>
+                                    </a><a class="swiper-slide viewItem" href="http://m.donghuajie.com/anli/356.html">
+                                        <div class="viewImg">
+                                            <img src="Public/video_pic/a2923ea6afcb47b982f27be8040abea9.jpg" width="100%">
+                                        </div>
+                                        <div class="viewInfo">
+                                            <p class="view_title">治趣平台宣传MG动画</p>
+                                            <p class="view_date">2018/03/19</p>
+                                        </div>
+                                    </a><a class="swiper-slide viewItem" href="http://m.donghuajie.com/anli/348.html">
+                                        <div class="viewImg">
+                                            <img src="Public/video_pic/04e3b5859d4d5fa745f94d36863520c5.jpg" width="100%">
+                                        </div>
+                                        <div class="viewInfo">
+                                            <p class="view_title">亲友游戏二维动画宣传片</p>
+                                            <p class="view_date">2018/03/16</p>
+                                        </div>
+                                    </a><a class="swiper-slide viewItem" href="http://m.donghuajie.com/anli/349.html">
+                                        <div class="viewImg">
+                                            <img src="Public/video_pic/6e1703d4ba30443ff89298b8bb835650.jpg" width="100%">
+                                        </div>
+                                        <div class="viewInfo">
+                                            <p class="view_title">竹叶青绿茶宣传MG动画</p>
+                                            <p class="view_date">2018/03/16</p>
+                                        </div>
+                                    </a><a class="swiper-slide viewItem" href="http://m.donghuajie.com/anli/351.html">
+                                        <div class="viewImg">
+                                            <img src="Public/video_pic/b41e5cb8b94d203f5b905eb28b11d233.jpg" width="100%">
+                                        </div>
+                                        <div class="viewInfo">
+                                            <p class="view_title">空巢老人健康服务系统MG动画</p>
+                                            <p class="view_date">2018/03/16</p>
+                                        </div>
+                                    </a>                            </div>
+                        </div>
+                    </div>
+                <!--科普教育-->
+                <!--品牌宣讲-->
+                                <div class="commonWrap science_edu">
+                        <a class="titles science_title" href="http://m.donghuajie.com/type/24.html"></a>
+                        <div class="view">
+                            <div class="swiper-wrapper viewWrap">
+                                <a class="swiper-slide viewItem" href="http://m.donghuajie.com/anli/361.html">
+                                        <div class="viewImg">
+                                            <img src="Public/video_pic/b23a06efefb6240cf4dff56a1ba17a22.jpg" width="100%">
+                                        </div>
+                                        <div class="viewInfo">
+                                            <p class="view_title">饮食安全宣传动画</p>
+                                            <p class="view_date">2018/03/21</p>
+                                        </div>
+                                    </a><a class="swiper-slide viewItem" href="http://m.donghuajie.com/anli/362.html">
+                                        <div class="viewImg">
+                                            <img src="Public/video_pic/3add910a30913de41904c9472bc2cde4.jpg" width="100%">
+                                        </div>
+                                        <div class="viewInfo">
+                                            <p class="view_title">动画关键词</p>
+                                            <p class="view_date">2018/03/21</p>
+                                        </div>
+                                    </a><a class="swiper-slide viewItem" href="http://m.donghuajie.com/anli/357.html">
+                                        <div class="viewImg">
+                                            <img src="Public/video_pic/3424c83fd7982ed70fc5e683fe31c009.jpg" width="100%">
+                                        </div>
+                                        <div class="viewInfo">
+                                            <p class="view_title">首届中国体育庙会宣传动画</p>
+                                            <p class="view_date">2018/03/20</p>
+                                        </div>
+                                    </a><a class="swiper-slide viewItem" href="http://m.donghuajie.com/anli/353.html">
+                                        <div class="viewImg">
+                                            <img src="Public/video_pic/3c364cdd7b026c14e1978548f6171c5e.jpg" width="100%">
+                                        </div>
+                                        <div class="viewInfo">
+                                            <p class="view_title">公共卫生宣传MG动画</p>
+                                            <p class="view_date">2018/03/19</p>
+                                        </div>
+                                    </a><a class="swiper-slide viewItem" href="http://m.donghuajie.com/anli/355.html">
+                                        <div class="viewImg">
+                                            <img src="Public/video_pic/2b4c2a29c0a2cacc42b6e8f498b03e63.jpg" width="100%">
+                                        </div>
+                                        <div class="viewInfo">
+                                            <p class="view_title">请人喝茶说明</p>
+                                            <p class="view_date">2018/03/19</p>
+                                        </div>
+                                    </a><a class="swiper-slide viewItem" href="http://m.donghuajie.com/anli/347.html">
+                                        <div class="viewImg">
+                                            <img src="Public/video_pic/baa442e61f0a50c21e3ee1234982a06b.jpg" width="100%">
+                                        </div>
+                                        <div class="viewInfo">
+                                            <p class="view_title">12315互联网平台MG动画宣传片</p>
+                                            <p class="view_date">2018/03/16</p>
+                                        </div>
+                                    </a><a class="swiper-slide viewItem" href="http://m.donghuajie.com/anli/350.html">
+                                        <div class="viewImg">
+                                            <img src="Public/video_pic/47f668f715560929e69309118409c63d.jpg" width="100%">
+                                        </div>
+                                        <div class="viewInfo">
+                                            <p class="view_title">逆向思维小动画</p>
+                                            <p class="view_date">2018/03/16</p>
+                                        </div>
+                                    </a><a class="swiper-slide viewItem" href="http://m.donghuajie.com/anli/343.html">
+                                        <div class="viewImg">
+                                            <img src="Public/video_pic/aadbd74de02b53c861b5b36599eabd03.jpg" width="100%">
+                                        </div>
+                                        <div class="viewInfo">
+                                            <p class="view_title">麻将由来二维动画</p>
+                                            <p class="view_date">2018/03/15</p>
+                                        </div>
+                                    </a>                            </div>
+                        </div>
+                    </div>
+                <!--品牌宣讲-->
+            <!--品牌宣讲-->
+            <!--品牌宣讲-->
+            <!--品牌宣讲-->
+            <!--品牌宣讲-->
+            
+        <!--最新动态-->
+        <div class="dynamic">
+            <div class="white"></div>
+            <div class="dynamic_title">
+                <div class="title_detail">最新动态</div>
+                <a class="dynamic_more" href="http://m.donghuajie.com/news.html"></a>
+            </div>
+
+            <div class="dynamic_block margintop">
+                    <a class="dynamic_img" href="http://m.donghuajie.com/news/487.html">
+                        <img src='Public/pic/368bfa6528d74be513bc91a6117fc6e3.jpg' width="100%">
+                    </a>
+                    <div class="info_title">动画视频制作怎样凸显示产品信息</div>
+                    <p class="infos">形式有很多，怎样才能将广告做到更有效果呢？动画视频制作显然已成为了当今最有效的广告形式之一，它可以凸显产品信息，能够激发消费者购买欲望，能够煽动他们的情绪，使其产生购买冲动。那么动画视频制作怎样凸显产品信息呢？下面就为大家分析一下动画视频制作怎样凸显产品信息。</p>
+                    <p class="time">1天前</p>
+                </div><div class="dynamic_block ">
+                    <a class="dynamic_img" href="http://m.donghuajie.com/news/488.html">
+                        <img src='Public/pic/38ca8ebb93c99b0662a24308a66e6a68.jpg' width="100%">
+                    </a>
+                    <div class="info_title">后期制作在三维动画制作中的应用</div>
+                    <p class="infos">    三维动画制作的媒体展示已经成为其时最为大众化，最具影响力的媒体方式。从好莱坞大片所创造的愿望国际，到电视新闻所注重的实际日子，再到雨后春笋的电视广告，无一不深刻地影响着咱们的日子。曩昔，影视节目的制作是专业人员的作业，对大众来说好像还笼罩着一层奥秘的面纱。
+
+</p>
+                    <p class="time">16小时前</p>
+                </div>        </div>
+        <!--phone-->
+        <!--<a class="phone" href="tel:4008656770"></a>-->
+        <div class="mybottom">
+            <div class="aboutUs">
+                <div class="block_two">
+                    <div class="service_title">服务电话：</div>
+                    <a class="service_tel" href="tel:4008656770">400-8656-770</a>
+                    <div class="service_bj">|</div>
+                    <a class="service_phone" href="tel:18667187739">18667187739</a>
+                </div>
+                <a class="block_three" href="mqqwpa://im/chat?chat_type=wpa&uin=1633219006&version=1&src_type=web&web_src=oicqzone.com">QQ：1633219006</a>
+            </div>
+        </div>
+    </div>
+    <!--bottom-->
+    <!--<div class="bottom">-->
+        <!--<div class="choose">-->
+            <!--<a class="choose_item choose_one" href="http://m.donghuajie.com">-->
+                <!--<div class="bottom_icon bottom_icon_1"></div>-->
+                <!--<div class="bottom_text">首页</div>-->
+            <!--</a>-->
+            <!--<a class="choose_item" href="http://m.donghuajie.com/worker.html">-->
+                <!--<div class="bottom_icon bottom_icon_2"></div>-->
+                <!--<div class="bottom_text">作品案例</div>-->
+            <!--</a>-->
+            <!--<a class="choose_item" href="http://m.donghuajie.com/wegot.html">-->
+                <!--<div class="bottom_icon bottom_icon_3"></div>-->
+                <!--<div class="bottom_text">来撩我们</div>-->
+            <!--</a>-->
+        <!--</div>-->
+    <!--</div>-->
+    <div class="mycover">
+    <div class="dialog">
+        <div class="item_wap">
+            <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon one"></span>
+                <span class="item_text">首页</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com/worker.html">
+                <span class="item_icon two"></span>
+                <span class="item_text">作品案例</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com/wegot.html">
+                <span class="item_icon three"></span>
+                <span class="item_text">来撩我们</span>
+            </a>
+        </div>
+        <div class="item_wap">
+            <!-- <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon four"></span>
+                <span class="item_text">关于我们</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon five"></span>
+                <span class="item_text">服务流程</span>
+            </a> -->
+            <a class="item" href="http://m.donghuajie.com/news.html">
+                <span class="item_icon six"></span>
+                <span class="item_text">动画资讯</span>
+            </a>
+        </div>
+    </div>
+</div>
+    <script type="text/javascript"src="/Public/wap/js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="/Public/wap/js/swiper.min.js"></script>
+    <script type="text/javascript" src="/Public/wap/js/base.js"></script>
+    <script>
+        $(function(){
+            var swiper1 = new Swiper(".swiper-container",{
+                direction:"horizontal",
+                autoplayDisableOnInteraction : false,
+                pagination:".swiper-pagination",
+                loop:true,
+                autoplay:3000,
+            });
+            var swiper2 = new Swiper('.typeWrap', {
+                slidesPerView: 4,
+                autoplay:2000,
+                autoplayDisableOnInteraction : false,
+                spaceBetween: 20      
+            });
+            var swiper3 = new Swiper('.view');
+
+            // 回到顶部
+            $(".top").click(function() {
+                $('.mywrap').scrollTop(0);
+            });
+        });
+    </script>
+    <!--客服代码-->
+    <script>
+        (function() {var _53code = document.createElement("script");
+            _53code.src = "https://tb.53kf.com/code/code/10167819/2";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(_53code, s)
+            ;})();
+    </script>
+</body>
+</html>

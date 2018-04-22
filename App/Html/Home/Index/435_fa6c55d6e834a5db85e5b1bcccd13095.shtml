@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=meta, minimum-scale=1.0">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="msapplication-TileColor" content="#000">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="email=no">
+    <meta name="renderer" content="webkit">
+    <meta name="keywords" content="动画视频制作,动画公司,创意动画,杭州动漫设计,影视动画,杭州三维动画制作" />
+    <meta name="description" content="互动式动画视频在影视当中更富人性化，其界面与创意设计风格得到人们青睐。互动式动画视频充分尊重受众的选择权与主动性，通过富于创意的动画视频形式吸引受众主动地去逐步点击动画视频内容，增强了受众对商品或服务的好感与亲和力。互动式动画视频的应用范围较广，从具体商品的营销到品牌形象的塑造，到公益事业都可采用这种别开生面的形式。" />
+    <link href="/Public/wap/css/swiper.min.css" rel="stylesheet">
+    <link href="/Public/wap/css/index.css" rel="stylesheet">
+    <title>动画视频制作中互动式表演手法-动画街</title>
+    <script type="text/javascript">
+        function fontFun() {
+            var winW = document.documentElement.clientWidth;
+            document.documentElement.style.fontSize = (winW / 750 * 625) + "%";
+        }
+        fontFun();
+        window.onresize = fontFun; 
+    </script>
+</head>
+<body>
+    <!--头部-->
+    <div class="top">
+        <div class="logo"></div>
+        <div class="operate"></div>
+        <a href="javascript:history.go(-1)" class="back"></a>
+    </div>
+
+    <div class="mywrap2">
+        <div class="enws_img">
+            <img src="/Public/pic/4580a50f9f4a2e394be581927f951ea1.jpg" width="100%" />
+        </div>
+        <div class="content">
+            <div class="content_text">
+                <p class="p1">动画视频制作中互动式表演手法</p>
+                <p class="p2">2018年03月18日</p>
+            </div>
+            <div class="p3"><p>互动式动画视频在影视当中更富人性化，其界面与创意设计风格得到人们青睐。互动式动画视频充分尊重受众的选择权与主动性，通过富于创意的动画视频形式吸引受众主动地去逐步点击动画视频内容，增强了受众对商品或服务的好感与亲和力。互动式动画视频的应用范围较广，从具体商品的营销到品牌形象的塑造，到公益事业都可采用这种别开生面的形式。</p><p><img  src="/upload/image/20180316/1521181144117080.jpg" title="1521181144117080.jpg" alt="1521181144117080.jpg" /></p><p>比如为了吸引更多人观看网络<a href="http://www.donghuajie.com" target="_self">动画视频制作</a>甚将其内嵌于自己的网站当中，Google正在测试一项新的服务名为“酷件动画视频”(Gadget ads)的动画视频格式。酷件动画视频允许企业制作出包括音频，视频，游戏在内的动画视频，看上去有点象网页当中的一个小网页，其中一则是尼桑汽车的动画视频，用户在其中键入美国邮政区号即可获得当地的交通状况信息。动画视频主可以通过酷件动画视频获得关于用户的详细数据信息，比如动画视频的浏览次数，独立访问量，交互次数等等。 Google声称，0.3％的酷件动画视频用户与其发生了互动。对于用户来说，酷件动画视频的一大好处是不必点击动画视频另外一个网站。例如，一个天气酷件动画视频可以及时更新特定地区的天气预告。动画视频商利用这种特性可以设计出更多实时吸引用户的动画视频形式出来。</p><p><br/></p></div>
+        </div>
+        
+
+        <div class="share_block">
+            <div class="share"></div>
+        </div>
+        <div class="last">已经到底了</div>
+    </div>
+    <!--分享框-->
+    <div class="cover">
+        <div class="shareArea">
+            <div class="shareblock_one">
+                <p class="share_t1">分享</p>
+                <p class="share_t2">动画视频制作中互动式表演手法</p>
+            </div>
+            
+            <div class="bdsharebuttonbox shareblock_two">
+                 
+                <div class="share_item">
+                    <a class="qq_block bds_qzone"  data-cmd="qzone" title="分享到QQ空间"></a>
+                    <span>QQ空间</span>
+                </div>
+                <div class="share_item">
+                    <a class="wb_block bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+                    <span>微博</span>
+                </div>
+                <div class="share_item ">
+                    <!-- <a class="wx_block bds_weixin" data-cmd="weixin" title="分享到微信"></a> -->
+                    <a class="wx_block"  title="分享到微信"></a>
+                    <span>朋友圈</span>
+                </div>
+            </div>
+            <div class="cancle_block">
+                <div class="cancle_btn">取消</div>
+            </div>
+        </div>
+    </div>
+    <div class="mycover">
+    <div class="dialog">
+        <div class="item_wap">
+            <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon one"></span>
+                <span class="item_text">首页</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com/worker.html">
+                <span class="item_icon two"></span>
+                <span class="item_text">作品案例</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com/wegot.html">
+                <span class="item_icon three"></span>
+                <span class="item_text">来撩我们</span>
+            </a>
+        </div>
+        <div class="item_wap">
+            <!-- <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon four"></span>
+                <span class="item_text">关于我们</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon five"></span>
+                <span class="item_text">服务流程</span>
+            </a> -->
+            <a class="item" href="http://m.donghuajie.com/news.html">
+                <span class="item_icon six"></span>
+                <span class="item_text">最新动态</span>
+            </a>
+        </div>
+    </div>
+</div>
+    <!--<a class="phone" href="tel:4008656770"></a>-->
+    <script src="/Public/wap/js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="/Public/wap/js/base.js"></script>
+    <script>
+        function resizepic(){}
+        $('.wx_block').click(function(){
+            window.alert('可是一使用浏览器分享,按钮分享给好友哦');
+        });
+        $('.cancle_btn,.share').click(function(){
+            $('.cover').stop(false,true).fadeToggle();
+        });
+        
+        // 点击空白处关闭分享
+        $(".cover").on('click',function(e){
+            var target = $(e.target);
+            if(target.closest('.shareArea').length == 0){
+                $('.cover').stop(false,true).fadeToggle();
+            }
+            e.stopPropagation();
+        });
+
+        // 回到顶部
+        $(".top").click(function() {
+            $('.mywrap2').scrollTop(0);
+        });
+    </script>
+    <script>
+        window._bd_share_config={
+            "common":{
+                bdText : '动画视频制作中互动式表演手法',
+                bdDesc : '互动式动画视频在影视当中更富人性化，其界面与创意设计风格得到人们青睐。互动式动画视频充分尊重受众的选择权与主动性，通过富于创意的动画视频形式吸引受众主动地去逐步点击动画视频内容，增强了受众对商品或服务的好感与亲和力。互动式动画视频的应用范围较广，从具体商品的营销到品牌形象的塑造，到公益事业都可采用这种别开生面的形式。',
+                bdUrl : 'm.donghuajie.com/news/435.html',
+                bdPic : '/Public/slt/4580a50f9f4a2e394be581927f951ea1.jpg'
+            },
+            "share":{},
+            "image":{
+                "viewList":["qzone","tsina","tqq","renren","weixin"],
+                "viewText":"分享到：","viewSize":"16"
+            },
+            "selectShare":{
+                "bdContainerClass":null,
+                "bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]
+            }
+        };
+        with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+    </script>
+    <!--客服代码-->
+    <script>
+        (function() {var _53code = document.createElement("script");
+            _53code.src = "https://tb.53kf.com/code/code/10167819/2";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(_53code, s)
+            ;})();
+    </script>
+</body>
+</html>

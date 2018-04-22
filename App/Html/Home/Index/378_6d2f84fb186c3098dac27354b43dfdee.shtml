@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=meta, minimum-scale=1.0">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="msapplication-TileColor" content="#000">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="email=no">
+    <meta name="renderer" content="webkit">
+    <meta name="keywords" content="三维动画制作,创意动画,产品动画制作,杭州动漫设计,影视动画,动画制作" />
+    <meta name="description" content="三维动画制作的技术部分,只是为影片内容而服务的工具。“三维技术”并不等于优秀动画片，艺术与技术的完美结合，才是一部动画片的魅力所在" />
+    <link href="/Public/wap/css/swiper.min.css" rel="stylesheet">
+    <link href="/Public/wap/css/index.css" rel="stylesheet">
+    <title>三维动画制作不属于艺术-动画街</title>
+    <script type="text/javascript">
+        function fontFun() {
+            var winW = document.documentElement.clientWidth;
+            document.documentElement.style.fontSize = (winW / 750 * 625) + "%";
+        }
+        fontFun();
+        window.onresize = fontFun; 
+    </script>
+</head>
+<body>
+    <!--头部-->
+    <div class="top">
+        <div class="logo"></div>
+        <div class="operate"></div>
+        <a href="javascript:history.go(-1)" class="back"></a>
+    </div>
+
+    <div class="mywrap2">
+        <div class="enws_img">
+            <img src="/Public/pic/f2fe565f5e5c728b3f1f51b286ba45eb.jpg" width="100%" />
+        </div>
+        <div class="content">
+            <div class="content_text">
+                <p class="p1">三维动画制作不属于艺术</p>
+                <p class="p2">2018年02月04日</p>
+            </div>
+            <div class="p3"><p>三维动画制作的技术部分,只是为影片内容而服务的工具。“三维技术”并不等于优秀动画片，艺术与技术的完美结合，才是一部动画片的魅力所在。三维技术为我们带来了许多动画制作上的创新,其视觉语言的独特性和制作手段的便捷性使得三维动画的发展目前有超过二维手绘动画之势。三维动画的特点主要包括以下几个方面：<br/></p><p><img  src="/upload/image/20180202/1517553058112485.jpg" title="1517553058112485.jpg" alt="1517553058112485.jpg" /></p><p>一、角色使用灵活</p><p>&nbsp; &nbsp; 二维动画的运动实现要先按照剧情确定关键帧,由动画师绘制一些静态的关键画面。然后按一定的补插规则完成一序列画面。对于一个复杂的动画作品来说,要对关键帧中每个造型的角度姿态，特别是表情进行细致的调整,这是一个相当麻烦和困难的工作，而且易出错、难修改。三维动画技术是现将角色、场景，建好模型，随后可以多次、多角度灵活运用，拍得越长,三维动画的成本就越低。</p><p>二、着色渲染高效<br/></p><p>在着色方面，<a href="http://www.donghuajie.com" target="_self">三维动画制作</a>的渲染不必再像二维动画那样逐个绘制，逐帧着色，大大减少了重复劳动。比如我国的《大闹天宫》从1961年到1964年用了将近四年时间才全部完成，全片共绘制了10万余张画面。光作画就花了2年多。”而在迪斯尼的《花木兰》中,有一场戏是花木兰和同伴遇上敌军袭击，雪山上瞬间冒出两千多名匈奴骑兵的壮观场面。而且匈奴兵的造型各有特点，形态不一。事实上匈奴大军的戏仅用了5张手绘士兵的图,电脑就变化出三、四千个不同表情士作战的模样。《花木兰》人物设计总监表示,这部影片如果用传统的手绘方式来完成,以动画制片小组的人力,完成整部影片的时间可能由5年延长至20年。</p><p>三、场景空间的强烈视觉震撼</p><p>三维动画不仅提高了工作效率,还具备崭新的立体视觉效果。采用三维技术的动画影片《埃及王子》、《小马王》的气势宏伟的开场以及新片《风云诀》中一个摄影镜头从悬崖底一直摇到到长在悬崖上的小树，再到故事主角——树枝上的聂风。由于摄影机自由运动而气势磅礴，有着极强的视觉震撼力。数十年前动画公司在做动画片时，是断然不敢甚至没有去想去用这种表现方式的。</p><p>四、变形自由化<br/></p><p>数字三维动画艺术的发展，近年来变形工具的开发使用，对传统二维动画艺术表现语言，尤其动作的节奏、速度和夸张程度上的艺术表现的借鉴和吸收，避免了早期数字三维动画创作因技术不成熟而导致常见的“呆板、僵硬、简单”的艺术效果。技术只是成功的一方面，更为重要的是好想法、好创意、好的前期规划。然后才是怎样用最合适的技术来实现最完美的视觉艺术效果。技术的不断发展使动画艺术的表现空间更加广阔，而艺术上的追求又使动画技术不断的发展。正如中国传媒大学动画学院张大卫说：应当把艺术与技术作为不可分割的一个整体来研究，使它们相互结合，相互促进。所以艺术与技术的完美结合，是一部动画片的魅力所在</p><p><br/></p></div>
+        </div>
+        
+
+        <div class="share_block">
+            <div class="share"></div>
+        </div>
+        <div class="last">已经到底了</div>
+    </div>
+    <!--分享框-->
+    <div class="cover">
+        <div class="shareArea">
+            <div class="shareblock_one">
+                <p class="share_t1">分享</p>
+                <p class="share_t2">三维动画制作不属于艺术</p>
+            </div>
+            
+            <div class="bdsharebuttonbox shareblock_two">
+                 
+                <div class="share_item">
+                    <a class="qq_block bds_qzone"  data-cmd="qzone" title="分享到QQ空间"></a>
+                    <span>QQ空间</span>
+                </div>
+                <div class="share_item">
+                    <a class="wb_block bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+                    <span>微博</span>
+                </div>
+                <div class="share_item ">
+                    <!-- <a class="wx_block bds_weixin" data-cmd="weixin" title="分享到微信"></a> -->
+                    <a class="wx_block"  title="分享到微信"></a>
+                    <span>朋友圈</span>
+                </div>
+            </div>
+            <div class="cancle_block">
+                <div class="cancle_btn">取消</div>
+            </div>
+        </div>
+    </div>
+    <div class="mycover">
+    <div class="dialog">
+        <div class="item_wap">
+            <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon one"></span>
+                <span class="item_text">首页</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com/worker.html">
+                <span class="item_icon two"></span>
+                <span class="item_text">作品案例</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com/wegot.html">
+                <span class="item_icon three"></span>
+                <span class="item_text">来撩我们</span>
+            </a>
+        </div>
+        <div class="item_wap">
+            <!-- <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon four"></span>
+                <span class="item_text">关于我们</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon five"></span>
+                <span class="item_text">服务流程</span>
+            </a> -->
+            <a class="item" href="http://m.donghuajie.com/news.html">
+                <span class="item_icon six"></span>
+                <span class="item_text">最新动态</span>
+            </a>
+        </div>
+    </div>
+</div>
+    <!--<a class="phone" href="tel:4008656770"></a>-->
+    <script src="/Public/wap/js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="/Public/wap/js/base.js"></script>
+    <script>
+        function resizepic(){}
+        $('.wx_block').click(function(){
+            window.alert('可是一使用浏览器分享,按钮分享给好友哦');
+        });
+        $('.cancle_btn,.share').click(function(){
+            $('.cover').stop(false,true).fadeToggle();
+        });
+        
+        // 点击空白处关闭分享
+        $(".cover").on('click',function(e){
+            var target = $(e.target);
+            if(target.closest('.shareArea').length == 0){
+                $('.cover').stop(false,true).fadeToggle();
+            }
+            e.stopPropagation();
+        });
+
+        // 回到顶部
+        $(".top").click(function() {
+            $('.mywrap2').scrollTop(0);
+        });
+    </script>
+    <script>
+        window._bd_share_config={
+            "common":{
+                bdText : '三维动画制作不属于艺术',
+                bdDesc : '三维动画制作的技术部分,只是为影片内容而服务的工具。“三维技术”并不等于优秀动画片，艺术与技术的完美结合，才是一部动画片的魅力所在',
+                bdUrl : 'm.donghuajie.com/news/378.html',
+                bdPic : '/Public/slt/f2fe565f5e5c728b3f1f51b286ba45eb.jpg'
+            },
+            "share":{},
+            "image":{
+                "viewList":["qzone","tsina","tqq","renren","weixin"],
+                "viewText":"分享到：","viewSize":"16"
+            },
+            "selectShare":{
+                "bdContainerClass":null,
+                "bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]
+            }
+        };
+        with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+    </script>
+    <!--客服代码-->
+    <script>
+        (function() {var _53code = document.createElement("script");
+            _53code.src = "https://tb.53kf.com/code/code/10167819/2";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(_53code, s)
+            ;})();
+    </script>
+</body>
+</html>

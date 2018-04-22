@@ -1,0 +1,10 @@
+/*
+count:总条数
+data:列表数据
+title:标题
+time:时间
+status:是否发布的状态（1:表示发布，2：未发布）
+release_path:发布的路径
+cancel_path:取消发布的路径
+delete_path:删除的路径
+*/

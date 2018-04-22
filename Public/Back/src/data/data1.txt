@@ -1,0 +1,13 @@
+/*
+count:总条数
+data:列表数据
+src:图片路径
+time:时间
+rank:图片在页面显示的顺序
+status:是否发布的状态（1:表示发布，2：未发布）
+up_path:改变顺序后台接口（将当前往上）
+down_path:改变顺序后台接口（将当前往下）
+release_path:发布后台接口
+cancel_path:取消发布后台接口
+delete_path:删除后台接口
+*/

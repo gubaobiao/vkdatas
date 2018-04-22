@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=meta, minimum-scale=1.0">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="msapplication-TileColor" content="#000">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="email=no">
+    <meta name="renderer" content="webkit">
+    <meta name="keywords" content="{$seoWord['keywords']}" />
+    <meta name="description" content="{$seoWord['description']}" />
+    <link href="{$Think.config.asset_wap}/css/swiper.min.css" rel="stylesheet">
+    <link href="{$Think.config.asset_wap}/css/index.css" rel="stylesheet">
+    <title>{$seoWord['title']}</title>
+    <script type="text/javascript">
+        function fontFun() {
+            var winW = document.documentElement.clientWidth;
+            document.documentElement.style.fontSize = (winW / 750 * 625) + "%";
+        }
+        fontFun();
+        window.onresize = fontFun;
+    </script>
+</head>
+<body>
+    <!--头部-->
+    <div class="top">
+        <div class="logo"></div>
+        <div class="operate"></div>
+    </div>
+
+    <div class="mywrap">
+        <!--banner轮播图-->
+        <div class="banner swiper-container">
+            <ul class="bannerUl swiper-wrapper">
+                <volist name="res" id="vo" key="k">
+                    <li class="swiper-slide bannerLi{$k} "></li>
+                </volist>
+            </ul>
+            <div class="swiper-pagination babber_page">
+                <span class="swiper-pagination-bullet"></span>
+                <span class="swiper-pagination-bullet"></span>
+                <span class="swiper-pagination-bullet"></span>
+            </div>
+        </div>
+
+        <!--分类作品-->
+        <div class="workType">
+            <div class="typeTitle">分类作品案例</div>
+            <div class="typeWrap">
+                <div class="swiper-wrapper typeContent">
+                    <foreach name="videoTypes" item="vo" key="k">
+                        <a class="swiper-slide typeItem" href="{$domain}/type/{$vo['id']}.html">
+                            <img src="{$vo.img_path}">
+                            <span class="video-title">{$vo.type_name}</span>
+                        </a>
+                    </foreach>
+                </div>
+            </div>
+        </div>
+
+        <!--不同类型案例展示-->
+        <!--品牌宣讲-->
+        <foreach name="anli" item="vo" key="k">
+            <!--品牌宣讲-->
+            <if condition="$k eq 22 ">
+                <div class="commonWrap brand_publicity">
+                    <a class="titles brand_title" href="{$domain}/type/22.html"></a>
+                    <div class="view">
+                        <div class="swiper-wrapper viewWrap">
+                            <volist name="vo" id="data">
+                                <a class="swiper-slide viewItem" href="{$domain}/anli/{$data['id']}.html">
+                                    <div class="viewImg">
+                                        <img src="{$data.ytpath}" width="100%">
+                                    </div>
+                                    <div class="viewInfo">
+                                        <p class="view_title">{$data.title}</p>
+                                        <p class="view_date">{$data.pubday}</p>
+                                    </div>
+                                </a>
+                            </volist>
+                        </div>
+                    </div>
+                </div>
+                <!--APP/产品-->
+                <elseif condition="$k eq 23"/>
+                    <div class="commonWrap app_product">
+                        <a class="titles app_title" href="{$domain}/type/23.html"></a>
+                        <div class="view">
+                            <div class="swiper-wrapper viewWrap">
+                                <volist name="vo" id="data">
+                                    <a class="swiper-slide viewItem" href="{$domain}/anli/{$data['id']}.html">
+                                        <div class="viewImg">
+                                            <img src="{$data.ytpath}" width="100%">
+                                        </div>
+                                        <div class="viewInfo">
+                                            <p class="view_title">{$data.title}</p>
+                                            <p class="view_date">{$data.pubday}</p>
+                                        </div>
+                                    </a>
+                                </volist>
+                            </div>
+                        </div>
+                    </div>
+                <!--科普教育-->
+                <elseif condition="$k eq 24"/>
+                    <div class="commonWrap science_edu">
+                        <a class="titles science_title" href="{$domain}/type/24.html"></a>
+                        <div class="view">
+                            <div class="swiper-wrapper viewWrap">
+                                <volist name="vo" id="data">
+                                    <a class="swiper-slide viewItem" href="{$domain}/anli/{$data['id']}.html">
+                                        <div class="viewImg">
+                                            <img src="{$data.ytpath}" width="100%">
+                                        </div>
+                                        <div class="viewInfo">
+                                            <p class="view_title">{$data.title}</p>
+                                            <p class="view_date">{$data.pubday}</p>
+                                        </div>
+                                    </a>
+                                </volist>
+                            </div>
+                        </div>
+                    </div>
+                <else/>
+            </if>
+        </foreach>
+
+        <!--最新动态-->
+        <div class="dynamic">
+            <div class="white"></div>
+            <div class="dynamic_title">
+                <div class="title_detail">最新动态</div>
+                <a class="dynamic_more" href="{$domain}/news.html"></a>
+            </div>
+
+            <volist name="news" id="vo" offset="1" length="2" key='k'>
+                <div class="dynamic_block <if condition="$k eq 1">margintop</if>">
+                    <a class="dynamic_img" href="{$domain}/news/{$vo['id']}.html">
+                        <img src='{$vo.ytgpath}' width="100%">
+                    </a>
+                    <div class="info_title">{$vo.title}</div>
+                    <p class="infos">{$vo.description}</p>
+                    <p class="time">{$vo.pubday}</p>
+                </div>
+            </volist>
+        </div>
+        <!--phone-->
+        <a class="phone" href="tel:4008656770"></a>
+        <div class="mybottom">
+            <div class="aboutUs">
+                <div class="block_two">
+                    <div class="service_title">服务电话：</div>
+                    <a class="service_tel" href="tel:4008656770">400-8656-770</a>
+                    <div class="service_bj">|</div>
+                    <a class="service_phone" href="tel:{$contact[u_tel][2]}">{$contact[u_tel][2]}</a>
+                </div>
+                <a class="block_three" href="mqqwpa://im/chat?chat_type=wpa&uin={$contact[u_QQ][1]}&version=1&src_type=web&web_src=oicqzone.com">QQ：{$contact[u_QQ][1]}</a>
+            </div>
+        </div>
+    </div>
+    <!--bottom-->
+    <div class="bottom">
+        <div class="choose">
+            <a class="choose_item choose_one" href="{$domain}">
+                <div class="bottom_icon bottom_icon_1"></div>
+                <div class="bottom_text">首页</div>
+            </a>
+            <a class="choose_item" href="{$domain}/worker.html">
+                <div class="bottom_icon bottom_icon_2"></div>
+                <div class="bottom_text">作品案例</div>
+            </a>
+            <a class="choose_item" href="{$domain}/wegot.html">
+                <div class="bottom_icon bottom_icon_3"></div>
+                <div class="bottom_text">来撩我们</div>
+            </a>
+        </div>
+    </div>
+    <include file="Index::public"/>
+    <script type="text/javascript"src="{$Think.config.asset_wap}/js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="{$Think.config.asset_wap}/js/swiper.min.js"></script>
+    <script type="text/javascript" src="{$Think.config.asset_wap}/js/base.js"></script>
+    <script>
+        $(function(){
+            var swiper1 = new Swiper(".swiper-container",{
+                direction:"horizontal",
+                autoplayDisableOnInteraction : false,
+                pagination:".swiper-pagination",
+                loop:true,
+                autoplay:3000,
+            });
+            var swiper2 = new Swiper('.typeWrap', {
+                slidesPerView: 4,
+                autoplay:2000,
+                autoplayDisableOnInteraction : false,
+                spaceBetween: 20      
+            });
+            var swiper3 = new Swiper('.view');
+
+            // 回到顶部
+            $(".top").click(function() {
+                $('.mywrap').scrollTop(0);
+            });
+        });
+    </script>
+</body>
+</html>

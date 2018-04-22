@@ -1,0 +1,21 @@
+[ 2018-04-14T14:29:20+08:00 ] 47.104.50.11 /index/videoclick.html
+ERR: 非法操作:videoclick
+
+[ 2018-04-14T15:07:06+08:00 ] 47.104.50.21 /news/Public/Home/src/images/weixin.png
+ERR: 1054:Unknown column 'Public' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `dhj_news` WHERE ( id=Public ) LIMIT 1  
+ERR: 1054:Unknown column 'Public' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `dhj_news` WHERE ( id=Public ) LIMIT 1  
+
+[ 2018-04-14T15:29:39+08:00 ] 47.104.50.11 /index/videoclick.html
+ERR: 非法操作:videoclick
+
+[ 2018-04-14T15:52:16+08:00 ] 47.104.50.11 /index/videoclick.html
+ERR: 非法操作:videoclick
+
+[ 2018-04-14T16:14:08+08:00 ] 47.104.50.11 /index/videoclick.html
+ERR: 非法操作:videoclick
+
+[ 2018-04-14T18:30:31+08:00 ] 47.104.50.29 /about.html
+ERR: 非法操作:about
+

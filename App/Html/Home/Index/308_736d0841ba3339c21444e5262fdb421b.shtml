@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=meta, minimum-scale=1.0">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="msapplication-TileColor" content="#000">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="email=no">
+    <meta name="renderer" content="webkit">
+    <meta name="keywords" content="动画公司，三维建筑,动画公司,创意动画,产品动画制作,动画制作,杭州三维动画制作" />
+    <meta name="description" content="三维是由建筑设计师的镜头对建筑本身进行的全面细致的展示。它突破了平面布局的渲染效果，运用三维动画技术先进的视觉效果，生动地结合了房地产或城市建筑风格和独特的环境，全方位地营造了建筑的地理位置、优美的环境和充满活力的愉快生活" />
+    <link href="/Public/wap/css/swiper.min.css" rel="stylesheet">
+    <link href="/Public/wap/css/index.css" rel="stylesheet">
+    <title>动画公司三维建筑动画的应用-动画街</title>
+    <script type="text/javascript">
+        function fontFun() {
+            var winW = document.documentElement.clientWidth;
+            document.documentElement.style.fontSize = (winW / 750 * 625) + "%";
+        }
+        fontFun();
+        window.onresize = fontFun; 
+    </script>
+</head>
+<body>
+    <!--头部-->
+    <div class="top">
+        <div class="logo"></div>
+        <div class="operate"></div>
+        <a href="javascript:history.go(-1)" class="back"></a>
+    </div>
+
+    <div class="mywrap2">
+        <div class="enws_img">
+            <img src="/Public/pic/7b788b5a24958c76c0bef48db1adb645.jpg" width="100%" />
+        </div>
+        <div class="content">
+            <div class="content_text">
+                <p class="p1">动画公司三维建筑动画的应用</p>
+                <p class="p2">2017年12月26日</p>
+            </div>
+            <div class="p3"><p>三维是由建筑设计师的镜头对建筑本身进行的全面细致的展示。它突破了平面布局的渲染效果，运用三维动画技术先进的视觉效果，生动地结合了房地产或城市建筑风格和独特的环境，全方位地营造了建筑的地理位置、优美的环境和充满活力的愉快生活。被广泛应用于建筑性能、室内场景、城市规划、景观等生产过程。它被用来展示房地产的风格和特点，并将其应用到城市规划中来表达城市建筑规划的特点。城市漫游动画、建筑动画三维强度中的应用。<br/></p><p><img  src="/upload/image/20171226/1514266045138786.jpg" title="1514266045138786.jpg" alt="timg.jpg" /></p><p><a href="http://www.donghuajie.com" target="_self">动画公司</a>介绍：城市漫游动画是技术在城市规划、建筑设计等领域的应用。近年来，城市漫游动画在国内外得到越来越多的应用。它前所未有的人机交互、真正的建筑空间感和大面积的三维地形仿真都是传统方法所无法比拟的。n优点。对未来的建筑或城市有一个动态和互动的方法。可以观察任何角度、距离和细度的场景。住宅建筑动画介绍应用及优点：小浏览动画也被称为虚拟社区的动画，是完成共同的环境在整个小区规划和电影制作技术领域的三维漫游动画，三维技术通过实时恢复未来景观总面积。优点。可自由切换多种运动模式。能给用户带来强烈、现实的感官冲击，并获得体验。</p></div>
+        </div>
+        
+
+        <div class="share_block">
+            <div class="share"></div>
+        </div>
+        <div class="last">已经到底了</div>
+    </div>
+    <!--分享框-->
+    <div class="cover">
+        <div class="shareArea">
+            <div class="shareblock_one">
+                <p class="share_t1">分享</p>
+                <p class="share_t2">动画公司三维建筑动画的应用</p>
+            </div>
+            
+            <div class="bdsharebuttonbox shareblock_two">
+                 
+                <div class="share_item">
+                    <a class="qq_block bds_qzone"  data-cmd="qzone" title="分享到QQ空间"></a>
+                    <span>QQ空间</span>
+                </div>
+                <div class="share_item">
+                    <a class="wb_block bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+                    <span>微博</span>
+                </div>
+                <div class="share_item ">
+                    <!-- <a class="wx_block bds_weixin" data-cmd="weixin" title="分享到微信"></a> -->
+                    <a class="wx_block"  title="分享到微信"></a>
+                    <span>朋友圈</span>
+                </div>
+            </div>
+            <div class="cancle_block">
+                <div class="cancle_btn">取消</div>
+            </div>
+        </div>
+    </div>
+    <div class="mycover">
+    <div class="dialog">
+        <div class="item_wap">
+            <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon one"></span>
+                <span class="item_text">首页</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com/worker.html">
+                <span class="item_icon two"></span>
+                <span class="item_text">作品案例</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com/wegot.html">
+                <span class="item_icon three"></span>
+                <span class="item_text">来撩我们</span>
+            </a>
+        </div>
+        <div class="item_wap">
+            <!-- <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon four"></span>
+                <span class="item_text">关于我们</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon five"></span>
+                <span class="item_text">服务流程</span>
+            </a> -->
+            <a class="item" href="http://m.donghuajie.com/news.html">
+                <span class="item_icon six"></span>
+                <span class="item_text">最新动态</span>
+            </a>
+        </div>
+    </div>
+</div>
+    <!--<a class="phone" href="tel:4008656770"></a>-->
+    <script src="/Public/wap/js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="/Public/wap/js/base.js"></script>
+    <script>
+        function resizepic(){}
+        $('.wx_block').click(function(){
+            window.alert('可是一使用浏览器分享,按钮分享给好友哦');
+        });
+        $('.cancle_btn,.share').click(function(){
+            $('.cover').stop(false,true).fadeToggle();
+        });
+        
+        // 点击空白处关闭分享
+        $(".cover").on('click',function(e){
+            var target = $(e.target);
+            if(target.closest('.shareArea').length == 0){
+                $('.cover').stop(false,true).fadeToggle();
+            }
+            e.stopPropagation();
+        });
+
+        // 回到顶部
+        $(".top").click(function() {
+            $('.mywrap2').scrollTop(0);
+        });
+    </script>
+    <script>
+        window._bd_share_config={
+            "common":{
+                bdText : '动画公司三维建筑动画的应用',
+                bdDesc : '三维是由建筑设计师的镜头对建筑本身进行的全面细致的展示。它突破了平面布局的渲染效果，运用三维动画技术先进的视觉效果，生动地结合了房地产或城市建筑风格和独特的环境，全方位地营造了建筑的地理位置、优美的环境和充满活力的愉快生活',
+                bdUrl : 'm.donghuajie.com/news/308.html',
+                bdPic : '/Public/slt/7b788b5a24958c76c0bef48db1adb645.jpg'
+            },
+            "share":{},
+            "image":{
+                "viewList":["qzone","tsina","tqq","renren","weixin"],
+                "viewText":"分享到：","viewSize":"16"
+            },
+            "selectShare":{
+                "bdContainerClass":null,
+                "bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]
+            }
+        };
+        with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+    </script>
+    <!--客服代码-->
+    <script>
+        (function() {var _53code = document.createElement("script");
+            _53code.src = "https://tb.53kf.com/code/code/10167819/2";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(_53code, s)
+            ;})();
+    </script>
+</body>
+</html>

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=meta, minimum-scale=1.0">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="msapplication-TileColor" content="#000">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="email=no">
+    <meta name="renderer" content="webkit">
+    <meta name="keywords" content="杭州动画制作,杭州动画宣传片,动画公司,产品动画制作,影视动画,杭州三维动画制作" />
+    <meta name="description" content="杭州动画制作中制作光线动画的方法大致可分为四种：路径光线、Fractal Noise（分型噪波）光线、Particular（粒子）光线、3D Stroke光线。" />
+    <link href="/Public/wap/css/swiper.min.css" rel="stylesheet">
+    <link href="/Public/wap/css/index.css" rel="stylesheet">
+    <title>杭州动画制作中常见的四种光线动画制作方法-动画街</title>
+    <script type="text/javascript">
+        function fontFun() {
+            var winW = document.documentElement.clientWidth;
+            document.documentElement.style.fontSize = (winW / 750 * 625) + "%";
+        }
+        fontFun();
+        window.onresize = fontFun; 
+    </script>
+</head>
+<body>
+    <!--头部-->
+    <div class="top">
+        <div class="logo"></div>
+        <div class="operate"></div>
+        <a href="javascript:history.go(-1)" class="back"></a>
+    </div>
+
+    <div class="mywrap2">
+        <div class="enws_img">
+            <img src="/Public/pic/1823ae83fed00ebd547aabb29486770b.jpg" width="100%" />
+        </div>
+        <div class="content">
+            <div class="content_text">
+                <p class="p1">杭州动画制作中常见的四种光线动画制作方法</p>
+                <p class="p2">2017年07月14日</p>
+            </div>
+            <div class="p3"><p>在利用影视后期合成软件AE制作广告、节目宣传片、片头片尾时，为了表达震撼或增加视觉冲击效果，通常会用一些绚烂的光线动画。这些光线动画的制作方法各有不同，表现出的效果自然也会不同。杭州动画制作中制作光线动画的方法大致可分为四种：路径光线、Fractal Noise（分型噪波）光线、Particular（粒子）光线、3D Stroke光线。</p><p><section><section><section></section><section></section><section><p>路径光线</p></section><section></section><section></section></section></section></p><p><img onload=javascript:resizepic(this) data-s="300,640" data-type="png" data-src="http://mmbiz.qpic.cn/mmbiz_png/oETgpWsnOIiafJDa7ia6GKk6azM231wTOpqaf48yjb4lwNicLBQ6HXaUZQicnogdPffWlgCjThQyFrxdEmLtdE0gZw/0?wx_fmt=png" data-ratio="0.6283464566929133" data-w="635" class="" src="http://mmbiz.qpic.cn/mmbiz_png/oETgpWsnOIiafJDa7ia6GKk6azM231wTOpqaf48yjb4lwNicLBQ6HXaUZQicnogdPffWlgCjThQyFrxdEmLtdE0gZw/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1" data-fail="0" style="margin: 0px; padding: 0px; height: auto !important; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; line-height: 1.6; width: auto !important; visibility: visible !important;"/></p><p>延时光线制作：利用Stroke（描边）特效制和钢笔工具绘制路径，并制作Mask Path的动画，Echo（重复）特效、Glow（特效）制作延时效果的光线。<br/></p><p><img onload=javascript:resizepic(this) data-s="300,640" data-type="png" data-src="http://mmbiz.qpic.cn/mmbiz_png/oETgpWsnOIiafJDa7ia6GKk6azM231wTOp9icKDYCVKg4N8uBnzDxmhb6158ft9ZwfibjdSOs92BJxwBMJ0QFibhbhw/0?wx_fmt=png" data-ratio="0.6593406593406593" data-w="637" class="" src="http://mmbiz.qpic.cn/mmbiz_png/oETgpWsnOIiafJDa7ia6GKk6azM231wTOp9icKDYCVKg4N8uBnzDxmhb6158ft9ZwfibjdSOs92BJxwBMJ0QFibhbhw/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1" data-fail="0" style="margin: 0px; padding: 0px; height: auto !important; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; width: auto !important; visibility: visible !important;"/></p><p>舞动光线动画制作：利用Vegas特效和钢笔路径绘制光线，配合Turbulent Displace（动荡置换）特效使线条达到蜿蜒的效果。</p><p><img onload=javascript:resizepic(this) data-s="300,640" data-type="png" data-src="http://mmbiz.qpic.cn/mmbiz_png/oETgpWsnOIiafJDa7ia6GKk6azM231wTOpDonDnOMtTeMJIhdSr6dJpdYk9KicgicM2LynwvU0BndbVVUShxJ8SCwA/0?wx_fmt=png" data-ratio="0.5127388535031847" data-w="628" class="" src="http://mmbiz.qpic.cn/mmbiz_png/oETgpWsnOIiafJDa7ia6GKk6azM231wTOpDonDnOMtTeMJIhdSr6dJpdYk9KicgicM2LynwvU0BndbVVUShxJ8SCwA/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1" data-fail="0" style="margin: 0px; padding: 0px; height: auto !important; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; width: auto !important; visibility: visible !important;"/></p><p>闪动文字光线制作：首先创建文字，利用Vegas（勾画）特效制作出光线运动效果，通过Glow（发光）特效，调节荧光效果。</p><p><br></p><p><section><section><section></section><section></section><section><p></p></section>Fractal Noise（分型噪波）光线<section></section><section></section></section></section></p><p><img onload=javascript:resizepic(this) data-s="300,640" data-type="png" data-src="http://mmbiz.qpic.cn/mmbiz_png/oETgpWsnOIiafJDa7ia6GKk6azM231wTOpoibA5Wljs0sIFzsEVMvWAUOhwmMyZqj22R8mdHks8dIz19F2YiaesiaBw/0?wx_fmt=png" data-ratio="0.6840490797546013" data-w="652" class="" src="http://mmbiz.qpic.cn/mmbiz_png/oETgpWsnOIiafJDa7ia6GKk6azM231wTOpoibA5Wljs0sIFzsEVMvWAUOhwmMyZqj22R8mdHks8dIz19F2YiaesiaBw/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1" data-fail="0" style="margin: 0px; padding: 0px; height: auto !important; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; width: auto !important; visibility: visible !important;"/></p><p>杭州动画制作流光线条制作：首先利用Fractal Noise（分型噪波）特效在制作出线条效果，通过调节Bezier Warp（贝塞尔曲线变形）特效制作出光线的变形。</p><p>放射状光线制作：首先利用Fractal Noise（分型噪波）特效在制作出垂直方向的线条效果，通过Polar Coordinates（极向量）特效制作出放射状光线。</p><p><section><section><section></section><section></section><section><p>Particular（粒子）光线</p></section><section></section><section></section></section></section></p><p><img onload=javascript:resizepic(this) data-s="300,640" data-type="png" data-src="http://mmbiz.qpic.cn/mmbiz_png/oETgpWsnOIiafJDa7ia6GKk6azM231wTOpvznTpqibibhn1yUeMKp9YvMuFpsbOX8xvYWhNY6fPJoM9up916P5CPdg/0?wx_fmt=png" data-ratio="0.546572934973638" data-w="569" class="" src="http://mmbiz.qpic.cn/mmbiz_png/oETgpWsnOIiafJDa7ia6GKk6azM231wTOpvznTpqibibhn1yUeMKp9YvMuFpsbOX8xvYWhNY6fPJoM9up916P5CPdg/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1" data-fail="0" style="margin: 0px; padding: 0px; height: auto !important; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; width: auto !important; visibility: visible !important;"/></p><p>杭州动画制作散射光线制作：修改Particular（粒子）特效参数，展开Aux System（辅助系统）Emit（发射器）选择From Main Particles（从主粒子），设置参数及Turbulence Field（扰动场）。</p><p><br></p><p></p><p></p><p>绚丽光带制作:钢笔工具制作光带路径，Particular（粒子）特效Emitter（发射器）选项选择Position xy&nbsp;，并将光带路径复制给发射器，Particle Type（粒子类型）选择Streaklet(条纹），调节参数，添加特效Glow（辉光）制作出光带效果。<br></p><p><br></p><p><section><section><section></section><section></section><section><p></p></section>3D Stroke光线<section></section><section></section></section></section></p><p><img onload=javascript:resizepic(this) data-s="300,640" data-type="png" data-src="http://mmbiz.qpic.cn/mmbiz_png/oETgpWsnOIiafJDa7ia6GKk6azM231wTOprzaF2gyEIs4Il5oojvqEB5fSDj4qdicIibdJ9uBpiaM4CicMwLqazSHdicA/0?wx_fmt=png" data-ratio="0.4836193447737909" data-w="641" class="" src="http://mmbiz.qpic.cn/mmbiz_png/oETgpWsnOIiafJDa7ia6GKk6azM231wTOprzaF2gyEIs4Il5oojvqEB5fSDj4qdicIibdJ9uBpiaM4CicMwLqazSHdicA/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1" data-fail="0" style="margin: 0px; padding: 0px; height: auto !important; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; width: auto !important; visibility: visible !important;"/></p><p><a href="http://www.donghuajie.com/" target="_self">杭州动画制作</a>光线光边制作：利用绘制工具绘制路径，然后通过添加3D Stroke特效并设置相关参数制作出光线。连动光线的制作，设置Adjust Step(调节步幅)参数，使光线发生变化。</p><p><br/></p></div>
+        </div>
+        
+
+        <div class="share_block">
+            <div class="share"></div>
+        </div>
+        <div class="last">已经到底了</div>
+    </div>
+    <!--分享框-->
+    <div class="cover">
+        <div class="shareArea">
+            <div class="shareblock_one">
+                <p class="share_t1">分享</p>
+                <p class="share_t2">杭州动画制作中常见的四种光线动画制作方法</p>
+            </div>
+            
+            <div class="bdsharebuttonbox shareblock_two">
+                 
+                <div class="share_item">
+                    <a class="qq_block bds_qzone"  data-cmd="qzone" title="分享到QQ空间"></a>
+                    <span>QQ空间</span>
+                </div>
+                <div class="share_item">
+                    <a class="wb_block bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+                    <span>微博</span>
+                </div>
+                <div class="share_item ">
+                    <!-- <a class="wx_block bds_weixin" data-cmd="weixin" title="分享到微信"></a> -->
+                    <a class="wx_block"  title="分享到微信"></a>
+                    <span>朋友圈</span>
+                </div>
+            </div>
+            <div class="cancle_block">
+                <div class="cancle_btn">取消</div>
+            </div>
+        </div>
+    </div>
+    <div class="mycover">
+    <div class="dialog">
+        <div class="item_wap">
+            <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon one"></span>
+                <span class="item_text">首页</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com/worker.html">
+                <span class="item_icon two"></span>
+                <span class="item_text">作品案例</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com/wegot.html">
+                <span class="item_icon three"></span>
+                <span class="item_text">来撩我们</span>
+            </a>
+        </div>
+        <div class="item_wap">
+            <!-- <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon four"></span>
+                <span class="item_text">关于我们</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon five"></span>
+                <span class="item_text">服务流程</span>
+            </a> -->
+            <a class="item" href="http://m.donghuajie.com/news.html">
+                <span class="item_icon six"></span>
+                <span class="item_text">动画资讯</span>
+            </a>
+        </div>
+    </div>
+</div>
+    <!--<a class="phone" href="tel:4008656770"></a>-->
+    <script src="/Public/wap/js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="/Public/wap/js/base.js"></script>
+    <script>
+        function resizepic(){}
+        $('.wx_block').click(function(){
+            window.alert('可是一使用浏览器分享,按钮分享给好友哦');
+        });
+        $('.cancle_btn,.share').click(function(){
+            $('.cover').stop(false,true).fadeToggle();
+        });
+        
+        // 点击空白处关闭分享
+        $(".cover").on('click',function(e){
+            var target = $(e.target);
+            if(target.closest('.shareArea').length == 0){
+                $('.cover').stop(false,true).fadeToggle();
+            }
+            e.stopPropagation();
+        });
+
+        // 回到顶部
+        $(".top").click(function() {
+            $('.mywrap2').scrollTop(0);
+        });
+    </script>
+    <script>
+        window._bd_share_config={
+            "common":{
+                bdText : '杭州动画制作中常见的四种光线动画制作方法',
+                bdDesc : '杭州动画制作中制作光线动画的方法大致可分为四种：路径光线、Fractal Noise（分型噪波）光线、Particular（粒子）光线、3D Stroke光线。',
+                bdUrl : 'm.donghuajie.com/news/72.html',
+                bdPic : '/Public/slt/1823ae83fed00ebd547aabb29486770b.jpg'
+            },
+            "share":{},
+            "image":{
+                "viewList":["qzone","tsina","tqq","renren","weixin"],
+                "viewText":"分享到：","viewSize":"16"
+            },
+            "selectShare":{
+                "bdContainerClass":null,
+                "bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]
+            }
+        };
+        with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+    </script>
+    <!--客服代码-->
+    <script>
+        (function() {var _53code = document.createElement("script");
+            _53code.src = "https://tb.53kf.com/code/code/10167819/2";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(_53code, s)
+            ;})();
+    </script>
+</body>
+</html>

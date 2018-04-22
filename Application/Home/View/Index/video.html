@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<link rel="shortcut icon" type="image/ico" href="../favicon.ico">
+<meta charset="utf-8">
+<title>{$seoWord['title']}—{$seo['title']}</title>
+<meta name="keywords" content="{$seoWord['title']},{$seo['keywords']}" />
+<meta name="description" content="{$description}" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/src/css/public.css"/>
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/src/css/video.css">
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https'){
+   bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+  }
+  else{
+  bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+  }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+</head>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?a0b3ecf9587b562feb1621827b5cf930";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<body>
+<div class="header">
+	<div class="header_bar1" style="background-image: url(__PUBLIC__/Home/src/images/top-bj.jpg);">
+		<a class="bannerLogo" href="{$domain}">
+			<img src="__PUBLIC__/Home/src/images/bannerLogo.png">
+		</a>
+	</div>
+	<nav id="menu" class="menu">
+		<ul class="mwrap">
+			<li>
+				<a href="{$domain}" class="mlink">
+					<span class="mname">首页</span>
+				</a>
+			</li>
+			<li>
+				 <a href="{$domain}" class="mlink active">
+					<span class="mname">作品案例</span>
+				</a>
+			</li>
+			<li>
+				 <a href="{$domain}/about.html" class="mlink">
+					<span class="mname">关于我们</span>
+				</a>
+			</li>
+			<li>
+				 <a href="{$domain}/circuit.html" class="mlink">
+					<span class="mname">常见问题</span>
+				</a>
+			</li>
+			<li>
+				 <a href="{$domain}/news.html" class="mlink">
+					<span class="mname">动画资讯</span>
+				</a>
+			</li>
+			<li>
+				 <a href="{$domain}/contact.html" class="mlink">
+					<span class="mname">来撩我们</span>
+				</a>
+			</li>
+			<li>
+				<span class="dianhua">400-8656-770</span>
+			</li>
+			<li class="search-li">
+				<span class="ck-search"></span>
+				<form class="searchForm" action='{:U('Index/search')}' method='GET'>
+					<input type="text" name="search" placeholder="请输入查找内容" autocomplete='off' >
+					<button type="submit"></button>
+				</form>
+			</li>
+		</ul>
+		<div class="mshadow"></div>
+	</nav>
+</div>  
+<div class="header_hr"></div>
+<div class="vContainer">
+	  <!--案例-->
+      <div id="anli" style="background: #000;">
+	      <!--详情-->
+	      <div id="sitecontent">
+		      <div class="npagePage">
+			      <div class="content">
+				      <div class="fw postbody postbody1">
+					      <div class="video">
+						  <input type="hidden" class='sp_id' value='{$id}' >
+
+						        <!-- <div class="video_left fl"> -->
+						           <div id="a1"></div>
+						        <!-- </div> -->
+						        <!-- <div class="video_right fr" style="float:left;">
+						          <h2>推荐视频</h2>
+						          <div class="rignt-container">
+						              <div class="r-title">推荐视频</div>          
+							          <h3>播单：<span style="color:#19a9d5;font-size: 14px; margin-top:1px;">{$video2.title}</span></h3>
+							          <ul>
+							          <foreach name="video_all" item="va">
+							                <li>
+								                <a href="{$domain}/anli/{$va['id']}.html">
+								                  <div class="tjimg fl"><img src="{$va.sltpath}" alt=""></div>
+								                  <div class="wz fr">
+								                    <p>{$va.title}</p>
+								                    <dl><dd><img src="__PUBLIC__/Home/src/img/sp.png" alt="" /><label>60</label></dd></dl>
+								                  </div>
+								                </a>
+							                </li>   
+							          </foreach>                  
+							           </ul>
+						           </div>  
+						        </div>
+						        <div class="clear"></div> -->
+					       </div>
+				      </div>
+			       </div>
+		      </div>
+	      </div>
+	      <!--详情end-->
+      </div>
+      <script src="__PUBLIC__/Home/src/ckplayer/ckplayer.js"></script>
+      <script type="text/javascript">
+		var flashvars={
+			f:'',
+			c:0,
+			b:1
+			};
+		var params={bgcolor:'#f00',allowFullScreen:true,allowScriptAccess:'always',wmode:'transparent'};
+		CKobject.embedSWF('{$video2.swf}','a1','ckplayer_a1','960','541',flashvars,params);	
+	</script>
+	<!--案例end-->
+
+	<div class="commonwrap">
+		<div class="wrap-line"></div>
+		<div class="wrap-one">
+			<span class="wraptitles">详情</span>
+			<div class="bdsharebuttonbox fr mg" data-tag="share_1">
+				<span class='bf_number' style='float:left; color:#6b6b6b;font-size:15px;margin-right:30px; margin-top:8px;'>播放量{$video2.click}</span>
+				<a class="bds_qzone s-icon" data-cmd="qzone" href="#"></a>
+				<a class="bds_tsina s-icon" data-cmd="tsina"></a>
+				<a class="bds_weixin s-icon" data-cmd="weixin"></a>
+			</div>
+		</div>
+		<div class="wrap-two">
+			<p class="subtitle">{$video2.title}</p>
+			<p class="subtitle-two"><a href="{$domain}/anli.html?type={$video2.type}">{$video2.type_name}</a>&nbsp;|&nbsp;{$video2.timing}</p>
+		</div>
+	</div>
+	
+    <div class="container">
+		<div class="content-box mycontent-box">
+			<!--
+			 <div class="t-title">
+				{$video2.title}
+				<div class="bdsharebuttonbox fr" data-tag="share_1">
+					<a class="bds_qzone s-icon" data-cmd="qzone" href="#"></a>
+					<a class="bds_tsina s-icon" data-cmd="tsina"></a>
+					<a class="bds_weixin s-icon" data-cmd="weixin"></a>
+				</div>
+			</div>
+	    	<div class="t-info">
+	    		<img src="__PUBLIC__/Home/src/img/sp.png"><span class="t-type">视频类型：记录实拍</span><span>{$video2.createtime}</span>
+	    	</div> 	-->
+	    	<div id="content" class="mycontent">
+	    		{$video2.content}
+	    	</div>
+		</div>
+	</div>
+
+	<div class="commonwrap">
+		<div class="wrap-line"></div>
+		<div class="wrap-one padding20">
+			<span class="wraptitles">其它视频</span>
+		</div>
+		<div class="wrap-three picScroll-left" style="padding: 20px 0px 44px 0px ;height: 90px;">
+			<span class="lefttbar prev"></span>
+			
+			<div class="scroll-cont bd">
+				<ul class="video-wrap ">
+					<volist name="video_all" id="vo">
+						<li class="video-item">
+							<img src="{$vo.sltpath}">
+							<a class="video-info" href="{$domain}/anli/{$vo.id}.html">
+								<div class="video-btm">
+									<span class="video-btm-1">{$vo.title}</span>
+									<span class="video-btm-2">03:30</span>
+								</div>
+							</a>
+						</li>
+					</volist>
+				</ul>
+			</div>
+			<span class="rightbar next"></span> 
+		</div>
+	</div>
+</div>
+<div style="padding-top:40px;">
+	<div class="picLink">
+		<ul id="plQuery" class="plQuery">
+	<foreach name="but" item="vol">
+		<li class="plList"><a><img class="plGrey" src="{$vol.sltpath}"><img class="plColor" src="{$vol.src_hover}" title="{$vol.title}" alt="{$vol.title}"></a></li>
+	</foreach>
+		</ul>
+	</div>
+</div>
+<div class="webSite">
+	<ul class="wsLink">
+		<li class="wslList">
+			<span class="wslName">关于我们</span>
+			<ul class="wslcQuery">
+                <li> <a href="{:U('/about')}" target="_blank">公司概况</a></li>
+			</ul>
+		</li>
+		<li class="wslList">
+			<span class="wslName">服务流程</span>
+			<ul class="wslcQuery">
+				<!-- <li> <a href="{:U('/circuit')}" target="_blank">MG动画视频</a></li> -->
+                    <li> <a href="{:U('/circuit')}" target="_blank">二维动画</a></li>
+                    <li> <a href="{:U('/circuit')}" target="_blank">三维动画</a></li>
+			</ul>
+		</li>
+		<li class="wslList">
+			<span class="wslName">动画资讯</span>
+			<ul class="wslcQuery">
+                <li> <a href="{:U('/news')}" target="_blank">行业资讯</a></li>
+			</ul>
+		</li>
+		<li class="wslList">
+			<span class="wslName">联系我们</span>
+			<ul class="wslcQuery">
+					<li> <a href="{:U('/contact')}" target="_blank">联系方式</a></li>
+                    <li> <a href="{:U('/contact')}" target="_blank">需求提交</a></li>
+			</ul>
+		</li>
+		<li class="fl wsLx">
+			<div class="clear marb35">
+				<div class="fl w93 marr15">联系电话：</div>
+				<div class="fl">
+					<p class="marb10">{$n['u_tel'][1]}&nbsp;&nbsp;&nbsp;{$n['u_name'][1]}</p>
+					<p>{$n['u_tel'][2]}&nbsp;&nbsp;&nbsp;{$n['u_name'][2]}</p>
+				</div>
+			</div>
+			<div class="clear"> 
+				<div class="fl w93 marr15"><img src="__PUBLIC__/Home/src/img/qq.jpg" alt="qq"></div>
+				<div class="fl">
+					<p class="marb10"><a style="color:#000;text-decoration:none;" href="tencent://message/?uin={$n['u_QQ'][1]}&Menu=yes" target="_blank">{$n['u_QQ'][1]}</a></p>
+					<p><a style="color:#000;text-decoration:none;" href="tencent://message/?uin={$n['u_QQ'][2]}&Menu=yes" target="_blank">{$n['u_QQ'][2]}</a></p>
+				</div>
+			</div>
+		</li>
+	</ul>
+</div>
+<div class="footer"></div>
+<div class="gpc-t-box" id="gpc-t-box">
+  <div class="gpc-video-t">
+    <embed id="video-url" allowscriptaccess="always" allownetworking="all" allowfullscreen="true" width="670" height="377" type="application/x-shockwave-flash" src="">
+    </embed>
+  </div>
+  <div class="gpc-video-t2">
+     <div class="gpc-video-t2-lf">            
+           <p class="gpc-a1-8" id="gpc-info" style="font-size:12px; color:#999">2016-11-12&nbsp;&nbsp;&nbsp;时长：1:30 </p>
+     </div>
+     <div class="gpc-video-t2-rt">
+       <a class="gpc-a1-9" id="gpc-detail" href="anli.html"  target="_blank">查看更多视频>></a>
+     </div>
+  </div>
+</div>	
+<div id="top"></div>
+<script type="text/javascript" src="__PUBLIC__/Home/src/js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Home/src/js/zzsc.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Home/src/js/TweenMax.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Home/src/js/public.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Home/src/js/jquery.SuperSlide.2.1.1.js"></script>
+
+<script type="text/javascript">
+	$(function(){
+		var id = $('.sp_id').val();
+		$.ajax({
+			url:"{:U('Index/videoclick')}",
+			type:"post",
+			data:{id:id},
+			datatype:'json',
+			success:function(data){
+				$('.bf_number').html('播放量' + data.data);
+			}
+		});
+	})
+</script>
+
+<script>
+	window._bd_share_config = {
+		common : {
+			bdText : '{$video2.content}',	
+			bdDesc : '{$video2.title}',	
+			bdUrl : ''
+		},
+		share : [{
+			"tag" : "share_1",
+			"bdSize" : 24
+		}]
+	}
+	with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?cdnversion='+~(-new Date()/36e5)];
+</script>
+<script>
+	function resizepic(){}
+	jQuery(".picScroll-left").slide({titCell:".hd ul",mainCell:".bd ul",autoPage:true,effect:"left",autoPlay:true,vis:5});
+	$('.ck-search').click(function(){
+		$(this).hide();
+		$('.searchForm').toggle();
+	});
+</script>
+<!--客服代码-->
+<script>
+    (function() {var _53code = document.createElement("script");
+        _53code.src = "https://tb.53kf.com/code/code/10167819/2";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(_53code, s)
+        ;})();
+</script>
+</body>
+</html>

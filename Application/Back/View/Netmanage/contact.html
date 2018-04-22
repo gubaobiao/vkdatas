@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>联系我们</title>
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Back/src/css/add.css">
+<style>
+	input{
+		width:200px;
+	}
+</style>
+</head>
+<body>
+	<form action="{:U('Back/Netmanage/contact')}" method="POST" id="form">
+		<div class="mart30 clear">
+			<div class="fl marr100"><span class="w40">姓名</span><input type="text" name="u_name[1]" value="{$n['u_name'][1]}" /></div>
+			<div class="fl"><input type="text" name="u_name[2]" value="{$n['u_name'][2]}"/></div>
+		</div>
+		<div class="mart30 clear">
+			<div class="fl marr100"><span class="w40">QQ</span><input type="text" name="u_QQ[1]" value="{$n['u_QQ'][1]}"/></div>
+			<div class="fl"><input type="text" name="u_QQ[2]" value="{$n['u_QQ'][2]}"/></div>
+		</div>
+		<div class="mart30 clear">
+			<div class="fl marr100"><span class="w40">电话</span><input type="text" name="u_tel[1]" value="{$n['u_tel'][1]}"/></div>
+			<div class="fl"><input type="text" name="u_tel[2]" value="{$n['u_tel'][2]}"/></div>
+		</div>
+		<button id="button" type="button">确定</button> 
+	</form>
+<script type="text/javascript" src="__PUBLIC__/Back/src/js/jquery-1.9.1.min.js"></script>	
+<script>
+	$('#button').click(function(){
+		if($.trim($('input[name="u_name[1]"]').val()) == "" || $.trim($('input[name="u_name[2]"]').val()) == "") return alert("请填写姓名！");
+		if($.trim($('input[name="u_QQ[1]"]').val()) == "" || $.trim($('input[name="u_QQ[2]"]').val()) == "") return alert("请填写QQ！");
+		if($.trim($('input[name="u_tel[1]"]').val()) == "" || $.trim($('input[name="u_tel[2]"]').val()) == "") return alert("请填写电话！");
+		$('#form').submit();
+	});
+</script>
+</body>
+</html>

@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=meta, minimum-scale=1.0">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="msapplication-TileColor" content="#000">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="email=no">
+    <meta name="renderer" content="webkit">
+    <meta name="keywords" content="mg动画，二维动画,政府动画宣传片,政府工作报告动画,政府创意动画,动画公司,MG动画" />
+    <meta name="description" content="最多跑一次，是一个可以让更多想要创业开公司的人，省去整天跑在路上的时间，可以真正一步到位，轻松搞定的政策。浙江作为第一个推出的地区，相信一定会吸引更多的人来到浙江创业，也会让更多的人感受到政策的关怀。" />
+    <link href="/Public/wap/css/swiper.min.css" rel="stylesheet">
+    <link href="/Public/wap/css/index.css" rel="stylesheet">
+    <title>政府最多跑一次政策mg动画-动画街</title>
+    <script type="text/javascript">
+        function fontFun() {
+            var winW = document.documentElement.clientWidth;
+            document.documentElement.style.fontSize = (winW / 750 * 625) + "%";
+        }
+        fontFun();
+        window.onresize = fontFun; 
+    </script>
+</head>
+<body>
+    <!--头部-->
+    <div class="top">
+        <div class="logo"></div>
+        <div class="operate"></div>
+        <a href="javascript:history.go(-1)" class="back"></a>
+    </div>
+
+    <!--content-->
+    <div class="mywrap2">
+        <div class="enws_img">
+            <video width="100%" height="100%" src="http://cloud.video.taobao.com/play/u/2586769528/p/1/e/6/t/7/50023676610.mp4" controls poster="/Public/video_slt/8c42fb45c21a46945aca697ab0084973.jpg"></video>
+            <!-- <img src="/Public/wap/img/news.jpg" width="100%" /> -->
+        </div>
+        <div class="content">
+            <div class="content_text">
+                <p class="p1">政府最多跑一次政策mg动画</p>
+                <p class="time">2017年05月12日</p>
+            </div>
+            <div class="p3"><p><span>最多跑一次，是一个可以让更多想要创业开公司的人，省去整天跑在路上的时间，可以真正一步到位，轻松搞定的政策。</span></p><p><span>浙江作为第一个推出的地区，相信一定会吸引更多的人来到浙江创业，也会让更多的人感受到政策的关怀。</span><a href="http://www.donghuajie.com" target="_blank" title="杭州动画制作" style="text-decoration: underline; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;"><span>杭州动画制作</span></a></p><p><img  src="/upload/image/20170909/1504940251962104.jpg" title="1504940251962104.jpg" alt="1492407796827759.jpg" /></p><p><span><span>2016年12月，省委经济工作会议和2017年省政府工作报告提出，加快推进“最多跑一次”改革。</span><span></span></span><span>2017年2月3日，春节假期后上班第一天，省工商局面向社会公布十五项“最多跑一次”工商办事项目，以“要让群众跑得少，就要自己跑得多”的理念和“提速度、抢进度”的态度，以实际行动率先落实“最多跑一次”改革要求。<a href="http://www.donghuajie.com" target="_blank" title="动画制作">动画制作</a></span></p><p><img onload=javascript:resizepic(this) onload="javascript:resizepic(this)" src="/upload/image/20170909/1504940254405015.jpg" style="" title="1504940254405015.jpg"/></p><p><span>政府形象宣传，每时每刻世界各地都可以通过网络收看，突破地域限制，提升政府形象。宣传片涉及到企业登记网上申报审核、拓展登记服务渠道、提供手机APP申报、银行网点代办、同城通办等渠道的介绍。<a href="http://www.donghuajie.com" target="_blank" title="杭州mg动画制作">杭州mg动画制作</a></span></p><p><img onload=javascript:resizepic(this) onload="javascript:resizepic(this)" src="/upload/image/20170909/1504940254494176.jpg" style="" title="1504940254494176.jpg"/></p><p><br/></p></div>
+        </div>
+        
+        <div class="share_block">
+            <div class="share"></div>
+        </div>
+        <!--分享框-->
+        <div class="cover">
+            <div class="shareArea">
+                <div class="shareblock_one">
+                    <p class="share_t1">分享</p>
+                    <p class="share_t2">政府最多跑一次政策mg动画</p>
+                </div>
+                
+                <div class="bdsharebuttonbox shareblock_two">
+                        
+                    <div class="share_item">
+                        <a class="qq_block bds_qzone"  data-cmd="qzone" title="分享到QQ空间"></a>
+                        <span>QQ空间</span>
+                    </div>
+                    <div class="share_item">
+                        <a class="wb_block bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+                        <span>微博</span>
+                    </div>
+                    <div class="share_item ">
+                        <!-- <a class="wx_block bds_weixin" data-cmd="weixin" title="分享到微信"></a> -->
+                        <a class="wx_block"  title="分享到微信"></a>
+                        <span>朋友圈</span>
+                    </div>
+                </div>
+                <div class="cancle_block">
+                    <div class="cancle_btn">取消</div>
+                </div>
+            </div>
+        </div>
+
+        <!--相关推荐-->
+        <div class="recommend">
+            <div class="recommend_t">相关推荐</div>
+
+            <a class="recommend_b" href="http://m.donghuajie.com/anli/325.html">
+                    <div class="r_img">
+                        <img src="/Public/video_slt/ca8d76e0a0471aefcccaa4a6fa594674.jpg" width="100%"/>
+                    </div>
+                    <div class="r_info">
+                        <p class="r_title1">长根堂医疗小知识mg动画制作</p>
+                        <p class="r_title2">#科普教育#</p>
+                        <p class="time">1小时前</p>
+                    </div>
+                </a><a class="recommend_b" href="http://m.donghuajie.com/anli/324.html">
+                    <div class="r_img">
+                        <img src="/Public/video_slt/51f6bee55e8a385a56718d6ff0c20844.jpg" width="100%"/>
+                    </div>
+                    <div class="r_info">
+                        <p class="r_title1">奥康皮鞋mg动画制作</p>
+                        <p class="r_title2">#品牌宣传#</p>
+                        <p class="time">1天前</p>
+                    </div>
+                </a><a class="recommend_b" href="http://m.donghuajie.com/anli/323.html">
+                    <div class="r_img">
+                        <img src="/Public/video_slt/17ce4769a11f75315f9f695a80e40cdc.jpg" width="100%"/>
+                    </div>
+                    <div class="r_info">
+                        <p class="r_title1">物业服务动画制作公司</p>
+                        <p class="r_title2">#品牌宣传#</p>
+                        <p class="time">3天前</p>
+                    </div>
+                </a><a class="recommend_b" href="http://m.donghuajie.com/anli/322.html">
+                    <div class="r_img">
+                        <img src="/Public/video_slt/5a28a3e05a3a66ae01279ac6730c76c5.jpg" width="100%"/>
+                    </div>
+                    <div class="r_info">
+                        <p class="r_title1">信域名动画制作公司</p>
+                        <p class="r_title2">#app/产品#</p>
+                        <p class="time">4天前</p>
+                    </div>
+                </a><a class="recommend_b" href="http://m.donghuajie.com/anli/321.html">
+                    <div class="r_img">
+                        <img src="/Public/video_slt/c5fdd11ff7c30e4739f6cd9f901b6195.jpg" width="100%"/>
+                    </div>
+                    <div class="r_info">
+                        <p class="r_title1">绿泉茶业mg动画制作</p>
+                        <p class="r_title2">#app/产品#</p>
+                        <p class="time">5天前</p>
+                    </div>
+                </a>
+        </div>
+
+        <div class="last">已经到底了</div>
+    </div>
+    <div class="mycover">
+    <div class="dialog">
+        <div class="item_wap">
+            <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon one"></span>
+                <span class="item_text">首页</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com/worker.html">
+                <span class="item_icon two"></span>
+                <span class="item_text">作品案例</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com/wegot.html">
+                <span class="item_icon three"></span>
+                <span class="item_text">来撩我们</span>
+            </a>
+        </div>
+        <div class="item_wap">
+            <!-- <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon four"></span>
+                <span class="item_text">关于我们</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon five"></span>
+                <span class="item_text">服务流程</span>
+            </a> -->
+            <a class="item" href="http://m.donghuajie.com/news.html">
+                <span class="item_icon six"></span>
+                <span class="item_text">最新动态</span>
+            </a>
+        </div>
+    </div>
+</div>
+    <!--<a class="phone" href="tel:4008656770"></a>-->
+    <script src="/Public/wap/js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="/Public/wap/js/base.js"></script>
+    <script>
+        function resizepic(){}
+        $('.wx_block').click(function(){
+            window.alert('可是一使用浏览器分享,按钮分享给好友哦');
+        });
+        $(function(){
+            $('.cancle_btn,.share').click(function(){
+                $('.cover').stop(false,true).fadeToggle();
+            });
+            // 点击空白处关闭分享
+            $(".cover").on('click',function(e){
+                var target = $(e.target);
+                if(target.closest('.shareArea').length == 0){
+                    $('.cover').stop(false,true).fadeToggle();
+                }
+                e.stopPropagation();
+            });
+        });
+
+        // 回到顶部
+        $(".top").click(function() {
+            $('.mywrap2').scrollTop(0);
+        });
+    </script>
+    <script>
+        window._bd_share_config={
+            "common":{
+                bdText : "政府最多跑一次政策mg动画",
+                bdDesc : "最多跑一次，是一个可以让更多想要创业开公司的人，省去整天跑在路上的时间，可以真正一步到位，轻松搞定的政策。浙江作为第一个推出的地区，相信一定会吸引更多的人来到浙江创业，也会让更多的人感受到政策的关怀。",
+                bdUrl : "http://m.donghuajie.com/anli/34.html",
+                bdPic : "/Public/video_slt/8c42fb45c21a46945aca697ab0084973.jpg"
+            },
+            "share":{},
+            "image":{
+                "viewList":["qzone","tsina","tqq","renren","weixin"],
+                "viewText":"分享到：","viewSize":"16"
+            },
+            "selectShare":{
+                "bdContainerClass":null,
+                "bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]
+            }
+        };
+        with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+    </script>
+    <!--客服代码-->
+    <script>
+        (function() {var _53code = document.createElement("script");
+            _53code.src = "https://tb.53kf.com/code/code/10167819/2";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(_53code, s)
+            ;})();
+    </script>
+</body>
+</html>

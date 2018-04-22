@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=meta, minimum-scale=1.0">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="msapplication-TileColor" content="#000">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="email=no">
+    <meta name="renderer" content="webkit">
+    <meta name="keywords" content="动画视频制作,创意动画,产品动画制作,影视动画,动画制作,杭州三维动画制作" />
+    <meta name="description" content="动画视频制作有很多种，包括企业形象动画视频制作、产品动画视频制作、路演、产品说明等多种类型的动画视频制作。那么，如何制作动画视频制作呢？" />
+    <link href="/Public/wap/css/swiper.min.css" rel="stylesheet">
+    <link href="/Public/wap/css/index.css" rel="stylesheet">
+    <title>动画街动画视频制作-动画街</title>
+    <script type="text/javascript">
+        function fontFun() {
+            var winW = document.documentElement.clientWidth;
+            document.documentElement.style.fontSize = (winW / 750 * 625) + "%";
+        }
+        fontFun();
+        window.onresize = fontFun; 
+    </script>
+</head>
+<body>
+    <!--头部-->
+    <div class="top">
+        <div class="logo"></div>
+        <div class="operate"></div>
+        <a href="javascript:history.go(-1)" class="back"></a>
+    </div>
+
+    <div class="mywrap2">
+        <div class="enws_img">
+            <img src="/Public/pic/f9f9ace1c6578da65cb3bd730079da92.jpg" width="100%" />
+        </div>
+        <div class="content">
+            <div class="content_text">
+                <p class="p1">动画街动画视频制作</p>
+                <p class="p2">2018年01月25日</p>
+            </div>
+            <div class="p3"><p><img  src="/upload/image/20180125/1516857580121199.jpg" title="动画街logo.jpg" alt="动画街logo.jpg" /></p><p>&nbsp;&nbsp;<br/></p><p>动画视频制作有很多种，包括企业形象动画视频制作、产品动画视频制作、路演、产品说明等多种类型的动画视频制作。那么，如何制作动画视频制作呢？</p><p><img  src="/upload/image/20180125/1516857660952379.jpg" title="1516857660952379.jpg" alt="1516857660952379.jpg" /></p><p>&nbsp;<a href="http://www.donghuajie.com" target="_self">动画视频制作</a>的方式和流程各个影视广告公司之间的差别不大。但是如果是自己制作动画视频制作那就比较麻烦了。</p><p>&nbsp; 首先要确定动画视频制作的制作目的，并以该目的为核心对动画视频制作方案进行策划、制作脚本；</p><p>&nbsp; 其次是根据动画视频制作的方案和脚本，拍摄（或搜集整理）视频素材；而视频素材的拍摄及整理过程也会有所不同，比如拍摄就需要有演员、场地、设备、人员等等准备；搜集网络素材的话，还可能会涉及到版权问题；</p><p>&nbsp; 素材整理完毕后，就是动画视频制作的剪辑制作了。不同类型的制作会需要不同的软件和操作。实拍的素材、二维动画、三维动画等等，不同类型的动画视频制作对画面特效要求不同，应用的剪辑和制作软件也不同。</p><p>&nbsp; 视频初剪完成后还需要为影片配音、字幕、翻译等等。直至最后成品审核通过，才算是制作动画视频制作任务圆满完成。</p><p>&nbsp; 考虑到上述操作的复杂性和专业性，个人认为普通企业与其自己制作动画视频制作还不如联系专业的影视制作公司来做，无论从动画视频制作周期、制作成本还是制作效果上讲，联系专业的影视广告公司制作动画视频制作都是最佳方案。</p><p><br/></p></div>
+        </div>
+        
+
+        <div class="share_block">
+            <div class="share"></div>
+        </div>
+        <div class="last">已经到底了</div>
+    </div>
+    <!--分享框-->
+    <div class="cover">
+        <div class="shareArea">
+            <div class="shareblock_one">
+                <p class="share_t1">分享</p>
+                <p class="share_t2">动画街动画视频制作</p>
+            </div>
+            
+            <div class="bdsharebuttonbox shareblock_two">
+                 
+                <div class="share_item">
+                    <a class="qq_block bds_qzone"  data-cmd="qzone" title="分享到QQ空间"></a>
+                    <span>QQ空间</span>
+                </div>
+                <div class="share_item">
+                    <a class="wb_block bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+                    <span>微博</span>
+                </div>
+                <div class="share_item ">
+                    <!-- <a class="wx_block bds_weixin" data-cmd="weixin" title="分享到微信"></a> -->
+                    <a class="wx_block"  title="分享到微信"></a>
+                    <span>朋友圈</span>
+                </div>
+            </div>
+            <div class="cancle_block">
+                <div class="cancle_btn">取消</div>
+            </div>
+        </div>
+    </div>
+    <div class="mycover">
+    <div class="dialog">
+        <div class="item_wap">
+            <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon one"></span>
+                <span class="item_text">首页</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com/worker.html">
+                <span class="item_icon two"></span>
+                <span class="item_text">作品案例</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com/wegot.html">
+                <span class="item_icon three"></span>
+                <span class="item_text">来撩我们</span>
+            </a>
+        </div>
+        <div class="item_wap">
+            <!-- <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon four"></span>
+                <span class="item_text">关于我们</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon five"></span>
+                <span class="item_text">服务流程</span>
+            </a> -->
+            <a class="item" href="http://m.donghuajie.com/news.html">
+                <span class="item_icon six"></span>
+                <span class="item_text">最新动态</span>
+            </a>
+        </div>
+    </div>
+</div>
+    <!--<a class="phone" href="tel:4008656770"></a>-->
+    <script src="/Public/wap/js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="/Public/wap/js/base.js"></script>
+    <script>
+        function resizepic(){}
+        $('.wx_block').click(function(){
+            window.alert('可是一使用浏览器分享,按钮分享给好友哦');
+        });
+        $('.cancle_btn,.share').click(function(){
+            $('.cover').stop(false,true).fadeToggle();
+        });
+        
+        // 点击空白处关闭分享
+        $(".cover").on('click',function(e){
+            var target = $(e.target);
+            if(target.closest('.shareArea').length == 0){
+                $('.cover').stop(false,true).fadeToggle();
+            }
+            e.stopPropagation();
+        });
+
+        // 回到顶部
+        $(".top").click(function() {
+            $('.mywrap2').scrollTop(0);
+        });
+    </script>
+    <script>
+        window._bd_share_config={
+            "common":{
+                bdText : '动画街动画视频制作',
+                bdDesc : '动画视频制作有很多种，包括企业形象动画视频制作、产品动画视频制作、路演、产品说明等多种类型的动画视频制作。那么，如何制作动画视频制作呢？',
+                bdUrl : 'm.donghuajie.com/news/361.html',
+                bdPic : '/Public/slt/f9f9ace1c6578da65cb3bd730079da92.jpg'
+            },
+            "share":{},
+            "image":{
+                "viewList":["qzone","tsina","tqq","renren","weixin"],
+                "viewText":"分享到：","viewSize":"16"
+            },
+            "selectShare":{
+                "bdContainerClass":null,
+                "bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]
+            }
+        };
+        with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+    </script>
+    <!--客服代码-->
+    <script>
+        (function() {var _53code = document.createElement("script");
+            _53code.src = "https://tb.53kf.com/code/code/10167819/2";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(_53code, s)
+            ;})();
+    </script>
+</body>
+</html>

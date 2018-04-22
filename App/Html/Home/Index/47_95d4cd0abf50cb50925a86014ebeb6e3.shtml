@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=meta, minimum-scale=1.0">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="msapplication-TileColor" content="#000">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="email=no">
+    <meta name="renderer" content="webkit">
+    <meta name="keywords" content="flash动画广告,杭州动画宣传片,动画公司,产品动画制作,影视动画,动画制作" />
+    <meta name="description" content="flash动画制作最早应用于网站制作，随着网络的普及慢慢发现flash的动画功能十分强大表现力丰富渐渐的就独立出来成为了一款独立的二维动画制作软件。" />
+    <link href="/Public/wap/css/swiper.min.css" rel="stylesheet">
+    <link href="/Public/wap/css/index.css" rel="stylesheet">
+    <title>flash动画广告的优势-动画街</title>
+    <script type="text/javascript">
+        function fontFun() {
+            var winW = document.documentElement.clientWidth;
+            document.documentElement.style.fontSize = (winW / 750 * 625) + "%";
+        }
+        fontFun();
+        window.onresize = fontFun; 
+    </script>
+</head>
+<body>
+    <!--头部-->
+    <div class="top">
+        <div class="logo"></div>
+        <div class="operate"></div>
+        <a href="javascript:history.go(-1)" class="back"></a>
+    </div>
+
+    <div class="mywrap2">
+        <div class="enws_img">
+            <img src="/Public/pic/d6f3ac0af3535fd6d38556d9470645f9.jpg" width="100%" />
+        </div>
+        <div class="content">
+            <div class="content_text">
+                <p class="p1">flash动画广告的优势</p>
+                <p class="p2">2017年05月31日</p>
+            </div>
+            <div class="p3"><p>&nbsp; &nbsp; flash动画制作最早应用于网站制作，随着网络的普及慢慢发现flash的动画功能十分强大表现力丰富渐渐的就独立出来成为了一款独立的二维动画制作软件。由于flash上手快，操作简单，成本投入低等特点，迅速的受到广大动画爱好者的追捧。Flash动画的四大主要功能是遮罩、补间动画、逐帧动画，引导层动画。Flash动画现在已成为网络广告的中坚力量。一直以来，互联网作为新媒体的兴起，给全世界带来了不同的生活感受，不同的工作感受等等，而互联网也带来了更多能够改变我们生活以及生活习惯的东西。</p><p>&nbsp; &nbsp; Flash动画很早就出现网民的视野中，随着各大门户网站的兴起，<a href="http://www.donghuajie.com/" target="_blank">flash动画广告</a>在中国的商场，成了举足轻重的媒体手段，而Flash动画作为网络广告的中坚力量，作为富媒体营销概念中的重要手段，很长一段时间，或者说，在未来，富媒体技术的不断完善，Flash动画广告的优势会越来越明显。flash被称为是“最为灵活的前台”。由于其独特和时间片段分割（TimeLine）和重组（MC嵌套）技术，结合ActionScitp的对象和流程控制。使得在灵活的界面设计和动画设计中成为可能，但一直还未形成一套在flash中的界面设计理论。同时它也是最为小巧的前台。</p><p>&nbsp; &nbsp; flash具有跨平台的特性（这点和Java一样），所以无论你处于处于何种平台，只要你安装有支持的flash Player。你就能保证它们的最终显示效果都一致。而不必像在以前的网页设计中那样为IE和Mozilla或NetSpace各设计一个版本。同Java一样。它的可移植性很强。特别是在小型网络中和小型设备中（当然大型网络已不用说），最近具有的手机支持功能可以让你为自已的手机设计你喜爱的功能。当然你必需要有技持flash的手机。当然它还可以应用于Pocket PC上。</p><p><br/></p></div>
+        </div>
+        
+
+        <div class="share_block">
+            <div class="share"></div>
+        </div>
+        <div class="last">已经到底了</div>
+    </div>
+    <!--分享框-->
+    <div class="cover">
+        <div class="shareArea">
+            <div class="shareblock_one">
+                <p class="share_t1">分享</p>
+                <p class="share_t2">flash动画广告的优势</p>
+            </div>
+            
+            <div class="bdsharebuttonbox shareblock_two">
+                 
+                <div class="share_item">
+                    <a class="qq_block bds_qzone"  data-cmd="qzone" title="分享到QQ空间"></a>
+                    <span>QQ空间</span>
+                </div>
+                <div class="share_item">
+                    <a class="wb_block bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+                    <span>微博</span>
+                </div>
+                <div class="share_item ">
+                    <!-- <a class="wx_block bds_weixin" data-cmd="weixin" title="分享到微信"></a> -->
+                    <a class="wx_block"  title="分享到微信"></a>
+                    <span>朋友圈</span>
+                </div>
+            </div>
+            <div class="cancle_block">
+                <div class="cancle_btn">取消</div>
+            </div>
+        </div>
+    </div>
+    <div class="mycover">
+    <div class="dialog">
+        <div class="item_wap">
+            <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon one"></span>
+                <span class="item_text">首页</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com/worker.html">
+                <span class="item_icon two"></span>
+                <span class="item_text">作品案例</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com/wegot.html">
+                <span class="item_icon three"></span>
+                <span class="item_text">来撩我们</span>
+            </a>
+        </div>
+        <div class="item_wap">
+            <!-- <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon four"></span>
+                <span class="item_text">关于我们</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon five"></span>
+                <span class="item_text">服务流程</span>
+            </a> -->
+            <a class="item" href="http://m.donghuajie.com/news.html">
+                <span class="item_icon six"></span>
+                <span class="item_text">动画资讯</span>
+            </a>
+        </div>
+    </div>
+</div>
+    <!--<a class="phone" href="tel:4008656770"></a>-->
+    <script src="/Public/wap/js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="/Public/wap/js/base.js"></script>
+    <script>
+        function resizepic(){}
+        $('.wx_block').click(function(){
+            window.alert('可是一使用浏览器分享,按钮分享给好友哦');
+        });
+        $('.cancle_btn,.share').click(function(){
+            $('.cover').stop(false,true).fadeToggle();
+        });
+        
+        // 点击空白处关闭分享
+        $(".cover").on('click',function(e){
+            var target = $(e.target);
+            if(target.closest('.shareArea').length == 0){
+                $('.cover').stop(false,true).fadeToggle();
+            }
+            e.stopPropagation();
+        });
+
+        // 回到顶部
+        $(".top").click(function() {
+            $('.mywrap2').scrollTop(0);
+        });
+    </script>
+    <script>
+        window._bd_share_config={
+            "common":{
+                bdText : 'flash动画广告的优势',
+                bdDesc : 'flash动画制作最早应用于网站制作，随着网络的普及慢慢发现flash的动画功能十分强大表现力丰富渐渐的就独立出来成为了一款独立的二维动画制作软件。',
+                bdUrl : 'm.donghuajie.com/news/47.html',
+                bdPic : '/Public/slt/d6f3ac0af3535fd6d38556d9470645f9.jpg'
+            },
+            "share":{},
+            "image":{
+                "viewList":["qzone","tsina","tqq","renren","weixin"],
+                "viewText":"分享到：","viewSize":"16"
+            },
+            "selectShare":{
+                "bdContainerClass":null,
+                "bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]
+            }
+        };
+        with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+    </script>
+    <!--客服代码-->
+    <script>
+        (function() {var _53code = document.createElement("script");
+            _53code.src = "https://tb.53kf.com/code/code/10167819/2";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(_53code, s)
+            ;})();
+    </script>
+</body>
+</html>

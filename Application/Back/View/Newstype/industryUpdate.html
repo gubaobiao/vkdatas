@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>修改</title>
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Back/src/css/add.css">
+<script type="text/javascript" src="__PUBLIC__/Back/src/js/jquery-1.9.1.min.js"></script>
+</head>
+<body>
+	<form action="{:U('Back/Newstype/industryUpdate')}" method="POST" id="form">
+	<input type="hidden" name="ids" value="{$info.id}">
+		<div class="mart30"><span class="w80">类型名称</span><input id="v_type" type="text" name="type_name" value="{$info.type_name}" /></div>
+		<button id="button" type="button">确定</button> 
+	</form>	
+<script>
+(function(){
+	$('#button').click(function(){
+		if($.trim($('#v_type').val()) == '') return alert('请填写名称！');
+		$('#form').submit();
+
+	});
+})();
+	
+</script>
+</body>
+</html>

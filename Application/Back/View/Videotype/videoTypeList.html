@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>companyNewsList</title>
+<link rel="stylesheet" href="__PUBLIC__/Back/src/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Back/src/css/public.css">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Back/src/css/serviceList.css">
+<script src="__PUBLIC__/Back/src/js/jquery-1.9.1.min.js"></script>
+<script src="__PUBLIC__/Back/src/bootstrap/js/bootstrap.min.js"></script>
+<script src="__PUBLIC__/Back/src/layer/layer.js"></script>
+</head>
+<body>
+<div id="kqy_main">
+	<div class="kqy_content" id="topic">
+		<a class="addBtn" id="addBtn" onclick="window.parent.creatIframe(this,event)" data-src="{:U('Back/Videotype/videoTypeAdd')}" href="{:U('Back/Videotype/videoTypeAdd')}" data-title="增加公司动态">增加</a>
+		<div class="box_head">
+			<div class="td-2 w25">类型</div>
+			<div class="td-2 w25">该类型的视频数</div>
+			<div class="td-2 w25">时间</div>
+			<div class="td-2 nobr w25">操作</div>
+		</div>
+		<div id="box-container"></div>
+	</div>
+	<div id="page"></div>
+</div>
+<script src="__PUBLIC__/Back/src/js/kqy_paging.js"></script>
+<script type="text/javascript">
+
+	function domList(data){ // 初始化列表/分页显示列表
+		var obj = $('#box-container');
+			obj.html("");
+
+		$.each(data,function(i, d){
+			var html = '<div class="box animated">';
+				html+= '<div class="td-2 w25">';
+				html+= '<span>'+d.name+'</span></div>';
+				html+= '<div class="td-2 w25">';
+				html+= '<span>'+d.num+'</span></div>';
+				html+= '<div class="td-2 w25">';
+				html+= '<span>'+d.time+'</span></div>';
+				html+= '<div class="td-2 nobr w25">';
+				html+= '<a class="update" data-src="'+d.will_path+'" data-title="修改视频类型" href="'+d.update_path+'" onclick="window.parent.creatIframe(this,event)" >修改</a>';
+				html+= '<a href="'+d.delete_path+'"><i class="kqy_icon kqy_icon_remove"></i></a></div></div>';
+				obj.append(html);
+		});
+
+		var $content = $('.box');
+		for (var i = 0; i < $content.length; i++) {
+			(function($this,i){
+				setTimeout(function(){
+					$this.addClass('fadeInUp');
+				},i*200)
+			})($($content[i]),i)
+		};
+	}
+
+	function ajaxPage(page){ // 分页
+		PAGING=page;
+		var sum=5; // 每页显示个数
+		$.ajax({
+			type:"post",
+			url:"{:U('Back/Videotype/typeShow')}",
+			data:{page:page,sum:5},
+			dataType:'json',
+			success:function(data){
+				if(data.data.length==0){
+					location.reload();
+				}else{
+					domList(data.data);
+					pages(page,sum,data.count); // 当前页数，每页显示个数，总条数
+				}
+			},
+			error:function(msg){
+				layer.msg('加载失败', {icon: 2,time:1000});
+			} 
+		})
+	};
+
+	ajaxPage(PAGING);
+</script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+/*
+count:总条数
+data:列表数据文章
+num:序列
+title:视频标题
+type:视频类型
+path:视频地址
+time:时间
+status:是否发布的状态（1:表示发布，2：未发布）
+up_path:排序接口
+down_path:排序接口
+release_path:发布接口
+cancel_path:取消发布接口
+update_path:修改接口
+delete_path:删除接口
+will_path:修改网页路径
+*/

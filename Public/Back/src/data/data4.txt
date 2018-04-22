@@ -1,0 +1,13 @@
+/*
+count:总条数
+data:列表数据
+name:名字
+path:链接地址
+time:时间
+status:是否发布的状态（1:表示发布，2：未发布）、
+release_path:发布后台方法
+cancel_path:取消发布后台方法
+delete_path:删除后台方法
+will_path:修改页面路径
+update_path:修改后台方法
+*/

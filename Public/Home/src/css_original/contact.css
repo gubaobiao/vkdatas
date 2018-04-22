@@ -1,0 +1,53 @@
+.active .mico_contact .micoi{top: -325px; }
+.clear:after{
+	display: block;
+	content: "";
+	clear:both;
+}
+.cContent{
+	background-color:#ededed;
+	padding:50px 0;
+	margin-bottom:30px; 
+}
+.cBgf{
+	width:1000px;
+	background-color:#fff;
+	margin: 0 auto;
+	padding:100px 0;
+}
+.cBgf li{
+	font-size: 18px;
+	color:#222222;
+	text-align: center;
+}
+.cBgf li div{
+	position:relative;
+	padding-left:75px;
+	float:left;
+	margin-left: 170px;
+}
+.cBgf li div p{
+	margin-bottom:10px;
+}
+.cBgf li div img{
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+.cBgf li img{
+	vertical-align: middle;
+}
+.cBgf .cWz,.cBgf .cDz{
+	font-size: 16px;
+	margin-top: 20px;
+	color:#666666;
+}
+.cBgf .cWz{
+	margin-top: 45px;
+}
+.cBgf .cWz a{
+	color:#666666;
+}
+.cBgf .cWz a:hover{
+	color:#1ea8ff;
+}

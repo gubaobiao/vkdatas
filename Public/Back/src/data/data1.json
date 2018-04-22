@@ -1,0 +1,9 @@
+{
+	"count": 4,
+	"data": [
+		{"src": "../src/img/banner.jpg", "time": "2017-10-10","rank": 4,"status": 1,"up_path": "barList.html","down_path": "barList.html","release_path":"barList.html","cancel_path":"barList.html","delete_path":"barList.html"},
+		{"src": "../src/img/i_banner1.jpg", "time": "2017-10-10","rank": 3,"status": 1,"up_path": "barList.html","down_path": "barList.html","release_path":"barList.html","cancel_path":"barList.html","delete_path":"barList.html"},
+		{"src": "../src/img/i_banner2.jpg", "time": "2017-10-10","rank": 2,"status": 2,"up_path": "barList.html","down_path": "barList.html","release_path":"barList.html","cancel_path":"barList.html","delete_path":"barList.html"},
+		{"src": "../src/img/i_banner3.jpg", "time": "2017-10-10","rank": 1,"status": 1,"up_path": "barList.html","down_path": "barList.html","release_path":"barList.html","cancel_path":"barList.html","delete_path":"barList.html"}
+	]
+}

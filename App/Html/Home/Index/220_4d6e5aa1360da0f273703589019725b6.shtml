@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=meta, minimum-scale=1.0">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="msapplication-TileColor" content="#000">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="email=no">
+    <meta name="renderer" content="webkit">
+    <meta name="keywords" content="动画宣传片,二维动画制作,flash动画,教育动画宣传片,教育动画宣传视频,教育动画制作,教育类动画,教育动画视频" />
+    <meta name="description" content="腾讯科技讯（孙宏超）11月28日消息，flash动画今天菜鸟网络与圆通、中通、申通、韵达、百世、天天等中国主要快递公司发出联合倡议，希望物流行业全面投入绿色物流行动当中，通过新型材料研发和替换、资源回收和循环利用等方式，二维动画制作让绿色成为物流最美的风景线。动画宣传片" />
+    <link href="/Public/wap/css/swiper.min.css" rel="stylesheet">
+    <link href="/Public/wap/css/index.css" rel="stylesheet">
+    <title>环保快递动画宣传片-动画街</title>
+    <script type="text/javascript">
+        function fontFun() {
+            var winW = document.documentElement.clientWidth;
+            document.documentElement.style.fontSize = (winW / 750 * 625) + "%";
+        }
+        fontFun();
+        window.onresize = fontFun; 
+    </script>
+</head>
+<body>
+    <!--头部-->
+    <div class="top">
+        <div class="logo"></div>
+        <div class="operate"></div>
+        <a href="javascript:history.go(-1)" class="back"></a>
+    </div>
+
+    <!--content-->
+    <div class="mywrap2">
+        <div class="enws_img">
+            <video width="100%" height="100%" src="http://cloud.video.taobao.com//play/u/2586769528/p/1/e/6/t/7/50051812829.mp4" controls poster="/Public/video_slt/ca49c6d2876f84cdd7b64c1ea046565a.jpg"></video>
+            <!-- <img src="/Public/wap/img/news.jpg" width="100%" /> -->
+        </div>
+        <div class="content">
+            <div class="content_text">
+                <p class="p1">环保快递动画宣传片</p>
+                <p class="time">2017年12月04日</p>
+            </div>
+            <div class="p3"><p><span><span>腾讯科技讯（孙宏超）</span>11月28日消息，今天菜鸟网络与圆通、中通、申通、韵达、百世、天天等中国主要快递公司发出联合倡议，希望物流行业全面投入绿色物流行动当中，通过新型材料研发和替换、资源回收和循环利用等方式，让绿色成为物流最美的风景线。动画宣传片</span></p><p><span><img  src="/upload/image/20171130/1512041657107407.jpg" title="1512041657107407.jpg" alt="2_副本.jpg" /></span></p><p><span><span>此前，国家邮政局等十部委联合发文，要求进一步推进快递包装的绿色环保化。阿里巴巴董事局主席马云</span>(微博)昨天再次发出呼吁，“过不了几年，我们会进入到日均10亿个包裹的时代。希望物流行业的所有参与者，关注绿色包装，支持绿色包装，发展绿色物流。未来的快递业，‘快’保证不输，‘绿’才能赢。2018，让快递绿起来！”二维动画制作<a href="http://www.donghuajie.com" target="_self" title="二维动画制作">二维动画制作</a></span></p><p><span><img  src="/upload/image/20171130/1512041666657224.jpg" title="1512041666657224.jpg" alt="3_副本.jpg" /></span></p><p><span>“绿色物流是必然趋势，物流环保之路没有终点”，菜鸟与各大快递公司在倡议书中表示，将与全行业一道持续加大免胶带纸箱、全降解快递袋、绿色新能源车等新型环保包材和配送车辆的研发与替换；持续加大快递纸箱回收和循环使用，培育消费者绿色收件的习惯；持续通过互联网技术，让全球商家、物流企业、消费者、包装企业等各方与商业、物流、金融、公益等平台形成绿色闭环，让绿色物流蔚然成风。flash动画</span></p><p><img  src="/upload/image/20171130/1512041670106977.jpg" title="1512041670106977.jpg" alt="4_副本.jpg" /></p></div>
+        </div>
+        
+        <div class="share_block">
+            <div class="share"></div>
+        </div>
+        <!--分享框-->
+        <div class="cover">
+            <div class="shareArea">
+                <div class="shareblock_one">
+                    <p class="share_t1">分享</p>
+                    <p class="share_t2">环保快递动画宣传片</p>
+                </div>
+                
+                <div class="bdsharebuttonbox shareblock_two">
+                        
+                    <div class="share_item">
+                        <a class="qq_block bds_qzone"  data-cmd="qzone" title="分享到QQ空间"></a>
+                        <span>QQ空间</span>
+                    </div>
+                    <div class="share_item">
+                        <a class="wb_block bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+                        <span>微博</span>
+                    </div>
+                    <div class="share_item ">
+                        <!-- <a class="wx_block bds_weixin" data-cmd="weixin" title="分享到微信"></a> -->
+                        <a class="wx_block"  title="分享到微信"></a>
+                        <span>朋友圈</span>
+                    </div>
+                </div>
+                <div class="cancle_block">
+                    <div class="cancle_btn">取消</div>
+                </div>
+            </div>
+        </div>
+
+        <!--相关推荐-->
+        <div class="recommend">
+            <div class="recommend_t">相关推荐</div>
+
+            <a class="recommend_b" href="http://m.donghuajie.com/anli/330.html">
+                    <div class="r_img">
+                        <img src="/Public/video_slt/a1971afef0fd9827f35a59ac53e3f6af.jpg" width="100%"/>
+                    </div>
+                    <div class="r_info">
+                        <p class="r_title1">阿里云货架动画制作公司</p>
+                        <p class="r_title2">#品牌宣传#</p>
+                        <p class="time">3小时前</p>
+                    </div>
+                </a><a class="recommend_b" href="http://m.donghuajie.com/anli/329.html">
+                    <div class="r_img">
+                        <img src="/Public/video_slt/90b008a943946a7432a0079c607b7c5e.jpg" width="100%"/>
+                    </div>
+                    <div class="r_info">
+                        <p class="r_title1">麦当劳mg动画制作</p>
+                        <p class="r_title2">#品牌宣传#</p>
+                        <p class="time">1天前</p>
+                    </div>
+                </a><a class="recommend_b" href="http://m.donghuajie.com/anli/328.html">
+                    <div class="r_img">
+                        <img src="/Public/video_slt/07ad1d58143694ac6ef62cafef310400.jpg" width="100%"/>
+                    </div>
+                    <div class="r_info">
+                        <p class="r_title1">水总管动画制作公司</p>
+                        <p class="r_title2">#app/产品#</p>
+                        <p class="time">2天前</p>
+                    </div>
+                </a><a class="recommend_b" href="http://m.donghuajie.com/anli/327.html">
+                    <div class="r_img">
+                        <img src="/Public/video_slt/40b7847939e91784ba415d0a61b9e6f3.jpg" width="100%"/>
+                    </div>
+                    <div class="r_info">
+                        <p class="r_title1">淘管家动画制作公司</p>
+                        <p class="r_title2">#app/产品#</p>
+                        <p class="time">3天前</p>
+                    </div>
+                </a><a class="recommend_b" href="http://m.donghuajie.com/anli/326.html">
+                    <div class="r_img">
+                        <img src="/Public/video_slt/f9de463a1159bd3962befe775f11df91.jpg" width="100%"/>
+                    </div>
+                    <div class="r_info">
+                        <p class="r_title1">企保家动画视频制作</p>
+                        <p class="r_title2">#app/产品#</p>
+                        <p class="time">4天前</p>
+                    </div>
+                </a>
+        </div>
+
+        <div class="last">已经到底了</div>
+    </div>
+    <div class="mycover">
+    <div class="dialog">
+        <div class="item_wap">
+            <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon one"></span>
+                <span class="item_text">首页</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com/worker.html">
+                <span class="item_icon two"></span>
+                <span class="item_text">作品案例</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com/wegot.html">
+                <span class="item_icon three"></span>
+                <span class="item_text">来撩我们</span>
+            </a>
+        </div>
+        <div class="item_wap">
+            <!-- <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon four"></span>
+                <span class="item_text">关于我们</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon five"></span>
+                <span class="item_text">服务流程</span>
+            </a> -->
+            <a class="item" href="http://m.donghuajie.com/news.html">
+                <span class="item_icon six"></span>
+                <span class="item_text">最新动态</span>
+            </a>
+        </div>
+    </div>
+</div>
+    <!--<a class="phone" href="tel:4008656770"></a>-->
+    <script src="/Public/wap/js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="/Public/wap/js/base.js"></script>
+    <script>
+        function resizepic(){}
+        $('.wx_block').click(function(){
+            window.alert('可是一使用浏览器分享,按钮分享给好友哦');
+        });
+        $(function(){
+            $('.cancle_btn,.share').click(function(){
+                $('.cover').stop(false,true).fadeToggle();
+            });
+            // 点击空白处关闭分享
+            $(".cover").on('click',function(e){
+                var target = $(e.target);
+                if(target.closest('.shareArea').length == 0){
+                    $('.cover').stop(false,true).fadeToggle();
+                }
+                e.stopPropagation();
+            });
+        });
+
+        // 回到顶部
+        $(".top").click(function() {
+            $('.mywrap2').scrollTop(0);
+        });
+    </script>
+    <script>
+        window._bd_share_config={
+            "common":{
+                bdText : "环保快递动画宣传片",
+                bdDesc : "腾讯科技讯（孙宏超）11月28日消息，flash动画今天菜鸟网络与圆通、中通、申通、韵达、百世、天天等中国主要快递公司发出联合倡议，希望物流行业全面投入绿色物流行动当中，通过新型材料研发和替换、资源回收和循环利用等方式，二维动画制作让绿色成为物流最美的风景线。动画宣传片",
+                bdUrl : "http://m.donghuajie.com/anli/220.html",
+                bdPic : "/Public/video_slt/ca49c6d2876f84cdd7b64c1ea046565a.jpg"
+            },
+            "share":{},
+            "image":{
+                "viewList":["qzone","tsina","tqq","renren","weixin"],
+                "viewText":"分享到：","viewSize":"16"
+            },
+            "selectShare":{
+                "bdContainerClass":null,
+                "bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]
+            }
+        };
+        with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+    </script>
+    <!--客服代码-->
+    <script>
+        (function() {var _53code = document.createElement("script");
+            _53code.src = "https://tb.53kf.com/code/code/10167819/2";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(_53code, s)
+            ;})();
+    </script>
+</body>
+</html>

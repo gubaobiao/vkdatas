@@ -1,0 +1,11 @@
+{
+	"count": 6,
+	"data": [
+		{"num":"6","title":"营养800网","type":"企业/网站创意","path": "videoList.html", "time": "2017-10-10","status": 1,"rank":1,"up_path":"videoList.html","down_path":"videoList.html","cancel_path":"videoList.html","release_path":"videoList.html", "delete_path":"videoList.html","update_path":"videoUpdate.html","will_path":"videoUpdate.html"},
+		{"num":"5","title":"杨梅","type":"APP/软件创意","path": "videoList.html", "time": "2017-10-10","status": 2,"rank":2,"up_path":"videoList.html","down_path":"videoList.html","cancel_path":"videoList.html","release_path":"videoList.html","delete_path":"videoList.html","update_path":"videoList.html","will_path":"videoUpdate.html"},
+		{"num":"4","title":"足球跟单软件","type":"产品创意宣传片","path": "videoList.html", "time": "2017-10-10","status": 1,"rank":3,"up_path":"videoList.html","down_path":"videoList.html","cancel_path":"videoList.html","release_path":"videoList.html","delete_path":"videoList.html","update_path":"videoUpdate.html","will_path":"videoUpdate.html"},
+		{"num":"3","title":"郑州牛皮癣医院","type":"公益/故事类动画","path": "videoList.html", "time": "2017-10-10","status": 2,"rank":4,"up_path":"videoList.html","down_path":"videoList.html","cancel_path":"videoList.html","release_path":"videoList.html","delete_path":"videoList.html","update_path":"videoUpdate.html","will_path":"videoUpdate.html"},
+		{"num":"2","title":"印度易瑞沙","type":"企业/网站创意","path": "videoList.html", "time": "2017-10-10","status": 2,"rank":5,"up_path":"videoList.html","down_path":"videoList.html","cancel_path":"videoList.html","release_path":"videoList.html","delete_path":"videoList.html","update_path":"videoUpdate.html","will_path":"videoUpdate.html"},
+		{"num":"1","title":"客厅摆件工艺品","type":"企业/网站创意","path": "videoList.html", "time": "2017-10-10","status": 1,"rank":6,"up_path":"videoList.html","down_path":"videoList.html","cancel_path":"videoList.html","release_path":"videoList.html","delete_path":"videoList.html","update_path":"videoUpdate.html","will_path":"videoUpdate.html"}
+	]
+}

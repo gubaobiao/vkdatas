@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=meta, minimum-scale=1.0">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="msapplication-TileColor" content="#000">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="email=no">
+    <meta name="renderer" content="webkit">
+    <meta name="keywords" content="三维动画制作,动画公司,创意动画,产品动画制作,影视动画,动画制作" />
+    <meta name="description" content="房地产业的竞争越来越激烈，地理位置、社区规模、环境营造以及户型设计的比拼也异常火爆。其最主要的核心是房地产销售！" />
+    <link href="/Public/wap/css/swiper.min.css" rel="stylesheet">
+    <link href="/Public/wap/css/index.css" rel="stylesheet">
+    <title>三维动画制作技术在房产行业的应用-动画街</title>
+    <script type="text/javascript">
+        function fontFun() {
+            var winW = document.documentElement.clientWidth;
+            document.documentElement.style.fontSize = (winW / 750 * 625) + "%";
+        }
+        fontFun();
+        window.onresize = fontFun; 
+    </script>
+</head>
+<body>
+    <!--头部-->
+    <div class="top">
+        <div class="logo"></div>
+        <div class="operate"></div>
+        <a href="javascript:history.go(-1)" class="back"></a>
+    </div>
+
+    <div class="mywrap2">
+        <div class="enws_img">
+            <img src="/Public/pic/36fd2dcefa906f88749a9e068c66c44d.jpg" width="100%" />
+        </div>
+        <div class="content">
+            <div class="content_text">
+                <p class="p1">三维动画制作技术在房产行业的应用</p>
+                <p class="p2">2天前</p>
+            </div>
+            <div class="p3"><p><br/></p><p>房地产业的竞争越来越激烈，地理位置、社区规模、环境营造以及户型设计的比拼也异常火爆。其最主要的核心是房地产销售！</p><p><img  src="/upload/image/20180319/1521440968253457.jpg" title="1521440968253457.jpg" alt="timg (88).jpg" /></p><p><a href="http://www.donghuajie.com" target="_self">三维动画制作</a>在楼盘在规划设计和空间创意方面，已经难有革命性的突破。很多开发商还局限在纸质楼书、条幅等相对传统的表现手法上。购房者的日益成熟，他们需要更直观、更快捷、更全面的了解楼盘本身的信息，传统的楼书、条幅、等无法完全满足他们的需求。</p><p>投资商在规划初期或楼盘即将封顶之际，大肆展开宣传攻势，迫不急待地向准业主介绍自己在质量、设计、环境等方面的特点及优势，以吸引他们或租或购的欲望。但由于楼盘尚在建造之中，准业主无法得知实物在装饰设计，外形外观及建筑质量方面的情况，投资商会制作设计平面外观图形来向客户宣传。同时，还要斥资几百万甚至上几千万元，建造各式风格的样板房供客户实地参观，使地产开发成本无形中增加了许多。&nbsp;</p><p>传统的房地产广告宣传基本上令人无法更直观地领略楼盘个性、体会环境的优越，无法提供更人性化的浏览方式，更不能了解完整的楼盘信息内容，而把楼盘做成三维动画，应用三维动画技术，在建筑物的设计阶段就能以可视的、动态的方式全方位展示建筑物所处的地理环境、建筑物外貌和各种附属设施，由该技术制作成的建筑三维动画画面流畅，压缩比高，能够以真彩色、大幅面细腻地表现出建筑物的造型、外部场景与内部的装修效果、材料质感、光照、反射、阴影等，给目标客户带来难以比拟的真实感与现场感，用户在虚拟现实动画中漫游时，就能体会到将来住在自己的房子里将会有什么美妙的感觉。同时三维动画技术还可以应用在网络和多媒体中，更方便、快捷的传播楼盘信息。<br/></p><p><br/></p></div>
+        </div>
+        
+
+        <div class="share_block">
+            <div class="share"></div>
+        </div>
+        <div class="last">已经到底了</div>
+    </div>
+    <!--分享框-->
+    <div class="cover">
+        <div class="shareArea">
+            <div class="shareblock_one">
+                <p class="share_t1">分享</p>
+                <p class="share_t2">三维动画制作技术在房产行业的应用</p>
+            </div>
+            
+            <div class="bdsharebuttonbox shareblock_two">
+                 
+                <div class="share_item">
+                    <a class="qq_block bds_qzone"  data-cmd="qzone" title="分享到QQ空间"></a>
+                    <span>QQ空间</span>
+                </div>
+                <div class="share_item">
+                    <a class="wb_block bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+                    <span>微博</span>
+                </div>
+                <div class="share_item ">
+                    <!-- <a class="wx_block bds_weixin" data-cmd="weixin" title="分享到微信"></a> -->
+                    <a class="wx_block"  title="分享到微信"></a>
+                    <span>朋友圈</span>
+                </div>
+            </div>
+            <div class="cancle_block">
+                <div class="cancle_btn">取消</div>
+            </div>
+        </div>
+    </div>
+    <div class="mycover">
+    <div class="dialog">
+        <div class="item_wap">
+            <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon one"></span>
+                <span class="item_text">首页</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com/worker.html">
+                <span class="item_icon two"></span>
+                <span class="item_text">作品案例</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com/wegot.html">
+                <span class="item_icon three"></span>
+                <span class="item_text">来撩我们</span>
+            </a>
+        </div>
+        <div class="item_wap">
+            <!-- <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon four"></span>
+                <span class="item_text">关于我们</span>
+            </a>
+            <a class="item" href="http://m.donghuajie.com">
+                <span class="item_icon five"></span>
+                <span class="item_text">服务流程</span>
+            </a> -->
+            <a class="item" href="http://m.donghuajie.com/news.html">
+                <span class="item_icon six"></span>
+                <span class="item_text">最新动态</span>
+            </a>
+        </div>
+    </div>
+</div>
+    <!--<a class="phone" href="tel:4008656770"></a>-->
+    <script src="/Public/wap/js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="/Public/wap/js/base.js"></script>
+    <script>
+        function resizepic(){}
+        $('.wx_block').click(function(){
+            window.alert('可是一使用浏览器分享,按钮分享给好友哦');
+        });
+        $('.cancle_btn,.share').click(function(){
+            $('.cover').stop(false,true).fadeToggle();
+        });
+        
+        // 点击空白处关闭分享
+        $(".cover").on('click',function(e){
+            var target = $(e.target);
+            if(target.closest('.shareArea').length == 0){
+                $('.cover').stop(false,true).fadeToggle();
+            }
+            e.stopPropagation();
+        });
+
+        // 回到顶部
+        $(".top").click(function() {
+            $('.mywrap2').scrollTop(0);
+        });
+    </script>
+    <script>
+        window._bd_share_config={
+            "common":{
+                bdText : '三维动画制作技术在房产行业的应用',
+                bdDesc : '房地产业的竞争越来越激烈，地理位置、社区规模、环境营造以及户型设计的比拼也异常火爆。其最主要的核心是房地产销售！',
+                bdUrl : 'm.donghuajie.com/news/436.html',
+                bdPic : '/Public/slt/36fd2dcefa906f88749a9e068c66c44d.jpg'
+            },
+            "share":{},
+            "image":{
+                "viewList":["qzone","tsina","tqq","renren","weixin"],
+                "viewText":"分享到：","viewSize":"16"
+            },
+            "selectShare":{
+                "bdContainerClass":null,
+                "bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]
+            }
+        };
+        with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+    </script>
+    <!--客服代码-->
+    <script>
+        (function() {var _53code = document.createElement("script");
+            _53code.src = "https://tb.53kf.com/code/code/10167819/2";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(_53code, s)
+            ;})();
+    </script>
+</body>
+</html>

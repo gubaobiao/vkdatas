@@ -1,0 +1,51 @@
+.active .mico_case .micoi{top: -208px; }
+.clBody{position: relative; width:  1257px; margin: 36px auto 20px; padding: 0 0 66px; background-color: #ebebeb; }
+.clsideWrap{position: absolute; left: -80px; top: 0; width: 80px; height: 76px; }
+.clsLabel{position: absolute; left: 0; top: 0; z-index: 9; height: 76px; width: 80px; background: #058bbc url(../img/side_show.png) no-repeat center 28px; cursor: pointer; }
+.clside{position: absolute; top: 0; left: 0; z-index: 1; }
+.clside .active a{background-color:#272727;}
+.clside li{position: absolute; top: 0; left: 0; display: block; }
+.clside li a{display: block; height: 76px; width: 80px; border-bottom: 1px solid #686868; background: #585858; color: #ffffff; line-height: 76px; text-align: center; text-decoration: none; overflow: hidden;}
+.clside li a:hover{background: #272727; }
+.csQuery{position: relative; overflow: hidden; padding: 42px 0 50px 2px; cursor:pointer;}
+.csQuery .cslPic span{display: block;width:45px;height:45px;position:absolute; top:-50%;left:50%;margin:-22.5px 0 0 -22.5px;overflow: hidden;background:url(../img/play.png) center no-repeat;}
+.csli{position: relative; float: left; width: 271px; height: 255px; overflow: hidden; margin: 0 8px 18px; padding: 13px 13px 0; box-shadow: 2px 2px 2px #dddddd,-2px -2px 2px #dadada; background: #ffffff; }
+.cslPic{display: block; width: 273px; height: 154px; overflow: hidden; margin: 0 0 16px; font-size: 0; line-height: 0; background: #000000;position:relative; }
+.cslPic img{width:100%;}
+.cslName{line-height: 24px; color: #000000; font-size: 14px; text-decoration: none; }
+.cslDate{color: #929292; line-height: 20px; }
+.cslSum{padding: 10px 0 44px; line-height: 24px; color: #414141; }
+.cslLink{position: absolute; right: 0; bottom: 0; width: 126px; height: 42px; background: #4d4d4d url(../img/case_qmore.png) no-repeat center center; font-size: 0; line-height: 0; }
+.caseHeader{position: fixed; top: 0; left: 0; right: 0; z-index: 9; height: 58px; background: url(../img/case_header.png) repeat-x left center; }
+.caseHeaderWrap{width: 1000px; height: 56px; margin: 0 auto; }
+.chLeft{float: left; font-size: 0; line-height: 0; }
+.caseList{float: left; }
+.caseList a{display: block; width: 61px; height: 53px; background: #000000 url(../img/side_show.png) no-repeat center center; }
+.casePrev{float: left; margin: 0 0 0 1px; }
+.casePrev a{display: block; width: 57px; height: 53px; background: #000000 url(../img/case_arrow.png) no-repeat 20px center; }
+.caseNext{float: left; margin: 0 0 0 1px; }
+.caseNext a{display: block; width: 57px; height: 53px; background: #000000 url(../img/case_arrow.png) no-repeat -36px center; }
+.caseList:hover,
+.casePrev:hover,
+.caseNext:hover{background-color: #b70b2c; }
+.chRight{float: right; }
+.chRight li{position: relative; float: left; width: 62px; height: 53px; margin: 0 1px 0 0; overflow: hidden; background: #000000;  }
+.chShareWb,
+.chShareTx,
+.chShareQz,
+.chShareWx{position: absolute; top: 0; left: 0; width: 62px; height: 106px; background: url(../img/case_share.png) no-repeat center top; }
+.chShareWb{background-position: center top; }
+.chShareTx{background-position: center -106px; }
+.chShareQz{background-position: center -212px; }
+.chShareWx{background-position: center -318px; }
+.caseDetBanner{height: 492px; position: relative; z-index: 0; width: 100%; overflow: hidden;}
+.caseDbinner{position: absolute; left: 50%; width: 1920px; margin-left: -960px; text-align: center; }
+
+.caseDetBody{margin: 0 0 24px; padding: 36px 0 0px;}
+.casedbWrap{width: 1000px; margin: 0 auto;}
+.casedTop{height: 38px; border-bottom: 1px solid #7f6776; padding: 46px 162px 0; background: url(../img/case_logo.html) no-repeat 50px 42px; line-height: 24px; color: #ffffff; }
+.casedQuery{ }
+.casedList{padding: 0px 0; text-align: center; font-size: 0; line-height: 0;}
+.casedList img{width: 100%; }
+.casedBottom{height: 52px; border-bottom: 1px solid #7f6776; padding: 32px 162px 0; background: url(../img/case_logo.html) no-repeat 50px 28px; line-height: 24px; color: #ffffff; }
+

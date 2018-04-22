@@ -1,0 +1,9 @@
+{
+	"count": 4,
+	"data": [
+		{"src": "../src/img/i1.png","title": "5天极速出片", "text1": "全程自由把控", "text2": "进度一清二楚","text3": "等待不再枯燥","path":"www.kanqiye.com", "time": "2017-10-10","rank": 1,"status": 1,"up_path": "serviceList.html","down_path": "serviceList.html","release_path":"serviceList.html","cancel_path":"serviceList.html","delete_path": "serviceList.html","update_path":"serviceUpdate.html","will_path":"serviceUpdate.html"},
+		{"src": "../src/img/i2.png","title": "15天无理由修改", "text1": "用的不爽！改！", "text2": "觉得不好！改！","text3": "你说要改！改！","path":"www.kanqiye.com", "time": "2017-10-10","rank": 2,"status": 1,"up_path": "serviceList.html","down_path": "serviceList.html","release_path":"serviceList.html","cancel_path":"serviceList.html","delete_path":"serviceList.html","update_path":"serviceUpdate.html","will_path":"serviceUpdate.html"},
+		{"src": "../src/img/i3.png","title": "价格低破冰点", "text1": "就是想便宜", "text2": "就是要便宜","text3": "就是很便宜","path":"www.kanqiye.com", "time": "2017-10-10","rank": 3,"status": 2,"up_path": "serviceList.html","down_path": "serviceList.html","release_path":"serviceList.html","cancel_path":"serviceList.html","delete_path":"serviceList.html","update_path":"serviceUpdate.html","will_path":"serviceUpdate.html"},
+		{"src": "../src/img/i4.png","title": "撒娇可以打折", "text1": "熟客可以打折", "text2": "美女可以打折","text3": "帅哥可以打折", "path":"www.kanqiye.com","time": "2017-10-10","rank": 4,"status": 1,"up_path": "serviceList.html","down_path": "serviceList.html","release_path":"serviceList.html","cancel_path":"serviceList.html","delete_path":"serviceList.html","update_path":"serviceUpdate.html","will_path":"serviceUpdate.html"}
+	]
+}

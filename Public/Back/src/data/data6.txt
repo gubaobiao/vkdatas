@@ -1,0 +1,9 @@
+/*
+count:总条数
+data:列表数据文章
+name:类型名称
+num:该类型拥有的视频条数
+time:时间
+update_path:修改的路径
+delete_path:删除的路径
+*/
