@@ -62,9 +62,12 @@ class IndexController extends Controller {
         echo json_encode($dat);exit();
 
     }
-    //商家类目二级页面 分类id
+    //商家类目二级页面 分类id 
     public function getshop()
     {
+        //火车站 34.7501001215,113.6682371214 中原福塔34.7276804206,113.7370301898
+        // $l=getdistance(34.7501,113.6682,34.7276,113.7370);
+        // echo $l;die;
         if (IS_GET) {
             if (I('get.cateid') && I('get.longitude') && I('get.latitude')) {
                 $re=M('shop')->alias();
@@ -75,5 +78,28 @@ class IndexController extends Controller {
         }else{
             $dat['errorCode']=201;
         }
+    }
+    //用户点击收藏商家的ajax
+    public function collectionShop()
+    {
+        if (IS_GET) {
+            // $data=I('get.userid');
+            // $shopid=I('get.shopid');
+            $data=I('get.');
+            $re=M('collection')->add($data);
+            if ($re) {
+               $dat['errorCode']=200; 
+            }else{
+               $dat['errorCode']=203;   
+            }
+        }else{
+           $dat['errorCode']=201; 
+        }
+        echo json_encode($dat);exit;
+    }
+    //查看用户收藏了哪些商家
+    public function getcollectionShop()
+    {
+
     }
 }
