@@ -83,18 +83,33 @@ class IndexController extends Controller {
     public function getshop()
     {
         //火车站 34.7501001215,113.6682371214 中原福塔34.7276804206,113.7370301898
-        // $l=getdistance(34.7501,113.6682,34.7276,113.7370);
-        // echo $l;die;
+        // $l=getdistance(34.7501,113.6682,34.7276,113.7370);30.2476719137,120.1904975493
+        // echo $l;die;&& I('get.longitude') && I('get.latitude')
         if (IS_GET) {
-            if (I('get.cateid') && I('get.longitude') && I('get.latitude')) {
-                // $re=M('shop')->alias();
-                
+            if (I('get.cateid') && I('get.longitude') && I('get.latitude') && I('get.city')) {
+                $where['cateid']=I('get.cateid');
+                $where['city']=I('get.city');
+                $re=M('shop')->field('id,userid,address,shopname,money,longitude,latitude,shopimg')->where($where)->select();
+                if ($re) {
+                    foreach ($re as $k => $v) {
+                    $re[$k]['distance']=getdistance(I('get.longitude'),I('get.latitude'),$v['longitude'],$v['latitude']);
+                    $count=M('collection')->where('shopid='.$v['userid'])->count();
+                    $re[$k]['fans']=$count;
+                    unset($re[$k]['longitude']);
+                    unset($re[$k]['latitude']);
+                    }
+                    $dat['errorCode']=200;
+                    $dat['data']=$re;
+                }else{
+                    $dat['errorCode']=205;
+                }
             }else{
                 $dat['errorCode']=204;
             }
         }else{
             $dat['errorCode']=201;
         }
+        echo json_encode($dat);exit();
     }
     //用户点击收藏商家的ajax
     public function collectionShop()
