@@ -111,6 +111,29 @@ class IndexController extends Controller {
         }
         echo json_encode($dat);exit();
     }
+    //获取商家的详细信息
+    public function getshopinfo()
+    {
+       if (IS_GET) {
+          if (I('get.userid' && I('get.longitude') && I('get.latitude') )) {
+                $re=M('shop')->where('userid='.I('get.userid'))->find();
+                if ($re) {
+                    $re['distance']=getdistance(I('get.longitude'),I('get.latitude'),$re['longitude'],$re['latitude']);
+                    $count=M('collection')->where('shopid='.$v['userid'])->count();
+                    $re['fans']=$count;
+                    $dat['errorCode']=200;
+                    $dat['data']=$re;
+                }else{
+                    $dat['errorCode']=205;
+                }
+            }else{
+                $dat['errorCode']=204;
+            }  
+        }else{
+         $dat['errorCode']=201; 
+        }
+        echo json_encode($dat);exit;
+    }
     //用户点击收藏商家的ajax
     public function collectionShop()
     {
@@ -151,5 +174,58 @@ class IndexController extends Controller {
            $dat['errorCode']=201; 
         }
         echo json_encode($dat);exit; 
+    }
+    //添加用户的浏览记录
+    public function addhistory()
+    {
+        if (IS_GET) {
+            if (I('get.userid') && I('get.shopid')) {
+                $data['userid']=I('get.userid');
+                $data['shopid']=I('get.shopid');
+                $result=M('history')->where($data)->find();
+                if (!$result) {
+                    $data['time']=time();
+                    $re=M('history')->add($data);
+                    if (!$re) {
+                        $dat['errorCode']=203;
+                        echo json_encode($dat);exit;
+                    }
+                    $dat['errorCode']=200;
+                    echo json_encode($dat);exit();
+                }
+            }else{
+                $dat['errorCode']=204;
+            }
+        }else{  
+            $dat['errorCode']=201; 
+        }
+        echo json_encode($dat);exit; 
+    }
+    //取消收藏
+    public function cancelCollection()
+    {
+        if (IS_GET) {
+            if (I('get.userid') && I('get.shopid')) {
+                $data['userid']=I('get.userid');
+                $data['shopid']=I('get.shopid');
+                $result=M('history')->where($data)->find();
+                if (!$result) {
+                    $data['time']=time();
+                    $re=M('history')->add($data);
+                    if (!$re) {
+                        $dat['errorCode']=203;
+                        echo json_encode($dat);exit;
+                    }
+                    $dat['errorCode']=200;
+                    echo json_encode($dat);exit();
+                }
+            }else{
+                $dat['errorCode']=204;
+            }
+        }else{  
+            $dat['errorCode']=201; 
+        }
+        echo json_encode($dat);exit; 
+
     }
 }
