@@ -35,16 +35,18 @@ class IndexController extends Controller {
     {
         if (IS_POST) {
             $data=I('post.');
-            $re=M('shop')->where('userid='.$data['id'])->find();
+            $img=$this->upload();
+            $data['shopimg']='https://v.gubaobiao.cn/uploadfile/User/video/'.$img['shopimg']['savepath'].$img['shopimg']['savename'];
+            $re=M('shop')->where('userid='.$data['userid'])->find();
             if ($re['shopname']) {
-                $result=M('shop')->where('id='.$data['id'])->data($data)->save();
+                $result=M('shop')->where('id='.$re['id'])->data($data)->save();
                 if ($result===false) {
                     $dat['errorCode']=202;
                 }else{
                     $dat['errorCode']=200;
                 }
             }else{
-                $result=M('shop')->where('id='.$data['id'])->add($data);
+                $result=M('shop')->add($data);
                 if (0<$result) {
                     $dat['errorCode']=200;
                 }else{
@@ -62,6 +64,21 @@ class IndexController extends Controller {
         echo json_encode($dat);exit();
 
     }
+    public function upload(){
+        $upload = new \Think\Upload();// 实例化上传类
+        $upload->maxSize   =     3145728 ;// 设置附件上传大小
+        $upload->exts      =     array('jpg', 'gif', 'png', 'jpeg');// 设置附件上传类型
+        $upload->rootPath  =     './uploadfile/User/video/'; // 设置附件上传根目录
+        $upload->savePath  =     ''; // 设置附件上传（子）目录
+        // 上传文件 
+        $info   =   $upload->upload();
+        if(!$info) {// 上传错误提示错误信息
+            $dat['errorCode']=201; 
+           echo json_encode();exit();
+        }else{// 上传成功
+           return $info;
+        }
+    }
     //商家类目二级页面 分类id 
     public function getshop()
     {
@@ -70,7 +87,7 @@ class IndexController extends Controller {
         // echo $l;die;
         if (IS_GET) {
             if (I('get.cateid') && I('get.longitude') && I('get.latitude')) {
-                $re=M('shop')->alias();
+                // $re=M('shop')->alias();
                 
             }else{
                 $dat['errorCode']=204;
@@ -86,6 +103,7 @@ class IndexController extends Controller {
             // $data=I('get.userid');
             // $shopid=I('get.shopid');
             $data=I('get.');
+            $data['time']=time();
             $re=M('collection')->add($data);
             if ($re) {
                $dat['errorCode']=200; 
@@ -97,9 +115,26 @@ class IndexController extends Controller {
         }
         echo json_encode($dat);exit;
     }
-    //查看用户收藏了哪些商家
+    //查看用户收藏了哪些商家1 收藏 2代表被收藏 以及查看商户被那些用户收藏
     public function getcollectionShop()
     {
-
+        if (IS_GET) {
+            //代表是获取用户收藏的商家
+            if (I('type')==1) {
+                $re=M('collection')->where('userid='.I('get.userid'))->select();
+                $dat['data']=$re;
+                $dat['errorCode']=200;
+             //获取商家被收藏的用户
+            }elseif (I('type')==2) {
+                $re=M('collection')->where('shopid='.I('get.userid'))->select();
+                $dat['data']=$re;
+                $dat['errorCode']=200;
+            }else{
+                $dat['errorCode']=204;
+            }
+        }else{
+           $dat['errorCode']=201; 
+        }
+        echo json_encode($dat);exit; 
     }
 }

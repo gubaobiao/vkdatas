@@ -50,4 +50,27 @@ function getdistance($lat1, $lng1, $lat2, $lng2)
     return round($s,1);
 
 }
-
+//base64图片存取
+function baseImg($img)
+{
+            $imgdata=$img;
+            $path='./uploadfile/User/video/';
+            $paths='https://v.gubaobiao.cn/uploadfile/User/video/';
+            //转换文件路径编码
+            if(!file_exists($path)){  
+            mkdir(iconv('utf-8', 'gbk', "$path"),0777,true);  
+            }
+            $imgDir =$path;
+            $img = str_replace('data:image/jpeg;base64,', '', $imgdata);
+            $img = str_replace('data:image/png;base64,', '', $img);
+            $img = str_replace(' ', '+', $img);
+            $img = base64_decode($img);
+            $filename = md5(time().mt_rand(10, 99)).".jpg"; //新图片名称
+            $newFilePath =$path.$filename;
+            $newFile = fopen(iconv("UTF-8","gbk",$newFilePath),"a+"); //打开文件准备写入
+             //写入二进制流到文件
+            fwrite($newFile,$img);
+            fclose($newFile); //关闭文件
+            $data['newFilePath']=$paths.$filename;
+            return $data;
+}
