@@ -246,4 +246,64 @@ class IndexController extends Controller {
         }
         echo json_encode($dat);exit; 
     }
+    //发布朋友圈动态
+    public function addMessage()
+    {
+        if (IS_POST) {
+           $data['message']=I('post.message');
+           $data['userid']=I('post.userid');
+           $data['time']=time();
+
+
+        }else{
+           $dat['errorCode']=201;  
+        }
+        echo json_encode($dat);exit; 
+    }
+    //点赞量
+    public function  praisenums()
+    {
+        if (IS_GET) {
+            $data=I('get.');
+            $re=M('praise')->add($data);
+            if ($re) {
+                $dat['errorCode']=200;
+            }else{
+                $dat['errorCode']=203;
+            }
+        }else{
+           $dat['errorCode']=201;  
+        }
+        echo json_encode($dat);exit; 
+    }
+    //取消点赞
+    public function cancelpraise()
+    {
+        if (IS_GET) {
+            $data['userid']=I('get.userid');
+            $data['messageid']=I('get.messageid');
+            $re=M('praise')->where($data)->delete();
+            if ($re) {
+                $dat['errorCode']=200;
+            }else{
+                $dat['errorCode']=203;
+            }
+        }else{
+           $dat['errorCode']=201;  
+        }
+        echo json_encode($dat);exit; 
+    }
+    //获取这个人是否点赞
+    public function getpraise($userid,$messageid)
+    {
+       
+            $data['userid']=$userid;
+            $data['messageid']=$messageid;
+            $re=M('praise')->where($data)->find();
+            if ($re) {
+                return 1;
+            }else{
+               return 0;
+            }
+    }
 }
