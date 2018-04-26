@@ -208,16 +208,11 @@ class IndexController extends Controller {
             if (I('get.userid') && I('get.shopid')) {
                 $data['userid']=I('get.userid');
                 $data['shopid']=I('get.shopid');
-                $result=M('history')->where($data)->find();
-                if (!$result) {
-                    $data['time']=time();
-                    $re=M('history')->add($data);
-                    if (!$re) {
-                        $dat['errorCode']=203;
-                        echo json_encode($dat);exit;
-                    }
+                $result=M('collection')->where($data)->delete();
+                if ($result) {
                     $dat['errorCode']=200;
-                    echo json_encode($dat);exit();
+                }else{
+                   $dat['errorCode']=207; 
                 }
             }else{
                 $dat['errorCode']=204;
@@ -227,5 +222,28 @@ class IndexController extends Controller {
         }
         echo json_encode($dat);exit; 
 
+    }
+    //删除浏览记录历史
+    public function deleteHistory()
+    {
+        if (IS_POST) {
+
+            if (I('post.history')) {
+                // dump(I('post.history'));die();
+                //$str=implode(',',I('post.history'));
+                $data['id']=array('in',I('post.history'));
+                $result=M('history')->where($data)->delete();
+                if ($result) {
+                    $dat['errorCode']=200;
+                }else{
+                   $dat['errorCode']=207; 
+                }
+            }else{
+                $dat['errorCode']=204;
+            }
+        }else{  
+            $dat['errorCode']=201; 
+        }
+        echo json_encode($dat);exit; 
     }
 }
