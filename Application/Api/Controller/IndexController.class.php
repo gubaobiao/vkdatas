@@ -36,6 +36,11 @@ class IndexController extends Controller {
         if (IS_POST) {
             $data=I('post.');
             $img=$this->upload();
+            if ($img==0) {
+               $dat['errorCode']=206;
+               echo json_encode($dat);
+               exit();
+            }
             $data['shopimg']='https://v.gubaobiao.cn/uploadfile/User/video/'.$img['shopimg']['savepath'].$img['shopimg']['savename'];
             $re=M('shop')->where('userid='.$data['userid'])->find();
             if ($re['shopname']) {
@@ -73,8 +78,7 @@ class IndexController extends Controller {
         // 上传文件 
         $info   =   $upload->upload();
         if(!$info) {// 上传错误提示错误信息
-            $dat['errorCode']=201; 
-           echo json_encode();exit();
+            return 0;
         }else{// 上传成功
            return $info;
         }
@@ -246,64 +250,5 @@ class IndexController extends Controller {
         }
         echo json_encode($dat);exit; 
     }
-    //发布朋友圈动态
-    public function addMessage()
-    {
-        if (IS_POST) {
-           $data['message']=I('post.message');
-           $data['userid']=I('post.userid');
-           $data['time']=time();
 
-
-        }else{
-           $dat['errorCode']=201;  
-        }
-        echo json_encode($dat);exit; 
-    }
-    //点赞量
-    public function  praisenums()
-    {
-        if (IS_GET) {
-            $data=I('get.');
-            $re=M('praise')->add($data);
-            if ($re) {
-                $dat['errorCode']=200;
-            }else{
-                $dat['errorCode']=203;
-            }
-        }else{
-           $dat['errorCode']=201;  
-        }
-        echo json_encode($dat);exit; 
-    }
-    //取消点赞
-    public function cancelpraise()
-    {
-        if (IS_GET) {
-            $data['userid']=I('get.userid');
-            $data['messageid']=I('get.messageid');
-            $re=M('praise')->where($data)->delete();
-            if ($re) {
-                $dat['errorCode']=200;
-            }else{
-                $dat['errorCode']=203;
-            }
-        }else{
-           $dat['errorCode']=201;  
-        }
-        echo json_encode($dat);exit; 
-    }
-    //获取这个人是否点赞
-    public function getpraise($userid,$messageid)
-    {
-       
-            $data['userid']=$userid;
-            $data['messageid']=$messageid;
-            $re=M('praise')->where($data)->find();
-            if ($re) {
-                return 1;
-            }else{
-               return 0;
-            }
-    }
 }
