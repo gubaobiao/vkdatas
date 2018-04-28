@@ -1,0 +1,10 @@
+[ 2018-04-24T09:33:19+08:00 ] 127.0.0.1 /Api/getshopinfo?id=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000922s ]
+SQL: SHOW COLUMNS FROM `dhj_shop` [ RunTime:0.0363s ]
+SQL: SELECT * FROM `dhj_shop` WHERE ( userid=12 ) LIMIT 1   [ RunTime:0.0374s ]
+
