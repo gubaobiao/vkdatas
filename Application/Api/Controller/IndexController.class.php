@@ -248,7 +248,46 @@ class IndexController extends Controller {
         }else{  
             $dat['errorCode']=201; 
         }
-        echo json_encode($dat);exit; 
+       
     }
+    //判断店铺设置是否设置过
+    public function issetShop()
+    {
+        if (IS_GET) {
+            $re=M('shop')->where('userid='.I('get.userid'))->find();
+            if ($re) {
+                $dat['errorCode']=200;
+            }else{
+                $dat['errorCode']=205;
+            }
+        }else{
+            $dat['errorCode']=201;
+        }
+         echo json_encode($dat);exit; 
+    }
+    //申请成为商家
+    public function applyShop()
+    {
+        if (IS_POST) {
+            $data=I('post.');
+            $data['type']=3;
+            $img=$this->upload();
+            $data['business']='https://v.gubaobiao.cn/uploadfile/User/video/'.$img['shopimg']['savepath'].$img['shopimg']['savename'];
+            $re=M('users')->where('id='.I('post.userid'))->data($data)->save();
+            if ($re===false) {
+                $dat['errorCode']=202;
+            }else{
+                $dat['errorCode']=200;
+            } 
+        }else{
+            $dat['errorCode']=201;
+        }
+         echo json_encode($dat);exit; 
+    }
+    //获取用户授权
+    public function userAuthorize()
+    {
+        
 
+    }
 }

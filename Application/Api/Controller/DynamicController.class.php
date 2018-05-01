@@ -22,29 +22,6 @@ class DynamicController extends Controller
                echo json_encode($dat);
                exit();
            }
-           $info=A('Index')->upload();
-           if ($info==0) {
-           	   $dat['errorCode']=206;
-               echo json_encode($dat);
-               exit();
-           }else{
-           	  $datas['messageid']=$mess;
-           	  $da['id']=$mess;
-           	  $da['message']=I('post.message');
-           	  foreach ($info as $k => $v) {
-           	  	$datas['imgpath']='https://v.gubaobiao.cn/uploadfile/User/video/'.$v['savepath'].$v['savename'];
-           	  	$da['imgpath'][]='https://v.gubaobiao.cn/uploadfile/User/video/'.$v['savepath'].$v['savename'];
-           	  	$re=M('messageimg')->add($datas);
-           	  	//添加不成功删除之前添加的数据
-           	  	if (!$re) {
-           	  		M('messageimg')->where('messageid='.$mess)->delete();
-           	  		M('message')->where('id='.$mess)->delete();
-           	  		$dat['errorCode']=206;
-	                echo json_encode($dat);
-	                exit();
-           	  	}
-           	  }
-           }
            $dat['errorCode']=200;
            $dat['data']=$da;
 
@@ -52,6 +29,25 @@ class DynamicController extends Controller
            $dat['errorCode']=201;  
         }
         echo json_encode($dat);exit; 
+    }
+    //上传图片
+    public function uploadimg()
+    {
+       if (IS_POST) {
+          $info=A('Index')->upload();
+           if ($info==0) {
+               $dat['errorCode']=206;
+               echo json_encode($dat);
+               exit();
+           }else{
+                $dat['imgpath']='https://v.gubaobiao.cn/uploadfile/User/video/'.$info['img']['savepath'].$info['img']['savename'];
+                $re=M('messageimg')->add($dat);
+                $dat['errorCode']=200;
+           }
+       }else{
+         $dat['errorCode']=201;
+       }
+        echo json_encode($dat);exit;
     }
     //点赞量
     public function  praisenums()
@@ -106,40 +102,38 @@ class DynamicController extends Controller
     	if (IS_POST) {
     		$data=I('post.');
     		$data['time']=time();
-    		$re=M('comment')->add();
+    		$re=M('comment')->add($data);
     		if (!$re) {
     			   $dat['errorCode']=203;
 	               echo json_encode($dat);
 	               exit();
     		}
-    		$info=A('Index')->upload();
-           if ($info==0) {
-           	   $dat['errorCode']=206;
-               echo json_encode($dat);
-               exit();
-           }else{
-           	  $datas['commentid']=$re;
-           	  $data['id']=$re;
-           	  foreach ($info as $k => $v) {
-           	  	$datas['imgpath']='https://v.gubaobiao.cn/uploadfile/User/video/'.$v['savepath'].$v['savename'];
-           	  	$datas['imgpath']=2;
-           	  	$da['imgpath'][]='https://v.gubaobiao.cn/uploadfile/User/video/'.$v['savepath'].$v['savename'];
-           	  	$re=M('messageimg')->add($datas);
-           	  	//添加不成功删除之前添加的数据
-           	  	if (!$re) {
-           	  		M('messageimg')->where('commentid='.$re)->delete();
-           	  		M('comment')->where('id='.$re)->delete();
-           	  		$dat['errorCode']=206;
-	                echo json_encode($dat);
-	                exit();
-           	  	}
-           	  }
-           }
-           $dat['errorCode']=200;
-           $dat['data']=$da;
+        $dat['errorCode']=200;
+        $dat['data']['id']=$re;
     	}else{
     		$dat['errorCode']=201;
     	}
     	echo json_encode($dat);
+    }
+    //获取动态下的所有评论
+    public function getComment()
+    {
+      if (IS_GET) {
+         if (I('get.messageid')) {
+            $re=M('comment')->where('is_delete= 1 and messageid='.I('get.messageid'))->select();
+            dump($re);
+            die;
+          }else{
+            $dat['errorCode']=204;
+          } 
+      }else{
+        $dat['errorCode']=201;
+      }
+      echo json_encode($dat);
+    }
+    //分类
+    public function getTree()
+    {
+
     }
 }
