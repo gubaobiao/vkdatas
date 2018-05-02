@@ -284,8 +284,7 @@ class IndexController extends Controller {
         }
          echo json_encode($dat);exit; 
     }
-    //获取用户授权
-    public function userAuthorize()
+    public function test()
     {
         $code=I('get.code');
         $url="https://api.weixin.qq.com/sns/jscode2session?appid=wx4365511071d1dd31&secret=cb7ddcf68da4fbd1c74f5c44f3bdc53c&js_code=$code&grant_type=refresh_token";
@@ -306,12 +305,36 @@ class IndexController extends Controller {
         }
         echo json_encode($dat);
     }
-    public function test()
-    {
-        import("Vendor.WXBizDataCrypt");
-        // vendor('ErrorCode');
-        Vendor('WXBizDataCrypt');
-        $obj = new \WXBizDataCrypt(312321,312321);
-        dump($obj);
+     //获取用户授权
+    public function userAuthorize()
+    {   $code   =   I('get.code');
+        $encryptedData   =   I('get.encryptedData');
+        $iv   =   I('get.iv');
+        $appid  =  "wx4365511071d1dd31" ;
+        $secret =   "cb7ddcf68da4fbd1c74f5c44f3bdc53c";
+        $URL = "https://api.weixin.qq.com/sns/jscode2session?appid=$appid&secret=$secret&js_code=$code&grant_type=authorization_code";
+
+        Vendor('small.wxBizDataCrypt');
+        $apiData=file_get_contents($URL);
+        // var_dump($code,'wwwwwwww',$apiData['errscode']);
+        //     $ch = curl_init();
+        // 　　curl_setopt($ch, CURLOPT_URL, $URL);
+        // 　　curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+        // 　　curl_setopt($ch, CURLOPT_HEADER, 0);
+        // 　　$output = curl_exec($ch);
+        // 　　curl_close($ch)
+
+        if(!isset($apiData['errcode'])){
+            $sessionKey = json_decode($apiData)->session_key;
+            $userifo = new \WXBizDataCrypt($appid, $sessionKey);
+
+            $errCode = $userifo->decryptData($encryptedData, $iv, $data );
+            dump($data);die;
+            if ($errCode == 0) {
+                return ($data . "\n");
+            } else {
+                return false;
+            }
+        }
     }
 }
