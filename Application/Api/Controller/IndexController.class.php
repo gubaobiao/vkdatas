@@ -287,7 +287,31 @@ class IndexController extends Controller {
     //获取用户授权
     public function userAuthorize()
     {
-        
-
+        $code=I('get.code');
+        $url="https://api.weixin.qq.com/sns/jscode2session?appid=wx4365511071d1dd31&secret=cb7ddcf68da4fbd1c74f5c44f3bdc53c&js_code=$code&grant_type=refresh_token";
+        $data=file_get_contents($url);
+        $re=json_decode($data,true);
+        if ($re['openid']) {
+            $where['openid']=$re['openid'];
+            $res=M('users')->where($where)->find();
+            if (!$res) {
+              $id=M('users')->data($where)->add();
+            }else{
+                $id=$res['id'];
+            }
+            $dat['data']['id']=$id;
+            $dat['errorCode']=200;
+        }else{
+            $dat['errorCode']=208;
+        }
+        echo json_encode($dat);
+    }
+    public function test()
+    {
+        import("Vendor.WXBizDataCrypt");
+        // vendor('ErrorCode');
+        Vendor('WXBizDataCrypt');
+        $obj = new \WXBizDataCrypt(312321,312321);
+        dump($obj);
     }
 }
