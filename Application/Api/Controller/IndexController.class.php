@@ -304,7 +304,7 @@ class IndexController extends Controller {
             $dat['errorCode']=208;
         }
         echo json_encode($dat);
-    }
+    } 
      //获取用户授权
     public function userAuthorize()
     {   $code   =   I('get.code');
@@ -316,25 +316,44 @@ class IndexController extends Controller {
 
         Vendor('small.wxBizDataCrypt');
         $apiData=file_get_contents($URL);
-        // var_dump($code,'wwwwwwww',$apiData['errscode']);
-        //     $ch = curl_init();
-        // 　　curl_setopt($ch, CURLOPT_URL, $URL);
-        // 　　curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-        // 　　curl_setopt($ch, CURLOPT_HEADER, 0);
-        // 　　$output = curl_exec($ch);
-        // 　　curl_close($ch)
-
+        //dump($apiData);
         if(!isset($apiData['errcode'])){
             $sessionKey = json_decode($apiData)->session_key;
-            $userifo = new \WXBizDataCrypt($appid, $sessionKey);
-
+            $userifo = new \wxBizDataCrypt($appid, $sessionKey);
             $errCode = $userifo->decryptData($encryptedData, $iv, $data );
-            dump($data);die;
-            if ($errCode == 0) {
-                return ($data . "\n");
-            } else {
-                return false;
+            $result=json_decode($data,true);
+
+            if ($result['openId']) {
+                $openid['openid']=$result['openId'];
+            $re=M('users')->where($openid)->find();
+                $dad['nickname']=$result['nickName'];
+                $dad['sex']=$result['gender'];
+                $dad['avatar']=$result['avatarUrl'];
+                $dad['logintime']=time();
+            if ($re) {
+                $rer=M('users')->where($openid)->data($dad)->save();
+                if ($rer===false) {
+                    $dat['errCode']=202;
+                }else{
+                    $dat['errCode']=200;
+                    $dat['data']['userid']=$re['id'];
+                }
+            }else{
+                $dad['openid']=$result['openId'];
+                $re=M('users')->data($dad)->add();
+                if (!$re) {
+                   $dat['errCode']=203;
+                }else{
+                   $dat['errCode']=200;
+                   $dat['data']['id']=$re;
+                }
             }
+            }else{
+              $dat['errCode']=209;  
+            }
+        }else{
+            $dat['errCode']=208;
         }
+        echo json_encode($dat);
     }
 }
