@@ -7,8 +7,7 @@ class DynamicController extends Controller
     public function addMessage()
     {
         if (IS_POST) {
-           $data['message']=I('post.message');
-           $data['userid']=I('post.userid');
+           $data=I('post.');
            $data['time']=time();
            $mess=M('message')->add($data);
            //添加信息
@@ -136,9 +135,22 @@ class DynamicController extends Controller
     {
       if (IS_GET) {
         if (!I('get.cateid')) {
-          $res=M('message')->where('is_delete=1')->field('id')->count();
+         $where['is_delete']=1;
         }else{
-          $res=M('message')->where('is_delete=1 and cateid='.I('cateid'))->field('id')->count();
+          $where['is_delete']=1;
+          $where['cateid']=I('cateid');
+        }
+        //关注的
+        if (isset($_GET['userid'])) {
+          $wher['f.userid']=$_GET['userid'];
+          $res=M('follow')->alias('f')
+                ->join('left join dhj_message m on m.userid=f.followuserid')
+                ->where('m.is_delete=1')
+                ->where($wher)
+                ->count();
+        }else{
+          //所有的加分类
+          $res=M('message')->where($where)->field('id')->count();
         }
         $page=ceil($res/6);
         $dat['data']['allpage']=$page;
@@ -164,18 +176,34 @@ class DynamicController extends Controller
         }else{
           $p=0;
         }
-        $res=M('message')->alias('m')
-        ->join('left join dhj_messagecate c on c.id = m.cateid')
-        ->join('left join dhj_users u on u.id = m.userid ')
-        ->where($where)
-        ->field('m.id,m.message,m.time,m.imgpath,m.praisenums,c.cate as catename,u.avatar,u.nickname')
-        ->limit($p,2)
-        ->select();
+        if (isset($_GET['type']) && $_GET['type']==2) {
+          //关
+        	$res=M('follow')->alias('f')
+                ->join('left join dhj_message m on m.userid=f.followuserid')
+                ->join('left join dhj_users u on u.id=f.followuserid')
+                ->field('m.id,m.message,m.time,m.imgpath,m.userid,u.avatar,u.nickname')
+                ->limit($p,2)
+                ->select();
+        }elseif (isset($_GET['type']) && $_GET['type']==1) {
+          //未
+           $res=M('message')->alias('m')
+          ->join('left join dhj_messagecate c on c.id = m.cateid')
+          ->join('left join dhj_users u on u.id = m.userid ')
+          ->where($where)
+          ->field('m.id,m.message,m.time,m.imgpath,m.userid,c.cate as catename,u.avatar,u.nickname')
+          ->limit($p,2)
+          ->select();
+        }
+        
         foreach ($res as $k => $v) {
           $is=$this->getpraise(I('get.userid'),$v['id']);
+          $praisenum=M('praise')->where('messageid='.$v['id'])->field('id')->count();
           $comment=M('comment')->where('is_delete= 1 and messageid='.$v['id'])->field('id')->count();
-          $v[$k]['dz']=$is;
-          $v[$k]['commentnum']=$comment;
+          $follow=$this->isfollow(I('get.userid'),$v['userid']);
+          $res[$k]['isgz']=$follow;
+          $res[$k]['isdz']=$is;
+          $res[$k]['praisenum']=$praisenum;
+          $res[$k]['commentnum']=$comment;
         }
         $dat['data']=$res;
         $dat['errCode']=200;
@@ -185,6 +213,52 @@ class DynamicController extends Controller
       echo json_encode($dat);
       exit(); 
         
+    }
+    //判断用户是否关注了这个用户
+    public function isfollow($userid,$followuserid)
+    {
+    	    $data['userid']=$userid;
+            $data['followuserid']=$followuserid;
+            $re=M('follow')->where($data)->find();
+            if ($re) {
+                return 1;
+            }else{
+               return 0;
+            }
+    }
+    //动态关注用户接口
+    public function addFollow()
+    {
+    	if (IS_GET) {
+            $data['userid']=I('get.userid');
+            $data['followuserid']=I('get.followuserid');
+            $re=M('follow')->data($data)->add();
+            if ($re) {
+                $dat['errorCode']=200;
+            }else{
+                $dat['errorCode']=203;
+            }
+        }else{
+           $dat['errorCode']=201;  
+        }
+        echo json_encode($dat);exit; 
+    }
+     //删除动态关注用户接口
+    public function deleteFollow()
+    {
+    	if (IS_GET) {
+            $data['userid']=I('get.userid');
+            $data['followuserid']=I('get.followuserid');
+            $re=M('follow')->where($data)->delete();
+            if ($re) {
+                $dat['errorCode']=200;
+            }else{
+                $dat['errorCode']=203;
+            }
+        }else{
+           $dat['errorCode']=201;  
+        }
+        echo json_encode($dat);exit; 
     }
     //获取上面的热门分类所有的
     public function hotcate()
