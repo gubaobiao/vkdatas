@@ -11,7 +11,7 @@ class ServiceController extends Controller {
     }
 	//服务介绍
 	public function serviceList(){
-		$this->display();
+		$this->display('');
 	}
 	public function servicedd(){
 		if($_POST){

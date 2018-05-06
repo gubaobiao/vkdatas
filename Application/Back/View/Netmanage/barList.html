@@ -13,12 +13,12 @@
 <body>
 <div id="kqy_main">
 	<div class="kqy_content" id="topic">
-		<a class="addBtn" id="addBtn" onclick="window.parent.creatIframe(this,event)" data-title="新增banner" data-src="{:U('Back/Netmanage/barAdd')}" href="{:U('Back/Netmanage/barAdd')}">增加</a>
+		<!-- <a class="addBtn" id="addBtn" onclick="window.parent.creatIframe(this,event)" data-title="新增banner" data-src="{:U('Back/Netmanage/barAdd')}" href="{:U('Back/Netmanage/barAdd')}">增加</a> -->
 		<div class="box_head">
-			<div class="td-1">图片</div>
+			<div class="td-1">营业执照</div>
 			<div class="td-2">时间</div>
-			<div class="td-2">排序</div>
-			<div class="td-2">状态</div>
+			<div class="td-2">联系电话</div>
+			<div class="td-2">商家店铺名</div>
 			<div class="td-3">操作</div>
 		</div>
 		<div id="box-container"></div>
@@ -39,14 +39,14 @@
 				html+= '<div class="td-2">';
 				html+= '<span>'+d.time+'</span></div>';
 				html+= '<div class="td-2">';
-				html+= '<span>'+d.rank+'</span>';
-				html+= '<a href="'+d.up_path+'"><i class="kqy_icon kqy_icon_up"></i></a>';
-				html+= '<a href="'+d.down_path+'"><i class="kqy_icon kqy_icon_down"></i></a></div>';
+				html+= '<span>'+d.shopmobbile+'</span></div>';
 				html+= '<div class="td-2">';
-				html+= (d.status == 1)? '<span>已发布</span></div>': '<span>未发布</span></div>'; 
+				html+=  '<span>'+d.shopname+'</span></div>'; 
+				// html+= '<div class="td-2">';
+				// html+=  '<span>'+d.nickname+'</span></div>'; 
 				html+= '<div class="td-3">';
-				html+= (d.status == 1)? '<a class="cancel" href="'+d.cancel_path+'">取消发布</a>': '<a class="release" href="'+d.release_path+'">发布</a>'; 
-				html+= '<a class="remove" href="'+d.delete_path+'"><i class="kqy_icon kqy_icon_remove"></i></a></div></div>';
+				html+= (d.status == 3)? '<a class="release" href="'+d.release_path+'">通过审核</a>': '<a class="cancel" href="'+d.release_path+'">已经审核</a>'; 
+				html+= '<a class="cancel" href="'+d.cancel_path+'">审核不通过</a></div></div>';
 				obj.append(html);
 		});
 		var $content = $('.box');
@@ -69,7 +69,8 @@
 			dataType:'json',
 			success:function(data){
 				if(data.data.length==0){
-					location.reload();
+					alert('暂无数据');
+					// location.reload();
 				}else{
 					domList(data.data);
 					pages(page,sum,data.count); // 当前页数，每页显示个数，总条数

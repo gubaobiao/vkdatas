@@ -270,6 +270,7 @@ class IndexController extends Controller {
     {
         if (IS_POST) {
             $data=I('post.');
+            $data['shoptime']=time();
             $data['type']=3;
             $img=$this->upload();
             $data['business']='https://v.gubaobiao.cn/uploadfile/User/video/'.$img['shopimg']['savepath'].$img['shopimg']['savename'];

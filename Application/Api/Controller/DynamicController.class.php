@@ -110,13 +110,21 @@ class DynamicController extends Controller
     	echo json_encode($dat);
     }
     //获取动态下的所有评论
-    public function getComment()
+    public function getMessage()
     {
       if (IS_GET) {
          if (I('get.messageid')) {
-            $re=M('comment')->where('is_delete= 1 and messageid='.I('get.messageid'))->select();
-            dump($re);
-            die;
+            $re=M('comment')->alias('c')
+            ->field('c.content,c.userid,c.time,c.imgpath,u.avatar,u.nickname')
+            ->join('left join dhj_users u on u.id=c.userid')
+            ->where('c.messageid='.I('get.messageid'))
+            ->find();
+            $comment=$this->getallComment(I('get.messageid'));
+           $res['content']=$re;
+           $res['comment']=$comment;
+           $res['errorCode']=200;
+           echo json_encode($res);
+           exit();
           }else{
             $dat['errorCode']=204;
           } 
@@ -126,9 +134,35 @@ class DynamicController extends Controller
       echo json_encode($dat);
     }
     //分类
-    public function getTree()
+    public function getallComment($messageid)
     {
-
+        if ($messageid) {
+          $result=M('comment')->alias('c')
+          ->join('left join dhj_users u on u.id=c.userid')
+          ->where('messageid='.$messageid)
+          ->field('c.id,c.content,c.pid,c.time,c.userid,c.imgpath,u.nickname,u.avatar')
+          ->select();
+          foreach ($result as $k => $v) {
+            
+            $resu[$v['id']]=$v; 
+          }
+          foreach ($result as $k => $v) {
+            if ($v['pid']!=0) {
+              $data['nickname']=$resu[$v['pid']]['nickname'];
+              $data['avatar']=$resu[$v['pid']]['avatar'];
+             $pidarray[$v['id']]=$data;
+            }
+          }
+          $res['commentnum']=count($result);
+          if (count($pidarray)==0) {
+             $res['pid']=array();
+          }else{
+             $res['pid']=$pidarray;
+          }
+          $res['data']=$resu;
+          $res['praisenum']=M('praise')->where('messageid='.$messageid)->count();
+         return $res;
+        }
     }
     //获取总的页码
     public function getallPage()
@@ -172,7 +206,7 @@ class DynamicController extends Controller
           $where['m.cateid']=I('cateid');
         }
         if (isset($_GET['page'])) {
-          $p=((int)I('get.page')-1)*2;
+          $p=((int)I('get.page')-1)*5;
         }else{
           $p=0;
         }
@@ -182,7 +216,7 @@ class DynamicController extends Controller
                 ->join('left join dhj_message m on m.userid=f.followuserid')
                 ->join('left join dhj_users u on u.id=f.followuserid')
                 ->field('m.id,m.message,m.time,m.imgpath,m.userid,u.avatar,u.nickname')
-                ->limit($p,2)
+                ->limit($p,5)
                 ->select();
         }elseif (isset($_GET['type']) && $_GET['type']==1) {
           //未
@@ -191,10 +225,14 @@ class DynamicController extends Controller
           ->join('left join dhj_users u on u.id = m.userid ')
           ->where($where)
           ->field('m.id,m.message,m.time,m.imgpath,m.userid,c.cate as catename,u.avatar,u.nickname')
-          ->limit($p,2)
+          ->limit($p,5)
           ->select();
         }
-        
+        if (count($res)==0) {
+          $dat['errCode']=200;
+          $dat['data']=array();
+          echo json_encode($dat);exit();
+        }
         foreach ($res as $k => $v) {
           $is=$this->getpraise(I('get.userid'),$v['id']);
           $praisenum=M('praise')->where('messageid='.$v['id'])->field('id')->count();

@@ -11,12 +11,13 @@ class NetmanageController extends Controller {
     }
 	//banner
 	public function barList(){
+
 		$this->display();
 	}
 	public function barsList(){
 		$page=$_POST['page'];
 		$sum=$_POST['sum'];
-		$count=M('banner')->count();
+		$count=M('users')->where('type=3')->count();
 		if($page==1){
 			$start=0;	
 		}
@@ -24,26 +25,31 @@ class NetmanageController extends Controller {
 			$start=($page-1)*$sum;
 		}
 		$data['count']=$count;
-		$res=M('banner')->order('is_show desc,rank asc')->limit($start,5)->select();
+		$res=M('users')->where('type=3')->order('id desc')->field('business,id,nickname,shopname,shopmobbile,shoptime,type')->limit($start,5)->select();
+		if (count($res)!=0) {
 		foreach ($res as $key => $value) {
-			$info[$key]['src']=$res[$key]['sltpath'];
-			$info[$key]['time']=$res[$key]['addtime'];
+			$res[$key]['src']=$res[$key]['business'];
+			$res[$key]['time']=date('Y-m-d H:m:s',$res[$key]['shoptime']);
+			$res[$key]['status']=$res[$key]['type'];
+			// if($res[$key]['is_show'] && $res[$key]['is_show'] !=0){
+			// 	$info[$key]['rank']=$res[$key]['rank'];
+			// }else{
+			// 	$info[$key]['rank']='';
+			// }
+			// $info[$key]['up_path']=$res[$key]['up_path'].'/'.'id'.'/'.$res[$key]['id'];
+			// $info[$key]['down_path']=$res[$key]['down_path'].'/'.'id'.'/'.$res[$key]['id'];
+			 $res[$key]['cancel_path']='/Netmanage/cancel/'.'id'.'/'.$res[$key]['id'];
+			 $res[$key]['release_path']='/Netmanage/release/'.'id'.'/'.$res[$key]['id'];
+			// $info[$key]['delete_path']=$res[$key]['delete_path'].'/'.'id'.'/'.$res[$key]['id'];
 			
-			$info[$key]['status']=$res[$key]['is_show'];
-			if($res[$key]['is_show'] && $res[$key]['is_show'] !=0){
-				$info[$key]['rank']=$res[$key]['rank'];
-			}else{
-				$info[$key]['rank']='';
-			}
-			$info[$key]['up_path']=$res[$key]['up_path'].'/'.'id'.'/'.$res[$key]['id'];
-			$info[$key]['down_path']=$res[$key]['down_path'].'/'.'id'.'/'.$res[$key]['id'];
-			$info[$key]['release_path']=$res[$key]['release_path'].'/'.'id'.'/'.$res[$key]['id'];
-			$info[$key]['cancel_path']=$res[$key]['cancel_path'].'/'.'id'.'/'.$res[$key]['id'];
-			$info[$key]['delete_path']=$res[$key]['delete_path'].'/'.'id'.'/'.$res[$key]['id'];
-			
-			$content=json_encode($info);
+			$content=json_encode($res);
 		}
 		$data['data']=json_decode($content);
+			
+		}else{
+			$data['data']=array();
+		}
+		
 		echo json_encode($data);
 	}
 	public function bar_add(){
@@ -68,45 +74,35 @@ class NetmanageController extends Controller {
 			}
 		}
 	}
-	//取消发布
+	//商家审核失败
 	public function cancel(){
 		$id=I('get.id');
-		$data['is_show']=0;
-		M('banner')->where('id='.$id)->data($data)->save();
-		$res=M('banner')->where('is_show=1')->field('id,rank')->select();
-			$shu['rank']=1+$i++;
-			foreach ($res as $key => $value) {
-				$shu['rank']=$i++;
-				M('banner')->where('id='.$value['id'])->data($shu)->save();
-			}
-		$this->redirect('barList');
+		$data['type']=4;
+		M('users')->where('id='.$id)->data($data)->save();
+		if (I('get.type')==2) {
+			$this->success('操作成功！','/Back/Netmanage/faillist?type=2',1);
+			//$this->redirect('faillists');
+		}else {
+			$this->redirect('barList'); 
+
+		}
+		
+		
 	}
-	//点击发布
+	//商家审核通过
 	public function release(){
 		$id=I('get.id');
-		$data['is_show']=1;
-		$info=M('banner')->where('is_show=1')->field('rank')->select();
-		if(!$info){
-			$data['rank']=1;
-			M('banner')->where('id='.$id)->data($data)->save();
-		}
-		if($info){
-			foreach ($info as $key => $value) {
-				$rank=array_column($info,'rank');
-				$max=max($rank);
-				$max=$max+1;
-				$da['rank']=$max;
-				$da['is_show']=1;
-				M('banner')->where('id='.$id)->data($da)->save();
-			}
-			$res=M('banner')->where('is_show=1')->field('id,rank')->select();
-			$shu['rank']=1+$i++;
-			foreach ($res as $key => $value) {
-				$shu['rank']=$i++;
-				M('banner')->where('id='.$value['id'])->data($shu)->save();
-			}	
-		}	
-		$this->redirect('barList');
+		$data['type']=2;
+		$info=M('users')->where('id='.$id)->data($data)->save();
+		// if (I('get.type')==2) {
+		// 	$this->redirect('faillists');
+		// }elseif (I('get.type')==4) {
+		// 	$this->redirect('faillists'); 
+		// }else {
+		// 	$this->redirect('barList'); 
+
+		// 	}
+		$this->success('操作成功！');
 	}
 	//点击删除
 	public function delete(){
@@ -294,4 +290,54 @@ class NetmanageController extends Controller {
             return $info;  
         }  
     }
+    //审核失败的
+	public function faillist()
+	{
+		$this->assign('type',I('get.type'));
+		$this->display();
+	}
+	
+	//审核未通过的商家 + 审核通过的商家
+	public function faillists()
+	{
+		
+		$page=$_POST['page'];
+		$sum=$_POST['sum'];
+		$count=M('users')->where('type='.I('post.type'))->count();
+		if($page==1){
+			$start=0;	
+		}
+		if($page>1){
+			$start=($page-1)*$sum;
+		}
+		$data['count']=$count;
+
+		$res=M('users')->where('type='.I('post.type'))->order('id desc')->field('business,id,nickname,shopname,shopmobbile,shoptime,type')->limit($start,5)->select();
+		if (count($res)!=0) {
+		foreach ($res as $key => $value) {
+			$res[$key]['src']=$res[$key]['business'];
+			$res[$key]['time']=date('Y-m-d H:m:s',$res[$key]['shoptime']);
+			$res[$key]['status']=$res[$key]['type'];
+			// if($res[$key]['is_show'] && $res[$key]['is_show'] !=0){
+			// 	$info[$key]['rank']=$res[$key]['rank'];
+			// }else{
+			// 	$info[$key]['rank']='';
+			// }
+			// $info[$key]['up_path']=$res[$key]['up_path'].'/'.'id'.'/'.$res[$key]['id'];
+			// $info[$key]['down_path']=$res[$key]['down_path'].'/'.'id'.'/'.$res[$key]['id'];
+			 $res[$key]['cancel_path']='/Netmanage/cancel/'.'id'.'/'.$res[$key]['id'];
+			 $res[$key]['release_path']='/Netmanage/release/'.'id'.'/'.$res[$key]['id'];
+			// $info[$key]['delete_path']=$res[$key]['delete_path'].'/'.'id'.'/'.$res[$key]['id'];
+			
+			$content=json_encode($res);
+		}
+		
+			$data['data']=json_decode($content);
+		}else{
+			$data['data']=array();
+		}
+		
+		echo json_encode($data);
+	}
+
 }

@@ -68,4 +68,5 @@ class NewstypeController extends Controller {
 		$info=M('news_type')->where('id='.$id)->delete();
 		$this->redirect('industryList');
 	}
+	
 }
