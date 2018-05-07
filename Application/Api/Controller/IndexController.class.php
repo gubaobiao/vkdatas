@@ -162,14 +162,40 @@ class IndexController extends Controller {
     {
         if (IS_GET) {
             //代表是获取用户收藏的商家
-            if (I('type')==1) {
-                $re=M('collection')->where('userid='.I('get.userid'))->select();
-                $dat['data']=$re;
+            if (I('get.type')==1) {
+                $re=M('collection')->alias('c')
+                ->join('left join dhj_shop s on s.userid=c.shopid')
+                ->where('c.userid='.I('get.userid'))
+                ->field('s.id,s.userid,s.address,s.shopname,s.money,s.longitude,s.latitude,s.shopimg')
+                ->select();
+                if ($re) {
+                    foreach ($re as $k => $v) {
+                    $re[$k]['distance']=getdistance(I('get.longitude'),I('get.latitude'),$v['longitude'],$v['latitude']);
+                    $count=M('collection')->where('shopid='.$v['userid'])->count();
+                    $re[$k]['fans']=$count;
+                    unset($re[$k]['longitude']);
+                    unset($re[$k]['latitude']);
+                    }
+                    $dat['errorCode']=200;
+                    $dat['data']=$re;
+                    $dat['data']=$re;
+                
+                }else{
+                    $data['data']=array();
+                }
                 $dat['errorCode']=200;
              //获取商家被收藏的用户
-            }elseif (I('type')==2) {
-                $re=M('collection')->where('shopid='.I('get.userid'))->select();
-                $dat['data']=$re;
+            }elseif (I('get.type')==2) {
+                $re=M('collection')->alias('c')
+                ->join('left join dhj_users u on u.id=c.userid')
+                ->field('c.time,u.nickname,u.avatar')
+                ->where('c.shopid='.I('get.userid'))
+                ->select();
+                if (count($re)!=0) {
+                   $dat['data']=$re; 
+                }else{
+                   $dat['data']=array();
+                }
                 $dat['errorCode']=200;
             }else{
                 $dat['errorCode']=204;
