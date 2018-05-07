@@ -52,6 +52,11 @@ class NetmanageController extends Controller {
 		
 		echo json_encode($data);
 	}
+	//会
+	public function member()
+	{
+		$this->display();
+	}
 	public function bar_add(){
 		if($_FILES){
 			$info=$this->bdupload();
@@ -312,11 +317,24 @@ class NetmanageController extends Controller {
 		}
 		$data['count']=$count;
 
-		$res=M('users')->where('type='.I('post.type'))->order('id desc')->field('business,id,nickname,shopname,shopmobbile,shoptime,type')->limit($start,5)->select();
+		$res=M('users')->where('type='.I('post.type'))->order('id desc')->field('business,id,nickname,shopname,shopmobbile,shoptime,logintime,type,avatar,sex')->limit($start,5)->select();
 		if (count($res)!=0) {
 		foreach ($res as $key => $value) {
-			$res[$key]['src']=$res[$key]['business'];
-			$res[$key]['time']=date('Y-m-d H:m:s',$res[$key]['shoptime']);
+			if (I('post.type')==1) {
+				$res[$key]['src']=$res[$key]['avatar'];
+			    $res[$key]['time']=date('Y-m-d H:m:s',$res[$key]['shoptime']);
+			    $res[$key]['logintime']=date('Y-m-d H:m:s',$res[$key]['logintime']);
+			    if ($value['sex']==1) {
+			    	$res[$key]['sex']='男';
+			    }else{
+			    	$res[$key]['sex']='女';
+			    }
+			     
+			}else{
+				$res[$key]['src']=$res[$key]['business'];
+				$res[$key]['time']=date('Y-m-d H:m:s',$res[$key]['shoptime']);
+			}
+			
 			$res[$key]['status']=$res[$key]['type'];
 			// if($res[$key]['is_show'] && $res[$key]['is_show'] !=0){
 			// 	$info[$key]['rank']=$res[$key]['rank'];
@@ -330,7 +348,8 @@ class NetmanageController extends Controller {
 			// $info[$key]['delete_path']=$res[$key]['delete_path'].'/'.'id'.'/'.$res[$key]['id'];
 			
 			$content=json_encode($res);
-		}
+			    }
+		
 		
 			$data['data']=json_decode($content);
 		}else{

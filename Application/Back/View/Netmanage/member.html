@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>barList</title>
+<link rel="stylesheet" href="__PUBLIC__/Back/src/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Back/src/css/public.css">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Back/src/css/barList.css">
+<script src="__PUBLIC__/Back/src/js/jquery-1.9.1.min.js"></script>
+<script src="__PUBLIC__/Back/src/bootstrap/js/bootstrap.min.js"></script>
+<script src="__PUBLIC__/Back/src/layer/layer.js"></script>
+</head>
+<body>
+<div id="kqy_main">
+	<div class="kqy_content" id="topic">
+		<!-- <a class="addBtn" id="addBtn" onclick="window.parent.creatIframe(this,event)" data-title="新增banner" data-src="{:U('Back/Netmanage/barAdd')}" href="{:U('Back/Netmanage/barAdd')}">增加</a> -->
+		<div class="box_head">
+			<div class="td-1">头像</div>
+			<div class="td-2">注册时间</div>
+			<div class="td-2">昵称</div>
+			<div class="td-2">最近登录时间</div>
+			<div class="td-3">性别</div>
+		</div>
+		<div id="box-container"></div>
+	</div>
+	<div id="page"></div>
+</div>
+<script src="__PUBLIC__/Back/src/js/kqy_paging.js"></script>
+<script type="text/javascript">
+
+	function domList(data){ // 初始化列表/分页显示列表
+		var obj = $('#box-container');
+			obj.html("");
+
+		$.each(data,function(i, d){
+			var html = '<div class="box animated">';
+				html+= '<div class="td-1">';
+				html+= '<img src="'+d.src+'"/></div>';
+				html+= '<div class="td-2">';
+				html+= '<span>'+d.time+'</span></div>';
+				html+= '<div class="td-2">';
+				html+= '<span>'+d.nickname+'</span></div>';
+				html+= '<div class="td-2">';
+				html+=  '<span>'+d.logintime+'</span></div>'; 
+				// html+= '<div class="td-2">';
+				// html+=  '<span>'+d.nickname+'</span></div>'; 
+				 html+= '<div class="td-3">';
+			
+				html+= '<span>'+d.sex+'</span></div>';
+			
+				
+				obj.append(html);
+		});
+		var $content = $('.box');
+		for (var i = 0; i < $content.length; i++) { // 添加淡入样式
+			(function($this,i){
+				setTimeout(function(){
+					$this.addClass('fadeInUp');
+				},i*200)
+			})($($content[i]),i)
+		};
+	}
+
+	function ajaxPage(page){ // 分页
+		PAGING=page;
+		var sum=5; // 每页显示个数
+		$.ajax({
+			type:"post",
+			url:"{:U('Back/Netmanage/faillists')}",
+			data:{page:page,sum:5,type:1},
+			dataType:'json',
+			success:function(data){
+				if(data.data.length==0){
+					alert('暂无数据');
+					// location.reload();
+				}else{
+					domList(data.data);
+					pages(page,sum,data.count); // 当前页数，每页显示个数，总条数
+				}
+			},
+			error:function(msg){
+				layer.msg('加载失败', {icon: 2,time:1000});
+			} 
+		})
+	};
+
+	ajaxPage(PAGING);
+</script>
+</body>
+</html>

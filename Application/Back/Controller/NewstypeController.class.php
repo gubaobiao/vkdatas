@@ -15,7 +15,7 @@ class NewstypeController extends Controller {
 	public function newsShow(){
 		$page=$_POST['page'];
 		$sum=$_POST['sum'];
-		$count=M('news_type')->count();
+		$count=M('dhj_messagecate')->count();
 		if($page==1){
 			$start=0;	
 		}
@@ -23,7 +23,7 @@ class NewstypeController extends Controller {
 			$start=($page-1)*$sum;
 		}
 		$data['count']=$count;
-		$res=M('news_type')->limit($start,5)->select();
+		$res=M('dhj_messagecate')->limit($start,5)->select();
 		foreach ($res as $key => $value) {
 			$info[$key]['time']=$res[$key]['adtime'];
 			$info[$key]['type']=$res[$key]['type_name'];

@@ -366,6 +366,7 @@ class IndexController extends Controller {
                     $dat['data']['userid']=$re['id'];
                 }
             }else{
+                $dat['time']=time();
                 $dad['openid']=$result['openId'];
                 $re=M('users')->data($dad)->add();
                 if (!$re) {
