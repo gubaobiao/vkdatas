@@ -103,7 +103,7 @@ class DynamicController extends Controller
 	               exit();
     		}
         $dat['errorCode']=200;
-        $dat['data']['id']=$re;
+        $dat['data']=M('comment')->where('id='.$re)->find();
     	}else{
     		$dat['errorCode']=201;
     	}
