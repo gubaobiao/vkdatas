@@ -8,7 +8,7 @@ class NewsController extends Controller {
 	public function newsList(){
 		$page=$_POST['page'];
 		$sum=$_POST['sum'];
-		$count=M('news')->count();
+		$count=M('message')->count();
 		if($page==1){
 			$start=0;	
 		}
@@ -17,19 +17,15 @@ class NewsController extends Controller {
 		}
 		$data['count']=$count;
 		$title=$_POST['text'];
-		$where['title']=array('like',"%$title%");
+		$where['n.message']=array('like',"%$title%");
 		$type=$_POST['text'];
-		$where['type']=array('like',"%$type%");
-		$addtime=$_POST['text'];
-		$where['addtime']=array('like',"%$addtime%");
-		$where['_logic'] = 'or';
-		$map['_complex'] = $where;
-		$res=M('news')->alias('n')->join('left join dhj_news_type as nt on nt.id=n.type')->where($where)->order('is_show desc')->limit($start,5)->field('n.*,nt.type_name')->select();
+		 $where['m.cate']=array('like',"%$type%");
+		// $addtime=$_POST['text'];
+		 $where['_logic'] = 'or';
+		 $map['_complex'] = $where;
+		$res=M('message')->alias('n')->join('left join dhj_messagecate as m on m.id=n.cate')->where($where)->order('n.id desc')->limit($start,5)->field('n.message as title,n.id,n.time,n.is_delete as status,m.name as type,n.userid')->select();
 		foreach ($res as $key => $value) {
-			$info[$key]['time']=$res[$key]['addtime'];
-			$info[$key]['title']=$res[$key]['title'];
-			$info[$key]['type']=$res[$key]['type_name'];
-			$info[$key]['status']=$res[$key]['is_show'];
+			
 			$info[$key]['release_path']=$res[$key]['release_path'].'/'.'id'.'/'.$res[$key]['id'];
 			$info[$key]['cancel_path']=$res[$key]['cancel_path'].'/'.'id'.'/'.$res[$key]['id'];
 			$info[$key]['delete_path']=$res[$key]['delete_path'].'/'.'id'.'/'.$res[$key]['id'];
@@ -38,7 +34,7 @@ class NewsController extends Controller {
 			$info[$key]['path']=$res[$key]['see_path'].'/'.'id'.'/'.$res[$key]['id'];
 			$content=json_encode($info);
 		}
-		$data['data']=json_decode($content);
+		$data['data']=$res;
 		echo json_encode($data);
 	}
 	public function companyNewsAdd(){

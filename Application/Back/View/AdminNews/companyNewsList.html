@@ -18,10 +18,10 @@
 		<span class="search-btn" id="search-btn">搜索</span>
 		<div class="box_head">
 			<div class="td-2 w10">序号</div>
-			<div class="td-2">标题</div>
-			<div class="td-2">类型</div>
-			<div class="td-2 w10">查看</div>
-			<div class="td-2 w20">时间</div>
+			<div class="td-2">动态</div>
+			<div class="td-2">类别</div>
+			<div class="td-2 w10">用户名</div>
+			<div class="td-2 w20">发布时间</div>
 			<div class="td-2 w10">状态</div>
 			<div class="td-2 nobr w20">操作</div>
 		</div>
@@ -46,7 +46,7 @@
 				html+= '<div class="td-2">';
 				html+= '<span>'+d.type+'</span></div>';
 				html+= '<div class="td-2 w10">';
-				html+= '<a href="'+d.path+'">查看</a></div>';
+				html+= '<span>'+d.nickname+'</span></div>';
 				html+= '<div class="td-2 w20">';
 				html+= '<span>'+d.time+'</span></div>';
 				html+= '<div class="td-2 w10">';
@@ -98,7 +98,7 @@
 			sum=5; // 每页显示个数
 			PAGING = 1;
 		$.ajax({
-			type: 'POST',
+			type: 'get',
 			url: "{:U('Back/AdminNews/newsList')}",
 			data: {text:t},
 			dataType:'json',

@@ -6,9 +6,10 @@ class AdminNewsController extends Controller {
 		$this->display();
 	}
 	public function newsList(){
+		
 		$page=$_POST['page'];
 		$sum=$_POST['sum'];
-		$count=M('news')->count();
+		$count=M('message')->count();
 		if($page==1){
 			$start=0;	
 		}
@@ -17,28 +18,32 @@ class AdminNewsController extends Controller {
 		}
 		$data['count']=$count;
 		$title=$_POST['text'];
-		$where['title']=array('like',"%$title%");
+		$where['n.message']=array('like',"%$title%");
 		$type=$_POST['text'];
-		$where['type']=array('like',"%$type%");
-		$addtime=$_POST['text'];
-		$where['addtime']=array('like',"%$addtime%");
+		$where['m.cate']=array('like',"%$type%");
 		$where['_logic'] = 'or';
 		$map['_complex'] = $where;
-		$res=M('News')->alias('n')->join('left join dhj_news_type as nt on nt.id=n.type')->where($where)->order('id desc')->limit($start,8)->field('n.*,nt.type_name')->select();
-		foreach ($res as $key => $value) {
-			$info[$key]['time']=$res[$key]['addtime'];
-			$info[$key]['title']=$res[$key]['title'];
-			$info[$key]['type']=$res[$key]['type_name'];
-			$info[$key]['status']=$res[$key]['is_show'];
-			$info[$key]['release_path']=$res[$key]['release_path'].'/'.'id'.'/'.$res[$key]['id'];
-			$info[$key]['cancel_path']=$res[$key]['cancel_path'].'/'.'id'.'/'.$res[$key]['id'];
-			$info[$key]['delete_path']=$res[$key]['delete_path'].'/'.'id'.'/'.$res[$key]['id'];
-			$info[$key]['update_path']=$res[$key]['update_path'].'/'.'id'.'/'.$res[$key]['id'];
-			$info[$key]['will_path']=$res[$key]['will_path'].'/'.'id'.'/'.$res[$key]['id'];
-			$info[$key]['path']=$res[$key]['see_path'].'/'.'id'.'/'.$res[$key]['id'];
-			$content=json_encode($info);
+		$map['n.is_delete']=array('neq',3);
+		$res=M('message')->alias('n')
+		->join('left join dhj_messagecate as m on m.id=n.cateid')
+		->join('left join dhj_users u on u.id=n.userid')
+		->where($map)
+		->order('n.id desc')
+		->limit($start,5)
+		->field('n.message as title,n.id,n.time,n.is_delete as status,m.cate as type,n.userid,u.nickname')->select();
+		// echo M('message')->getlastsql();
+		foreach ($res as $k => $v) {
+			$res[$k]['time']=date('Y-m-d H:m:s');
+			$res[$k]['title']=mb_substr($v['title'],0,10,'utf-8').'......';
+			// $info[$key]['release_path']=$res[$key]['release_path'].'/'.'id'.'/'.$res[$key]['id'];
+			$res[$k]['cancel_path']='/AdminNews/cancel/id/'.$res[$k]['id'];
+			// $info[$key]['delete_path']=$res[$key]['delete_path'].'/'.'id'.'/'.$res[$key]['id'];
+			// $info[$key]['update_path']=$res[$key]['update_path'].'/'.'id'.'/'.$res[$key]['id'];
+			// $info[$key]['will_path']=$res[$key]['will_path'].'/'.'id'.'/'.$res[$key]['id'];
+			// $info[$key]['path']=$res[$key]['see_path'].'/'.'id'.'/'.$res[$key]['id'];
+			// $content=json_encode($info);
 		}
-		$data['data']=json_decode($content);
+		$data['data']=$res;
 		echo json_encode($data);
 	}
 	public function companyNewsAdd(){
@@ -122,9 +127,9 @@ class AdminNewsController extends Controller {
 	//取消发布
 	public function cancel(){
 		$id=I('get.id');
-		$data['is_show']=0;
-		$info=M('news')->where('id='.$id)->data($data)->save();
-		$this->redirect('companyNewsList');
+		$data['is_delete']=2;
+		$info=M('message')->where('id='.$id)->data($data)->save();
+		$this->success('取消成功!');
 	}
 	//删除
 	public function delete(){
