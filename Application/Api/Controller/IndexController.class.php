@@ -364,6 +364,7 @@ class IndexController extends Controller {
                 }else{
                     $dat['errCode']=200;
                     $dat['data']['userid']=$re['id'];
+                    $dat['data']['usertype']=$re['type'];
                 }
             }else{
                 $dat['time']=time();
@@ -374,6 +375,7 @@ class IndexController extends Controller {
                 }else{
                    $dat['errCode']=200;
                    $dat['data']['id']=$re;
+                   $dat['data']['usertype']=1;
                 }
             }
             }else{

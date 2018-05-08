@@ -13,11 +13,11 @@
 <body>
 <div id="kqy_main">
 	<div class="kqy_content" id="topic">
-		<a class="addBtn" id="addBtn" onclick="window.parent.creatIframe(this,event)" href="{:U('Back/Newstype/industryAdd')}" data-src="{:U('Back/Newstype/industryAdd')}" data-title="增加文章分类">增加</a>
+		<a class="addBtn" id="addBtn" onclick="window.parent.creatIframe(this,event)" href="{:U('Back/Newstype/industryAdd')}" data-src="{:U('Back/Newstype/industryAdd')}" data-title="添加分类">增加</a>
 		<div class="box_head">
-			<div class="td-2 w25">类型</div>
-			<div class="td-2 w25">文章条数</div>
-			<div class="td-2 w25">时间</div>
+			<div class="td-2 w25">序号</div>
+			<div class="td-2 w25">分类名</div>
+			<div class="td-2 w25">分类动态数量</div>
 			<div class="td-2 nobr w25">操作</div>
 		</div>
 		<div id="box-container"></div>
@@ -34,14 +34,17 @@
 		$.each(data,function(i, d){
 			var html = '<div class="box animated">';
 				html+= '<div class="td-2 w25">';
-				html+= '<span>'+d.type+'</span></div>';
+				html+= '<span>'+d.id+'</span></div>';
 				html+= '<div class="td-2 w25">';
-				html+= '<span>'+d.num+'</span></div>';
+				html+= '<span>'+d.cate+'</span></div>';
 				html+= '<div class="td-2 w25">';
-				html+= '<span>'+d.time+'</span></div>';
+				html+= '<span>'+d.catenum+'</span></div>';
 				html+= '<div class="td-2 nobr w25">';
-				html+= '<a class="update" href="'+d.update_path+'" data-src="'+d.will_path+'" data-title="修改行业动态" onclick="window.parent.creatIframe(this,event)">修改</a>';
-				html+= '<a href="'+d.delete_path+'"><i class="kqy_icon kqy_icon_remove"></i></a></div></div>';
+				html+= '<a class="update" href="'+d.update_path+'" data-src="'+d.update_path+'" data-title="修改分类" onclick="window.parent.creatIframe(this,event)">修改</a>';
+				if (d.catenum==0) {
+					html+= '<a href="'+d.delete_path+'"><i class="kqy_icon kqy_icon_remove"></i></a></div></div>';
+				}
+				
 				obj.append(html);
 		});
 
