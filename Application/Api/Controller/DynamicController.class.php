@@ -143,25 +143,19 @@ class DynamicController extends Controller
           ->field('c.id,c.content,c.pid,c.time,c.userid,c.imgpath,u.nickname,u.avatar')
           ->select();
           foreach ($result as $k => $v) {
-            
             $resu[$v['id']]=$v; 
           }
           foreach ($result as $k => $v) {
             if ($v['pid']!=0) {
-              $data['nickname']=$resu[$v['pid']]['nickname'];
-              $data['avatar']=$resu[$v['pid']]['avatar'];
-             $pidarray[$v['id']]=$data;
+              $result[$k]['pnickname']=$resu[$v['pid']]['nickname'];
+              $result[$k]['pavatar']=$resu[$v['pid']]['avatar'];
             }
           }
           $res['commentnum']=count($result);
-          if (count($pidarray)==0) {
-             $res['pid']=array();
-          }else{
-             $res['pid']=$pidarray;
-          }
-          $res['data']=$resu;
+          $res['data']=$result;
           $res['praisenum']=M('praise')->where('messageid='.$messageid)->count();
-         return $res;
+          $res['errorCode']=200;
+         echo json_encode($res);
         }
     }
     //获取总的页码
@@ -188,9 +182,9 @@ class DynamicController extends Controller
         }
         $page=ceil($res/6);
         $dat['data']['allpage']=$page;
-        $dat['errCode']=200;
+        $dat['errorCode']=200;
       }else{
-        $dat['errCode']=201;
+        $dat['errorCode']=201;
       }
       echo json_encode($dat);
       exit();
@@ -229,7 +223,7 @@ class DynamicController extends Controller
           ->select();
         }
         if (count($res)==0) {
-          $dat['errCode']=200;
+          $dat['errorCode']=200;
           $dat['data']=array();
           echo json_encode($dat);exit();
         }
@@ -244,9 +238,9 @@ class DynamicController extends Controller
           $res[$k]['commentnum']=$comment;
         }
         $dat['data']=$res;
-        $dat['errCode']=200;
+        $dat['errorCode']=200;
       }else{
-        $dat['errCode']=201;
+        $dat['errorCode']=201;
       }
       echo json_encode($dat);
       exit(); 
@@ -304,9 +298,9 @@ class DynamicController extends Controller
       if (IS_GET) {
         $res=M('messagecate')->where('is_delete=1')->field('id,cate')->select();
         $dat['data']=$res;
-        $dat['errCode']=200;
+        $dat['errorCode']=200;
       }else{
-        $dat['errCode']=201;
+        $dat['errorCode']=201;
       }
       echo json_encode($dat);
       exit();

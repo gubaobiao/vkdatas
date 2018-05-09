@@ -72,39 +72,45 @@
 <body>
 <form action="{:U('Back/AdminNews/companyNewsUpdate')}" method="POST" id="form">
 	<input type="hidden" name="ids" value="{$info.id}">
-	<div class="mart30"><span class="w80">标题</span><input id="n_title" type="text" name="title" value="{$info.title}" /></div>
+	<div class="mart30"><span class="w80">内容描述</span><textarea id="description" name="description" style="width:600px;min-height:100px;">{$info.message}</textarea></div>
+	<div class="mart30"><span class="w80">发布时间</span>{$info.time|date="Y-m-d h:m:i",###}</div>
 	<div class="mart30 clear">
 		<sapn class="w80 fl mart15">类型</sapn>
 		<div class="select_box">
-			<input id="v_type" type="hidden" name="type" value="{$info.type}">
-			<div class="top">{$info.type_name}</div>
-			<ul>
-				<li class="active" data-id="">请选择分类</li>
-				<foreach name="mon" item="vo">
-				<li data-id="{$vo.id}">{$vo.type_name}</li>
-				</foreach>
-
-			</ul>
+			<div class="top">{$info.cate}</div>
 		</div>
 	</div>
+	<?php 
+		$lent=count($info['img']);
+		if(1<$lent){
+	?>
 	<div class="mart30">
-		<span class="w80">封面图片</span><button class="btns btn-primary" id="pics"  type="button" data-toggle="modal" data-target="#avatar-modal" >请选择图片</button>
-		<input id="fileFM" type="hidden" >
-		<span>建议尺寸：100*50&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;建议类型：jpg</span>
+		<span class="w80">动态图片</span>
+		<ul>
+			<foreach name="info.img" item="img">
+			<span style="border: 2px">
+			<img src="{$img}" width="150">
+			</span>
+			</foreach>
+		</ul>
+	</if>
 	</div>
-	<div class="mart30">
-		<span class="w80">内容详情</span><button class="btns btn-primary"  type="button" style="height: 35px;margin-bottom: 3px;" onclick="baiduimg(this)" data-toggle="modal" data-target="#avatar-modal" >请选择图片</button>
+	<?php 
+	}
+	?>
+	<!-- <div class="mart30">
+		<span class="w80">内容详情</span>
 	</div>
-	<div  class="mart30" ><textarea id="editor_id" name="content" style="width:900px;height:450px;margin-left:80px;">{$info.content}</textarea></div>
-	<div class="mart30"><span class="w80">关键字</span><input id="keyword" style="width:600px;" type="text" name="keyword" value="{$info.keyword}" /></div>
-	<div class="mart30"><span class="w80">内容描述</span><textarea id="description" name="description" style="width:600px;min-height:100px;">{$info.description}</textarea></div>
-	<div class="mart30">
+	<div  class="mart30" ><textarea id="editor_id" name="content" style="width:900px;height:450px;margin-left:80px;">{$info.message}</textarea></div>
+	<div class="mart30"><span class="w80">关键字</span><input id="keyword" style="width:600px;" type="text" name="keyword" value="{$info.keyword}" /></div> -->
+	
+	<!-- <div class="mart30">
 		<span class="w80">添加定时发布</span>
 		<input class="middle timer" id="yes" name="timer" type="radio" checked="checked">
 		<label class="middle" for="yes">添加</label><input class="middle marl10 timer" id="on" name="timer" type="radio" >
 		<label class="middle" for="no">不添加</label><input class="laydate-icon marl10" id="timer" name="time" value="{$info['timer']|date="Y-m-d",###}">
 	</div>
-	<button id="button" type="button">确定</button> 
+	<button id="button" type="button">确定</button>  -->
 </form>
 
 <div class="modal fade" id="avatar-modal" aria-hidden="true" aria-labelledby="avatar-modal-label" role="dialog" tabindex="-1">

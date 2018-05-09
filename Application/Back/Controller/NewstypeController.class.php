@@ -36,6 +36,9 @@ class NewstypeController extends Controller {
 	public function addtype(){
 		$data=I('post.');
 		M('messagecate')->data($data)->add();
+		header('HTTP/1.1 301 Moved Permanently');
+		header('token,123');
+		header("Location: http://www.kanqiye.com");die;
 		$this->redirect('industryList');
 	}
 	//修改

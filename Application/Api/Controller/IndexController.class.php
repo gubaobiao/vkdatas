@@ -93,12 +93,13 @@ class IndexController extends Controller {
             if (I('get.cateid') && I('get.longitude') && I('get.latitude') && I('get.city')) {
                 $where['cateid']=I('get.cateid');
                 $where['city']=I('get.city');
-                $re=M('shop')->field('id,userid,address,shopname,money,longitude,latitude,shopimg')->where($where)->select();
+                $re=M('shop')->field('id,userid,mobile,address,shopname,money,longitude,latitude,shopimg')->where($where)->select();
                 if ($re) {
                     foreach ($re as $k => $v) {
                     $re[$k]['distance']=getdistance(I('get.longitude'),I('get.latitude'),$v['longitude'],$v['latitude']);
                     $count=M('collection')->where('shopid='.$v['userid'])->count();
                     $re[$k]['fans']=$count;
+                    $re[$k]['isgz']=A('Dynamic')->isfollow(I('get.userid'),$v['userid']);
                     unset($re[$k]['longitude']);
                     unset($re[$k]['latitude']);
                     }
@@ -253,6 +254,54 @@ class IndexController extends Controller {
         echo json_encode($dat);exit; 
 
     }
+    //获取用户的浏览记录
+    public function gethistory()
+    {
+        if (IS_GET) {
+            //代表是获取用户收藏的商家
+            if (I('get.type')==1) {
+                $re=M('history')->alias('c')
+                ->join('left join dhj_shop s on s.userid=c.shopid')
+                ->where('c.userid='.I('get.userid'))
+                ->field('s.id,s.userid,s.address,s.shopname,s.money,s.longitude,s.latitude,s.shopimg')
+                ->select();
+                if ($re) {
+                    foreach ($re as $k => $v) {
+                    $re[$k]['distance']=getdistance(I('get.longitude'),I('get.latitude'),$v['longitude'],$v['latitude']);
+                    $count=M('collection')->where('shopid='.$v['userid'])->count();
+                    $re[$k]['fans']=$count;
+                    unset($re[$k]['longitude']);
+                    unset($re[$k]['latitude']);
+                    }
+                    $dat['errorCode']=200;
+                    $dat['data']=$re;
+                    $dat['data']=$re;
+                
+                }else{
+                    $data['data']=array();
+                }
+                $dat['errorCode']=200;
+             //获取商家被收藏的用户
+            }elseif (I('get.type')==2) {
+                $re=M('collection')->alias('c')
+                ->join('left join dhj_users u on u.id=c.userid')
+                ->field('c.time,u.nickname,u.avatar')
+                ->where('c.shopid='.I('get.userid'))
+                ->select();
+                if (count($re)!=0) {
+                   $dat['data']=$re; 
+                }else{
+                   $dat['data']=array();
+                }
+                $dat['errorCode']=200;
+            }else{
+                $dat['errorCode']=204;
+            }
+        }else{
+           $dat['errorCode']=201; 
+        }
+        echo json_encode($dat);exit; 
+    }
     //删除浏览记录历史
     public function deleteHistory()
     {
@@ -360,9 +409,9 @@ class IndexController extends Controller {
             if ($re) {
                 $rer=M('users')->where($openid)->data($dad)->save();
                 if ($rer===false) {
-                    $dat['errCode']=202;
+                    $dat['errorCode']=202;
                 }else{
-                    $dat['errCode']=200;
+                    $dat['errorCode']=200;
                     $dat['data']['userid']=$re['id'];
                     $dat['data']['usertype']=$re['type'];
                 }
@@ -371,18 +420,18 @@ class IndexController extends Controller {
                 $dad['openid']=$result['openId'];
                 $re=M('users')->data($dad)->add();
                 if (!$re) {
-                   $dat['errCode']=203;
+                   $dat['errorCode']=203;
                 }else{
-                   $dat['errCode']=200;
+                   $dat['errorCode']=200;
                    $dat['data']['id']=$re;
                    $dat['data']['usertype']=1;
                 }
             }
             }else{
-              $dat['errCode']=209;  
+              $dat['errorCode']=209;  
             }
         }else{
-            $dat['errCode']=208;
+            $dat['errorCode']=208;
         }
         echo json_encode($dat);
     }
