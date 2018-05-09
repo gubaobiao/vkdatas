@@ -258,12 +258,25 @@ class IndexController extends Controller {
     public function gethistory()
     {
         if (IS_GET) {
-            //代表是获取用户收藏的商家
-            if (I('get.type')==1) {
-                $re=M('history')->alias('c')
-                ->join('left join dhj_shop s on s.userid=c.shopid')
-                ->where('c.userid='.I('get.userid'))
-                ->field('s.id,s.userid,s.address,s.shopname,s.money,s.longitude,s.latitude,s.shopimg')
+            $type=M('users')->where('id='.I('get.userid'))->getField('type');
+            if ($type==2) {
+                $re=M('history')->alias('h')
+                ->join('left join dhj_users u on u.id=h.userid')
+                ->field('h.time,u.nickname,u.avatar')
+                ->where('h.shopid='.I('get.userid'))
+                ->select();
+                if (count($re)!=0) {
+                   $dat['data']=$re;
+                }else{
+                   $dat['data']=array();
+                }
+                $dat['errorCode']=200;
+             //获取用户浏览的历史记录
+            }else{
+                 $re=M('history')->alias('h')
+                ->join('left join dhj_shop s on s.userid=h.shopid')
+                ->where('h.userid='.I('get.userid'))
+                ->field('s.mobile,s.userid,s.address,s.shopname,s.money,s.longitude,s.latitude,s.shopimg')
                 ->select();
                 if ($re) {
                     foreach ($re as $k => $v) {
@@ -275,28 +288,14 @@ class IndexController extends Controller {
                     }
                     $dat['errorCode']=200;
                     $dat['data']=$re;
-                    $dat['data']=$re;
+                   
                 
                 }else{
                     $data['data']=array();
                 }
-                $dat['errorCode']=200;
-             //获取商家被收藏的用户
-            }elseif (I('get.type')==2) {
-                $re=M('collection')->alias('c')
-                ->join('left join dhj_users u on u.id=c.userid')
-                ->field('c.time,u.nickname,u.avatar')
-                ->where('c.shopid='.I('get.userid'))
-                ->select();
-                if (count($re)!=0) {
-                   $dat['data']=$re; 
-                }else{
-                   $dat['data']=array();
-                }
-                $dat['errorCode']=200;
-            }else{
-                $dat['errorCode']=204;
+                $dat['errorCode']=200; 
             }
+             $dat['usertype']=$type;
         }else{
            $dat['errorCode']=201; 
         }

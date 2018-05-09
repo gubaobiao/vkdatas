@@ -211,6 +211,7 @@ class DynamicController extends Controller
                 ->join('left join dhj_users u on u.id=f.followuserid')
                 ->field('m.id,m.message,m.time,m.imgpath,m.userid,u.avatar,u.nickname')
                 ->limit($p,5)
+                ->order('f.id desc')
                 ->select();
         }elseif (isset($_GET['type']) && $_GET['type']==1) {
           //未
@@ -220,6 +221,7 @@ class DynamicController extends Controller
           ->where($where)
           ->field('m.id,m.message,m.time,m.imgpath,m.userid,c.cate as catename,u.avatar,u.nickname')
           ->limit($p,5)
+           ->order('m.id desc')
           ->select();
         }
         if (count($res)==0) {
