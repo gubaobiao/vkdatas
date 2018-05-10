@@ -307,4 +307,42 @@ class DynamicController extends Controller
       echo json_encode($dat);
       exit();
     }
+    //首页的搜索
+    public function searchShop()
+    {
+        if (IS_POST) {
+          //&& I('post.userid') && I('post.longitude') && I('post.latitude')
+            if (I('post.content')) {
+                $where['shopname']=array('like','%'.I('post.content').'%');
+                $re=M('shop')->where($where)->select();
+                $dat['data']=$re;
+            }else{
+               $dat['errorCode']=204;
+            }
+        }else{
+          $dat['errorCode']=201;
+        }
+        echo json_encode($dat);
+    }
+    //刷新用户的类型接口
+    public function shopType()
+    {
+      if (IS_GET) {
+        if (I('get.userid')) {
+          $re=M('users')->where('id='.I('get.userid'))->getField('type');
+          if ($re) {
+            $dat['data']['usertype']=$re;
+            $dat['errorCode']=200;
+          }else{
+            $dat['errorCode']=205;
+          }
+        }else{
+          $dat['errorCode']=204;
+        }
+      }else{
+        $dat['errorCode']=201;
+      }
+      echo json_encode($dat);
+      exit();
+    }
 }
