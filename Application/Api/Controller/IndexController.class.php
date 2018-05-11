@@ -100,8 +100,6 @@ class IndexController extends Controller {
                     $count=M('collection')->where('shopid='.$v['userid'])->count();
                     $re[$k]['fans']=$count;
                     $re[$k]['isgz']=A('Dynamic')->isfollow(I('get.userid'),$v['userid']);
-                    unset($re[$k]['longitude']);
-                    unset($re[$k]['latitude']);
                     }
                     $dat['errorCode']=200;
                     $dat['data']=$re;
@@ -431,6 +429,34 @@ class IndexController extends Controller {
             }
         }else{
             $dat['errorCode']=208;
+        }
+        echo json_encode($dat);
+    }
+    //首页地图调取城市对应的商家
+    public function getMapShop()
+    {
+        if (IS_GET) {
+            if (I('get.city') && I('get.longitude') && I('get.latitude')) {
+                $where['city']=I('get.city');
+                $result=M('shop')
+                ->field('shopname,mobile,address,longitude,latitude,money,shopimg,userid')
+                ->where($where)
+                ->select();
+                if (0<count($result)) {
+                    foreach ($result as $k => $v) {
+                        $result[$k]['distance']=getdistance(I('get.longitude'),I('get.latitude'),$v['longitude'],$v['latitude']);
+                    }
+                    $dat['data']=$result;
+                    $dat['errorCode']=200; 
+                }else{
+                    $dat['data']=array();
+                    $dat['errorCode']=205;
+                }
+            }else{
+                $dat['errorCode']=204;
+            }
+        }else{
+            $dat['errorCode']=201;
         }
         echo json_encode($dat);
     }

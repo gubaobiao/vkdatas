@@ -312,9 +312,17 @@ class DynamicController extends Controller
     {
         if (IS_POST) {
           //&& I('post.userid') && I('post.longitude') && I('post.latitude')
-            if (I('post.content')) {
+            if (I('post.content') && I('post.userid') && I('post.longitude') && I('post.latitude')) {
                 $where['shopname']=array('like','%'.I('post.content').'%');
-                $re=M('shop')->where($where)->select();
+                $re=M('shop')->field('id,userid,mobile,address,shopname,money,longitude,latitude,shopimg')->where($where)->select();
+                 foreach ($re as $k => $v) {
+                    $re[$k]['distance']=getdistance(I('post.longitude'),I('post.latitude'),$v['longitude'],$v['latitude']);
+                    $count=M('collection')->where('shopid='.$v['userid'])->count();
+                    $re[$k]['fans']=$count;
+                    $re[$k]['isgz']=$this->isfollow(I('post.userid'),$v['userid']);
+                    }
+                    $dat['errorCode']=200;
+                    $dat['data']=$re;
                 $dat['data']=$re;
             }else{
                $dat['errorCode']=204;
