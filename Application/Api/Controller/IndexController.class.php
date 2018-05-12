@@ -485,7 +485,19 @@ class IndexController extends Controller {
     {
        if (IS_GET) {
             $arr=M('banners')->field('imgpath,id')->where('is_delete=1 and type=1')->select();
-            $data['data']['img']=$arr;
+            $dat['data']['img']=$arr;
+            $dat['errorCode']=200;
+        }else{
+            $dat['errorCode']=201;
+        } 
+        echo json_encode($dat);exit();
+    }
+    //头部图片
+    public function getFooterimg()
+    {
+       if (IS_GET) {
+            $arr=M('banners')->field('imgpath,id')->where('is_delete=1 and type=2')->select();
+            $dat['data']['img']=$arr;
             $dat['errorCode']=200;
         }else{
             $dat['errorCode']=201;
@@ -523,7 +535,7 @@ class IndexController extends Controller {
     //提交的用户修改的等级
      public function editUseRank()
     {
-        if (IS_GET) {
+        if (IS_POST) {
             $data['rank']=I('post.rankid');
             $res=M('users')
             ->data($data)
