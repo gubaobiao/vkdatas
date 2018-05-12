@@ -137,6 +137,27 @@ class IndexController extends Controller {
         }
         echo json_encode($dat);exit;
     }
+    //判断用户是否收藏了商家
+    public function isCollection()
+    {
+         if (IS_GET) {
+            // $data=I('get.userid');
+            // $shopid=I('get.shopid');
+            $data=I('get.');
+            $data['time']=time();
+            $re=M('collection')->where($data)->find();
+            if ($re) {
+                $dat['data']['issc']=1;
+               $dat['errorCode']=200; 
+            }else{
+                $dat['data']['issc']=0;
+               $dat['errorCode']=200;   
+            }
+        }else{
+           $dat['errorCode']=201; 
+        }
+        echo json_encode($dat);exit;
+    }
     //用户点击收藏商家的ajax
     public function collectionShop()
     {

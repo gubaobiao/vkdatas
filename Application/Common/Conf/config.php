@@ -6,10 +6,10 @@ return array(
 
 	//数据库连接
 	'DB_TYPE'=>'mysql',
-	'DB_HOST'=>'127.0.0.1',
+	'DB_HOST'=>'101.200.49.150',
 	'DB_NAME'=>'vkdatas',
-	'DB_USER'=>'root',
-	'DB_PWD'=>'root',
+	'DB_USER'=>'rootone',
+	'DB_PWD'=>'biao521521',
 	'DB_PORT'=>'3306',
 	'DB_PREFIX'=>'dhj_',
 	'DB_CHARSET'=>'utf8',

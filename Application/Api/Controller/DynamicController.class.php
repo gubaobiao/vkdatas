@@ -17,7 +17,7 @@ class DynamicController extends Controller
                exit();
            }
            $dat['errorCode']=200;
-           $dat['data']=$da;
+           $dat['data']=$mess;
 
         }else{
            $dat['errorCode']=201;  
