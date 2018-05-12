@@ -144,7 +144,6 @@ class IndexController extends Controller {
             // $data=I('get.userid');
             // $shopid=I('get.shopid');
             $data=I('get.');
-            $data['time']=time();
             $re=M('collection')->where($data)->find();
             if ($re) {
                 $dat['data']['issc']=1;
@@ -475,6 +474,65 @@ class IndexController extends Controller {
                 }
             }else{
                 $dat['errorCode']=204;
+            }
+        }else{
+            $dat['errorCode']=201;
+        }
+        echo json_encode($dat);
+    }
+    //头部图片
+    public function getTopimg()
+    {
+       if (IS_GET) {
+            $arr=M('banners')->field('imgpath,id')->where('is_delete=1 and type=1')->select();
+            $data['data']['img']=$arr;
+            $dat['errorCode']=200;
+        }else{
+            $dat['errorCode']=201;
+        } 
+        echo json_encode($dat);exit();
+    }
+    //获取会员等级的接口
+    public function getRank()
+    {
+        if (IS_GET) {
+            $res=M('usertype')->select();
+            $dat['data']=$res;
+            $dat['errorCode']=200; 
+        }else{
+            $dat['errorCode']=201;
+        }
+        echo json_encode($dat);
+    }
+    //获取当前会员的等级
+    public function getUseRank()
+    {
+        if (IS_GET) {
+            $res=M('users')->alias('u')
+            ->join('left join dhj_usertype t on t.id=u.rank')
+            ->field('t.id,t.rankname')
+            ->where('u.id='.I('get.userid'))
+            ->find();
+            $dat['data']=$res;
+            $dat['errorCode']=200; 
+        }else{
+            $dat['errorCode']=201;
+        }
+        echo json_encode($dat);
+    }
+    //提交的用户修改的等级
+     public function editUseRank()
+    {
+        if (IS_GET) {
+            $data['rank']=I('post.rankid');
+            $res=M('users')
+            ->data($data)
+            ->where('users.id='.I('post.userid'))
+            ->save();
+            if ($res===false) {
+                $dat['errorCode']=202;
+            }else{
+               $dat['errorCode']=200;   
             }
         }else{
             $dat['errorCode']=201;
