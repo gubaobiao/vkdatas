@@ -539,13 +539,57 @@ class IndexController extends Controller {
             $data['rank']=I('post.rankid');
             $res=M('users')
             ->data($data)
-            ->where('users.id='.I('post.userid'))
+            ->where('id='.I('post.userid'))
             ->save();
             if ($res===false) {
                 $dat['errorCode']=202;
             }else{
                $dat['errorCode']=200;   
             }
+        }else{
+            $dat['errorCode']=201;
+        }
+        echo json_encode($dat);
+    }
+    //获取个人的信息
+    public function getUserMessage()
+    {
+         if (IS_GET) {
+             if (isset($_GET['page'])) {
+                $p=((int)I('get.page')-1)*5;
+                }else{
+                  $p=0;
+                }
+             //未
+             $where['m.is_delete']=1;
+             $where['m.userid']=I('get.userid');
+           $res=M('message')->alias('m')
+          ->join('left join dhj_messagecate c on c.id = m.cateid')
+          ->join('left join dhj_users u on u.id = m.userid ')
+          ->where($where)
+          ->field('m.id,m.message,m.time,m.imgpath,m.userid,c.cate as catename,u.avatar,u.nickname')
+          ->limit($p,5)
+           ->order('m.id desc')
+          ->select();
+          if (count($res)==0) {
+          $dat['errorCode']=200;
+          $dat['data']=array();
+          echo json_encode($dat);exit();
+        }
+       
+        foreach ($res as $k => $v) {
+          $is=A('Dynamic')->getpraise(I('get.userid'),$v['id']);
+          $praisenum=M('praise')->where('messageid='.$v['id'])->field('id')->count();
+          $comment=M('comment')->where('is_delete= 1 and messageid='.$v['id'])->field('id')->count();
+          $follow=A('Dynamic')->isfollow(I('get.userid'),$v['userid']);
+          $res[$k]['isgz']=$follow;
+          $res[$k]['isdz']=$is;
+          $res[$k]['praisenum']=$praisenum;
+          $res[$k]['commentnum']=$comment;
+          $res[$k]['message']=base64_decode($v['message']);
+        }
+        $dat['data']=$res;
+        $dat['errorCode']=200;
         }else{
             $dat['errorCode']=201;
         }

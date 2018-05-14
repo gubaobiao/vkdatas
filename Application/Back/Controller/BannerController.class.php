@@ -16,7 +16,7 @@ class BannerController extends Controller {
 	public function barsList(){
 		$page=$_POST['page'];
 		$sum=$_POST['sum'];
-		$count=M('banner')->count();
+		$count=M('banners')->count();
 		if($page==1){
 			$start=0;	
 		}
@@ -24,45 +24,42 @@ class BannerController extends Controller {
 			$start=($page-1)*$sum;
 		}
 		$data['count']=$count;
-		$res=M('banner')->order('is_show desc,rank asc')->limit($start,5)->select();
-		foreach ($res as $key => $value) {
-			$info[$key]['src']=$res[$key]['sltpath'];
-			$info[$key]['time']=$res[$key]['addtime'];
+		$res=M('banners')->limit($start,5)->select();
+		foreach ($res as $k => $v) {
+			// $info[$key]['src']=$res[$key]['sltpath'];
+			 $res[$k]['time']=date('Y-m-d H:m:s');
 			
-			$info[$key]['status']=$res[$key]['is_show'];
-			if($res[$key]['is_show'] && $res[$key]['is_show'] !=0){
-				$info[$key]['rank']=$res[$key]['rank'];
-			}else{
-				$info[$key]['rank']='';
-			}
-			$info[$key]['up_path']=$res[$key]['up_path'].'/'.'id'.'/'.$res[$key]['id'];
-			$info[$key]['down_path']=$res[$key]['down_path'].'/'.'id'.'/'.$res[$key]['id'];
-			$info[$key]['release_path']=$res[$key]['release_path'].'/'.'id'.'/'.$res[$key]['id'];
-			$info[$key]['cancel_path']=$res[$key]['cancel_path'].'/'.'id'.'/'.$res[$key]['id'];
-			$info[$key]['delete_path']=$res[$key]['delete_path'].'/'.'id'.'/'.$res[$key]['id'];
+			// $info[$key]['status']=$res[$key]['is_show'];
+			// if($res[$key]['is_show'] && $res[$key]['is_show'] !=0){
+			// 	$info[$key]['rank']=$res[$key]['rank'];
+			// }else{
+			// 	$info[$key]['rank']='';
+			// }
+			// $info[$key]['up_path']=$res[$key]['up_path'].'/'.'id'.'/'.$res[$key]['id'];
+			// $info[$key]['down_path']=$res[$key]['down_path'].'/'.'id'.'/'.$res[$key]['id'];
+			 $res[$k]['release_path']='/Banner/release/id/'.$v['id'];
+		 	 $res[$k]['cancel_path']='/Banner/cancel/id/'.$v['id'];
+			 $res[$k]['delete_path']='/Banner/delete/id/'.$v['id'];
 			
-			$content=json_encode($info);
+			// $content=json_encode($info);
 		}
-		$data['data']=json_decode($content);
+		$data['data']=$res;
 		echo json_encode($data);
 	}
 	public function bar_add(){
 		if($_FILES){
 			$info=$this->bdupload();
 			if($info){
-				$data['user_id']=session('user_id');
-				$data['sltpath']=$info['file']['sltpath'];
-				$data['ytpath']=$info['file']['ytpath'];
-				$data['addtime']=date('Y-m-d');
-				$data['is_show']=1;
-				$data['up_path']='up';//向上排序
-				$data['down_path']='down';//向下排序
-				$data['release_path']='release';//点击发布
-				$data['cancel_path']='cancel';//取消发布
-				$data['delete_path']='delete';//删除
-
-				M('banner')->data($data)->add();
-				$this->redirect('barList');
+				$data['imgpath']=$info['ytpath'];
+				$data['time']=time();
+				$data['type']=I('post.type');
+				$re=M('banners')->data($data)->add();
+				if ($re) {
+					$this->success('添加成功');
+				}else{
+					$this->success('添加失败');
+				}
+				
 			}else{
 				$this->error('添加失败',U('barList'),1);
 			}
@@ -71,54 +68,35 @@ class BannerController extends Controller {
 	//取消发布
 	public function cancel(){
 		$id=I('get.id');
-		$data['is_show']=0;
-		M('banner')->where('id='.$id)->data($data)->save();
-		$res=M('banner')->where('is_show=1')->field('id,rank')->select();
-			$shu['rank']=1+$i++;
-			foreach ($res as $key => $value) {
-				$shu['rank']=$i++;
-				M('banner')->where('id='.$value['id'])->data($shu)->save();
-			}
-		$this->redirect('barList');
+		$data['is_delete']=2;
+		$info=M('banners')->where('id='.$id)->data($data)->save();
+		if ($info===false) {
+			$this->success('取消失败');
+		}else{
+			$this->success('取消成功');
+		}
 	}
 	//点击发布
 	public function release(){
 		$id=I('get.id');
-		$data['is_show']=1;
-		$info=M('banner')->where('is_show=1')->field('rank')->select();
-		if(!$info){
-			$data['rank']=1;
-			M('banner')->where('id='.$id)->data($data)->save();
+		$data['is_delete']=1;
+		$info=M('banners')->where('id='.I('get.id'))->data($data)->save();
+		if ($info===false) {
+			$this->success('发布失败');
+		}else{
+			$this->success('发布成功');
 		}
-		if($info){
-			foreach ($info as $key => $value) {
-				$rank=array_column($info,'rank');
-				$max=max($rank);
-				$max=$max+1;
-				$da['rank']=$max;
-				$da['is_show']=1;
-				M('banner')->where('id='.$id)->data($da)->save();
-			}
-			$res=M('banner')->where('is_show=1')->field('id,rank')->select();
-			$shu['rank']=1+$i++;
-			foreach ($res as $key => $value) {
-				$shu['rank']=$i++;
-				M('banner')->where('id='.$value['id'])->data($shu)->save();
-			}	
-		}	
-		$this->redirect('barList');
+		
 	}
 	//点击删除
 	public function delete(){
 		$id=I('get.id');
-		M('banner')->where('id='.$id)->delete();
-		$res=M('banner')->where('is_show=1')->field('id,rank')->select();
-			$shu['rank']=1+$i++;
-			foreach ($res as $key => $value) {
-				$shu['rank']=$i++;
-				M('banner')->where('id='.$value['id'])->data($shu)->save();
-			}
-		$this->redirect('barList');
+		$info=M('banners')->where('id='.$id)->delete();
+		if ($info===false) {
+			$this->success('删除失败');
+		}else{
+			$this->success('删除成功');
+		}
 	}
 	//点击向上排序
 	public function up(){

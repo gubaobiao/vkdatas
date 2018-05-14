@@ -9,6 +9,8 @@ class DynamicController extends Controller
         if (IS_POST) {
            $data=I('post.');
            $data['time']=time();
+           $data['message']=base64_encode($data['message']);
+          // M()->query('set names utf8');
            $mess=M('message')->add($data);
            //添加信息
            if (!$mess) {
@@ -96,6 +98,7 @@ class DynamicController extends Controller
     	if (IS_POST) {
     		$data=I('post.');
     		$data['time']=time();
+        $data['content']=base64_encode($data['content']); 
     		$re=M('comment')->add($data);
     		if (!$re) {
     			   $dat['errorCode']=203;
@@ -146,6 +149,7 @@ class DynamicController extends Controller
             $resu[$v['id']]=$v; 
           }
           foreach ($result as $k => $v) {
+            $result[$k]['content']=base64_decode($v['content']);
             if ($v['pid']!=0) {
               $result[$k]['pnickname']=$resu[$v['pid']]['nickname'];
               $result[$k]['pavatar']=$resu[$v['pid']]['avatar'];
@@ -211,8 +215,10 @@ class DynamicController extends Controller
                 ->join('left join dhj_users u on u.id=f.followuserid')
                 ->field('m.id,m.message,m.time,m.imgpath,m.userid,u.avatar,u.nickname')
                 ->limit($p,5)
+                ->where('f.userid='.I('get.userid'))
                 ->order('f.id desc')
                 ->select();
+
         }elseif (isset($_GET['type']) && $_GET['type']==1) {
           //未
            $res=M('message')->alias('m')
@@ -229,6 +235,7 @@ class DynamicController extends Controller
           $dat['data']=array();
           echo json_encode($dat);exit();
         }
+       
         foreach ($res as $k => $v) {
           $is=$this->getpraise(I('get.userid'),$v['id']);
           $praisenum=M('praise')->where('messageid='.$v['id'])->field('id')->count();
@@ -238,6 +245,7 @@ class DynamicController extends Controller
           $res[$k]['isdz']=$is;
           $res[$k]['praisenum']=$praisenum;
           $res[$k]['commentnum']=$comment;
+          $res[$k]['message']=base64_decode($v['message']);
         }
         $dat['data']=$res;
         $dat['errorCode']=200;
