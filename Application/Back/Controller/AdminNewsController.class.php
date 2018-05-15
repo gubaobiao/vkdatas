@@ -30,10 +30,10 @@ class AdminNewsController extends Controller {
 		->where($map)
 		->order('n.id desc')
 		->limit($start,5)
-		->field('n.message as title,n.id,n.time,n.is_delete as status,m.cate as type,n.userid,u.nickname')->select();
+		->field('n.message as title,n.id,n.time,n.is_delete as status,m.cate as type,n.userid,u.nickname,n.zd')->select();
 		// echo M('message')->getlastsql();
 		foreach ($res as $k => $v) {
-			$res[$k]['time']=date('Y-m-d H:m:s');
+			$res[$k]['time']=date('Y-m-d H:i:s',$v['time']);
 			$res[$k]['title']=mb_substr($v['title'],0,10,'utf-8').'......';
 			$res[$k]['release_path']='/AdminNews/release/id/'.$res[$k]['id'];
 			$res[$k]['cancel_path']='/AdminNews/cancel/id/'.$res[$k]['id'];
@@ -151,5 +151,29 @@ class AdminNewsController extends Controller {
 		$this->assign('info',$info);
 		$this->display();
 		
+	}
+	//置顶
+	public function newzd()
+	{
+		if (I('get.type')==1) {
+			$data['zd']=2;
+			$re=M('message')->data($data)->where('id='.I('get.id'))->save();
+			if ($re===false) {
+				$dat['status']=4;
+			}else{
+				$dat['status']=1;
+			}
+		}elseif (I('get.type')==2) {
+			$data['zd']=1;
+			$re=M('message')->data($data)->where('id='.I('get.id'))->save();
+			if ($re===false) {
+				$dat['status']=4;
+			}else{
+				$dat['status']=1;
+			}
+		}
+		
+		echo json_encode($dat);
+
 	}
 }

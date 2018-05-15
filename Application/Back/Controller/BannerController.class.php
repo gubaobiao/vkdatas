@@ -27,8 +27,8 @@ class BannerController extends Controller {
 		$res=M('banners')->limit($start,5)->select();
 		foreach ($res as $k => $v) {
 			// $info[$key]['src']=$res[$key]['sltpath'];
-			 $res[$k]['time']=date('Y-m-d H:m:s');
-			
+			 $res[$k]['time']=date('Y-m-d H:i:s',$v['time']);
+			//dump($res[$k]['time']);
 			// $info[$key]['status']=$res[$key]['is_show'];
 			// if($res[$key]['is_show'] && $res[$key]['is_show'] !=0){
 			// 	$info[$key]['rank']=$res[$key]['rank'];
@@ -49,8 +49,9 @@ class BannerController extends Controller {
 	public function bar_add(){
 		if($_FILES){
 			$info=$this->bdupload();
+			
 			if($info){
-				$data['imgpath']=$info['ytpath'];
+				$data['imgpath']=$info['file']['ytpath'];
 				$data['time']=time();
 				$data['type']=I('post.type');
 				$re=M('banners')->data($data)->add();

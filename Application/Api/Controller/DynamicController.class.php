@@ -227,7 +227,7 @@ class DynamicController extends Controller
           ->where($where)
           ->field('m.id,m.message,m.time,m.imgpath,m.userid,c.cate as catename,u.avatar,u.nickname')
           ->limit($p,5)
-           ->order('m.id desc')
+           ->order('m.zd desc,m.id desc')
           ->select();
         }
         if (count($res)==0) {
